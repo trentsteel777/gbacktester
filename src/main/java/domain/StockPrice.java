@@ -15,10 +15,12 @@ public class StockPrice {
     private final double close;     // We use Adj Close here as the "true" close
     private final long volume;
     private Double rsi14;     // Nullable
+
     private Double sma20;
-    
     private Double sma50;
+    private Double sma150;
     private Double sma200;
+    
     private Double ema20;
     private Double ema50;
     private Double volatility; // e.g., ATR(14)

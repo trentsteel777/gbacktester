@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
 import domain.StockPrice;
 import service.gbacktester.CsvLoaderService;
 import strategy.Strategy;
+import strategy.impl.BestInTheWorldStrategy;
+import strategy.impl.BestInTheWorldStrategyWithTlt;
 import strategy.impl.BuyAndHoldWithTrailingStopStrategy;
 import strategy.impl.BuyHoldStrategy;
 import strategy.impl.CombinedLooseStrategy;
@@ -49,7 +51,9 @@ public class Main {
         		new VolatilityAwareStrategy(watchlist),
         		new StackedEntryLooseExitStrategy(watchlist),
         		new BuyAndHoldWithTrailingStopStrategy(watchlist),
-        		new TrendConfirmationStrategy(watchlist)
+        		new TrendConfirmationStrategy(watchlist),
+        		new BestInTheWorldStrategy(watchlist),
+        		new BestInTheWorldStrategyWithTlt(watchlist)
 		);
         
 

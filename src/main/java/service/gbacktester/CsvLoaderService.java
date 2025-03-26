@@ -108,6 +108,7 @@ public class CsvLoaderService {
         RSIIndicator rsi = new RSIIndicator(close, 14);
         SMAIndicator sma20 = new SMAIndicator(close, 20);
         SMAIndicator sma50 = new SMAIndicator(close, 50);
+        SMAIndicator sma150 = new SMAIndicator(close, 150);
         SMAIndicator sma200 = new SMAIndicator(close, 200);
         EMAIndicator ema20 = new EMAIndicator(close, 20);
         EMAIndicator ema50 = new EMAIndicator(close, 50);
@@ -117,6 +118,7 @@ public class CsvLoaderService {
             prices.get(i).setRsi14(i >= 13 ? rsi.getValue(i).doubleValue() : null);
             prices.get(i).setSma20(i >= 19 ? sma20.getValue(i).doubleValue() : null);
             prices.get(i).setSma50(i >= 49 ? sma50.getValue(i).doubleValue() : null);
+            prices.get(i).setSma150(i >= 149 ? sma150.getValue(i).doubleValue() : null);
             prices.get(i).setSma200(i >= 199 ? sma200.getValue(i).doubleValue() : null);
             prices.get(i).setEma20(i >= 19 ? ema20.getValue(i).doubleValue() : null);
             prices.get(i).setEma50(i >= 49 ? ema50.getValue(i).doubleValue() : null);
