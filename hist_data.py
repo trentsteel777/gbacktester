@@ -82,7 +82,7 @@ def main():
             'NSSC',
         
     ]
-    symbols = ['TLT']
+    symbols = ['XLF']
     for symbol in symbols:
         scrape_historical_data_from_yahoo_finance(symbol, state_date, end_date)
         time.sleep(2)

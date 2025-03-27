@@ -1,38 +1,36 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
+
 import domain.StockPrice;
 import strategy.Strategy;
+import strategy.annotations.AutoLoadStrategy;
 
+@AutoLoadStrategy
 public class DualMomentumStyleStrategy extends Strategy {
 
-    private static final String SPY = "SPY";
-
-    public DualMomentumStyleStrategy(List<String> watchlist) {
-        super(watchlist);
+    public DualMomentumStyleStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice sp = marketData.get(SPY);
+        StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
         boolean hasSma50 = sp.getSma50() != null;
         boolean hasSma200 = sp.getSma200() != null;
 
         if (hasSma50 && hasSma200) {
-            if (hasPosition(SPY)) {
+            if (hasPosition(symbol)) {
                 if (sp.getSma50() < sp.getSma200() || price < sp.getSma200()) {
-                    int qty = getPositionQty(SPY);
-                    reducePosition(SPY, qty, price);
-                    sp.addTrace(SPY, -qty, price, cash);
+                    int qty = getPositionQty(symbol);
+                    reducePosition(symbol, qty, sp);
                 }
             } else {
                 if (sp.getSma50() > sp.getSma200() && price > sp.getSma200()) {
                     int qty = maxQuantity(price);
-                    addPosition(SPY, qty, price);
-                    sp.addTrace(SPY, qty, price, cash);
+                    addPosition(symbol, qty, sp);
                 }
             }
         }

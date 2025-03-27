@@ -1,27 +1,24 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class BuyHoldStrategy extends Strategy {
 
-	private static final String SPY = "SPY";
-	
-    public BuyHoldStrategy(List<String> watchlist) {
-        super(watchlist);
+    public BuyHoldStrategy(String symbol) {
+        super(symbol);
     }
 	
 	@Override
 	public void run(Map<String, StockPrice> marketData) {
-		if(!hasPosition(SPY)) {
-			StockPrice spyStockPrice = marketData.get(SPY);
+		if(!hasPosition(symbol)) {
+			StockPrice spyStockPrice = marketData.get(symbol);
 			double price = spyStockPrice.getClose();
 			int qty = maxQuantity(price);
-			addPosition(SPY, qty, price);
-			spyStockPrice.addTrace(SPY, qty, price, cash);
+			addPosition(symbol, qty, spyStockPrice);
 		}
 	}
 

@@ -1,23 +1,23 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
+
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class CombinedLooseStrategy extends Strategy {
-
-    private static final String SPY = "SPY";
+    
     private static final double ATR_BUY_THRESHOLD = 0.04; // 4%
     private static final double ATR_SELL_THRESHOLD = 0.06; // 6%
 
-    public CombinedLooseStrategy(List<String> watchlist) {
-        super(watchlist);
+    public CombinedLooseStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice sp = marketData.get(SPY);
+        StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
         if (sp.getSma200() == null || sp.getRsi14() == null || sp.getVolatility() == null) return;
@@ -31,17 +31,17 @@ public class CombinedLooseStrategy extends Strategy {
         boolean atrBuy = atrPercent < ATR_BUY_THRESHOLD;
         boolean atrSell = atrPercent > ATR_SELL_THRESHOLD;
 
-        if (hasPosition(SPY)) {
+        if (hasPosition(symbol)) {
             if (!trendUp || rsiSell || atrSell) {
-                int qty = getPositionQty(SPY);
-                reducePosition(SPY, qty, price);
-                sp.addTrace(SPY, -qty, price, cash);
+                int qty = getPositionQty(symbol);
+                reducePosition(symbol, qty, sp);
             }
         } else {
             if (trendUp && rsiBuy && atrBuy) {
                 int qty = maxQuantity(price);
-                addPosition(SPY, qty, price);
-                sp.addTrace(SPY, qty, price, cash);
+                if(qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }

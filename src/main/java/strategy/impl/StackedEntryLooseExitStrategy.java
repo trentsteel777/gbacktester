@@ -1,22 +1,22 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
+
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class StackedEntryLooseExitStrategy extends Strategy {
 
-    private static final String SPY = "SPY";
     private static final double ATR_EXIT_THRESHOLD = 0.06;
 
-    public StackedEntryLooseExitStrategy(List<String> watchlist) {
-        super(watchlist);
+    public StackedEntryLooseExitStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice sp = marketData.get(SPY);
+        StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
         if (sp.getSma200() == null || sp.getRsi14() == null || sp.getVolatility() == null) return;
@@ -28,18 +28,16 @@ public class StackedEntryLooseExitStrategy extends Strategy {
         boolean momentum = rsi > 50;
         boolean lowVolatility = atrPercent < 0.03;
 
-        if (hasPosition(SPY)) {
+        if (hasPosition(symbol)) {
             // Only exit on major trend break or big spike in volatility
             if (!strongTrend || atrPercent > ATR_EXIT_THRESHOLD) {
-                int qty = getPositionQty(SPY);
-                reducePosition(SPY, qty, price);
-                sp.addTrace(SPY, -qty, price, cash);
+                int qty = getPositionQty(symbol);
+                reducePosition(symbol, qty, sp);
             }
         } else {
             if (strongTrend && momentum && lowVolatility) {
                 int qty = maxQuantity(price);
-                addPosition(SPY, qty, price);
-                sp.addTrace(SPY, qty, price, cash);
+                addPosition(symbol, qty, sp);
             }
         }
     }

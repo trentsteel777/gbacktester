@@ -26,6 +26,7 @@
 		<assertj-core.version>3.27.3</assertj-core.version>
 		<telegram.version>6.9.7.1</telegram.version>
 		<jackson-dataformat-yaml.version>2.18.2</jackson-dataformat-yaml.version>
+		<reflections.version>0.10.2</reflections.version>
 	</properties>
 
 	<dependencies>
@@ -43,6 +44,13 @@
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.reflections</groupId>
+			<artifactId>reflections</artifactId>
+			<version>${reflections.version}</version>
+		</dependency>
+
 
 		<!-- jackson-dataformat-yaml< -->
 		<dependency>

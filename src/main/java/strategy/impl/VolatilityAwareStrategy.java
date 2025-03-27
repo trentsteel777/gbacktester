@@ -1,22 +1,22 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
+
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class VolatilityAwareStrategy extends Strategy {
-
-    private static final String SPY = "SPY";
+    
     private static final double ATR_SELL_THRESHOLD = 0.05;
 
-    public VolatilityAwareStrategy(List<String> watchlist) {
-        super(watchlist);
+    public VolatilityAwareStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice sp = marketData.get(SPY);
+        StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
         if (sp.getSma200() == null || sp.getRsi14() == null || sp.getVolatility() == null) return;
@@ -27,17 +27,17 @@ public class VolatilityAwareStrategy extends Strategy {
         boolean trendUp = price > sp.getSma200();
         boolean rsiOkay = rsi > 50;
 
-        if (hasPosition(SPY)) {
+        if (hasPosition(symbol)) {
             if (!trendUp || atrPercent > ATR_SELL_THRESHOLD) {
-                int qty = getPositionQty(SPY);
-                reducePosition(SPY, qty, price);
-                sp.addTrace(SPY, -qty, price, cash);
+                int qty = getPositionQty(symbol);
+                reducePosition(symbol, qty, sp);
             }
         } else {
             if (trendUp && rsiOkay) {
                 int qty = maxQuantity(price);
-                addPosition(SPY, qty, price);
-                sp.addTrace(SPY, qty, price, cash);
+                if(qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }

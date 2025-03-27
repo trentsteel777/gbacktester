@@ -1,14 +1,13 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class BestInTheWorldStrategyWithTlt extends Strategy {
 
-    private static final String SPY = "SPY";
     private static final String TLT = "TLT";
 
     // ATR thresholds
@@ -23,16 +22,16 @@ public class BestInTheWorldStrategyWithTlt extends Strategy {
     // Track highest price since last entry
     private double highestPrice = 0;
 
-    public BestInTheWorldStrategyWithTlt(List<String> watchlist) {
-        super(watchlist);
+    public BestInTheWorldStrategyWithTlt(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice spSpy = marketData.get(SPY);
+        StockPrice spSpy = marketData.get(symbol);
         StockPrice spTlt = marketData.get(TLT);
 
-        // If SPY data is missing or invalid, skip
+        // If symbol data is missing or invalid, skip
         if (spSpy == null || spSpy.getClose() <= 0 
             || spSpy.getSma150() == null || spSpy.getSma50() == null 
             || spSpy.getRsi14() == null || spSpy.getVolatility() == null) 
@@ -53,28 +52,28 @@ public class BestInTheWorldStrategyWithTlt extends Strategy {
             tltScore = getSignalScore(spTlt, ATR_ENTER_THRESHOLD);
         }
 
-        // Calculate SPY score
+        // Calculate symbol score
         double spyPrice   = spSpy.getClose();
         int spyScore      = getSignalScore(spSpy, ATR_ENTER_THRESHOLD);
         double spyAtrPct  = spSpy.getVolatility() / spyPrice;
 
         if (holdingSymbol == null) {
-            // Currently in cash — decide if we buy SPY or TLT
+            // Currently in cash — decide if we buy symbol or TLT
             if (spyScore >= 3 || tltScore >= 3) {
                 // If both pass, pick the higher score
                 if (spyScore > tltScore) {
-                    enterPosition(SPY, spyPrice, spSpy);
+                    enterPosition(symbol, spyPrice, spSpy);
                 } else if (tltScore > spyScore) {
                     enterPosition(TLT, tltPrice, spTlt);
                 } else {
-                    // Scores are equal — prefer SPY by default (up to you)
-                    enterPosition(SPY, spyPrice, spSpy);
+                    // Scores are equal — prefer symbol by default (up to you)
+                    enterPosition(symbol, spyPrice, spSpy);
                 }
             }
         } else {
-            // We are holding something — either SPY or TLT
-            if (holdingSymbol.equals(SPY)) {
-                handlePosition(spSpy, SPY, spyPrice, spyScore, spyAtrPct);
+            // We are holding something — either symbol or TLT
+            if (holdingSymbol.equals(symbol)) {
+                handlePosition(spSpy, symbol, spyPrice, spyScore, spyAtrPct);
                 // After handlePosition, we might have sold
                 // If we sold, check if TLT is better:
                 if (holdingSymbol == null && tltScore >= 3) {
@@ -84,7 +83,7 @@ public class BestInTheWorldStrategyWithTlt extends Strategy {
                 // Holding TLT
                 handlePosition(spTlt, TLT, tltPrice, tltScore, tltAtrPct);
                 if (holdingSymbol == null && spyScore >= 3) {
-                    enterPosition(SPY, spyPrice, spSpy);
+                    enterPosition(symbol, spyPrice, spSpy);
                 }
             }
         }
@@ -103,8 +102,7 @@ public class BestInTheWorldStrategyWithTlt extends Strategy {
 
         if (exitSignal) {
             int qty = getPositionQty(symbol);
-            reducePosition(symbol, qty, price);
-            sp.addTrace(symbol, -qty, price, getCash());
+            reducePosition(symbol, qty, sp);
             holdingSymbol = null;
             highestPrice = 0;
         }
@@ -114,8 +112,7 @@ public class BestInTheWorldStrategyWithTlt extends Strategy {
     private void enterPosition(String symbol, double price, StockPrice sp) {
         int qty = maxQuantity(price);
         if (qty > 0) {
-            addPosition(symbol, qty, price);
-            sp.addTrace(symbol, qty, price, getCash());
+            addPosition(symbol, qty, sp);
             holdingSymbol = symbol;
             highestPrice = price;
         }

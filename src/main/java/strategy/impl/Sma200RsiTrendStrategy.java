@@ -1,22 +1,20 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class Sma200RsiTrendStrategy extends Strategy {
 
-    private static final String SPY = "SPY";
-
-    public Sma200RsiTrendStrategy(List<String> watchlist) {
-        super(watchlist);
+    public Sma200RsiTrendStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice sp = marketData.get(SPY);
+        StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
         boolean rsiAbove50 = sp.getRsi14() != null && sp.getRsi14() > 50;
@@ -24,17 +22,17 @@ public class Sma200RsiTrendStrategy extends Strategy {
         boolean priceAboveSma200 = sp.getSma200() != null && price > sp.getSma200();
         boolean priceBelowSma200 = sp.getSma200() != null && price < sp.getSma200();
 
-        if (hasPosition(SPY)) {
+        if (hasPosition(symbol)) {
             if (priceBelowSma200 || rsiBelow40) {
-                int qty = getPositionQty(SPY);
-                reducePosition(SPY, qty, price);
-                sp.addTrace(SPY, -qty, price, cash);
+                int qty = getPositionQty(symbol);
+                reducePosition(symbol, qty, sp);
             }
         } else {
             if (priceAboveSma200 && rsiAbove50) {
                 int qty = maxQuantity(price);
-                addPosition(SPY, qty, price);
-                sp.addTrace(SPY, qty, price, cash);
+                if(qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }

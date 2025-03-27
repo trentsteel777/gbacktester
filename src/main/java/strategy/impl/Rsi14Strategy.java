@@ -1,34 +1,31 @@
 package strategy.impl;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
 import domain.StockPrice;
 import strategy.Strategy;
-
+import strategy.annotations.AutoLoadStrategy;
+@AutoLoadStrategy
 public class Rsi14Strategy extends Strategy {
-
-	private static final String SPY = "SPY";
 	
 	private double stopLoss = Double.MAX_VALUE;
 	private double lastSalePrice = Double.MIN_VALUE;
 	
-    public Rsi14Strategy(List<String> watchlist) {
-        super(watchlist);
+    public Rsi14Strategy(String symbol) {
+        super(symbol);
     }
     
 	@Override
 	public void run(Map<String, StockPrice> marketData) {
-		StockPrice spyStockPrice = marketData.get(SPY);
-		double price = spyStockPrice.getClose();
+		StockPrice sp = marketData.get(symbol);
+		double price = sp.getClose();
 		
-		if(hasPosition(SPY)) {
+		if(hasPosition(symbol)) {
 			if(price < stopLoss) {
-				int qty = getPositionQty(SPY);
-				reducePosition(SPY, qty, price);
+				int qty = getPositionQty(symbol);
+				reducePosition(symbol, qty, sp);
 				lastSalePrice = price;
-				spyStockPrice.addTrace(SPY, -qty, price, cash, stopLoss);
 			}
 			else {
 				double trailingStopLoss = price * 0.9;
@@ -38,11 +35,12 @@ public class Rsi14Strategy extends Strategy {
 			}
 		}
 		else {
-			if(price > lastSalePrice || isRsiDip(spyStockPrice)) {
+			if(price > lastSalePrice || isRsiDip(sp)) {
 				int qty = maxQuantity(price);
-				addPosition(SPY, qty, price);
-				stopLoss = price * 0.97;
-				spyStockPrice.addTrace(SPY, qty, price, cash);
+				if(qty > 0) {
+					addPosition(symbol, qty, sp);
+					stopLoss = price * 0.97;
+				}
 			}
 		}
 	}

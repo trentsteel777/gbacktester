@@ -1,14 +1,12 @@
 package strategy.impl;
-
-import java.util.List;
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
+import strategy.annotations.AutoLoadStrategy;
 
+@AutoLoadStrategy
 public class BestInTheWorldStrategy extends Strategy {
-
-    private static final String SPY = "SPY";
 
     // ATR thresholds
     private static final double ATR_ENTER_THRESHOLD = 0.05; // 5% 
@@ -17,18 +15,18 @@ public class BestInTheWorldStrategy extends Strategy {
     // Wide trailing stop
     private static final double TRAILING_STOP = 0.30; // 30%
 
-    // Track if we’re currently in SPY
+    // Track if we’re currently in symbol
     private boolean holdingSpy = false;
     // Track the highest price since last entry (for trailing stop)
     private double highestPrice = 0;
 
-    public BestInTheWorldStrategy(List<String> watchlist) {
-        super(watchlist);
+    public BestInTheWorldStrategy(String symbol) {
+        super(symbol);
     }
 
     @Override
     public void run(Map<String, StockPrice> marketData) {
-        StockPrice spSpy = marketData.get(SPY);
+        StockPrice spSpy = marketData.get(symbol);
         if (spSpy == null) return;
 
         double price = spSpy.getClose();
@@ -72,9 +70,8 @@ public class BestInTheWorldStrategy extends Strategy {
             boolean extremeVolatility = (atrPct >= ATR_EXIT_THRESHOLD);
 
             if (notEnoughSignals || trailingStopHit || extremeVolatility) {
-                int qty = getPositionQty(SPY);
-                reducePosition(SPY, qty, price);
-                spSpy.addTrace(SPY, -qty, price, getCash());
+                int qty = getPositionQty(symbol);
+                reducePosition(symbol, qty, spSpy);
                 holdingSpy = false;
                 highestPrice = 0;
             }
@@ -86,8 +83,7 @@ public class BestInTheWorldStrategy extends Strategy {
             if (entrySignal) {
                 int qty = maxQuantity(price);
                 if (qty > 0) {
-                    addPosition(SPY, qty, price);
-                    spSpy.addTrace(SPY, qty, price, getCash());
+                    addPosition(symbol, qty, spSpy);
                     holdingSpy = true;
                     highestPrice = price;
                 }
