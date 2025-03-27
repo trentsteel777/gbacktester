@@ -49,7 +49,7 @@ public class Main {
         	for(Strategy strategy : strategies) {
         		if(nonNull(marketData.get(strategy.getSymbol()))) {
         			strategy.run(marketData);
-        			strategy.calculateTotalPortfolioValue(getPrices(marketData));
+        			strategy.calculateTotalPortfolioValue(getPrices(marketData), today);
         		}
         	}
         	
@@ -69,12 +69,60 @@ public class Main {
 	                .forEach(Main::print);
 	        });
 
+        printOverallStrategyAnalytics(strategies);
+
         sw.printElapsed();
     }
 	
+    private static void printOverallStrategyAnalytics(List<Strategy> strategies) {
+        System.out.println("\n=== OVERALL STRATEGY ANALYTICS ===");
+
+        // Group all strategies by their concrete class name
+        Map<String, List<Strategy>> strategiesByType =
+            strategies.stream().collect(Collectors.groupingBy(s -> s.getClass().getSimpleName()));
+
+        // We sort by average Sharpe ratio (descending) for overall ranking
+        strategiesByType.entrySet().stream()
+            .sorted((a, b) -> Double.compare(
+                averageSharpe(b.getValue()), 
+                averageSharpe(a.getValue()))
+            )
+            .forEach(entry -> {
+                String strategyName = entry.getKey();
+                List<Strategy> list = entry.getValue();
+
+                // Compute aggregated stats
+                double avgFinalValue  = list.stream().mapToDouble(Strategy::getTotalPortfolioValue).average().orElse(0);
+                double avgSharpe      = averageSharpe(list);
+                double avgSortino     = averageSortino(list);
+                double avgCagr        = averageCagr(list);
+                double avgCalmar      = averageCalmar(list);
+                double avgWinRate     = averageWinRate(list);
+                double avgProfitFactor= averageProfitFactor(list);
+                double avgDrawdown    = list.stream().mapToDouble(Strategy::getMaxDrawdown).average().orElse(0);
+                double avgGain        = list.stream().mapToDouble(Strategy::getMaxGain).average().orElse(0);
+
+                System.out.printf(
+                    // Strategy type, finalValue, Sharpe, etc.
+                    "%-35s : final=$%,15.2f | Sharpe=%6.2f | Sortino=%6.2f | CAGR=%6.2f%% | Calmar=%5.2f | WinRate=%5.2f%% | PF=%7.2f | Drawdown=%6.2f%% | Gain=%8.2f%%%n",
+                    strategyName,
+                    avgFinalValue,
+                    avgSharpe,
+                    avgSortino,
+                    avgCagr * 100,
+                    avgCalmar,
+                    avgWinRate * 100,
+                    avgProfitFactor,
+                    avgDrawdown * 100,
+                    avgGain
+                );
+            });
+    }
+
+    
     private static void print(Strategy strategy) {
         System.out.printf(
-                "%-35s : $%,15.2f peak: $%,15.2f sharpe: %6.2f  buy: %3d  sell: %3d  total: %3d  mDraw: %6.2f%%  mGain: %8.2f%% %n",
+                "%-35s : $%,15.2f peak: $%,15.2f sharpe: %6.2f  buy: %3d  sell: %3d  total: %3d  mDraw: %6.2f%%  mGain: %8.2f%% sortino: %6.2f  cagr: %6.2f%%  calmar: %5.2f  win%%: %5.2f  PF: %5.2f%n",
                 strategy.getClass().getSimpleName(), 
                 strategy.getTotalPortfolioValue(), 
                 strategy.getPeakValue(),
@@ -82,8 +130,13 @@ public class Main {
                 strategy.getBuyCount(), 
                 strategy.getSellCount(), 
                 strategy.getTotalCount(),
-                strategy.getMaxDrawdownPct() * 100, 
-                strategy.getMaxGainPct() * 100
+                strategy.getMaxDrawdown() * 100, 
+                strategy.getMaxGain() * 100,
+                strategy.getSortinoRatio(),
+                strategy.getCagr() * 100,
+                strategy.getCalmarRatio(),
+                strategy.getWinRate() * 100,
+                strategy.getProfitFactor()
             );
     }
 	private static Map<String, Double> getPrices(Map<String, StockPrice> marketData) {
@@ -108,5 +161,30 @@ public class Main {
 	                 .map(file -> file.getName().replace(".csv", ""))
 	                 .collect(Collectors.toList());
 	}
+	
+    // AVERAGE of each stat across the list of strategies
+    private static double averageSharpe(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getSharpeRatio).average().orElse(0.0);
+    }
+
+    private static double averageSortino(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getSortinoRatio).average().orElse(0.0);
+    }
+
+    private static double averageCagr(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getCagr).average().orElse(0.0);
+    }
+
+    private static double averageCalmar(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getCalmarRatio).average().orElse(0.0);
+    }
+
+    private static double averageWinRate(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getWinRate).average().orElse(0.0);
+    }
+
+    private static double averageProfitFactor(List<Strategy> strats) {
+        return strats.stream().mapToDouble(Strategy::getProfitFactor).average().orElse(0.0);
+    }
 
 }
