@@ -104,7 +104,7 @@ public class Main {
 
                 System.out.printf(
                     // Strategy type, finalValue, Sharpe, etc.
-                    "%-35s : final=$%,15.2f | Sharpe=%6.2f | Sortino=%6.2f | CAGR=%6.2f%% | Calmar=%5.2f | WinRate=%5.2f%% | PF=%7.2f | Drawdown=%6.2f%% | Gain=%8.2f%%%n",
+                    "%-35s : final=$%,13.0f | Sharpe=%5.2f | Sortino=%5.2f | CAGR=%3.0f%% | Calmar=%5.2f | WinRate=%5.2f%% | PF=%6.2f | Drawdown=%3.0f%% | Gain=%5.0f%%%n",
                     strategyName,
                     avgFinalValue,
                     avgSharpe,
@@ -122,21 +122,21 @@ public class Main {
     
     private static void print(Strategy strategy) {
         System.out.printf(
-                "%-35s : $%,15.2f peak: $%,15.2f sharpe: %6.2f  buy: %3d  sell: %3d  total: %3d  mDraw: %6.2f%%  mGain: %8.2f%% sortino: %6.2f  cagr: %6.2f%%  calmar: %5.2f  win%%: %5.2f  PF: %5.2f%n",
+                "%-35s : $%,13.0f | Peak=$%,12.0f | Sharpe=%5.2f | Sortino=%5.2f | Cagr=%3.0f%% | Calmar=%5.2f | WinRate%%=%5.2f | PF=%6.2f | Buy=%3d | Sell=%3d | Total=%3d | mDraw=%3.0f%% | mGain=%5.0f%%%n",
                 strategy.getClass().getSimpleName(), 
                 strategy.getTotalPortfolioValue(), 
                 strategy.getPeakValue(),
                 strategy.getSharpeRatio(),
-                strategy.getBuyCount(), 
-                strategy.getSellCount(), 
-                strategy.getTotalCount(),
-                strategy.getMaxDrawdown() * 100, 
-                strategy.getMaxGain() * 100,
                 strategy.getSortinoRatio(),
                 strategy.getCagr() * 100,
                 strategy.getCalmarRatio(),
                 strategy.getWinRate() * 100,
-                strategy.getProfitFactor()
+                strategy.getProfitFactor(),
+                strategy.getBuyCount(), 
+                strategy.getSellCount(), 
+                strategy.getTotalCount(),
+                strategy.getMaxDrawdown() * 100, 
+                strategy.getMaxGain() * 100
             );
     }
 	private static Map<String, Double> getPrices(Map<String, StockPrice> marketData) {
