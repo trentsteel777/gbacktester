@@ -48,6 +48,25 @@ public class CsvLoaderService {
         return dateIndex;
     }
     
+    public void validatorCsvFiles(String folderPath) {
+        File folder = new File(folderPath);
+        File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
+
+        if (files == null || files.length == 0) {
+            throw new RuntimeException("No CSV files found in directory: " + folderPath);
+        }
+
+        for (File file : files) {
+        	String symbol = file.getName().replace(".csv", "");
+        	try {
+        		loadStockPrices(file.getAbsolutePath());
+        	}
+        	catch(Exception e) {
+        		System.out.println(symbol);
+        	}
+        }
+    }
+    
     public Map<String, List<StockPrice>> loadAllStockPrices(String folderPath) {
         Map<String, List<StockPrice>> allData = new HashMap<>();
 

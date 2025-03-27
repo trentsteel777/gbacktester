@@ -1,7 +1,7 @@
 package domain;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import lombok.Data;
@@ -25,7 +25,7 @@ public class StockPrice {
     private Double ema50;
     private Double volatility; // e.g., ATR(14)
     
-    private List<String> explainList = new ArrayList<>(10000);
+    private List<String> explainList = new LinkedList<>();
     
     
     public void addTrace(String symbol, int qty, double price, double cash, double stopPrice) {

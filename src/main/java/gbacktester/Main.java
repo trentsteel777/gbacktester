@@ -26,11 +26,12 @@ public class Main {
     public static void main(String[] args) throws Exception {
     	StopWatch sw = StopWatch.start();
     	
-        String dataDir = "C:\\Users\\sbrennan\\workspace\\gbacktester\\src\\main\\resources\\data\\";
+        String dataDir = "C:\\Users\\sbrennan\\workspace\\gbacktester\\src\\main\\resources\\data\\all";
         CsvLoaderService loader = new CsvLoaderService();
         TreeMap<LocalDate, Map<String, StockPrice>> timeline = loader.indexByDateAndSymbol(dataDir);
         
         List<String> symbols = getAllSymbolsFromFolder(dataDir);
+        boolean isFewSymbols = symbols.size() <= 10;
         
         List<Strategy> strategies = new ArrayList<>(10000);
         Set<Class<? extends Strategy>> strategyClasses = StrategyLoader.scanAnnotatedStrategies("strategy.impl");
@@ -53,27 +54,33 @@ public class Main {
         		}
         	}
         	
-            String traces = marketData.values().stream()
+            String traces = isFewSymbols ? marketData.values().stream()
                 .flatMap(sp -> sp.getExplainList().stream())
-                .collect(Collectors.joining(":"));
+                .collect(Collectors.joining(":")) : "";
             System.out.println(today + " → " + traces);
         }
         
-        strategies.stream()
-	        .collect(groupingBy(Strategy::getSymbol))  // Group by symbol (e.g., SPY, ARKK, etc.)
-	        .forEach((symbol, stratList) -> {
-	            System.out.printf("%n=== %s ===%n", symbol);
-	
-	            stratList.stream()
-	                .sorted(comparingDouble(Strategy::getTotalPortfolioValue).reversed())
-	                .forEach(Main::print);
-	        });
-
+        if(isFewSymbols) {
+        	printStrategyAnalytics(strategies);
+        }
+        
         printOverallStrategyAnalytics(strategies);
 
         sw.printElapsed();
     }
 	
+    private static void printStrategyAnalytics(List<Strategy> strategies) {
+    	strategies.stream()
+    	.collect(groupingBy(Strategy::getSymbol))  // Group by symbol (e.g., SPY, ARKK, etc.)
+    	.forEach((symbol, stratList) -> {
+    		System.out.printf("%n=== %s ===%n", symbol);
+    		
+    		stratList.stream()
+    		.sorted(comparingDouble(Strategy::getTotalPortfolioValue).reversed())
+    		.forEach(Main::print);
+    	});
+    }
+    
     private static void printOverallStrategyAnalytics(List<Strategy> strategies) {
         System.out.println("\n=== OVERALL STRATEGY ANALYTICS ===");
 
