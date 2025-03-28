@@ -3,7 +3,7 @@ import os
 
 # Define source and destination folders
 source_folder = r"C:\Users\sbrennan\workspace\gbacktester\src\main\resources\data\all"
-destination_folder = r"C:\Users\sbrennan\workspace\gbacktester\src\main\resources\data\aa"
+destination_folder = r"C:\Users\sbrennan\workspace\gbacktester\src\main\resources\data\corrupt"
 
 # List of CSV filenames to move (without .csv extension)
 files_to_move = {
