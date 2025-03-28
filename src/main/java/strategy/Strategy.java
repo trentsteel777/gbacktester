@@ -2,8 +2,6 @@ package strategy;
 
 import java.time.LocalDate;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
@@ -21,6 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 public abstract class Strategy {
 
     private static final double EPSILON = 1e-6;
+    private static final StockPrice EMPTY_SP = new StockPrice(null, null, 0.0, 0);
 
     protected String symbol;
 
@@ -49,7 +48,11 @@ public abstract class Strategy {
     private LocalDate startDate;
     private LocalDate lastDate;
 
-    private List<Double> closedTradePnLs = new LinkedList<>();
+    // Trade metrics (incremental)
+    private int tradeCount;
+    private int winCount;
+    private double totalWin;
+    private double totalLoss;
 
     private double previousValue;
 
@@ -74,7 +77,6 @@ public abstract class Strategy {
         lastDate = date;
     }
 
-    // Basic checks/helpers
     protected boolean hasCash(int qty, double purchasePrice) {
         return cash >= qty * purchasePrice;
     }
@@ -92,7 +94,7 @@ public abstract class Strategy {
     }
 
     protected Position getPosition(String symbol) {
-        return positions.get(symbol); // O(1) lookup
+        return positions.get(symbol);
     }
 
     protected void addPosition(String symbol, int qty, StockPrice sp) {
@@ -138,15 +140,22 @@ public abstract class Strategy {
 
         sp.addTrace(symbol, -qty, marketPrice, cash);
 
-        closedTradePnLs.add(tradePnL);
+        // Update trade metrics incrementally
+        if (tradePnL > 0) {
+            totalWin += tradePnL;
+            winCount++;
+        } else {
+            totalLoss += tradePnL;
+        }
+        tradeCount++;
     }
 
-    public void calculateTotalPortfolioValue(Map<String, Double> marketPrices, LocalDate date) {
+    public void calculateTotalPortfolioValue(Map<String, StockPrice> marketPrices, LocalDate date) {
         trackDates(date);
 
         totalPortfolioValue = cash;
         for (Position position : positions.values()) {
-            totalPortfolioValue += position.getQty() * marketPrices.getOrDefault(position.getSymbol(), 0.0);
+        	totalPortfolioValue += position.getQty() * marketPrices.getOrDefault(position.getSymbol(), EMPTY_SP).getClose();
         }
 
         double dailyReturn = (previousValue == 0.0) ? 0.0 : (totalPortfolioValue - previousValue) / previousValue;
@@ -180,11 +189,14 @@ public abstract class Strategy {
     }
 
     public double getSortinoRatio() {
-        if (negativeReturnCount < 2) return 999;
+        if (negativeReturnCount < 2) return 0.0;
         double negVariance = negativeReturnM2 / (negativeReturnCount - 1);
         double negStdAnnual = Math.sqrt(negVariance) * Math.sqrt(252);
-        return negStdAnnual == 0 ? 999 : (dailyReturnMean * 252 - 0.03) / negStdAnnual;
+        if (negStdAnnual == 0) return 0.0;
+
+        return (dailyReturnMean * 252 - 0.03) / negStdAnnual;
     }
+
 
     public double getCagr() {
         if (startDate == null || lastDate == null) return 0.0;
@@ -193,44 +205,27 @@ public abstract class Strategy {
         return Math.pow(totalPortfolioValue / initialCapital, 1.0 / years) - 1;
     }
 
-    // 3) Calmar ratio = CAGR / maxDrawdown (maxDrawdown is fraction)
     public double getCalmarRatio() {
-        double cagr = getCagr();
-        if (maxDrawdown == 0.0) {
-            return 999.0; // no drawdown => large ratio
-        }
-        return cagr / maxDrawdown;
+        return maxDrawdown == 0 ? 999 : getCagr() / maxDrawdown;
     }
 
-    // 4) Win rate, average win/loss, profit factor
     public double getWinRate() {
-        if (closedTradePnLs.isEmpty()) return 0.0;
-        long wins = closedTradePnLs.stream().filter(pnl -> pnl > 0.0).count();
-        return (double) wins / closedTradePnLs.size();
+        return tradeCount == 0 ? 0 : (double) winCount / tradeCount;
     }
 
     public double getAverageWin() {
-        // average of positive pnls
-        List<Double> wins = closedTradePnLs.stream().filter(p -> p > 0).collect(java.util.stream.Collectors.toList());
-        if (wins.isEmpty()) return 0.0;
-        return wins.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
+        return winCount == 0 ? 0 : totalWin / winCount;
     }
 
     public double getAverageLoss() {
-        // average of negative pnls
-        List<Double> losses = closedTradePnLs.stream().filter(p -> p < 0).collect(java.util.stream.Collectors.toList());
-        if (losses.isEmpty()) return 0.0;
-        return losses.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
+        int lossCount = tradeCount - winCount;
+        return lossCount == 0 ? 0 : totalLoss / lossCount;
     }
 
     public double getProfitFactor() {
-        double totalWins = closedTradePnLs.stream().filter(p -> p > 0).mapToDouble(Double::doubleValue).sum();
-        double totalLoss = closedTradePnLs.stream().filter(p -> p < 0).mapToDouble(Double::doubleValue).sum();
-        // negative sum for losses, so factor = sum(wins)/abs(sum(losses))
-        if (totalLoss == 0.0) return 999.0;
-        return totalWins / Math.abs(totalLoss);
+        return totalLoss == 0.0 ? 999.0 : totalWin / Math.abs(totalLoss);
     }
-    
+
     public int getTotalCount() {
         return buyCount + sellCount;
     }

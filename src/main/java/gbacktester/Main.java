@@ -1,6 +1,7 @@
 package gbacktester;
 
 import static java.util.Comparator.comparingDouble;
+import static java.util.Objects.nonNull;
 import static java.util.stream.Collectors.groupingBy;
 
 import java.io.File;
@@ -10,6 +11,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
@@ -63,11 +65,11 @@ public class Main {
 			List<Future<?>> futures = new ArrayList<>();
 			for (Strategy strategy : strategies) {
 				StockPrice price = marketData.get(strategy.getSymbol());
-				if (price != null) {
+				if (nonNull(price)) {
 					// Submit a runnable that does both run() and calculateTotalPortfolioValue()
 					futures.add(executor.submit(() -> {
 						strategy.run(marketData);
-						strategy.calculateTotalPortfolioValue(getPrices(marketData), today);
+						strategy.calculateTotalPortfolioValue(marketData, today);
 					}));
 				}
 			}
@@ -81,7 +83,7 @@ public class Main {
 			String traces = isFewSymbols ? marketData.values().stream()
 					.flatMap(sp -> sp.getExplainList().stream())
 					.collect(Collectors.joining(":")) : "";
-			System.out.println(today + " → " + dsw.stop() + " → " + traces);
+			System.out.println(today + " → " + String.format("%.2f", dsw.stop()) + " → " + traces);
 		}
 
 		// After all days have run, shut down the executor
@@ -150,12 +152,6 @@ public class Main {
 				strategy.getCalmarRatio(), strategy.getWinRate() * 100, strategy.getProfitFactor(),
 				strategy.getBuyCount(), strategy.getSellCount(), strategy.getTotalCount(),
 				strategy.getMaxDrawdown() * 100, strategy.getMaxGain() * 100);
-	}
-
-	private static Map<String, Double> getPrices(Map<String, StockPrice> marketData) {
-		return marketData.entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, // symbol
-				e -> e.getValue().getClose() // StockPrice → close price
-		));
 	}
 
 	public static List<String> getAllSymbolsFromFolder(String folderPath) {
