@@ -1,6 +1,7 @@
 package strategy;
 
 import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -13,52 +14,44 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * Base abstract class for strategies with advanced metrics:
- *  - CAGR
- *  - Sortino Ratio
- *  - Calmar Ratio
- *  - Win rate, average win/loss, profit factor
- *  - Monthly/Yearly returns (demo)
- */
 @Slf4j
 @Setter
 @Getter
 @NoArgsConstructor
 public abstract class Strategy {
 
-	private static final double EPSILON = 1e-6;
-	
+    private static final double EPSILON = 1e-6;
+
     protected String symbol;
 
     private double initialCapital;
     private double cash;
     private double totalPortfolioValue;
 
-    // Track peak for drawdown
     private double peakValue;
-    private double maxDrawdown;    // fraction, e.g., 0.20 = 20%
-    private double maxGain;        // fraction, e.g., 2.0 = +200%
+    private double maxDrawdown;
+    private double maxGain;
 
-    // For daily returns computations
-    private List<Double> dailyReturns = new LinkedList<>();
-    private double previousValue;   // store yesterday's portfolio value
+    // Incremental metrics
+    private int dailyReturnCount;
+    private double dailyReturnMean;
+    private double dailyReturnM2;
 
-    protected List<Position> positions;
+    private int negativeReturnCount;
+    private double negativeReturnMean;
+    private double negativeReturnM2;
+
+    private Map<String, Position> positions;
+
     private int buyCount;
     private int sellCount;
 
-    // Track the first date and last date of the backtest to compute years for CAGR
     private LocalDate startDate;
     private LocalDate lastDate;
 
-    // For Sortino ratio: store negative daily returns separately
-    private List<Double> negativeReturns = new LinkedList<>();
-
-    // For trade stats (win rate, average win/loss, profit factor)
-    // We'll store each closed trade P&L
     private List<Double> closedTradePnLs = new LinkedList<>();
-    private double openTradeValue;  // used temporarily in some strategies
+
+    private double previousValue;
 
     public Strategy(String symbol) {
         this.symbol = symbol;
@@ -67,22 +60,13 @@ public abstract class Strategy {
 
         this.totalPortfolioValue = initialCapital;
         this.peakValue = initialCapital;
-        this.maxDrawdown = 0.0;
-        this.maxGain = 0.0;
-        this.previousValue = initialCapital;
 
-        this.positions = new LinkedList<>();
-        this.buyCount = 0;
-        this.sellCount = 0;
+        this.positions = new HashMap<>();
+        this.previousValue = initialCapital;
     }
 
-    // Each child strategy must implement run(...) logic
     public abstract void run(Map<String, StockPrice> marketData);
 
-    /**
-     * On the first day we see data, record as startDate
-     * On every day we see data, record as lastDate
-     */
     public void trackDates(LocalDate date) {
         if (startDate == null) {
             startDate = date;
@@ -104,23 +88,13 @@ public abstract class Strategy {
     }
 
     protected int getPositionQty(String symbol) {
-        return positions.stream()
-            .filter(p -> p.getSymbol().equals(symbol))
-            .findFirst()
-            .orElseThrow(() -> new IllegalStateException("No position for symbol: " + symbol))
-            .getQty();
+        return getPosition(symbol).getQty();
     }
 
     protected Position getPosition(String symbol) {
-        return positions.stream()
-            .filter(p -> p.getSymbol().equals(symbol))
-            .findFirst()
-            .orElse(null);
+        return positions.get(symbol); // O(1) lookup
     }
 
-    /**
-     * Opening a position (BUY).
-     */
     protected void addPosition(String symbol, int qty, StockPrice sp) {
         double purchasePrice = sp.getClose();
         double cost = qty * purchasePrice;
@@ -134,20 +108,16 @@ public abstract class Strategy {
         Position position = getPosition(symbol);
         if (position == null) {
             position = new Position(symbol);
-            positions.add(position);
+            positions.put(symbol, position);
         }
         position.addQuantity(qty, purchasePrice);
 
         cash -= cost;
         buyCount++;
 
-        // Add an optional trace
         sp.addTrace(symbol, qty, purchasePrice, cash);
     }
 
-    /**
-     * Closing or reducing a position (SELL).
-     */
     protected void reducePosition(String symbol, int qty, StockPrice sp) {
         double marketPrice = sp.getClose();
         Position position = getPosition(symbol);
@@ -155,143 +125,72 @@ public abstract class Strategy {
             throw new IllegalStateException("Cannot reduce position: " + symbol + " not held.");
         }
 
-        // Here we can track trade P&L
-        // For a full close: record a new closedTradePnLs
-        double purchasePrice = position.getAvgEntryPrice(); // if you want a rough P&L
-        double tradePnL = (marketPrice - purchasePrice) * qty;  // simplistic
+        double purchasePrice = position.getAvgEntryPrice();
+        double tradePnL = (marketPrice - purchasePrice) * qty;
 
         position.reduceQuantity(qty);
         if (position.getQty() <= 0) {
-            positions.remove(position);
+            positions.remove(symbol);
         }
 
-        double saleAmount = qty * marketPrice;
-        cash += saleAmount;
+        cash += qty * marketPrice;
         sellCount++;
 
         sp.addTrace(symbol, -qty, marketPrice, cash);
 
-        // record the PnL of this partial or full sale
         closedTradePnLs.add(tradePnL);
     }
 
-    /**
-     * Recompute total portfolio value: cash + sum of (qty * currentPrice)
-     * Then update metrics:
-     *   - daily returns (for Sharpe, Sortino, etc.)
-     *   - peakValue, maxDrawdown, maxGain
-     */
     public void calculateTotalPortfolioValue(Map<String, Double> marketPrices, LocalDate date) {
-        trackDates(date);  // record start & end dates
+        trackDates(date);
 
-        double total = cash;
-        for (Position position : positions) {
-            String sym = position.getSymbol();
-            Double currentPrice = marketPrices.get(sym);
-            if (currentPrice == null) {
-                log.warn("No market price for symbol: {}", sym);
-                continue;
-            }
-            total += position.getQty() * currentPrice;
+        totalPortfolioValue = cash;
+        for (Position position : positions.values()) {
+            totalPortfolioValue += position.getQty() * marketPrices.getOrDefault(position.getSymbol(), 0.0);
         }
-        this.totalPortfolioValue = total;
 
-        // 1) daily return
-        double dailyReturn = (previousValue == 0.0)
-            ? 0.0
-            : (total - previousValue) / previousValue;
-        dailyReturns.add(dailyReturn);
+        double dailyReturn = (previousValue == 0.0) ? 0.0 : (totalPortfolioValue - previousValue) / previousValue;
+        previousValue = totalPortfolioValue;
 
-        // If negative, store for Sortino
+        dailyReturnCount++;
+        double delta = dailyReturn - dailyReturnMean;
+        dailyReturnMean += delta / dailyReturnCount;
+        dailyReturnM2 += delta * (dailyReturn - dailyReturnMean);
+
         if (dailyReturn < 0) {
-            negativeReturns.add(dailyReturn);
+            negativeReturnCount++;
+            double deltaNeg = dailyReturn - negativeReturnMean;
+            negativeReturnMean += deltaNeg / negativeReturnCount;
+            negativeReturnM2 += deltaNeg * (dailyReturn - negativeReturnMean);
         }
 
-        // 2) store 'yesterday' value
-        previousValue = total;
+        if (totalPortfolioValue > peakValue) {
+            peakValue = totalPortfolioValue;
+        }
 
-        // 3) update peak, drawdown, etc.
-        if (total > peakValue) {
-            peakValue = total;
-        }
-        double currentDrawdown = (peakValue - total) / peakValue;
-        if (currentDrawdown > maxDrawdown) {
-            maxDrawdown = currentDrawdown;
-        }
-        double currentGain = (total - initialCapital) / initialCapital;
-        if (currentGain > maxGain) {
-            maxGain = currentGain;
-        }
+        maxDrawdown = Math.max(maxDrawdown, (peakValue - totalPortfolioValue) / peakValue);
+        maxGain = Math.max(maxGain, (totalPortfolioValue - initialCapital) / initialCapital);
     }
 
-    // Existing Sharpe:
     public double getSharpeRatio() {
-        double riskFreeRate = 0.03;
-        if (dailyReturns.size() < 2) {
-            return 0.0;
-        }
-
-        double avgDaily = dailyReturns.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
-        double variance = dailyReturns.stream().mapToDouble(r -> r - avgDaily)
-                                      .map(diff -> diff * diff)
-                                      .sum() / (dailyReturns.size() - 1);
-        double stdDaily = Math.sqrt(variance);
-
-        double daysPerYear = 252.0;
-        double avgAnnual = avgDaily * daysPerYear;
-        double stdAnnual = stdDaily * Math.sqrt(daysPerYear);
-
-        if (stdAnnual == 0.0) return 0.0;
-
-        return (avgAnnual - riskFreeRate) / stdAnnual;
+        if (dailyReturnCount < 2) return 0;
+        double variance = dailyReturnM2 / (dailyReturnCount - 1);
+        double stdAnnual = Math.sqrt(variance) * Math.sqrt(252);
+        return stdAnnual == 0 ? 0 : (dailyReturnMean * 252 - 0.03) / stdAnnual;
     }
 
-    // 1) CAGR
-    // we assume we ended on lastDate and started on startDate
+    public double getSortinoRatio() {
+        if (negativeReturnCount < 2) return 999;
+        double negVariance = negativeReturnM2 / (negativeReturnCount - 1);
+        double negStdAnnual = Math.sqrt(negVariance) * Math.sqrt(252);
+        return negStdAnnual == 0 ? 999 : (dailyReturnMean * 252 - 0.03) / negStdAnnual;
+    }
+
     public double getCagr() {
         if (startDate == null || lastDate == null) return 0.0;
-        long days = java.time.temporal.ChronoUnit.DAYS.between(startDate, lastDate);
-        if (days < 1) return 0.0;
-
-        double years = days / 365.0; // approximate, or use 252 trading days approach
-        // final / initial:
-        double ratio = (totalPortfolioValue / initialCapital);
-        // CAGR = (ratio^(1/years)) - 1
-        if (ratio <= 0.0 || years <= 0.0) return 0.0;
-        return Math.pow(ratio, 1.0 / years) - 1.0;
-    }
-
-    // 2) Sortino ratio (like Sharpe but only uses negative returns in the denominator)
-    public double getSortinoRatio() {
-        double riskFreeRate = 0.03;
-        if (dailyReturns.size() < 2) {
-            return 0.0;
-        }
-        double avgDaily = dailyReturns.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
-        // annualize average
-        double avgAnnual = avgDaily * 252.0;
-
-        // only negative returns stdev
-        if (negativeReturns.isEmpty()) {
-            // if we never had negative returns, sortino is huge
-            return 999.0;
-        }
-        double negAvg = negativeReturns.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
-        double varSum = 0.0;
-        for (double r : negativeReturns) {
-            double diff = r - negAvg;
-            varSum += diff * diff;
-        }
-        double negVariance = varSum / (negativeReturns.size() - 1);
-        double negStdDaily = Math.sqrt(negVariance);
-        double negStdAnnual = negStdDaily * Math.sqrt(252.0);
-
-        if (negStdAnnual == 0.0) {
-            // no negative volatility => big ratio
-            return 999.0;
-        }
-
-        return (avgAnnual - riskFreeRate) / negStdAnnual;
+        double years = java.time.temporal.ChronoUnit.DAYS.between(startDate, lastDate) / 365.0;
+        if (years < EPSILON) return 0.0;
+        return Math.pow(totalPortfolioValue / initialCapital, 1.0 / years) - 1;
     }
 
     // 3) Calmar ratio = CAGR / maxDrawdown (maxDrawdown is fraction)
@@ -330,17 +229,6 @@ public abstract class Strategy {
         // negative sum for losses, so factor = sum(wins)/abs(sum(losses))
         if (totalLoss == 0.0) return 999.0;
         return totalWins / Math.abs(totalLoss);
-    }
-
-    // 5) (Optional) monthly/yearly returns breakdown
-    // We'll store daily returns in dailyReturns, so you can group them by month or year
-    // But we also need the date for each dailyReturn. 
-    // => you might keep a parallel list or a structure to store (date, dailyReturn).
-    // We'll just show a skeleton function here:
-    public void printMonthlyReturns() {
-        // You'd need a List<LocalDate> dailyDates, or store the returns in a map of date->return
-        // Then group by YearMonth and sum or compound them.
-        System.out.println("Monthly returns not implemented, but you get the idea!");
     }
     
     public int getTotalCount() {
