@@ -18,7 +18,9 @@ public class BuyHoldStrategy extends Strategy {
 			StockPrice spyStockPrice = marketData.get(symbol);
 			double price = spyStockPrice.getClose();
 			int qty = maxQuantity(price);
-			addPosition(symbol, qty, spyStockPrice);
+			if (qty > 0) {
+				addPosition(symbol, qty, spyStockPrice);
+			}
 		}
 	}
 

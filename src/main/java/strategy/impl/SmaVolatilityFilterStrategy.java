@@ -34,7 +34,9 @@ public class SmaVolatilityFilterStrategy extends Strategy {
         } else {
             if (trendUp && lowVolatility) {
                 int qty = maxQuantity(price);
-                addPosition(symbol, qty, sp);
+                if (qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }

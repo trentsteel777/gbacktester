@@ -1,7 +1,7 @@
 package strategy;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -27,6 +27,8 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 public abstract class Strategy {
 
+	private static final double EPSILON = 1e-6;
+	
     protected String symbol;
 
     private double initialCapital;
@@ -39,7 +41,7 @@ public abstract class Strategy {
     private double maxGain;        // fraction, e.g., 2.0 = +200%
 
     // For daily returns computations
-    private List<Double> dailyReturns = new ArrayList<>(20_000);
+    private List<Double> dailyReturns = new LinkedList<>();
     private double previousValue;   // store yesterday's portfolio value
 
     protected List<Position> positions;
@@ -51,11 +53,11 @@ public abstract class Strategy {
     private LocalDate lastDate;
 
     // For Sortino ratio: store negative daily returns separately
-    private List<Double> negativeReturns = new ArrayList<>();
+    private List<Double> negativeReturns = new LinkedList<>();
 
     // For trade stats (win rate, average win/loss, profit factor)
     // We'll store each closed trade P&L
-    private List<Double> closedTradePnLs = new ArrayList<>();
+    private List<Double> closedTradePnLs = new LinkedList<>();
     private double openTradeValue;  // used temporarily in some strategies
 
     public Strategy(String symbol) {
@@ -69,7 +71,7 @@ public abstract class Strategy {
         this.maxGain = 0.0;
         this.previousValue = initialCapital;
 
-        this.positions = new ArrayList<>(20_000);
+        this.positions = new LinkedList<>();
         this.buyCount = 0;
         this.sellCount = 0;
     }
@@ -122,7 +124,7 @@ public abstract class Strategy {
     protected void addPosition(String symbol, int qty, StockPrice sp) {
         double purchasePrice = sp.getClose();
         double cost = qty * purchasePrice;
-        if (cost > cash) {
+        if (cost - cash > EPSILON) {
             throw new IllegalStateException(String.format(
                 "Not enough cash to buy %d of %s at $%.2f (cost=%.2f, cash=%.2f)",
                 qty, symbol, purchasePrice, cost, cash

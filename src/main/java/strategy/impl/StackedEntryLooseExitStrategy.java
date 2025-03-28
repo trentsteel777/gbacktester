@@ -37,7 +37,9 @@ public class StackedEntryLooseExitStrategy extends Strategy {
         } else {
             if (strongTrend && momentum && lowVolatility) {
                 int qty = maxQuantity(price);
-                addPosition(symbol, qty, sp);
+                if (qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }

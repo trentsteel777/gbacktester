@@ -42,9 +42,11 @@ public class BuyAndHoldWithTrailingStopStrategy extends Strategy {
             // Wait until price exceeds last peak to re-enter
             if (price > lastPeakPrice) {
                 int qty = maxQuantity(price);
-                addPosition(symbol, qty, sp);
-                invested = true;
-                highestPrice = price;
+                if (qty > 0) {
+                	addPosition(symbol, qty, sp);
+                	invested = true;
+                	highestPrice = price;
+                }
             }
         }
     }

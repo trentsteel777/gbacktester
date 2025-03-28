@@ -8,8 +8,9 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -31,7 +32,7 @@ public class CsvLoaderService {
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public TreeMap<LocalDate, Map<String, StockPrice>> indexByDateAndSymbol(String folderPath) {
-        Map<String, List<StockPrice>> allStockData = loadAllStockPrices(folderPath);
+        Map<String, List<StockPrice>> allStockData = loadNthStockPrices(folderPath);
         TreeMap<LocalDate, Map<String, StockPrice>> dateIndex = new TreeMap<>();
 
         for (Map.Entry<String, List<StockPrice>> entry : allStockData.entrySet()) {
@@ -67,6 +68,30 @@ public class CsvLoaderService {
         }
     }
     
+    public Map<String, List<StockPrice>> loadNthStockPrices(String folderPath) {
+        Map<String, List<StockPrice>> allData = new HashMap<>();
+
+        File folder = new File(folderPath);
+        File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
+
+        if (files == null || files.length == 0) {
+            throw new RuntimeException("No CSV files found in directory: " + folderPath);
+        }
+
+        // Sort the files to make the "every 4th" deterministic
+        Arrays.sort(files);
+
+        for (int i = 3; i < files.length; i += 4) { // Start at index 3 (the 4th file), step by 4
+            File file = files[i];
+            String symbol = file.getName().replace(".csv", "");
+            List<StockPrice> prices = loadStockPrices(file.getAbsolutePath());
+            allData.put(symbol, prices);
+        }
+
+        return allData;
+    }
+
+    
     public Map<String, List<StockPrice>> loadAllStockPrices(String folderPath) {
         Map<String, List<StockPrice>> allData = new HashMap<>();
 
@@ -89,8 +114,8 @@ public class CsvLoaderService {
     public List<StockPrice> loadStockPrices(String filePath) {
         String seriesName = new File(filePath).getName().replace(".csv", "");
 
-        List<StockPrice> prices = new ArrayList<>(10_000);
-        List<Bar> bars = new ArrayList<>(10_000);
+        List<StockPrice> prices = new LinkedList<>();
+        List<Bar> bars = new LinkedList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;

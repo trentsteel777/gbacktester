@@ -30,7 +30,9 @@ public class DualMomentumStyleStrategy extends Strategy {
             } else {
                 if (sp.getSma50() > sp.getSma200() && price > sp.getSma200()) {
                     int qty = maxQuantity(price);
-                    addPosition(symbol, qty, sp);
+                    if (qty > 0) {
+                    	addPosition(symbol, qty, sp);
+                    }
                 }
             }
         }

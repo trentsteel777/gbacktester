@@ -6,7 +6,7 @@ import static java.util.stream.Collectors.groupingBy;
 
 import java.io.File;
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -33,7 +33,7 @@ public class Main {
         List<String> symbols = getAllSymbolsFromFolder(dataDir);
         boolean isFewSymbols = symbols.size() <= 10;
         
-        List<Strategy> strategies = new ArrayList<>(10000);
+        List<Strategy> strategies = new LinkedList<>();
         Set<Class<? extends Strategy>> strategyClasses = StrategyLoader.scanAnnotatedStrategies("strategy.impl");
 
         for (String symbol : symbols) {

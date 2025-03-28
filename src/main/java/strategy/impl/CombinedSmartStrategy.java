@@ -40,7 +40,9 @@ public class CombinedSmartStrategy extends Strategy {
         } else {
             if (trendUp && rsiBuy && atrBuy) {
                 int qty = maxQuantity(price);
-                addPosition(symbol, qty, sp);
+                if (qty > 0) {
+                	addPosition(symbol, qty, sp);
+                }
             }
         }
     }
