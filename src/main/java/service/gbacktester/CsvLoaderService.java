@@ -3,27 +3,21 @@ package service.gbacktester;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.time.Duration;
 import java.time.LocalDate;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-
-import org.ta4j.core.Bar;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BaseBar;
-import org.ta4j.core.BaseBarSeries;
-import org.ta4j.core.indicators.ATRIndicator;
-import org.ta4j.core.indicators.EMAIndicator;
-import org.ta4j.core.indicators.RSIIndicator;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import domain.StockPrice;
 
@@ -32,7 +26,7 @@ public class CsvLoaderService {
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public TreeMap<LocalDate, Map<String, StockPrice>> indexByDateAndSymbol(String folderPath) {
-        Map<String, List<StockPrice>> allStockData = loadNthStockPrices(folderPath);
+        Map<String, List<StockPrice>> allStockData = loadAllStockPrices(folderPath);
         TreeMap<LocalDate, Map<String, StockPrice>> dateIndex = new TreeMap<>();
 
         for (Map.Entry<String, List<StockPrice>> entry : allStockData.entrySet()) {
@@ -93,8 +87,6 @@ public class CsvLoaderService {
 
     
     public Map<String, List<StockPrice>> loadAllStockPrices(String folderPath) {
-        Map<String, List<StockPrice>> allData = new HashMap<>();
-
         File folder = new File(folderPath);
         File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
 
@@ -102,12 +94,39 @@ public class CsvLoaderService {
             throw new RuntimeException("No CSV files found in directory: " + folderPath);
         }
 
+        // A thread pool with as many threads as processors, for example:
+        ExecutorService executor = Executors.newFixedThreadPool(
+            Runtime.getRuntime().availableProcessors()
+        );
+
+        // Use a ConcurrentMap for thread-safe writes
+        ConcurrentMap<String, List<StockPrice>> allData = new ConcurrentHashMap<>();
+
+        // List of Futures to wait on
+        List<Future<?>> futures = new ArrayList<>();
+
         for (File file : files) {
-            String symbol = file.getName().replace(".csv", "");
-            List<StockPrice> prices = loadStockPrices(file.getAbsolutePath());
-            allData.put(symbol, prices);
+            futures.add(executor.submit(() -> {
+                String symbol = file.getName().replace(".csv", "");
+                List<StockPrice> prices = loadStockPrices(file.getAbsolutePath());
+                allData.put(symbol, prices);
+            }));
         }
 
+        // Wait for all tasks to finish
+        for (Future<?> f : futures) {
+            try {
+                f.get();  // Blocks until the task completes or throws
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt(); // restore interrupt flag
+                throw new RuntimeException("Thread was interrupted", e);
+            } catch (ExecutionException e) {
+                // If the load task threw an exception, rethrow here
+                throw new RuntimeException("Failed loading CSV in parallel", e);
+            }
+        }
+
+        executor.shutdown();
         return allData;
     }
 
@@ -115,62 +134,67 @@ public class CsvLoaderService {
         String seriesName = new File(filePath).getName().replace(".csv", "");
 
         List<StockPrice> prices = new LinkedList<>();
-        List<Bar> bars = new LinkedList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            // Example CSV header (15 columns):
+            // Date,Open,High,Low,Close,AdjClose,Volume,RSI14,SMA20,SMA50,SMA150,SMA200,EMA20,EMA50,Volatility
+            // 31/10/2014,20.420000,20.420000,20.380000,20.380000,18.390000,2700,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+
+            String header = br.readLine(); // skip (or validate) header row
             String line;
-            br.readLine(); // skip header
             int lineNum = 2;
 
             while ((line = br.readLine()) != null) {
                 String[] v = line.split(",");
-                if (v.length < 7) {
+                if (v.length < 15) {
                     throw new RuntimeException("Invalid line at row " + lineNum + ": " + line);
                 }
 
                 LocalDate date = LocalDate.parse(v[0], formatter);
-                double adjClose = Double.parseDouble(v[5]);
-                long volume = Long.parseLong(v[6]);
-                prices.add(new StockPrice(seriesName, date, adjClose, volume));
+                double close    = Double.parseDouble(v[5]);
+                long volume     = Long.parseLong(v[6]);
 
-                ZonedDateTime endTime = date.atStartOfDay(ZoneId.systemDefault());
-                Bar bar = new BaseBar(Duration.ofDays(1), endTime, adjClose, adjClose, adjClose, adjClose, volume);
-                bars.add(bar);
+                Double rsi14      = parseDoubleOrNull(v[7]);
+                Double sma20      = parseDoubleOrNull(v[8]);
+                Double sma50      = parseDoubleOrNull(v[9]);
+                Double sma150     = parseDoubleOrNull(v[10]);
+                Double sma200     = parseDoubleOrNull(v[11]);
+                Double ema20      = parseDoubleOrNull(v[12]);
+                Double ema50      = parseDoubleOrNull(v[13]);
+                Double volatility = parseDoubleOrNull(v[14]);
 
+                // Create your StockPrice domain object, 
+                // then set the fields (constructor or setters, depending on your implementation).
+                StockPrice sp = new StockPrice(seriesName, date, close, volume);
+
+                sp.setRsi14(rsi14);
+                sp.setSma20(sma20);
+                sp.setSma50(sma50);
+                sp.setSma150(sma150);
+                sp.setSma200(sma200);
+                sp.setEma20(ema20);
+                sp.setEma50(ema50);
+                sp.setVolatility(volatility);
+
+                prices.add(sp);
                 lineNum++;
             }
         } catch (Exception e) {
             throw new RuntimeException("Failed to load file: " + filePath, e);
         }
 
-        BarSeries series = new BaseBarSeries(seriesName);
-        for (Bar bar : bars) {
-            series.addBar(bar);
-        }
-
-        ClosePriceIndicator close = new ClosePriceIndicator(series);
-        RSIIndicator rsi = new RSIIndicator(close, 14);
-        SMAIndicator sma20 = new SMAIndicator(close, 20);
-        SMAIndicator sma50 = new SMAIndicator(close, 50);
-        SMAIndicator sma150 = new SMAIndicator(close, 150);
-        SMAIndicator sma200 = new SMAIndicator(close, 200);
-        EMAIndicator ema20 = new EMAIndicator(close, 20);
-        EMAIndicator ema50 = new EMAIndicator(close, 50);
-        ATRIndicator atr = new ATRIndicator(series, 14); // Volatility indicator
-
-        for (int i = 0; i < prices.size(); i++) {
-            prices.get(i).setRsi14(i >= 13 ? rsi.getValue(i).doubleValue() : null);
-            prices.get(i).setSma20(i >= 19 ? sma20.getValue(i).doubleValue() : null);
-            prices.get(i).setSma50(i >= 49 ? sma50.getValue(i).doubleValue() : null);
-            prices.get(i).setSma150(i >= 149 ? sma150.getValue(i).doubleValue() : null);
-            prices.get(i).setSma200(i >= 199 ? sma200.getValue(i).doubleValue() : null);
-            prices.get(i).setEma20(i >= 19 ? ema20.getValue(i).doubleValue() : null);
-            prices.get(i).setEma50(i >= 49 ? ema50.getValue(i).doubleValue() : null);
-            prices.get(i).setVolatility(i >= 13 ? atr.getValue(i).doubleValue() : null);
-        }
-
-
-
+        // No TA calculations here, since the file already has them.
         return prices;
     }
+    
+    /**
+     * Safely parse a String to Double, treating empty string or "NaN" as null.
+     */
+    private Double parseDoubleOrNull(String s) {
+        if (s == null || s.isEmpty() || "NaN".equalsIgnoreCase(s)) {
+            return null;
+        }
+        return Double.parseDouble(s);
+    }
+    
 }

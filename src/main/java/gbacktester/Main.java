@@ -31,10 +31,11 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		StopWatch sw = StopWatch.start();
 
-		// 1) Create a fixed thread pool of size 4
-		ExecutorService executor = Executors.newFixedThreadPool(6);
+		System.out.println("Create a fixed thread pool of size: " + Runtime.getRuntime().availableProcessors());
+		ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
-		String dataDir = "C:\\Users\\sbrennan\\workspace\\gbacktester\\src\\main\\resources\\data\\all";
+		//String dataDir = "C:\\Users\\sbrennan\\workspace\\gbacktester\\src\\main\\resources\\data\\calculated\\";
+		String dataDir = "/home/trent/workspace/gbacktester/src/main/resources/data/calculated/";
 		CsvLoaderService loader = new CsvLoaderService();
 		TreeMap<LocalDate, Map<String, StockPrice>> timeline = loader.indexByDateAndSymbol(dataDir);
 
