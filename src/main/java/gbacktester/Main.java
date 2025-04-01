@@ -41,9 +41,9 @@ public class Main {
 		
 		List<String> watchlist = 
 			 //getSpyWatchlist(); 
-			 getFavWatchlist();
+			 //getFavWatchlist();
 			//getEtfWatchlist();
-			//getBadWatchlist();
+			getBadWatchlist();
 
 		CsvLoaderService loader = new CsvLoaderService(dataDir, watchlist);
 		TreeMap<LocalDate, Map<String, StockPrice>> timeline = loader.indexByDateAndSymbol();

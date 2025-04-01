@@ -135,7 +135,7 @@ public class CsvWriterService {
     private void writeStockPricesWithTA(String outputFilePath, List<StockRecord> records) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(outputFilePath))) {
             // Write header
-            writer.println("Date,Open,High,Low,Close,AdjClose,Volume," +
+            writer.println("Date,Open,High,Low,Close,Volume," +
                            "RSI14,SMA10,SMA20,SMA30,SMA50,SMA150,SMA200," +
                            "EMA20,EMA50,Volatility," +
                            "MACDLine,MACDSignalLine,MACDHistogram," +

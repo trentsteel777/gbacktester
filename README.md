@@ -1,14 +1,15 @@
 # gbacktester
 
 Add strategies:
-    PhilTown TA and FA
+	DONE - PhilTown TA 
+    	and FA
     Greenblat
         sort by highest EY and ROC
-    SMA200
-    SMA50_200_Crossover
+    DONE - SMA200
+    DONE - SMA50_200_Crossover
 
 Add odt document with all results
-    TA on single stocks
+    DONE - TA on single stocks
     Add next experiments
         52 week high on listed stocks
             parameterized position limit 5-200
@@ -19,7 +20,8 @@ Somehow keep in code the setup of the experiments I am running
     gbtester.main.SingleStockTechnicalAnalysisStrategies
 Centralize config variables
     strategy.impl with enum
-    move single stock strategies to sub-package
+    DONE - move single stock strategies to sub-package
+
 Strategies with multiple watchlists
 Remove OTC stocks
 Get fundamental data for listed stocks
