@@ -1,5 +1,8 @@
 # gbacktester
 
+VM Args: -Xms8G -Xmx32G
+	Otherwise GC grinds the application to a halt
+
 Add strategies:
 	DONE - PhilTown TA 
     	and FA

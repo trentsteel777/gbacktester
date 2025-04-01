@@ -45,7 +45,7 @@ public class Main {
 			//getEtfWatchlist();
 			getBadWatchlist();
 
-		CsvLoaderService loader = new CsvLoaderService(dataDir, watchlist);
+		CsvLoaderService loader = new CsvLoaderService(dataDir,watchlist);
 		TreeMap<LocalDate, Map<String, StockPrice>> timeline = loader.indexByDateAndSymbol();
 
 		List<String> symbols = loader.getWatchList();
@@ -87,7 +87,7 @@ public class Main {
 						strategy.run(marketData);
 						strategy.calculateTotalPortfolioValue(marketData, today);
 						if(dsw.lapInSeconds() > 3) {
-							System.out.println(strategy.getClass().getSimpleName());
+							System.out.println(strategy.getClass().getSimpleName() + " → " + strategy.getSymbol());
 						}
 					}));
 				}
