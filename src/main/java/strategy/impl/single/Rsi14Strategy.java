@@ -1,4 +1,4 @@
-package strategy.impl;
+package strategy.impl.single;
 
 import java.util.Map;
 import java.util.Objects;

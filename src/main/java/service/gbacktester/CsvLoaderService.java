@@ -18,6 +18,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.stream.Collectors;
 
 import domain.StockPrice;
 
@@ -25,7 +26,42 @@ public class CsvLoaderService {
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-    public TreeMap<LocalDate, Map<String, StockPrice>> indexByDateAndSymbol(String folderPath) {
+    /**
+     * A watchlist of symbols we want to load (e.g., ["SPY", "AAPL"]).
+     * If null or empty, we load ALL CSV files from the folder.
+     */
+    private final List<String> watchList;
+
+    private final String folderPath;
+
+    public List<String> getWatchList() {
+    	if(watchList != null) {
+    		return watchList;
+    	}
+    	else {
+    		return getAllSymbolsFromFolder();
+    	}
+	}
+
+	// -------------------------------------------------------------------------
+    // 1) Default constructor: no watchlist => loads ALL files
+    // -------------------------------------------------------------------------
+    public CsvLoaderService(String folderPath) {
+    	this.folderPath = folderPath;
+        this.watchList = null; // Means "no filtering"
+    }
+
+    // -------------------------------------------------------------------------
+    // 2) Constructor accepting a watchlist => load only the listed symbols
+    // -------------------------------------------------------------------------
+    public CsvLoaderService(String folderPath, List<String> watchList) {
+    	this.folderPath = folderPath;
+        this.watchList = (watchList == null || watchList.isEmpty())
+            ? null // treat null/empty watchlist as "no filtering"
+            : new ArrayList<>(watchList); // store a copy
+    }
+    
+    public TreeMap<LocalDate, Map<String, StockPrice>> indexByDateAndSymbol() {
         Map<String, List<StockPrice>> allStockData = loadAllStockPrices(folderPath);
         TreeMap<LocalDate, Map<String, StockPrice>> dateIndex = new TreeMap<>();
 
@@ -43,26 +79,7 @@ public class CsvLoaderService {
         return dateIndex;
     }
     
-    public void validatorCsvFiles(String folderPath) {
-        File folder = new File(folderPath);
-        File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
-
-        if (files == null || files.length == 0) {
-            throw new RuntimeException("No CSV files found in directory: " + folderPath);
-        }
-
-        for (File file : files) {
-        	String symbol = file.getName().replace(".csv", "");
-        	try {
-        		loadStockPrices(file.getAbsolutePath());
-        	}
-        	catch(Exception e) {
-        		System.out.println(symbol);
-        	}
-        }
-    }
-    
-    public Map<String, List<StockPrice>> loadNthStockPrices(String folderPath) {
+    private Map<String, List<StockPrice>> loadNthStockPrices(String folderPath) {
         Map<String, List<StockPrice>> allData = new HashMap<>();
 
         File folder = new File(folderPath);
@@ -86,12 +103,45 @@ public class CsvLoaderService {
     }
 
     
-    public Map<String, List<StockPrice>> loadAllStockPrices(String folderPath) {
+    private Map<String, List<StockPrice>> loadAllStockPrices(String folderPath) {
         File folder = new File(folderPath);
         File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
 
         if (files == null || files.length == 0) {
             throw new RuntimeException("No CSV files found in directory: " + folderPath);
+        }
+
+        // If we have a watchlist, filter 'files' so we only load what's in the watchlist,
+        // and also print any watchlist symbol that doesn't exist in the folder.
+        if (watchList != null && !watchList.isEmpty()) {
+            // Gather the set of symbols actually present as CSV files
+            // e.g., "SPY.csv" -> "SPY"
+            Map<String, File> symbolFileMap = new HashMap<>();
+            for (File file : files) {
+                String symbolFound = file.getName().replace(".csv", "");
+                symbolFileMap.put(symbolFound, file);
+            }
+
+            // Print out any symbol from the watchlist that isn't in the folder
+            for (String desiredSymbol : watchList) {
+                if (!symbolFileMap.containsKey(desiredSymbol)) {
+                    System.out.println("Watchlist Symbol Missing: " + desiredSymbol + ".csv");
+                }
+            }
+
+            // Filter the files array to keep only those that match the watchlist
+            List<File> filtered = new ArrayList<>();
+            for (String desiredSymbol : watchList) {
+                if (symbolFileMap.containsKey(desiredSymbol)) {
+                    filtered.add(symbolFileMap.get(desiredSymbol));
+                }
+            }
+
+            if (filtered.isEmpty()) {
+                throw new RuntimeException("No watchlist files found in folder: " + folderPath);
+            }
+
+            files = filtered.toArray(File[]::new);
         }
 
         // A thread pool with as many threads as processors, for example:
@@ -130,51 +180,60 @@ public class CsvLoaderService {
         return allData;
     }
 
-    public List<StockPrice> loadStockPrices(String filePath) {
+    private List<StockPrice> loadStockPrices(String filePath) {
         String seriesName = new File(filePath).getName().replace(".csv", "");
-
         List<StockPrice> prices = new LinkedList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-            // Example CSV header (15 columns):
-            // Date,Open,High,Low,Close,AdjClose,Volume,RSI14,SMA20,SMA50,SMA150,SMA200,EMA20,EMA50,Volatility
-            // 31/10/2014,20.420000,20.420000,20.380000,20.380000,18.390000,2700,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-
-            String header = br.readLine(); // skip (or validate) header row
+            String header = br.readLine(); // Skip the CSV header
             String line;
             int lineNum = 2;
 
             while ((line = br.readLine()) != null) {
                 String[] v = line.split(",");
-                if (v.length < 15) {
+                if (v.length < 21) {
                     throw new RuntimeException("Invalid line at row " + lineNum + ": " + line);
                 }
 
-                LocalDate date = LocalDate.parse(v[0], formatter);
-                double close    = Double.parseDouble(v[5]);
-                long volume     = Long.parseLong(v[6]);
+                LocalDate date     = LocalDate.parse(v[0], formatter);
+                double close       = Double.parseDouble(v[4]); // AdjClose as actual close
+                long volume        = Long.parseLong(v[5]);
 
-                Double rsi14      = parseDoubleOrNull(v[7]);
-                Double sma20      = parseDoubleOrNull(v[8]);
-                Double sma50      = parseDoubleOrNull(v[9]);
-                Double sma150     = parseDoubleOrNull(v[10]);
-                Double sma200     = parseDoubleOrNull(v[11]);
-                Double ema20      = parseDoubleOrNull(v[12]);
-                Double ema50      = parseDoubleOrNull(v[13]);
-                Double volatility = parseDoubleOrNull(v[14]);
+                // TA values (null-safe)
+                Double rsi14          = parseDoubleOrNull(v[6]);
+                Double sma10          = parseDoubleOrNull(v[7]);
+                Double sma20          = parseDoubleOrNull(v[8]);
+                Double sma30          = parseDoubleOrNull(v[9]);
+                Double sma50          = parseDoubleOrNull(v[10]);
+                Double sma150         = parseDoubleOrNull(v[11]);
+                Double sma200         = parseDoubleOrNull(v[12]);
+                Double ema20          = parseDoubleOrNull(v[13]);
+                Double ema50          = parseDoubleOrNull(v[14]);
+                Double volatility     = parseDoubleOrNull(v[15]);
+                Double macdLine       = parseDoubleOrNull(v[16]);
+                Double macdSignalLine = parseDoubleOrNull(v[17]);
+                Double macdHistogram  = parseDoubleOrNull(v[18]);
+                Double stochasticK    = parseDoubleOrNull(v[19]);
+                Double stochasticD    = parseDoubleOrNull(v[20]);
 
-                // Create your StockPrice domain object, 
-                // then set the fields (constructor or setters, depending on your implementation).
+                // Construct object and assign indicators
                 StockPrice sp = new StockPrice(seriesName, date, close, volume);
 
                 sp.setRsi14(rsi14);
+                sp.setSma10(sma10);
                 sp.setSma20(sma20);
+                sp.setSma30(sma30);
                 sp.setSma50(sma50);
                 sp.setSma150(sma150);
                 sp.setSma200(sma200);
                 sp.setEma20(ema20);
                 sp.setEma50(ema50);
                 sp.setVolatility(volatility);
+                sp.setMacdLine(macdLine);
+                sp.setMacdSignalLine(macdSignalLine);
+                sp.setMacdHistogram(macdHistogram);
+                sp.setStochasticK(stochasticK);
+                sp.setStochasticD(stochasticD);
 
                 prices.add(sp);
                 lineNum++;
@@ -183,9 +242,9 @@ public class CsvLoaderService {
             throw new RuntimeException("Failed to load file: " + filePath, e);
         }
 
-        // No TA calculations here, since the file already has them.
         return prices;
     }
+
     
     /**
      * Safely parse a String to Double, treating empty string or "NaN" as null.
@@ -196,5 +255,16 @@ public class CsvLoaderService {
         }
         return Double.parseDouble(s);
     }
+    
+    private List<String> getAllSymbolsFromFolder() {
+		File folder = new File(folderPath);
+		File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
+
+		if (files == null) {
+			throw new IllegalArgumentException("Folder not found or empty: " + folderPath);
+		}
+
+		return Arrays.stream(files).map(file -> file.getName().replace(".csv", "")).collect(Collectors.toList());
+	}
     
 }

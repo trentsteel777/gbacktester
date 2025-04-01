@@ -1,4 +1,4 @@
-package strategy.impl;
+package strategy.impl.single;
 
 import java.util.Map;
 
@@ -6,11 +6,9 @@ import domain.StockPrice;
 import strategy.Strategy;
 import strategy.annotations.AutoLoadStrategy;
 @AutoLoadStrategy
-public class VolatilityAwareStrategy extends Strategy {
-    
-    private static final double ATR_SELL_THRESHOLD = 0.05;
+public class Sma200RsiTrendStrategy extends Strategy {
 
-    public VolatilityAwareStrategy(String symbol) {
+    public Sma200RsiTrendStrategy(String symbol) {
         super(symbol);
     }
 
@@ -19,21 +17,18 @@ public class VolatilityAwareStrategy extends Strategy {
         StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
-        if (sp.getSma200() == null || sp.getRsi14() == null || sp.getVolatility() == null) return;
-
-        double atrPercent = sp.getVolatility() / price;
-        double rsi = sp.getRsi14();
-
-        boolean trendUp = price > sp.getSma200();
-        boolean rsiOkay = rsi > 50;
+        boolean rsiAbove50 = sp.getRsi14() != null && sp.getRsi14() > 50;
+        boolean rsiBelow40 = sp.getRsi14() != null && sp.getRsi14() < 40;
+        boolean priceAboveSma200 = sp.getSma200() != null && price > sp.getSma200();
+        boolean priceBelowSma200 = sp.getSma200() != null && price < sp.getSma200();
 
         if (hasPosition(symbol)) {
-            if (!trendUp || atrPercent > ATR_SELL_THRESHOLD) {
+            if (priceBelowSma200 || rsiBelow40) {
                 int qty = getPositionQty(symbol);
                 reducePosition(symbol, qty, sp);
             }
         } else {
-            if (trendUp && rsiOkay) {
+            if (priceAboveSma200 && rsiAbove50) {
                 int qty = maxQuantity(price);
                 if(qty > 0) {
                 	addPosition(symbol, qty, sp);

@@ -1,14 +1,15 @@
-package strategy.impl;
+package strategy.impl.single;
 
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
 import strategy.annotations.AutoLoadStrategy;
-@AutoLoadStrategy
-public class Sma200RsiTrendStrategy extends Strategy {
 
-    public Sma200RsiTrendStrategy(String symbol) {
+@AutoLoadStrategy
+public class TrendConfirmationStrategy extends Strategy {
+
+    public TrendConfirmationStrategy(String symbol) {
         super(symbol);
     }
 
@@ -17,18 +18,20 @@ public class Sma200RsiTrendStrategy extends Strategy {
         StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
-        boolean rsiAbove50 = sp.getRsi14() != null && sp.getRsi14() > 50;
-        boolean rsiBelow40 = sp.getRsi14() != null && sp.getRsi14() < 40;
-        boolean priceAboveSma200 = sp.getSma200() != null && price > sp.getSma200();
-        boolean priceBelowSma200 = sp.getSma200() != null && price < sp.getSma200();
+        if (sp.getSma200() == null || sp.getSma50() == null || sp.getRsi14() == null) return;
+
+        boolean isTrending = price > sp.getSma200();
+        boolean isMomentumUp = sp.getSma50() > sp.getSma200();
+        boolean isRsiPositive = sp.getRsi14() > 50;
+        boolean isRsiWeak = sp.getRsi14() < 40;
 
         if (hasPosition(symbol)) {
-            if (priceBelowSma200 || rsiBelow40) {
+            if (!isTrending || isRsiWeak) {
                 int qty = getPositionQty(symbol);
                 reducePosition(symbol, qty, sp);
             }
         } else {
-            if (priceAboveSma200 && rsiAbove50) {
+            if (isTrending && isMomentumUp && isRsiPositive) {
                 int qty = maxQuantity(price);
                 if(qty > 0) {
                 	addPosition(symbol, qty, sp);

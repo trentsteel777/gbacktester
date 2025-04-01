@@ -16,7 +16,9 @@ public class StockPrice {
     private final long volume;
     private Double rsi14;     // Nullable
 
+    private Double sma10;
     private Double sma20;
+    private Double sma30;
     private Double sma50;
     private Double sma150;
     private Double sma200;
@@ -24,6 +26,15 @@ public class StockPrice {
     private Double ema20;
     private Double ema50;
     private Double volatility; // e.g., ATR(14)
+    
+    // MACD (most commonly derived from 12-day and 26-day EMA)
+    private Double macdLine;        // ADDED
+    private Double macdSignalLine;  // ADDED
+    private Double macdHistogram;   // ADDED
+    
+    // Stochastic Oscillator
+    private Double stochasticK;     // ADDED (often %K)
+    private Double stochasticD;     // ADDED (often %D)
     
     private List<String> explainList = new LinkedList<>();
     

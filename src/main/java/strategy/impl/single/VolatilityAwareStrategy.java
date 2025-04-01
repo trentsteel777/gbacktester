@@ -1,4 +1,4 @@
-package strategy.impl;
+package strategy.impl.single;
 
 import java.util.Map;
 
@@ -6,11 +6,11 @@ import domain.StockPrice;
 import strategy.Strategy;
 import strategy.annotations.AutoLoadStrategy;
 @AutoLoadStrategy
-public class StackedEntryLooseExitStrategy extends Strategy {
+public class VolatilityAwareStrategy extends Strategy {
+    
+    private static final double ATR_SELL_THRESHOLD = 0.05;
 
-    private static final double ATR_EXIT_THRESHOLD = 0.06;
-
-    public StackedEntryLooseExitStrategy(String symbol) {
+    public VolatilityAwareStrategy(String symbol) {
         super(symbol);
     }
 
@@ -24,20 +24,18 @@ public class StackedEntryLooseExitStrategy extends Strategy {
         double atrPercent = sp.getVolatility() / price;
         double rsi = sp.getRsi14();
 
-        boolean strongTrend = price > sp.getSma200();
-        boolean momentum = rsi > 50;
-        boolean lowVolatility = atrPercent < 0.03;
+        boolean trendUp = price > sp.getSma200();
+        boolean rsiOkay = rsi > 50;
 
         if (hasPosition(symbol)) {
-            // Only exit on major trend break or big spike in volatility
-            if (!strongTrend || atrPercent > ATR_EXIT_THRESHOLD) {
+            if (!trendUp || atrPercent > ATR_SELL_THRESHOLD) {
                 int qty = getPositionQty(symbol);
                 reducePosition(symbol, qty, sp);
             }
         } else {
-            if (strongTrend && momentum && lowVolatility) {
+            if (trendUp && rsiOkay) {
                 int qty = maxQuantity(price);
-                if (qty > 0) {
+                if(qty > 0) {
                 	addPosition(symbol, qty, sp);
                 }
             }

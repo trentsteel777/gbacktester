@@ -25,6 +25,7 @@ public abstract class Strategy {
 
     private double initialCapital;
     private double cash;
+    private double cashDeposits;
     private double totalPortfolioValue;
 
     private double peakValue;
@@ -58,7 +59,7 @@ public abstract class Strategy {
 
     public Strategy(String symbol) {
         this.symbol = symbol;
-        this.initialCapital = 100_000;
+        this.initialCapital = 100_00;
         this.cash = initialCapital;
 
         this.totalPortfolioValue = initialCapital;
@@ -152,7 +153,9 @@ public abstract class Strategy {
 
     public void calculateTotalPortfolioValue(Map<String, StockPrice> marketPrices, LocalDate date) {
         trackDates(date);
-
+        double cashDesposit=20;
+        this.cash+=cashDesposit;
+        this.cashDeposits+=cashDesposit;
         totalPortfolioValue = cash;
         for (Position position : positions.values()) {
         	totalPortfolioValue += position.getQty() * marketPrices.getOrDefault(position.getSymbol(), EMPTY_SP).getClose();
@@ -179,13 +182,21 @@ public abstract class Strategy {
 
         maxDrawdown = Math.max(maxDrawdown, (peakValue - totalPortfolioValue) / peakValue);
         maxGain = Math.max(maxGain, (totalPortfolioValue - initialCapital) / initialCapital);
-    }
+        
+		/*
+		 * System.out.printf("ReturnMean=%.6f, StdDev=%.6f, Sharpe=%.2f%n",
+		 * dailyReturnMean, Math.sqrt(dailyReturnM2 / (dailyReturnCount - 1)) *
+		 * Math.sqrt(252), getSharpeRatio() );
+		 */
 
+        
+    }
+    
     public double getSharpeRatio() {
         if (dailyReturnCount < 2) return 0;
         double variance = dailyReturnM2 / (dailyReturnCount - 1);
         double stdAnnual = Math.sqrt(variance) * Math.sqrt(252);
-        return stdAnnual == 0 ? 0 : (dailyReturnMean * 252 - 0.03) / stdAnnual;
+        return stdAnnual == 0 ? 0 : (dailyReturnMean * 252 - 0.01) / stdAnnual;
     }
 
     public double getSortinoRatio() {
@@ -194,7 +205,7 @@ public abstract class Strategy {
         double negStdAnnual = Math.sqrt(negVariance) * Math.sqrt(252);
         if (negStdAnnual == 0) return 0.0;
 
-        return (dailyReturnMean * 252 - 0.03) / negStdAnnual;
+        return (dailyReturnMean * 252 - 0.01) / negStdAnnual;
     }
 
 

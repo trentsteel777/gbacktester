@@ -1,14 +1,17 @@
-package strategy.impl;
+package strategy.impl.single;
 
 import java.util.Map;
 
 import domain.StockPrice;
 import strategy.Strategy;
 import strategy.annotations.AutoLoadStrategy;
-@AutoLoadStrategy
-public class SmaTrendWithMomentumStrategy extends Strategy {
 
-    public SmaTrendWithMomentumStrategy(String symbol) {
+@AutoLoadStrategy
+public class SmaVolatilityFilterStrategy extends Strategy {
+    
+    private static final double ATR_PERCENT_THRESHOLD = 0.02; // 2%
+
+    public SmaVolatilityFilterStrategy(String symbol) {
         super(symbol);
     }
 
@@ -17,22 +20,21 @@ public class SmaTrendWithMomentumStrategy extends Strategy {
         StockPrice sp = marketData.get(symbol);
         double price = sp.getClose();
 
-        boolean valid = sp.getSma200() != null && sp.getSma50() != null;
+        if (sp.getSma200() == null || sp.getVolatility() == null) return;
 
-        if (!valid) return;
-
+        double atrPercent = sp.getVolatility() / price;
         boolean trendUp = price > sp.getSma200();
-        boolean momentumConfirm = sp.getSma50() > sp.getSma200();
+        boolean lowVolatility = atrPercent < ATR_PERCENT_THRESHOLD;
 
         if (hasPosition(symbol)) {
-            if (!trendUp) {
+            if (!trendUp || !lowVolatility) {
                 int qty = getPositionQty(symbol);
                 reducePosition(symbol, qty, sp);
             }
         } else {
-            if (trendUp && momentumConfirm) {
+            if (trendUp && lowVolatility) {
                 int qty = maxQuantity(price);
-                if(qty > 0) {
+                if (qty > 0) {
                 	addPosition(symbol, qty, sp);
                 }
             }
