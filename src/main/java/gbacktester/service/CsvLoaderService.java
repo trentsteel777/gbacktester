@@ -215,7 +215,8 @@ public class CsvLoaderService {
                 Double macdHistogram  = parseDoubleOrNull(v[18]);
                 Double stochasticK    = parseDoubleOrNull(v[19]);
                 Double stochasticD    = parseDoubleOrNull(v[20]);
-
+                boolean is52WeekHigh  = Boolean.parseBoolean(v[21]);
+                
                 // Construct object and assign indicators
                 StockPrice sp = new StockPrice(seriesName, date, close, volume);
 
@@ -234,6 +235,7 @@ public class CsvLoaderService {
                 sp.setMacdHistogram(macdHistogram);
                 sp.setStochasticK(stochasticK);
                 sp.setStochasticD(stochasticD);
+                sp.set52WeekHigh(is52WeekHigh);
 
                 prices.add(sp);
                 lineNum++;

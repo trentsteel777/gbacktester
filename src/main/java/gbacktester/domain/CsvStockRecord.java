@@ -8,7 +8,7 @@ import lombok.Setter;
 // /home/trent/workspace/gbacktester/src/main/resources/data
 @Getter
 @Setter
-public class StockRecord {
+public class CsvStockRecord {
     private String symbol;
     private LocalDate date;
 

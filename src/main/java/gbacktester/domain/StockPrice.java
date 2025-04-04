@@ -36,6 +36,8 @@ public class StockPrice {
     private Double stochasticK;     // ADDED (often %K)
     private Double stochasticD;     // ADDED (often %D)
     
+    private boolean is52WeekHigh;
+    
     private List<String> explainList = new LinkedList<>();
     
     
