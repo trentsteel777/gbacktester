@@ -27,6 +27,7 @@
 		<telegram.version>6.9.7.1</telegram.version>
 		<jackson-dataformat-yaml.version>2.18.2</jackson-dataformat-yaml.version>
 		<reflections.version>0.10.2</reflections.version>
+		<guava.version>33.4.6-jre</guava.version>
 	</properties>
 
 	<dependencies>
@@ -59,6 +60,12 @@
 			<version>${jackson-dataformat-yaml.version}</version>
 		</dependency>
 
+		<!-- guava -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>${guava.version}</version>
+		</dependency>
 
 		<!-- SLF4J for Logging -->
 		<dependency>

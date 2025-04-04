@@ -21,11 +21,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 
-import domain.StockPrice;
-import service.gbacktester.CsvLoaderService;
-import strategy.Strategy;
-import strategy.StrategyLoader;
-import util.StopWatch;
+import gbacktester.domain.StockPrice;
+import gbacktester.service.CsvLoaderService;
+import gbacktester.strategy.Strategy;
+import gbacktester.strategy.StrategyLoader;
+import gbacktester.util.StopWatch;
 
 public class Main {
 
@@ -59,16 +59,16 @@ public class Main {
 				 * Sma50_200CrossoverStrategy.class, Sma20_200CrossoverStrategy.class,
 				 * Rsi14Strategy.class, BuyHoldStrategy.class);
 				 */
-				StrategyLoader.scanAnnotatedStrategies("strategy.impl");
+				StrategyLoader.scanAnnotatedStrategies("gbacktester.strategy.impl");
 		
-		System.out.println("loaded csvs and scanned " + strategyClasses.size() + " strategy classes - " + sw.lapInSeconds());
+		System.out.println("loaded csvs and scanned " + strategyClasses.size() + " gbacktester.strategy classes - " + sw.lapInSeconds());
 		for (String symbol : symbols) {
 			for (Class<? extends Strategy> clazz : strategyClasses) {
 				Strategy strat = clazz.getConstructor(String.class).newInstance(symbol);
 				strategies.add(strat);
 			}
 		}
-		System.out.println("created strategy objects - " + sw.lapInSeconds());
+		System.out.println("created gbacktester.strategy objects - " + sw.lapInSeconds());
 
 		// 2) For each day, time the processing, submit tasks to the executor, wait,
 		// then print
