@@ -1,0 +1,850 @@
+{
+  "General": {
+    "Code": "IBOT",
+    "Type": "ETF",
+    "Name": "VanEck Robotics ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01G4HTD10",
+    "Description": "The fund normally invests at least 80% of its total assets in Robotics Companies. The index is comprised of equity securities, which may include depositary receipts of global exchange-listed companies in the robotics industry. The fund is non-diversified.",
+    "Category": "Technology",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 45.9241,
+    "52WeekLow": 33.42,
+    "50DayMA": 39.8344,
+    "200DayMA": 42.2627
+  },
+  "ETF_Data": {
+    "ISIN": "US92189Y4026",
+    "Company_Name": "VanEck",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "2.950000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2023-04-05",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00470",
+    "AnnualHoldingsTurnover": "0.13000",
+    "TotalAssets": "13934569.00",
+    "Average_Mkt_Cap_Mil": "37321.32853",
+    "Market_Capitalisation": {
+      "Mega": "30.83699",
+      "Big": "24.4966",
+      "Medium": "33.18886",
+      "Small": "10.16755",
+      "Micro": "1.28772"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.16371",
+        "Short_%": "0.14163",
+        "Net_Assets_%": "0.02208"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "56.90924",
+        "Short_%": "0",
+        "Net_Assets_%": "56.90924"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "43.06849",
+        "Short_%": "0",
+        "Net_Assets_%": "43.06849"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "43.746",
+        "Relative_to_Category": "89.553"
+      },
+      "United Kingdom": {
+        "Equity_%": "1.66944",
+        "Relative_to_Category": "0.27616"
+      },
+      "Europe Developed": {
+        "Equity_%": "31.002",
+        "Relative_to_Category": "3.329"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.4"
+      },
+      "Japan": {
+        "Equity_%": "21.253",
+        "Relative_to_Category": "0.968"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.055"
+      },
+      "Asia Developed": {
+        "Equity_%": "1.553",
+        "Relative_to_Category": "3.31"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.777",
+        "Relative_to_Category": "1.44"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.669"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.03879"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "2.52617",
+        "Relative_to_Category": "5.44519"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.46368"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.30385"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "10.67814"
+      },
+      "Energy": {
+        "Equity_%": "0.97588",
+        "Relative_to_Category": "0.03108"
+      },
+      "Industrials": {
+        "Equity_%": "34.8641",
+        "Relative_to_Category": "3.12311"
+      },
+      "Technology": {
+        "Equity_%": "59.71742",
+        "Relative_to_Category": "76.5059"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.14755"
+      },
+      "Healthcare": {
+        "Equity_%": "1.91643",
+        "Relative_to_Category": "1.17336"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.08934"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.00497"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 50,
+    "Top_10_Holdings": {
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 6.26709
+      },
+      "6861.TSE": {
+        "Code": "6861",
+        "Exchange": "TSE",
+        "Name": "Keyence",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 5.54244
+      },
+      "ASML.US": {
+        "Code": "ASML",
+        "Exchange": "US",
+        "Name": "ASML Holding NV ADR",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.37448
+      },
+      "ABBN.SW": {
+        "Code": "ABBN",
+        "Exchange": "SW",
+        "Name": "ABB Ltd",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 5.01256
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.98587
+      },
+      "EMR.US": {
+        "Code": "EMR",
+        "Exchange": "US",
+        "Name": "Emerson Electric Company",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.47342
+      },
+      "DASTF.US": {
+        "Code": "DASTF",
+        "Exchange": "US",
+        "Name": "Dassault Systemes SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.33242
+      },
+      "ADSK.US": {
+        "Code": "ADSK",
+        "Exchange": "US",
+        "Name": "Autodesk Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.11639
+      },
+      "HXGBY.US": {
+        "Code": "HXGBY",
+        "Exchange": "US",
+        "Name": "Hexagon AB ADR",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.79092
+      },
+      "TDY.US": {
+        "Code": "TDY",
+        "Exchange": "US",
+        "Name": "Teledyne Technologies Incorporated",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.57646
+      }
+    },
+    "Holdings": {
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 6.26709
+      },
+      "6861.TSE": {
+        "Code": "6861",
+        "Exchange": "TSE",
+        "Name": "Keyence",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 5.54244
+      },
+      "ASML.US": {
+        "Code": "ASML",
+        "Exchange": "US",
+        "Name": "ASML Holding NV ADR",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.37448
+      },
+      "ABBN.SW": {
+        "Code": "ABBN",
+        "Exchange": "SW",
+        "Name": "ABB Ltd",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 5.01256
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.98587
+      },
+      "EMR.US": {
+        "Code": "EMR",
+        "Exchange": "US",
+        "Name": "Emerson Electric Company",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.47342
+      },
+      "DASTF.US": {
+        "Code": "DASTF",
+        "Exchange": "US",
+        "Name": "Dassault Systemes SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.33242
+      },
+      "ADSK.US": {
+        "Code": "ADSK",
+        "Exchange": "US",
+        "Name": "Autodesk Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.11639
+      },
+      "HXGBY.US": {
+        "Code": "HXGBY",
+        "Exchange": "US",
+        "Name": "Hexagon AB ADR",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.79092
+      },
+      "TDY.US": {
+        "Code": "TDY",
+        "Exchange": "US",
+        "Name": "Teledyne Technologies Incorporated",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.57646
+      },
+      "6902.TSE": {
+        "Code": "6902",
+        "Exchange": "TSE",
+        "Name": "DENSO Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 2.52562
+      },
+      "ROK.US": {
+        "Code": "ROK",
+        "Exchange": "US",
+        "Name": "Rockwell Automation Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.37473
+      },
+      "PTC.US": {
+        "Code": "PTC",
+        "Exchange": "US",
+        "Name": "PTC Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.29591
+      },
+      "ANSS.US": {
+        "Code": "ANSS",
+        "Exchange": "US",
+        "Name": "ANSYS Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.13752
+      },
+      "ISRG.US": {
+        "Code": "ISRG",
+        "Exchange": "US",
+        "Name": "Intuitive Surgical Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Instruments & Supplies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.916
+      },
+      "6954.TSE": {
+        "Code": "6954",
+        "Exchange": "TSE",
+        "Name": "Fanuc Corporation",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.85647
+      },
+      "TXN.US": {
+        "Code": "TXN",
+        "Exchange": "US",
+        "Name": "Texas Instruments Incorporated",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.69526
+      },
+      "KLAC.US": {
+        "Code": "KLAC",
+        "Exchange": "US",
+        "Name": "KLA-Tencor Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5114
+      },
+      "AMAT.US": {
+        "Code": "AMAT",
+        "Exchange": "US",
+        "Name": "Applied Materials Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.4457
+      },
+      "LRCX.US": {
+        "Code": "LRCX",
+        "Exchange": "US",
+        "Name": "Lam Research Corp",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.40882
+      },
+      "ADI.US": {
+        "Code": "ADI",
+        "Exchange": "US",
+        "Name": "Analog Devices Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.37077
+      },
+      "BSY.US": {
+        "Code": "BSY",
+        "Exchange": "US",
+        "Name": "Bentley Systems\u00a0Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.29998
+      },
+      "6383.TSE": {
+        "Code": "6383",
+        "Exchange": "TSE",
+        "Name": "Daifuku Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.23483
+      },
+      "LECO.US": {
+        "Code": "LECO",
+        "Exchange": "US",
+        "Name": "Lincoln Electric Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Tools & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.21251
+      },
+      "ANDR.VI": {
+        "Code": "ANDR",
+        "Exchange": "VI",
+        "Name": "Andritz AG",
+        "Sector": "Industrials",
+        "Industry": "Industrial Distribution",
+        "Country": "Austria",
+        "Region": "Europe",
+        "Assets_%": 1.17743
+      },
+      "8035.TSE": {
+        "Code": "8035",
+        "Exchange": "TSE",
+        "Name": "Tokyo Electron Limited",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.12899
+      },
+      "IMI.LSE": {
+        "Code": "IMI",
+        "Exchange": "LSE",
+        "Name": "IMI PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.08005
+      },
+      "TEL.US": {
+        "Code": "TEL",
+        "Exchange": "US",
+        "Name": "TE Connectivity Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.05786
+      },
+      "KCR.HE": {
+        "Code": "KCR",
+        "Exchange": "HE",
+        "Name": "Konecranes Plc",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Finland",
+        "Region": "Europe",
+        "Assets_%": 1.01721
+      },
+      "6845.TSE": {
+        "Code": "6845",
+        "Exchange": "TSE",
+        "Name": "Azbil Corp",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.99002
+      },
+      "FTI.US": {
+        "Code": "FTI",
+        "Exchange": "US",
+        "Name": "TechnipFMC PLC",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.97566
+      },
+      "CGNX.US": {
+        "Code": "CGNX",
+        "Exchange": "US",
+        "Name": "Cognex Corporation",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.93868
+      },
+      "MCHP.US": {
+        "Code": "MCHP",
+        "Exchange": "US",
+        "Name": "Microchip Technology Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.92253
+      },
+      "KRN.XETRA": {
+        "Code": "KRN",
+        "Exchange": "XETRA",
+        "Name": "Krones AG",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.91313
+      },
+      "6841.TSE": {
+        "Code": "6841",
+        "Exchange": "TSE",
+        "Name": "Yokogawa Electric Corp.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.89484
+      },
+      "ASM.AS": {
+        "Code": "ASM",
+        "Exchange": "AS",
+        "Name": "ASM International NV",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.89114
+      },
+      "STM.US": {
+        "Code": "STM",
+        "Exchange": "US",
+        "Name": "STMicroelectronics NV ADR",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.86103
+      },
+      "6723.TSE": {
+        "Code": "6723",
+        "Exchange": "TSE",
+        "Name": "Renesas Electronics Corp",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.82805
+      },
+      "6857.TSE": {
+        "Code": "6857",
+        "Exchange": "TSE",
+        "Name": "Advantest Corp.",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.8163
+      },
+      "6113.TSE": {
+        "Code": "6113",
+        "Exchange": "TSE",
+        "Name": "Amada Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.80608
+      },
+      "NOVT.US": {
+        "Code": "NOVT",
+        "Exchange": "US",
+        "Name": "Novanta Inc",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.80525
+      },
+      "NVMI.TA": {
+        "Code": "NVMI",
+        "Exchange": "TA",
+        "Name": "Nova Ltd",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Israel",
+        "Region": "Asia",
+        "Assets_%": 0.77644
+      },
+      "6506.TSE": {
+        "Code": "6506",
+        "Exchange": "TSE",
+        "Name": "Yaskawa Electric Corp.",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.77401
+      },
+      "6645.TSE": {
+        "Code": "6645",
+        "Exchange": "TSE",
+        "Name": "Omron Cor",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.77387
+      },
+      "TWEKA.AS": {
+        "Code": "TWEKA",
+        "Exchange": "AS",
+        "Name": "TKH Group NV",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.76546
+      },
+      "6920.TSE": {
+        "Code": "6920",
+        "Exchange": "TSE",
+        "Name": "Lasertec Corp",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.7611
+      },
+      "DUE.XETRA": {
+        "Code": "DUE",
+        "Exchange": "XETRA",
+        "Name": "D\u00fcrr Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.7146
+      },
+      "SVFC.US": {
+        "Code": "SVFC",
+        "Exchange": "US",
+        "Name": "SVF Investment Corp 3",
+        "Sector": "Financial Services",
+        "Industry": "Shell Companies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.70586
+      },
+      "INRN.SW": {
+        "Code": "INRN",
+        "Exchange": "SW",
+        "Name": "Interroll Holding AG",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.70493
+      },
+      "6134.TSE": {
+        "Code": "6134",
+        "Exchange": "TSE",
+        "Name": "Fuji Machine Mfg. Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.69246
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "19.98561",
+        "Price/Book": "2.99299",
+        "Price/Sales": "2.60865",
+        "Price/Cash Flow": "14.93603",
+        "Dividend-Yield Factor": "1.57938"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "24.19636",
+        "Price/Book": "6.02097",
+        "Price/Sales": "5.09525",
+        "Price/Cash Flow": "16.02586",
+        "Dividend-Yield Factor": "0.71345"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.36582",
+        "Historical Earnings Growth": "8.64615",
+        "Sales Growth": "6.37987",
+        "Cash-Flow Growth": "18.03953",
+        "Book-Value Growth": "9.97584"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.69038",
+        "Historical Earnings Growth": "15.01674",
+        "Sales Growth": "9.04673",
+        "Cash-Flow Growth": "18.50264",
+        "Book-Value Growth": "9.57564"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "12.72",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "4.50",
+      "Returns_1Y": "0.11",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

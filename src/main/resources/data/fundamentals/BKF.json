@@ -1,0 +1,6550 @@
+{
+  "General": {
+    "Code": "BKF",
+    "Type": "ETF",
+    "Name": "iShares MSCI BIC ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000TVZ652",
+    "Description": "The fund generally will invest at least 80% of its assets in the component securities of the underlying index and in investments that have economic characteristics that are substantially identical to the component securities of the underlying index. The index is a free float-adjusted market capitalization index that is designed to measure the combined equity market performance in Brazil, India and China (\"BIC\").",
+    "Category": "Diversified Emerging Mkts",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.87,
+    "52WeekHigh": 42.7786,
+    "52WeekLow": 33.9167,
+    "50DayMA": 39.5308,
+    "200DayMA": 38.2705
+  },
+  "ETF_Data": {
+    "ISIN": "US4642866572",
+    "Company_Name": "iShares",
+    "Company_URL": "http://www.ishares.com",
+    "ETF_URL": "https://www.ishares.com/us/products/239614/ishares-msci-bric-etf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "2.190000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2007-11-12",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00700",
+    "AnnualHoldingsTurnover": "0.09000",
+    "TotalAssets": "86038436.00",
+    "Average_Mkt_Cap_Mil": "56198.45506",
+    "Market_Capitalisation": {
+      "Mega": "68.23009",
+      "Big": "27.40249",
+      "Medium": "1.4065",
+      "Small": "0.18949",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "2.27232",
+        "Short_%": "2.18989",
+        "Net_Assets_%": "0.08243"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.32281",
+        "Short_%": "0",
+        "Net_Assets_%": "99.32281"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0.59476",
+        "Short_%": "0",
+        "Net_Assets_%": "0.59476"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0.595",
+        "Relative_to_Category": "1.946"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.44399"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.742"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.41"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "7.134"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.032"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.025"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.702",
+        "Relative_to_Category": "25.809"
+      },
+      "Asia Emerging": {
+        "Equity_%": "90.141",
+        "Relative_to_Category": "49.531"
+      },
+      "Latin America": {
+        "Equity_%": "8.561",
+        "Relative_to_Category": "10.927"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.10629",
+        "Relative_to_Category": "5.01091"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "21.73649",
+        "Relative_to_Category": "15.26034"
+      },
+      "Financial Services": {
+        "Equity_%": "23.44413",
+        "Relative_to_Category": "23.38375"
+      },
+      "Real Estate": {
+        "Equity_%": "1.5253",
+        "Relative_to_Category": "1.74933"
+      },
+      "Communication Services": {
+        "Equity_%": "14.48555",
+        "Relative_to_Category": "9.75271"
+      },
+      "Energy": {
+        "Equity_%": "6.14428",
+        "Relative_to_Category": "4.25925"
+      },
+      "Industrials": {
+        "Equity_%": "6.5861",
+        "Relative_to_Category": "7.17668"
+      },
+      "Technology": {
+        "Equity_%": "8.21547",
+        "Relative_to_Category": "22.51315"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.98567",
+        "Relative_to_Category": "5.45023"
+      },
+      "Healthcare": {
+        "Equity_%": "4.41535",
+        "Relative_to_Category": "3.56727"
+      },
+      "Utilities": {
+        "Equity_%": "3.35537",
+        "Relative_to_Category": "1.87637"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2325"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.35"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.3"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.21926"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.45"
+      }
+    },
+    "Holdings_Count": 620,
+    "Top_10_Holdings": {
+      "0700.HK": {
+        "Code": "0700",
+        "Exchange": "HK",
+        "Name": "Tencent Holdings Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 9.7214
+      },
+      "9988.HK": {
+        "Code": "9988",
+        "Exchange": "HK",
+        "Name": "Alibaba Group Holding Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 5.69871
+      },
+      "HDFCBANK.NSE": {
+        "Code": "HDFCBANK",
+        "Exchange": "NSE",
+        "Name": "HDFC Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.87289
+      },
+      "1810.HK": {
+        "Code": "1810",
+        "Exchange": "HK",
+        "Name": "Xiaomi Corp",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.63269
+      },
+      "RELIANCE.NSE": {
+        "Code": "RELIANCE",
+        "Exchange": "NSE",
+        "Name": "Reliance Industries Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.30522
+      },
+      "ICICIBANK.NSE": {
+        "Code": "ICICIBANK",
+        "Exchange": "NSE",
+        "Name": "ICICI Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.00499
+      },
+      "3690.HK": {
+        "Code": "3690",
+        "Exchange": "HK",
+        "Name": "Meituan",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.96384
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94316
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.94007
+      },
+      "0PDD.HK": {
+        "Code": "0PDD",
+        "Exchange": "HK",
+        "Name": "PDD HOLDINGS ADS INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.86281
+      }
+    },
+    "Holdings": {
+      "0700.HK": {
+        "Code": "0700",
+        "Exchange": "HK",
+        "Name": "Tencent Holdings Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 9.7214
+      },
+      "9988.HK": {
+        "Code": "9988",
+        "Exchange": "HK",
+        "Name": "Alibaba Group Holding Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 5.69871
+      },
+      "HDFCBANK.NSE": {
+        "Code": "HDFCBANK",
+        "Exchange": "NSE",
+        "Name": "HDFC Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.87289
+      },
+      "1810.HK": {
+        "Code": "1810",
+        "Exchange": "HK",
+        "Name": "Xiaomi Corp",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.63269
+      },
+      "RELIANCE.NSE": {
+        "Code": "RELIANCE",
+        "Exchange": "NSE",
+        "Name": "Reliance Industries Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.30522
+      },
+      "ICICIBANK.NSE": {
+        "Code": "ICICIBANK",
+        "Exchange": "NSE",
+        "Name": "ICICI Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.00499
+      },
+      "3690.HK": {
+        "Code": "3690",
+        "Exchange": "HK",
+        "Name": "Meituan",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.96384
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94316
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.94007
+      },
+      "0PDD.HK": {
+        "Code": "0PDD",
+        "Exchange": "HK",
+        "Name": "PDD HOLDINGS ADS INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.86281
+      },
+      "1211.HK": {
+        "Code": "1211",
+        "Exchange": "HK",
+        "Name": "BYD Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.58609
+      },
+      "INFY.NSE": {
+        "Code": "INFY",
+        "Exchange": "NSE",
+        "Name": "Infosys Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.37795
+      },
+      "BHARTIARTL.NSE": {
+        "Code": "BHARTIARTL",
+        "Exchange": "NSE",
+        "Name": "Bharti Airtel Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.23599
+      },
+      "1398.HK": {
+        "Code": "1398",
+        "Exchange": "HK",
+        "Name": "Industrial and Commercial Bank of China",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.12279
+      },
+      "9999.HK": {
+        "Code": "9999",
+        "Exchange": "HK",
+        "Name": "NetEase\u00a0Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.06405
+      },
+      "9618.HK": {
+        "Code": "9618",
+        "Exchange": "HK",
+        "Name": "Jd Com\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.95886
+      },
+      "3988.HK": {
+        "Code": "3988",
+        "Exchange": "HK",
+        "Name": "Bank of China Ltd H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.95513
+      },
+      "2318.HK": {
+        "Code": "2318",
+        "Exchange": "HK",
+        "Name": "Ping An Insurance",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.91731
+      },
+      "9961.HK": {
+        "Code": "9961",
+        "Exchange": "HK",
+        "Name": "Trip.com Group Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.89792
+      },
+      "TCS.NSE": {
+        "Code": "TCS",
+        "Exchange": "NSE",
+        "Name": "Tata Consultancy Services Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.83785
+      },
+      "M&M.NSE": {
+        "Code": "M&M",
+        "Exchange": "NSE",
+        "Name": "Mahindra & Mahindra Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.76372
+      },
+      "AXISBANK.NSE": {
+        "Code": "AXISBANK",
+        "Exchange": "NSE",
+        "Name": "Axis Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.73073
+      },
+      "BAJFINANCE.NSE": {
+        "Code": "BAJFINANCE",
+        "Exchange": "NSE",
+        "Name": "Bajaj Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.67242
+      },
+      "LT.NSE": {
+        "Code": "LT",
+        "Exchange": "NSE",
+        "Name": "Larsen & Toubro Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.63727
+      },
+      "KOTAKBANK.NSE": {
+        "Code": "KOTAKBANK",
+        "Exchange": "NSE",
+        "Name": "Kotak Mahindra Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.60543
+      },
+      "9888.HK": {
+        "Code": "9888",
+        "Exchange": "HK",
+        "Name": "Baidu Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.60303
+      },
+      "3968.HK": {
+        "Code": "3968",
+        "Exchange": "HK",
+        "Name": "China Merchants Bank Co Ltd Class H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.55765
+      },
+      "HINDUNILVR.NSE": {
+        "Code": "HINDUNILVR",
+        "Exchange": "NSE",
+        "Name": "Hindustan Unilever Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.50767
+      },
+      "ETERNAL.NSE": {
+        "Code": "ETERNAL",
+        "Exchange": "NSE",
+        "Name": "Eternal Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.44136
+      },
+      "SUNPHARMA.NSE": {
+        "Code": "SUNPHARMA",
+        "Exchange": "NSE",
+        "Name": "Sun Pharmaceutical Industries Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.43888
+      },
+      "MARUTI.NSE": {
+        "Code": "MARUTI",
+        "Exchange": "NSE",
+        "Name": "Maruti Suzuki India Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.42156
+      },
+      "HCLTECH.NSE": {
+        "Code": "HCLTECH",
+        "Exchange": "NSE",
+        "Name": "HCL Technologies Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.41697
+      },
+      "1288.HK": {
+        "Code": "1288",
+        "Exchange": "HK",
+        "Name": "Agricultural Bank Of China",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.41488
+      },
+      "0857.HK": {
+        "Code": "0857",
+        "Exchange": "HK",
+        "Name": "PetroChina Company Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.40523
+      },
+      "NTPC.NSE": {
+        "Code": "NTPC",
+        "Exchange": "NSE",
+        "Name": "NTPC Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.39649
+      },
+      "2015.HK": {
+        "Code": "2015",
+        "Exchange": "HK",
+        "Name": "Li Auto Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.39298
+      },
+      "TATAMOTORS.NSE": {
+        "Code": "TATAMOTORS",
+        "Exchange": "NSE",
+        "Name": "Tata Motors Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.38628
+      },
+      "9987.HK": {
+        "Code": "9987",
+        "Exchange": "HK",
+        "Name": "Yum China Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.38393
+      },
+      "600519.HK": {
+        "Code": "600519",
+        "Exchange": "HK",
+        "Name": "KWEICHOW MOUTAI LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.38363
+      },
+      "1024.HK": {
+        "Code": "1024",
+        "Exchange": "HK",
+        "Name": "Kuaishou Technology",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.3768
+      },
+      "0175.HK": {
+        "Code": "0175",
+        "Exchange": "HK",
+        "Name": "Geely Automobile Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.36971
+      },
+      "BEL_old.NSE": {
+        "Code": "BEL_old",
+        "Exchange": "NSE",
+        "Name": "Bharat Electronics Limited",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.36334
+      },
+      "SBIN.NSE": {
+        "Code": "SBIN",
+        "Exchange": "NSE",
+        "Name": "State Bank of India",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.3626
+      },
+      "POWERGRID.NSE": {
+        "Code": "POWERGRID",
+        "Exchange": "NSE",
+        "Name": "Power Grid Corporation of India Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.36068
+      },
+      "ULTRACEMCO.NSE": {
+        "Code": "ULTRACEMCO",
+        "Exchange": "NSE",
+        "Name": "UltraTech Cement Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.36045
+      },
+      "2020.HK": {
+        "Code": "2020",
+        "Exchange": "HK",
+        "Name": "ANTA Sports Products Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.3543
+      },
+      "ITC.NSE": {
+        "Code": "ITC",
+        "Exchange": "NSE",
+        "Name": "ITC Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.34814
+      },
+      "2628.HK": {
+        "Code": "2628",
+        "Exchange": "HK",
+        "Name": "China Life Insurance Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.33648
+      },
+      "TITAN.NSE": {
+        "Code": "TITAN",
+        "Exchange": "NSE",
+        "Name": "Titan Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.32897
+      },
+      "9992.HK": {
+        "Code": "9992",
+        "Exchange": "HK",
+        "Name": "Pop Mart International Group\u00a0Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.32186
+      },
+      "TATASTEEL.NSE": {
+        "Code": "TATASTEEL",
+        "Exchange": "NSE",
+        "Name": "Tata Steel Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.31596
+      },
+      "1088.HK": {
+        "Code": "1088",
+        "Exchange": "HK",
+        "Name": "China Shenhua Energy Co Ltd H",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.30912
+      },
+      "0386.HK": {
+        "Code": "0386",
+        "Exchange": "HK",
+        "Name": "China Petroleum & Chemical Corp Class H",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.30902
+      },
+      "6160.HK": {
+        "Code": "6160",
+        "Exchange": "HK",
+        "Name": "Beigene Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.30258
+      },
+      "0TME.HK": {
+        "Code": "0TME",
+        "Exchange": "HK",
+        "Name": "TENCENT MUSIC ENTERTAINMENT GROUP",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.29594
+      },
+      "BEKE.HK": {
+        "Code": "BEKE",
+        "Exchange": "HK",
+        "Name": "KE HOLDINGS ADR REPRESENTING  INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.29566
+      },
+      "2899.HK": {
+        "Code": "2899",
+        "Exchange": "HK",
+        "Name": "Zijin Mining Group Co Ltd-H",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.29394
+      },
+      "2328.HK": {
+        "Code": "2328",
+        "Exchange": "HK",
+        "Name": "PICC Property & Casualty-H",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.29251
+      },
+      "INDIGO.NSE": {
+        "Code": "INDIGO",
+        "Exchange": "NSE",
+        "Name": "InterGlobe Aviation Limited",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.28068
+      },
+      "9868.HK": {
+        "Code": "9868",
+        "Exchange": "HK",
+        "Name": "Xpeng Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.26889
+      },
+      "TRENT.NSE": {
+        "Code": "TRENT",
+        "Exchange": "NSE",
+        "Name": "Trent Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.26678
+      },
+      "HAL.NSE": {
+        "Code": "HAL",
+        "Exchange": "NSE",
+        "Name": "Hindustan Aeronautics Limited",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.26386
+      },
+      "SHRIRAMFIN.NSE": {
+        "Code": "SHRIRAMFIN",
+        "Exchange": "NSE",
+        "Name": "Shriram Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.25059
+      },
+      "0992.HK": {
+        "Code": "0992",
+        "Exchange": "HK",
+        "Name": "Lenovo Group",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.24972
+      },
+      "1109.HK": {
+        "Code": "1109",
+        "Exchange": "HK",
+        "Name": "China Resources Land Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.24456
+      },
+      "MAXHEALTH.NSE": {
+        "Code": "MAXHEALTH",
+        "Exchange": "NSE",
+        "Name": "Max Healthcare Institute Limited",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.24293
+      },
+      "9633.HK": {
+        "Code": "9633",
+        "Exchange": "HK",
+        "Name": "Nongfu Spring\u00a0Co Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.24098
+      },
+      "ASIANPAINT.NSE": {
+        "Code": "ASIANPAINT",
+        "Exchange": "NSE",
+        "Name": "Asian Paints Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.23409
+      },
+      "HINDALCO.NSE": {
+        "Code": "HINDALCO",
+        "Exchange": "NSE",
+        "Name": "Hindalco Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.23228
+      },
+      "300750.HK": {
+        "Code": "300750",
+        "Exchange": "HK",
+        "Name": "CONTEMPORARY AMPEREX TECHNOLOGY LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.22648
+      },
+      "2269.HK": {
+        "Code": "2269",
+        "Exchange": "HK",
+        "Name": "WuXi Biologics",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.22615
+      },
+      "TECHM.NSE": {
+        "Code": "TECHM",
+        "Exchange": "NSE",
+        "Name": "Tech Mahindra Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.22574
+      },
+      "SBILIFE.NSE": {
+        "Code": "SBILIFE",
+        "Exchange": "NSE",
+        "Name": "SBI Life Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.21266
+      },
+      "0HKD.HK": {
+        "Code": "0HKD",
+        "Exchange": "HK",
+        "Name": "HKD CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.20972
+      },
+      "DIVISLAB.NSE": {
+        "Code": "DIVISLAB",
+        "Exchange": "NSE",
+        "Name": "Divi's Laboratories Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.20839
+      },
+      "JIOFIN.NSE": {
+        "Code": "JIOFIN",
+        "Exchange": "NSE",
+        "Name": "JIO Financial Services Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.2073
+      },
+      "ONGC.NSE": {
+        "Code": "ONGC",
+        "Exchange": "NSE",
+        "Name": "Oil & Natural Gas Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.20644
+      },
+      "CIPLA.NSE": {
+        "Code": "CIPLA",
+        "Exchange": "NSE",
+        "Name": "Cipla Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.205
+      },
+      "BAJAJFINSV.NSE": {
+        "Code": "BAJAJFINSV",
+        "Exchange": "NSE",
+        "Name": "Bajaj Finserv Limited",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.20493
+      },
+      "NESTLEIND.NSE": {
+        "Code": "NESTLEIND",
+        "Exchange": "NSE",
+        "Name": "Nestle India Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.20458
+      },
+      "GRASIM.NSE": {
+        "Code": "GRASIM",
+        "Exchange": "NSE",
+        "Name": "Grasim Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19885
+      },
+      "ADANIPORTS.NSE": {
+        "Code": "ADANIPORTS",
+        "Exchange": "NSE",
+        "Name": "Adani Ports and Special Economic Zone Limited",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19674
+      },
+      "COALINDIA.NSE": {
+        "Code": "COALINDIA",
+        "Exchange": "NSE",
+        "Name": "Coal India Limited",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19396
+      },
+      "EICHERMOT.NSE": {
+        "Code": "EICHERMOT",
+        "Exchange": "NSE",
+        "Name": "Eicher Motors Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19303
+      },
+      "HDFCLIFE.NSE": {
+        "Code": "HDFCLIFE",
+        "Exchange": "NSE",
+        "Name": "HDFC Life Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19283
+      },
+      "DRREDDY.NSE": {
+        "Code": "DRREDDY",
+        "Exchange": "NSE",
+        "Name": "Dr. Reddy's Laboratories Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.19002
+      },
+      "APOLLOHOSP.NSE": {
+        "Code": "APOLLOHOSP",
+        "Exchange": "NSE",
+        "Name": "Apollo Hospitals Enterprise Limited",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.18839
+      },
+      "CHOLAFIN.NSE": {
+        "Code": "CHOLAFIN",
+        "Exchange": "NSE",
+        "Name": "Cholamandalam Investment and Finance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.18459
+      },
+      "2601.HK": {
+        "Code": "2601",
+        "Exchange": "HK",
+        "Name": "China Pacific Insurance",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.18355
+      },
+      "6690.HK": {
+        "Code": "6690",
+        "Exchange": "HK",
+        "Name": "Haier Smart Home Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.17868
+      },
+      "TATACONSUM.NSE": {
+        "Code": "TATACONSUM",
+        "Exchange": "NSE",
+        "Name": "TATA CONSUMER PRODUCTS LIMITED",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.17809
+      },
+      "WIPRO.NSE": {
+        "Code": "WIPRO",
+        "Exchange": "NSE",
+        "Name": "Wipro Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.17747
+      },
+      "3328.HK": {
+        "Code": "3328",
+        "Exchange": "HK",
+        "Name": "Bank of Communications Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.17726
+      },
+      "2057.HK": {
+        "Code": "2057",
+        "Exchange": "HK",
+        "Name": "Zto Express Cayman\u00a0Inc",
+        "Sector": "Industrials",
+        "Industry": "Integrated Freight & Logistics",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.17365
+      },
+      "INDHOTEL.NSE": {
+        "Code": "INDHOTEL",
+        "Exchange": "NSE",
+        "Name": "The Indian Hotels Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Lodging",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.17292
+      },
+      "1801.HK": {
+        "Code": "1801",
+        "Exchange": "HK",
+        "Name": "Innovent Biologics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.17262
+      },
+      "TVSMOTOR.NSE": {
+        "Code": "TVSMOTOR",
+        "Exchange": "NSE",
+        "Name": "TVS Motor Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.17113
+      },
+      "HTHT.HK": {
+        "Code": "HTHT",
+        "Exchange": "HK",
+        "Name": "H WORLD GROUP ADR LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.17042
+      },
+      "DIXON.NSE": {
+        "Code": "DIXON",
+        "Exchange": "NSE",
+        "Name": "Dixon Technologies (India) Limited",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.17016
+      },
+      "VBL.NSE": {
+        "Code": "VBL",
+        "Exchange": "NSE",
+        "Name": "Varun Beverages Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16993
+      },
+      "TATAPOWER.NSE": {
+        "Code": "TATAPOWER",
+        "Exchange": "NSE",
+        "Name": "Tata Power Company Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16893
+      },
+      "PERSISTENT.NSE": {
+        "Code": "PERSISTENT",
+        "Exchange": "NSE",
+        "Name": "Persistent Systems Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16865
+      },
+      "DMART.NSE": {
+        "Code": "DMART",
+        "Exchange": "NSE",
+        "Name": "Avenue Supermarts Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Discount Stores",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16729
+      },
+      "JSWSTEEL.NSE": {
+        "Code": "JSWSTEEL",
+        "Exchange": "NSE",
+        "Name": "JSW Steel Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16702
+      },
+      "600036.HK": {
+        "Code": "600036",
+        "Exchange": "HK",
+        "Name": "CHINA MERCHANTS BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.16565
+      },
+      "9901.HK": {
+        "Code": "9901",
+        "Exchange": "HK",
+        "Name": "New Oriental Education And Tech Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Education & Training Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.16514
+      },
+      "2319.HK": {
+        "Code": "2319",
+        "Exchange": "HK",
+        "Name": "China Mengniu Dairy Co",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1641
+      },
+      "0998.HK": {
+        "Code": "0998",
+        "Exchange": "HK",
+        "Name": "China Citic Bank Corp Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.16307
+      },
+      "PFC.NSE": {
+        "Code": "PFC",
+        "Exchange": "NSE",
+        "Name": "Power Finance Corporation Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.16253
+      },
+      "1093.HK": {
+        "Code": "1093",
+        "Exchange": "HK",
+        "Name": "CSPC Pharmaceutical Group Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.16122
+      },
+      "2688.HK": {
+        "Code": "2688",
+        "Exchange": "HK",
+        "Name": "ENN Energy Holdings Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.15982
+      },
+      "VEDL.NSE": {
+        "Code": "VEDL",
+        "Exchange": "NSE",
+        "Name": "Vedanta Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.15876
+      },
+      "BAJAJ-AUTO.NSE": {
+        "Code": "BAJAJ-AUTO",
+        "Exchange": "NSE",
+        "Name": "Bajaj Auto Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.15641
+      },
+      "POLICYBZR.NSE": {
+        "Code": "POLICYBZR",
+        "Exchange": "NSE",
+        "Name": "PB Fintech Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.15628
+      },
+      "SUZLON.NSE": {
+        "Code": "SUZLON",
+        "Exchange": "NSE",
+        "Name": "Suzlon Energy Limited",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.15594
+      },
+      "BRITANNIA.NSE": {
+        "Code": "BRITANNIA",
+        "Exchange": "NSE",
+        "Name": "Britannia Industries Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.15178
+      },
+      "0788.HK": {
+        "Code": "0788",
+        "Exchange": "HK",
+        "Name": "China Tower Corp",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.14858
+      },
+      "DLF.NSE": {
+        "Code": "DLF",
+        "Exchange": "NSE",
+        "Name": "DLF Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.14801
+      },
+      "9926.HK": {
+        "Code": "9926",
+        "Exchange": "HK",
+        "Name": "Akeso Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.14698
+      },
+      "600900.HK": {
+        "Code": "600900",
+        "Exchange": "HK",
+        "Name": "CHINA YANGTZE POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.14573
+      },
+      "1378.HK": {
+        "Code": "1378",
+        "Exchange": "HK",
+        "Name": "China Hongqiao Group Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.14328
+      },
+      "RECLTD.NSE": {
+        "Code": "RECLTD",
+        "Exchange": "NSE",
+        "Name": "REC Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.14263
+      },
+      "NAUKRI.NSE": {
+        "Code": "NAUKRI",
+        "Exchange": "NSE",
+        "Name": "Info Edge (India) Limited",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.14174
+      },
+      "2313.HK": {
+        "Code": "2313",
+        "Exchange": "HK",
+        "Name": "Shenzhou International Group Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Textile Manufacturing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.14022
+      },
+      "6618.HK": {
+        "Code": "6618",
+        "Exchange": "HK",
+        "Name": "Jd Health International\u00a0Inc",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.13889
+      },
+      "1919.HK": {
+        "Code": "1919",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING Holdings Co Ltd H",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.13786
+      },
+      "GODREJCP.NSE": {
+        "Code": "GODREJCP",
+        "Exchange": "NSE",
+        "Name": "Godrej Consumer Products Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.13598
+      },
+      "9866.HK": {
+        "Code": "9866",
+        "Exchange": "HK",
+        "Name": "NIO Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.13542
+      },
+      "HEROMOTOCO.NSE": {
+        "Code": "HEROMOTOCO",
+        "Exchange": "NSE",
+        "Name": "Hero MotoCorp Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.13417
+      },
+      "002594.HK": {
+        "Code": "002594",
+        "Exchange": "HK",
+        "Name": "BYD LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1337
+      },
+      "MOTHERSON.NSE": {
+        "Code": "MOTHERSON",
+        "Exchange": "NSE",
+        "Name": "Samvardhana Motherson International Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12792
+      },
+      "0291.HK": {
+        "Code": "0291",
+        "Exchange": "HK",
+        "Name": "China Resources Beer Holdings Co Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1273
+      },
+      "BPCL.NSE": {
+        "Code": "BPCL",
+        "Exchange": "NSE",
+        "Name": "Bharat Petroleum Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12678
+      },
+      "0836.HK": {
+        "Code": "0836",
+        "Exchange": "HK",
+        "Name": "China Resources Power Holding",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1264
+      },
+      "1658.HK": {
+        "Code": "1658",
+        "Exchange": "HK",
+        "Name": "Postal Savings Bank of China",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.12586
+      },
+      "0688.HK": {
+        "Code": "0688",
+        "Exchange": "HK",
+        "Name": "China Overseas",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.12571
+      },
+      "0267.HK": {
+        "Code": "0267",
+        "Exchange": "HK",
+        "Name": "Citic Pacific",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.12386
+      },
+      "1339.HK": {
+        "Code": "1339",
+        "Exchange": "HK",
+        "Name": "People\u2019s Insurance Group of China Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.12373
+      },
+      "INDUSTOWER.NSE": {
+        "Code": "INDUSTOWER",
+        "Exchange": "NSE",
+        "Name": "Indus Towers Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12278
+      },
+      "GAIL.NSE": {
+        "Code": "GAIL",
+        "Exchange": "NSE",
+        "Name": "GAIL (India) Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12225
+      },
+      "PIDILITIND.NSE": {
+        "Code": "PIDILITIND",
+        "Exchange": "NSE",
+        "Name": "Pidilite Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12166
+      },
+      "LUPIN.NSE": {
+        "Code": "LUPIN",
+        "Exchange": "NSE",
+        "Name": "Lupin Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12125
+      },
+      "ICICIGI.NSE": {
+        "Code": "ICICIGI",
+        "Exchange": "NSE",
+        "Name": "ICICI Lombard General Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12092
+      },
+      "CGPOWER.NSE": {
+        "Code": "CGPOWER",
+        "Exchange": "NSE",
+        "Name": "CG Power and Industrial Solutions Limited",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.1208
+      },
+      "INDUSINDBK.NSE": {
+        "Code": "INDUSINDBK",
+        "Exchange": "NSE",
+        "Name": "IndusInd Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.12008
+      },
+      "HDFCAMC.NSE": {
+        "Code": "HDFCAMC",
+        "Exchange": "NSE",
+        "Name": "HDFC Asset Management Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.11965
+      },
+      "2382.HK": {
+        "Code": "2382",
+        "Exchange": "HK",
+        "Name": "Sunny Optical Technology Group Co Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1195
+      },
+      "QFIN.HK": {
+        "Code": "QFIN",
+        "Exchange": "HK",
+        "Name": "QIFU TECHNOLOGY ADR INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11902
+      },
+      "MCDOWELL-N.NSE": {
+        "Code": "MCDOWELL-N",
+        "Exchange": "NSE",
+        "Name": "United Spirits Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Wineries & Distilleries",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.11637
+      },
+      "VIPS.HK": {
+        "Code": "VIPS",
+        "Exchange": "HK",
+        "Name": "VIPSHOP HOLDINGS SPONSORED ADS REP",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11579
+      },
+      "1177.HK": {
+        "Code": "1177",
+        "Exchange": "HK",
+        "Name": "Sino Biopharmaceutical Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11495
+      },
+      "LODHA.NSE": {
+        "Code": "LODHA",
+        "Exchange": "NSE",
+        "Name": "Macrotech Developers Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.11231
+      },
+      "JINDALSTEL.NSE": {
+        "Code": "JINDALSTEL",
+        "Exchange": "NSE",
+        "Name": "Jindal Steel & Power Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.11203
+      },
+      "00BZ.HK": {
+        "Code": "00BZ",
+        "Exchange": "HK",
+        "Name": "KANZHUN AMERICAN DEPOSITORY SHARES",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11111
+      },
+      "601318.HK": {
+        "Code": "601318",
+        "Exchange": "HK",
+        "Name": "Ping An Insurance (Group) Co. of China Ltd",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10907
+      },
+      "6969.HK": {
+        "Code": "6969",
+        "Exchange": "HK",
+        "Name": "Smoore International Holdings\u00a0Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10825
+      },
+      "SOLARINDS.NSE": {
+        "Code": "SOLARINDS",
+        "Exchange": "NSE",
+        "Name": "Solar Industries India Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10777
+      },
+      "CUMMINSIND.NSE": {
+        "Code": "CUMMINSIND",
+        "Exchange": "NSE",
+        "Name": "Cummins India Limited",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10773
+      },
+      "HAVELLS.NSE": {
+        "Code": "HAVELLS",
+        "Exchange": "NSE",
+        "Name": "Havells India Limited",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.1065
+      },
+      "2367.HK": {
+        "Code": "2367",
+        "Exchange": "HK",
+        "Name": "Giant Biogene Holding Co Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10594
+      },
+      "0268.HK": {
+        "Code": "0268",
+        "Exchange": "HK",
+        "Name": "Kingdee International Software Group Co Ltd",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10499
+      },
+      "SRF.NSE": {
+        "Code": "SRF",
+        "Exchange": "NSE",
+        "Name": "SRF Limited",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10438
+      },
+      "IOC.NSE": {
+        "Code": "IOC",
+        "Exchange": "NSE",
+        "Name": "Indian Oil Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10383
+      },
+      "0TAL.HK": {
+        "Code": "0TAL",
+        "Exchange": "HK",
+        "Name": "TAL EDUCATION GROUP ADR REPTG",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10334
+      },
+      "0135.HK": {
+        "Code": "0135",
+        "Exchange": "HK",
+        "Name": "Kunlun Energy",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10239
+      },
+      "HINDPETRO.NSE": {
+        "Code": "HINDPETRO",
+        "Exchange": "NSE",
+        "Name": "Hindustan Petroleum Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10182
+      },
+      "ADANIENT.NSE": {
+        "Code": "ADANIENT",
+        "Exchange": "NSE",
+        "Name": "Adani Enterprises Limited",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.10136
+      },
+      "0168.HK": {
+        "Code": "0168",
+        "Exchange": "HK",
+        "Name": "Tsingtao Brew",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10069
+      },
+      "3606.HK": {
+        "Code": "3606",
+        "Exchange": "HK",
+        "Name": "Fuyao Glass Industry Group",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.10064
+      },
+      "TORNTPHARM.NSE": {
+        "Code": "TORNTPHARM",
+        "Exchange": "NSE",
+        "Name": "Torrent Pharmaceuticals Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09989
+      },
+      "2338.HK": {
+        "Code": "2338",
+        "Exchange": "HK",
+        "Name": "Weichai Power Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09951
+      },
+      "3888.HK": {
+        "Code": "3888",
+        "Exchange": "HK",
+        "Name": "Kingsoft Corp Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09842
+      },
+      "601288.HK": {
+        "Code": "601288",
+        "Exchange": "HK",
+        "Name": "AGRICULTURAL BANK OF CHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09808
+      },
+      "MARICO.NSE": {
+        "Code": "MARICO",
+        "Exchange": "NSE",
+        "Name": "Marico Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09803
+      },
+      "ASHOKLEY.NSE": {
+        "Code": "ASHOKLEY",
+        "Exchange": "NSE",
+        "Name": "Ashok Leyland Limited",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09664
+      },
+      "BAJAJHLDNG.NSE": {
+        "Code": "BAJAJHLDNG",
+        "Exchange": "NSE",
+        "Name": "Bajaj Holdings & Investment Limited",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09594
+      },
+      "2331.HK": {
+        "Code": "2331",
+        "Exchange": "HK",
+        "Name": "Li Ning Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09527
+      },
+      "1209.HK": {
+        "Code": "1209",
+        "Exchange": "HK",
+        "Name": "China Resources Mixc Lifestyle Serv",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09489
+      },
+      "COLPAL.NSE": {
+        "Code": "COLPAL",
+        "Exchange": "NSE",
+        "Name": "Colgate Palmolive (India) Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09414
+      },
+      "000858.HK": {
+        "Code": "000858",
+        "Exchange": "HK",
+        "Name": "WULIANGYE YIBIN LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09371
+      },
+      "1099.HK": {
+        "Code": "1099",
+        "Exchange": "HK",
+        "Name": "Sinopharm Group Co Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Distribution",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0926
+      },
+      "AMBUJACEM.NSE": {
+        "Code": "AMBUJACEM",
+        "Exchange": "NSE",
+        "Name": "Ambuja Cements Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.09237
+      },
+      "601166.HK": {
+        "Code": "601166",
+        "Exchange": "HK",
+        "Name": "INDUSTRIAL BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09152
+      },
+      "6030.HK": {
+        "Code": "6030",
+        "Exchange": "HK",
+        "Name": "CITIC Securities Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09064
+      },
+      "9626.HK": {
+        "Code": "9626",
+        "Exchange": "HK",
+        "Name": "Bilibili Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09055
+      },
+      "LTIM.NSE": {
+        "Code": "LTIM",
+        "Exchange": "NSE",
+        "Name": "LTIMindtree Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0905
+      },
+      "3692.HK": {
+        "Code": "3692",
+        "Exchange": "HK",
+        "Name": "Hansoh Pharmaceutical Group Co Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08865
+      },
+      "GODREJPROP.NSE": {
+        "Code": "GODREJPROP",
+        "Exchange": "NSE",
+        "Name": "Godrej Properties Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08821
+      },
+      "1336.HK": {
+        "Code": "1336",
+        "Exchange": "HK",
+        "Name": "New China Life Insurance",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08731
+      },
+      "MANKIND.NSE": {
+        "Code": "MANKIND",
+        "Exchange": "NSE",
+        "Name": "Mankind Pharma Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08728
+      },
+      "9863.HK": {
+        "Code": "9863",
+        "Exchange": "HK",
+        "Name": "Zhejiang Leapmotor Tech Co",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08691
+      },
+      "POLYCAB.NSE": {
+        "Code": "POLYCAB",
+        "Exchange": "NSE",
+        "Name": "Polycab India Limited",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08604
+      },
+      "0241.HK": {
+        "Code": "0241",
+        "Exchange": "HK",
+        "Name": "Alibaba Health Information Technology Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08577
+      },
+      "601398.HK": {
+        "Code": "601398",
+        "Exchange": "HK",
+        "Name": "INDUSTRIAL AND COMMERCIAL BANK OF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08543
+      },
+      "0780.HK": {
+        "Code": "0780",
+        "Exchange": "HK",
+        "Name": "Tongcheng-Elong Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08531
+      },
+      "ADANIPOWER.NSE": {
+        "Code": "ADANIPOWER",
+        "Exchange": "NSE",
+        "Name": "Adani Power Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08528
+      },
+      "APLAPOLLO.NSE": {
+        "Code": "APLAPOLLO",
+        "Exchange": "NSE",
+        "Name": "APL Apollo Tubes Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08522
+      },
+      "1988.HK": {
+        "Code": "1988",
+        "Exchange": "HK",
+        "Name": "China Minsheng Banking",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08478
+      },
+      "PHOENIXLTD.NSE": {
+        "Code": "PHOENIXLTD",
+        "Exchange": "NSE",
+        "Name": "The Phoenix Mills Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08472
+      },
+      "BHARATFORG.NSE": {
+        "Code": "BHARATFORG",
+        "Exchange": "NSE",
+        "Name": "Bharat Forge Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08383
+      },
+      "2018.HK": {
+        "Code": "2018",
+        "Exchange": "HK",
+        "Name": "AAC Technologies Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08363
+      },
+      "1816.HK": {
+        "Code": "1816",
+        "Exchange": "HK",
+        "Name": "CGN Power",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08303
+      },
+      "AUROPHARMA.NSE": {
+        "Code": "AUROPHARMA",
+        "Exchange": "NSE",
+        "Name": "Aurobindo Pharma Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08229
+      },
+      "TIINDIA.NSE": {
+        "Code": "TIINDIA",
+        "Exchange": "NSE",
+        "Name": "Tube Investments of India Limited",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08216
+      },
+      "ABB.NSE": {
+        "Code": "ABB",
+        "Exchange": "NSE",
+        "Name": "ABB India Limited",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08187
+      },
+      "0270.HK": {
+        "Code": "0270",
+        "Exchange": "HK",
+        "Name": "Guangdong Investment Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Water",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08128
+      },
+      "PAGEIND.NSE": {
+        "Code": "PAGEIND",
+        "Exchange": "NSE",
+        "Name": "Page Industries Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08109
+      },
+      "MRF.NSE": {
+        "Code": "MRF",
+        "Exchange": "NSE",
+        "Name": "MRF Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.08003
+      },
+      "HYUNDAI.NSE": {
+        "Code": "HYUNDAI",
+        "Exchange": "NSE",
+        "Name": "Hyundai Motor India Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07953
+      },
+      "SUNDARMFIN.NSE": {
+        "Code": "SUNDARMFIN",
+        "Exchange": "NSE",
+        "Name": "Sundaram Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07857
+      },
+      "SIEMENS.NSE": {
+        "Code": "SIEMENS",
+        "Exchange": "NSE",
+        "Name": "Siemens Limited",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07853
+      },
+      "BSE.NSE": {
+        "Code": "BSE",
+        "Exchange": "NSE",
+        "Name": "BSE Limited",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07797
+      },
+      "VOLTAS.NSE": {
+        "Code": "VOLTAS",
+        "Exchange": "NSE",
+        "Name": "Voltas Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0778
+      },
+      "YESBANK.NSE": {
+        "Code": "YESBANK",
+        "Exchange": "NSE",
+        "Name": "Yes Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07766
+      },
+      "6862.HK": {
+        "Code": "6862",
+        "Exchange": "HK",
+        "Name": "Haidilao International Holding Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07725
+      },
+      "2333.HK": {
+        "Code": "2333",
+        "Exchange": "HK",
+        "Name": "Great Wall Motor Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07716
+      },
+      "6186.HK": {
+        "Code": "6186",
+        "Exchange": "HK",
+        "Name": "China Feihe Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0767
+      },
+      "SHREECEM.NSE": {
+        "Code": "SHREECEM",
+        "Exchange": "NSE",
+        "Name": "SHREE CEMENT LIMITED",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07667
+      },
+      "2611.HK": {
+        "Code": "2611",
+        "Exchange": "HK",
+        "Name": "Guotai Junan Securities Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0763
+      },
+      "0322.HK": {
+        "Code": "0322",
+        "Exchange": "HK",
+        "Name": "Tingyi",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07558
+      },
+      "600276.HK": {
+        "Code": "600276",
+        "Exchange": "HK",
+        "Name": "JIANGSU HENGRUI MEDICINE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07523
+      },
+      "600000.HK": {
+        "Code": "600000",
+        "Exchange": "HK",
+        "Name": "SHANGHAI PUDONG DEVELOPMENT BANK L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07479
+      },
+      "PIIND.NSE": {
+        "Code": "PIIND",
+        "Exchange": "NSE",
+        "Name": "PI Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0745
+      },
+      "2618.HK": {
+        "Code": "2618",
+        "Exchange": "HK",
+        "Name": "JD Logistics Inc",
+        "Sector": "Industrials",
+        "Industry": "Integrated Freight & Logistics",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07442
+      },
+      "1171.HK": {
+        "Code": "1171",
+        "Exchange": "HK",
+        "Name": "Yankuang Energy Group Co Ltd HK",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07437
+      },
+      "0285.HK": {
+        "Code": "0285",
+        "Exchange": "HK",
+        "Name": "BYD Electronic International Co Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07382
+      },
+      "3908.HK": {
+        "Code": "3908",
+        "Exchange": "HK",
+        "Name": "China Intl Capital Corp Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07372
+      },
+      "JUBLFOOD.NSE": {
+        "Code": "JUBLFOOD",
+        "Exchange": "NSE",
+        "Name": "Jubilant Foodworks Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07366
+      },
+      "UPL.NSE": {
+        "Code": "UPL",
+        "Exchange": "NSE",
+        "Name": "UPL Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07363
+      },
+      "NHPC.NSE": {
+        "Code": "NHPC",
+        "Exchange": "NSE",
+        "Name": "NHPC Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07192
+      },
+      "6881.HK": {
+        "Code": "6881",
+        "Exchange": "HK",
+        "Name": "China Galaxy Securities Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07164
+      },
+      "601899.HK": {
+        "Code": "601899",
+        "Exchange": "HK",
+        "Name": "ZIJIN MINING GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07095
+      },
+      "MPHASIS.NSE": {
+        "Code": "MPHASIS",
+        "Exchange": "NSE",
+        "Name": "MphasiS Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.07092
+      },
+      "1193.HK": {
+        "Code": "1193",
+        "Exchange": "HK",
+        "Name": "China Resources Gas Group Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07023
+      },
+      "AUBANK.NSE": {
+        "Code": "AUBANK",
+        "Exchange": "NSE",
+        "Name": "AU Small Finance Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0697
+      },
+      "BHEL.NSE": {
+        "Code": "BHEL",
+        "Exchange": "NSE",
+        "Name": "Bharat Heavy Electricals Limited",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06946
+      },
+      "SBICARD.NSE": {
+        "Code": "SBICARD",
+        "Exchange": "NSE",
+        "Name": "SBI Cards and Payment Services Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06873
+      },
+      "1929.HK": {
+        "Code": "1929",
+        "Exchange": "HK",
+        "Name": "Chow Tai Fook Jewellery Group Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06668
+      },
+      "PETRONET.NSE": {
+        "Code": "PETRONET",
+        "Exchange": "NSE",
+        "Name": "Petronet LNG Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06635
+      },
+      "PRESTIGE.NSE": {
+        "Code": "PRESTIGE",
+        "Exchange": "NSE",
+        "Name": "Prestige Estates Projects Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06626
+      },
+      "3311.HK": {
+        "Code": "3311",
+        "Exchange": "HK",
+        "Name": "China State Construction International Holdings Ltd",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06552
+      },
+      "0914.HK": {
+        "Code": "0914",
+        "Exchange": "HK",
+        "Name": "Anhui Conch Cement",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06524
+      },
+      "3993.HK": {
+        "Code": "3993",
+        "Exchange": "HK",
+        "Name": "CMOC Group Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06482
+      },
+      "IDFCFIRSTB.NSE": {
+        "Code": "IDFCFIRSTB",
+        "Exchange": "NSE",
+        "Name": "IDFC First Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0648
+      },
+      "DABUR.NSE": {
+        "Code": "DABUR",
+        "Exchange": "NSE",
+        "Name": "Dabur India Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0646
+      },
+      "0151.HK": {
+        "Code": "0151",
+        "Exchange": "HK",
+        "Name": "Want Want China",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06443
+      },
+      "GMRAIRPORT.NSE": {
+        "Code": "GMRAIRPORT",
+        "Exchange": "NSE",
+        "Name": "GMR Airports Limited",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0639
+      },
+      "SUPREMEIND.NSE": {
+        "Code": "SUPREMEIND",
+        "Exchange": "NSE",
+        "Name": "Supreme Industries Limited",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06375
+      },
+      "MUTHOOTFIN.NSE": {
+        "Code": "MUTHOOTFIN",
+        "Exchange": "NSE",
+        "Name": "Muthoot Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06374
+      },
+      "TORNTPOWER.NSE": {
+        "Code": "TORNTPOWER",
+        "Exchange": "NSE",
+        "Name": "Torrent Power Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06348
+      },
+      "3808.HK": {
+        "Code": "3808",
+        "Exchange": "HK",
+        "Name": "Sinotruk Hong Kong Ltd",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06331
+      },
+      "0960.HK": {
+        "Code": "0960",
+        "Exchange": "HK",
+        "Name": "Longfor Properties Co Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06305
+      },
+      "0902.HK": {
+        "Code": "0902",
+        "Exchange": "HK",
+        "Name": "Huaneng Power International",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06243
+      },
+      "1766.HK": {
+        "Code": "1766",
+        "Exchange": "HK",
+        "Name": "CRRC Corp Ltd",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06181
+      },
+      "BOSCHLTD.NSE": {
+        "Code": "BOSCHLTD",
+        "Exchange": "NSE",
+        "Name": "Bosch Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06123
+      },
+      "688041.HK": {
+        "Code": "688041",
+        "Exchange": "HK",
+        "Name": "HYGON INFORMATION TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06115
+      },
+      "KALYANKJIL.NSE": {
+        "Code": "KALYANKJIL",
+        "Exchange": "NSE",
+        "Name": "Kalyan Jewellers India Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.0611
+      },
+      "3898.HK": {
+        "Code": "3898",
+        "Exchange": "HK",
+        "Name": "Zhuzhou CRRC Times Electric Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06096
+      },
+      "BANKBARODA.NSE": {
+        "Code": "BANKBARODA",
+        "Exchange": "NSE",
+        "Name": "Bank of Baroda",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06085
+      },
+      "TATAELXSI.NSE": {
+        "Code": "TATAELXSI",
+        "Exchange": "NSE",
+        "Name": "Tata Elxsi Limited",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.06027
+      },
+      "ZYDUSLIFE.NSE": {
+        "Code": "ZYDUSLIFE",
+        "Exchange": "NSE",
+        "Name": "Zydus Lifesciences Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05998
+      },
+      "0966.HK": {
+        "Code": "0966",
+        "Exchange": "HK",
+        "Name": "China Taiping Insurance Holdings Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0595
+      },
+      "ALKEM.NSE": {
+        "Code": "ALKEM",
+        "Exchange": "NSE",
+        "Name": "Alkem Laboratories Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05945
+      },
+      "JSL.NSE": {
+        "Code": "JSL",
+        "Exchange": "NSE",
+        "Name": "Jindal Stainless Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05933
+      },
+      "1066.HK": {
+        "Code": "1066",
+        "Exchange": "HK",
+        "Name": "Shandong Weigao Group Medical Polymer Co Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Instruments & Supplies",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05903
+      },
+      "JSWENERGY.NSE": {
+        "Code": "JSWENERGY",
+        "Exchange": "NSE",
+        "Name": "JSW Energy Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05887
+      },
+      "300059.HK": {
+        "Code": "300059",
+        "Exchange": "HK",
+        "Name": "EAST MONEY INFORMATION LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05861
+      },
+      "PNB.NSE": {
+        "Code": "PNB",
+        "Exchange": "NSE",
+        "Name": "Punjab National Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05832
+      },
+      "RVNL.NSE": {
+        "Code": "RVNL",
+        "Exchange": "NSE",
+        "Name": "Rail Vikas Nigam Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05827
+      },
+      "-.NSE": {
+        "Code": "-",
+        "Exchange": "NSE",
+        "Name": "NET18 MEDIA N INV MRGR COAC TEMP Prvt",
+        "Sector": null,
+        "Industry": null,
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05798
+      },
+      "SONACOMS.NSE": {
+        "Code": "SONACOMS",
+        "Exchange": "NSE",
+        "Name": "Sona BLW Precision Forgings Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05776
+      },
+      "3800.HK": {
+        "Code": "3800",
+        "Exchange": "HK",
+        "Name": "GCL-Poly Energy Holdings Ltd",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05769
+      },
+      "UNIONBANK.NSE": {
+        "Code": "UNIONBANK",
+        "Exchange": "NSE",
+        "Name": "Union Bank of India",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05728
+      },
+      "OBEROIRLTY.NSE": {
+        "Code": "OBEROIRLTY",
+        "Exchange": "NSE",
+        "Name": "Oberoi Realty Limited",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05723
+      },
+      "ICICIPRULI.NSE": {
+        "Code": "ICICIPRULI",
+        "Exchange": "NSE",
+        "Name": "ICICI Prudential Life Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05702
+      },
+      "601127.HK": {
+        "Code": "601127",
+        "Exchange": "HK",
+        "Name": "SERES GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05682
+      },
+      "2600.HK": {
+        "Code": "2600",
+        "Exchange": "HK",
+        "Name": "Aluminum Corp of China Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05681
+      },
+      "1818.HK": {
+        "Code": "1818",
+        "Exchange": "HK",
+        "Name": "Zhaojin Mining Industry Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05681
+      },
+      "601328.HK": {
+        "Code": "601328",
+        "Exchange": "HK",
+        "Name": "BANK OF COMMUNICATIONS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0567
+      },
+      "601816.HK": {
+        "Code": "601816",
+        "Exchange": "HK",
+        "Name": "BEIJING-SHANGHAI HIGH SPEED RAILWA",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05642
+      },
+      "0763.HK": {
+        "Code": "0763",
+        "Exchange": "HK",
+        "Name": "ZTE Corp-H",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05635
+      },
+      "NMDC.NSE": {
+        "Code": "NMDC",
+        "Exchange": "NSE",
+        "Name": "NMDC Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05634
+      },
+      "3998.HK": {
+        "Code": "3998",
+        "Exchange": "HK",
+        "Name": "Bosideng International Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05631
+      },
+      "601088.HK": {
+        "Code": "601088",
+        "Exchange": "HK",
+        "Name": "CHINA SHENHUA ENERGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05556
+      },
+      "OIL.NSE": {
+        "Code": "OIL",
+        "Exchange": "NSE",
+        "Name": "Oil India Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05556
+      },
+      "688256.HK": {
+        "Code": "688256",
+        "Exchange": "HK",
+        "Name": "CAMBRICON TECHNOLOGIES CORPORATION",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05426
+      },
+      "0384.HK": {
+        "Code": "0384",
+        "Exchange": "HK",
+        "Name": "China Gas Holdings Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05424
+      },
+      "0552.HK": {
+        "Code": "0552",
+        "Exchange": "HK",
+        "Name": "China Communications Services Corp Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05408
+      },
+      "002714.HK": {
+        "Code": "002714",
+        "Exchange": "HK",
+        "Name": "MUYUAN FOODS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05407
+      },
+      "1585.HK": {
+        "Code": "1585",
+        "Exchange": "HK",
+        "Name": "Yadea Group Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05386
+      },
+      "600030.HK": {
+        "Code": "600030",
+        "Exchange": "HK",
+        "Name": "CITIC SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05375
+      },
+      "1898.HK": {
+        "Code": "1898",
+        "Exchange": "HK",
+        "Name": "China Coal Energy",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05375
+      },
+      "BALKRISIND.NSE": {
+        "Code": "BALKRISIND",
+        "Exchange": "NSE",
+        "Name": "Balkrishna Industries Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05372
+      },
+      "ASTRAL.NSE": {
+        "Code": "ASTRAL",
+        "Exchange": "NSE",
+        "Name": "Astral Limited",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05331
+      },
+      "532483.NSE": {
+        "Code": "532483",
+        "Exchange": "NSE",
+        "Name": "CANARA BANK LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05308
+      },
+      "0316.HK": {
+        "Code": "0316",
+        "Exchange": "HK",
+        "Name": "Orient Overseas International Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05299
+      },
+      "OFSS.NSE": {
+        "Code": "OFSS",
+        "Exchange": "NSE",
+        "Name": "Oracle Financial Services Software Limited",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05296
+      },
+      "1347.HK": {
+        "Code": "1347",
+        "Exchange": "HK",
+        "Name": "Hua Hong Semiconductor Ltd",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0527
+      },
+      "IRCTC.NSE": {
+        "Code": "IRCTC",
+        "Exchange": "NSE",
+        "Name": "Indian Railway Catering And Tourism Corporation Limited",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05269
+      },
+      "000333.HK": {
+        "Code": "000333",
+        "Exchange": "HK",
+        "Name": "MIDEA GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05201
+      },
+      "601138.HK": {
+        "Code": "601138",
+        "Exchange": "HK",
+        "Name": "FOXCONN INDUSTRIAL INTERNET LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05164
+      },
+      "TATACOMM.NSE": {
+        "Code": "TATACOMM",
+        "Exchange": "NSE",
+        "Name": "Tata Communications Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.05149
+      },
+      "LEGN.HK": {
+        "Code": "LEGN",
+        "Exchange": "HK",
+        "Name": "LEGEND BIOTECH  ADR REP CORP",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05143
+      },
+      "9896.HK": {
+        "Code": "9896",
+        "Exchange": "HK",
+        "Name": "MINISO Group Holding Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05131
+      },
+      "900948.HK": {
+        "Code": "900948",
+        "Exchange": "HK",
+        "Name": "INNER MONGOLIA YITAI COAL LTD B",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05128
+      },
+      "0300.HK": {
+        "Code": "0300",
+        "Exchange": "HK",
+        "Name": "Midea Group Co., Ltd.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05101
+      },
+      "0136.HK": {
+        "Code": "0136",
+        "Exchange": "HK",
+        "Name": "China Ruyi Holdings Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05094
+      },
+      "300760.HK": {
+        "Code": "300760",
+        "Exchange": "HK",
+        "Name": "SHENZHEN MINDRAY BIO-MEDICAL ELECT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.05051
+      },
+      "6886.HK": {
+        "Code": "6886",
+        "Exchange": "HK",
+        "Name": "Zuoli Kechuang Micro-Fin Co",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04862
+      },
+      "CONCOR.NSE": {
+        "Code": "CONCOR",
+        "Exchange": "NSE",
+        "Name": "Container Corporation of India Limited",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.04854
+      },
+      "1044.HK": {
+        "Code": "1044",
+        "Exchange": "HK",
+        "Name": "Hengan Intl Group Ltd-H",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04682
+      },
+      "601668.HK": {
+        "Code": "601668",
+        "Exchange": "HK",
+        "Name": "CHINA STATE CONSTRUCTION ENGINEERI",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04681
+      },
+      "002475.HK": {
+        "Code": "002475",
+        "Exchange": "HK",
+        "Name": "LUXSHARE PRECISION INDUSTRY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0468
+      },
+      "0144.HK": {
+        "Code": "0144",
+        "Exchange": "HK",
+        "Name": "China Merchants Port Holdings Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04637
+      },
+      "601601.HK": {
+        "Code": "601601",
+        "Exchange": "HK",
+        "Name": "CHINA PACIFIC INSURANCE (GROUP) LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0462
+      },
+      "300274.HK": {
+        "Code": "300274",
+        "Exchange": "HK",
+        "Name": "SUNGROW POWER SUPPLY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04568
+      },
+      "688008.HK": {
+        "Code": "688008",
+        "Exchange": "HK",
+        "Name": "MONTAGE TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04535
+      },
+      "600809.HK": {
+        "Code": "600809",
+        "Exchange": "HK",
+        "Name": "SHANXI XINGHUACUN FEN WINE FACTORY",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04353
+      },
+      "601211.HK": {
+        "Code": "601211",
+        "Exchange": "HK",
+        "Name": "GUOTAI JUNAN SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0435
+      },
+      "601818.HK": {
+        "Code": "601818",
+        "Exchange": "HK",
+        "Name": "CHINA EVERBRIGHT BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04291
+      },
+      "603259.HK": {
+        "Code": "603259",
+        "Exchange": "HK",
+        "Name": "WUXI APPTEC LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04272
+      },
+      "0916.HK": {
+        "Code": "0916",
+        "Exchange": "HK",
+        "Name": "China Longyuan Power Group Corp Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04214
+      },
+      "002371.HK": {
+        "Code": "002371",
+        "Exchange": "HK",
+        "Name": "NAURA TECHNOLOGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04196
+      },
+      "601988.HK": {
+        "Code": "601988",
+        "Exchange": "HK",
+        "Name": "BANK OF CHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0418
+      },
+      "IDEA.NSE": {
+        "Code": "IDEA",
+        "Exchange": "NSE",
+        "Name": "Vodafone Idea Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.04173
+      },
+      "600887.HK": {
+        "Code": "600887",
+        "Exchange": "HK",
+        "Name": "INNER MONGOLIA YILI INDUSTRIAL GRO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04145
+      },
+      "2359.HK": {
+        "Code": "2359",
+        "Exchange": "HK",
+        "Name": "WuXi AppTec Co Ltd H",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04139
+      },
+      "605499.HK": {
+        "Code": "605499",
+        "Exchange": "HK",
+        "Name": "EASTROC BEVERAGE (GROUP) LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04124
+      },
+      "0392.HK": {
+        "Code": "0392",
+        "Exchange": "HK",
+        "Name": "Beijing Enterprises Holdings Ltd",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04119
+      },
+      "600660.HK": {
+        "Code": "600660",
+        "Exchange": "HK",
+        "Name": "FUYAO GLASS INDUSTRY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04098
+      },
+      "603288.HK": {
+        "Code": "603288",
+        "Exchange": "HK",
+        "Name": "FOSHAN HAI TIAN FLAVOURING & FOOD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04048
+      },
+      "2380.HK": {
+        "Code": "2380",
+        "Exchange": "HK",
+        "Name": "China Power International Development Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04045
+      },
+      "1548.HK": {
+        "Code": "1548",
+        "Exchange": "HK",
+        "Name": "Genscript Biotech Corp",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04027
+      },
+      "000921.HK": {
+        "Code": "000921",
+        "Exchange": "HK",
+        "Name": "HISENSE HOME APPLIANCES GROUP LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03999
+      },
+      "THERMAX.NSE": {
+        "Code": "THERMAX",
+        "Exchange": "NSE",
+        "Name": "Thermax Limited",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.03997
+      },
+      "ATHM.HK": {
+        "Code": "ATHM",
+        "Exchange": "HK",
+        "Name": "AUTOHOME ADS REPRESENTING  INC CLA",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03985
+      },
+      "3360.HK": {
+        "Code": "3360",
+        "Exchange": "HK",
+        "Name": "Far East Horizon Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03921
+      },
+      "2588.HK": {
+        "Code": "2588",
+        "Exchange": "HK",
+        "Name": "BOC Aviation Ltd",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03911
+      },
+      "601985.HK": {
+        "Code": "601985",
+        "Exchange": "HK",
+        "Name": "CHINA NATIONAL NUCLEAR POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03909
+      },
+      "600031.HK": {
+        "Code": "600031",
+        "Exchange": "HK",
+        "Name": "SANY HEAVY INDUSTRY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03873
+      },
+      "000538.HK": {
+        "Code": "000538",
+        "Exchange": "HK",
+        "Name": "YUNNAN BAIYAO GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03871
+      },
+      "000001.HK": {
+        "Code": "000001",
+        "Exchange": "HK",
+        "Name": "PING AN BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03857
+      },
+      "1787.HK": {
+        "Code": "1787",
+        "Exchange": "HK",
+        "Name": "Shandong Gold Mining Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03851
+      },
+      "600309.HK": {
+        "Code": "600309",
+        "Exchange": "HK",
+        "Name": "WANHUA CHEMICAL GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03848
+      },
+      "601225.HK": {
+        "Code": "601225",
+        "Exchange": "HK",
+        "Name": "SHAANXI COAL INDUSTRY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03771
+      },
+      "0881.HK": {
+        "Code": "0881",
+        "Exchange": "HK",
+        "Name": "Zhongsheng Group Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03752
+      },
+      "600919.HK": {
+        "Code": "600919",
+        "Exchange": "HK",
+        "Name": "BANK OF JIANGSU CORPORATION LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03637
+      },
+      "601111.HK": {
+        "Code": "601111",
+        "Exchange": "HK",
+        "Name": "AIR CHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03622
+      },
+      "600690.HK": {
+        "Code": "600690",
+        "Exchange": "HK",
+        "Name": "HAIER SMART HOME LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03596
+      },
+      "002142.HK": {
+        "Code": "002142",
+        "Exchange": "HK",
+        "Name": "BANK OF NINGBO LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03576
+      },
+      "3323.HK": {
+        "Code": "3323",
+        "Exchange": "HK",
+        "Name": "China National Building Material Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03552
+      },
+      "601390.HK": {
+        "Code": "601390",
+        "Exchange": "HK",
+        "Name": "CHINA RAILWAY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03499
+      },
+      "0968.HK": {
+        "Code": "0968",
+        "Exchange": "HK",
+        "Name": "Xinyi Solar Holdings Ltd",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03468
+      },
+      "601766.HK": {
+        "Code": "601766",
+        "Exchange": "HK",
+        "Name": "CRRC CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03456
+      },
+      "1882.HK": {
+        "Code": "1882",
+        "Exchange": "HK",
+        "Name": "Haitian International Holdings Ltd",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03453
+      },
+      "600406.HK": {
+        "Code": "600406",
+        "Exchange": "HK",
+        "Name": "NARI TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03396
+      },
+      "601881.HK": {
+        "Code": "601881",
+        "Exchange": "HK",
+        "Name": "CHINA GALAXY SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03371
+      },
+      "601919.HK": {
+        "Code": "601919",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING HOLDINGS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03367
+      },
+      "600050.HK": {
+        "Code": "600050",
+        "Exchange": "HK",
+        "Name": "CHINA UNITED NETWORK COMMUNICATION",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03343
+      },
+      "2883.HK": {
+        "Code": "2883",
+        "Exchange": "HK",
+        "Name": "China Oilfield Services Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03339
+      },
+      "300014.HK": {
+        "Code": "300014",
+        "Exchange": "HK",
+        "Name": "EVE ENERGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03309
+      },
+      "2202.HK": {
+        "Code": "2202",
+        "Exchange": "HK",
+        "Name": "China Vanke Co Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0329
+      },
+      "0371.HK": {
+        "Code": "0371",
+        "Exchange": "HK",
+        "Name": "Beijing Enterprises Water Group Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Water",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03259
+      },
+      "1208.HK": {
+        "Code": "1208",
+        "Exchange": "HK",
+        "Name": "MMG Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03221
+      },
+      "300433.HK": {
+        "Code": "300433",
+        "Exchange": "HK",
+        "Name": "LENS TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.032
+      },
+      "000651.HK": {
+        "Code": "000651",
+        "Exchange": "HK",
+        "Name": "GREE ELECTRIC APPLIANCES INC OF ZH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03183
+      },
+      "000568.HK": {
+        "Code": "000568",
+        "Exchange": "HK",
+        "Name": "LUZHOU LAO JIAO LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03165
+      },
+      "3320.HK": {
+        "Code": "3320",
+        "Exchange": "HK",
+        "Name": "China Resources Pharmaceutical Group Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03153
+      },
+      "603501.HK": {
+        "Code": "603501",
+        "Exchange": "HK",
+        "Name": "WILL SEMICONDUCTOR SHANGHAI LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03131
+      },
+      "0772.HK": {
+        "Code": "0772",
+        "Exchange": "HK",
+        "Name": "China Literature Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03122
+      },
+      "002352.HK": {
+        "Code": "002352",
+        "Exchange": "HK",
+        "Name": "S.F. HOLDING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03105
+      },
+      "601012.HK": {
+        "Code": "601012",
+        "Exchange": "HK",
+        "Name": "LONGI GREEN ENERGY TECHNOLOGY LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03082
+      },
+      "0696.HK": {
+        "Code": "0696",
+        "Exchange": "HK",
+        "Name": "TravelSky Technology Ltd",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03056
+      },
+      "600436.HK": {
+        "Code": "600436",
+        "Exchange": "HK",
+        "Name": "ZHANGZHOU PIENTZEHUANG PHARMACEUTI",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03004
+      },
+      "1908.HK": {
+        "Code": "1908",
+        "Exchange": "HK",
+        "Name": "C&D International Investment Group Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0291
+      },
+      "002920.HK": {
+        "Code": "002920",
+        "Exchange": "HK",
+        "Name": "HUIZHOU DESAY SV AUTOMOTIVE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02898
+      },
+      "601229.HK": {
+        "Code": "601229",
+        "Exchange": "HK",
+        "Name": "BANK OF SHANGHAI LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02872
+      },
+      "0390.HK": {
+        "Code": "0390",
+        "Exchange": "HK",
+        "Name": "China Railway",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0287
+      },
+      "600999.HK": {
+        "Code": "600999",
+        "Exchange": "HK",
+        "Name": "CHINA MERCHANTS SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02859
+      },
+      "603986.HK": {
+        "Code": "603986",
+        "Exchange": "HK",
+        "Name": "GIGADEVICE SEMICONDUCTOR INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02848
+      },
+      "600019.HK": {
+        "Code": "600019",
+        "Exchange": "HK",
+        "Name": "BAOSHAN IRON & STEEL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0282
+      },
+      "600016.HK": {
+        "Code": "600016",
+        "Exchange": "HK",
+        "Name": "CHINA MINSHENG BANKING CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02804
+      },
+      "688271.HK": {
+        "Code": "688271",
+        "Exchange": "HK",
+        "Name": "SHANGHAI UNITED IMAGING HEALTHCARE",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02704
+      },
+      "600026.HK": {
+        "Code": "600026",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING ENERGY TRANSPORTATI",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02703
+      },
+      "600028.HK": {
+        "Code": "600028",
+        "Exchange": "HK",
+        "Name": "CHINA PETROLEUM & CHEMICAL CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02688
+      },
+      "0656.HK": {
+        "Code": "0656",
+        "Exchange": "HK",
+        "Name": "Fosun International Ltd",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02678
+      },
+      "600905.HK": {
+        "Code": "600905",
+        "Exchange": "HK",
+        "Name": "CHINA THREE GORGES RENEWABLES(GROU",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0267
+      },
+      "688111.HK": {
+        "Code": "688111",
+        "Exchange": "HK",
+        "Name": "BEIJING KINGSOFT OFFICE SOFTWARE I",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02662
+      },
+      "300765.HK": {
+        "Code": "300765",
+        "Exchange": "HK",
+        "Name": "CSPC INNOVATION PHARMACEUTICAL LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02658
+      },
+      "601628.HK": {
+        "Code": "601628",
+        "Exchange": "HK",
+        "Name": "CHINA LIFE INSURANCE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02657
+      },
+      "300015.HK": {
+        "Code": "300015",
+        "Exchange": "HK",
+        "Name": "AIER EYE HOSPITAL GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02652
+      },
+      "600150.HK": {
+        "Code": "600150",
+        "Exchange": "HK",
+        "Name": "CHINA CSSC HOLDINGS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02639
+      },
+      "0177.HK": {
+        "Code": "0177",
+        "Exchange": "HK",
+        "Name": "Jiangsu Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02635
+      },
+      "601169.HK": {
+        "Code": "601169",
+        "Exchange": "HK",
+        "Name": "BANK OF BEIJING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02537
+      },
+      "601658.HK": {
+        "Code": "601658",
+        "Exchange": "HK",
+        "Name": "POSTAL SAVINGS BANK OF CHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02517
+      },
+      "688012.HK": {
+        "Code": "688012",
+        "Exchange": "HK",
+        "Name": "ADVANCED MICRO-FABRICATION EQUIPME",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02491
+      },
+      "601939.HK": {
+        "Code": "601939",
+        "Exchange": "HK",
+        "Name": "CHINA CONSTRUCTION BANK CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02482
+      },
+      "600418.HK": {
+        "Code": "600418",
+        "Exchange": "HK",
+        "Name": "ANHUI JIANGHUAI AUTOMOBILE CORP LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02469
+      },
+      "603993.HK": {
+        "Code": "603993",
+        "Exchange": "HK",
+        "Name": "CHINA MOLYBDENUM LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02459
+      },
+      "600989.HK": {
+        "Code": "600989",
+        "Exchange": "HK",
+        "Name": "NINGXIA BAOFENG ENERGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02451
+      },
+      "000166.HK": {
+        "Code": "000166",
+        "Exchange": "HK",
+        "Name": "SHENWAN HONGYUAN GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02423
+      },
+      "0358.HK": {
+        "Code": "0358",
+        "Exchange": "HK",
+        "Name": "Jiangxi Copper",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02422
+      },
+      "2357.HK": {
+        "Code": "2357",
+        "Exchange": "HK",
+        "Name": "AviChina Industry & Technology Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02422
+      },
+      "002230.HK": {
+        "Code": "002230",
+        "Exchange": "HK",
+        "Name": "IFLYTEK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02387
+      },
+      "600674.HK": {
+        "Code": "600674",
+        "Exchange": "HK",
+        "Name": "SICHUAN CHUANTOU ENERGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02372
+      },
+      "000725.HK": {
+        "Code": "000725",
+        "Exchange": "HK",
+        "Name": "BOE TECHNOLOGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02321
+      },
+      "601688.HK": {
+        "Code": "601688",
+        "Exchange": "HK",
+        "Name": "HUATAI SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02308
+      },
+      "600893.HK": {
+        "Code": "600893",
+        "Exchange": "HK",
+        "Name": "AECC AVIATION POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02307
+      },
+      "601995.HK": {
+        "Code": "601995",
+        "Exchange": "HK",
+        "Name": "CHINA INTERNATIONAL CAPITAL CORP L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02295
+      },
+      "600104.HK": {
+        "Code": "600104",
+        "Exchange": "HK",
+        "Name": "SAIC MOTOR CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02277
+      },
+      "300408.HK": {
+        "Code": "300408",
+        "Exchange": "HK",
+        "Name": "CHAOZHOU THREE-CIRCLE (GROUP) LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02266
+      },
+      "000625.HK": {
+        "Code": "000625",
+        "Exchange": "HK",
+        "Name": "CHONGQING CHANGAN AUTOMOBILE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02264
+      },
+      "6818.HK": {
+        "Code": "6818",
+        "Exchange": "HK",
+        "Name": "China Everbright Bank Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0226
+      },
+      "601006.HK": {
+        "Code": "601006",
+        "Exchange": "HK",
+        "Name": "DAQIN RAILWAY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02252
+      },
+      "000776.HK": {
+        "Code": "000776",
+        "Exchange": "HK",
+        "Name": "GF SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02247
+      },
+      "002027.HK": {
+        "Code": "002027",
+        "Exchange": "HK",
+        "Name": "FOCUS MEDIA INFORMATION TECHNOLOGY",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02239
+      },
+      "000100.HK": {
+        "Code": "000100",
+        "Exchange": "HK",
+        "Name": "TCL TECHNOLOGY GROUP CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02235
+      },
+      "000063.HK": {
+        "Code": "000063",
+        "Exchange": "HK",
+        "Name": "ZTE CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02168
+      },
+      "601009.HK": {
+        "Code": "601009",
+        "Exchange": "HK",
+        "Name": "BANK OF NANJING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02156
+      },
+      "600886.HK": {
+        "Code": "600886",
+        "Exchange": "HK",
+        "Name": "SDIC POWER HOLDINGS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02154
+      },
+      "600346.HK": {
+        "Code": "600346",
+        "Exchange": "HK",
+        "Name": "HENGLI PETROCHEMICAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0214
+      },
+      "900926.HK": {
+        "Code": "900926",
+        "Exchange": "HK",
+        "Name": "SHANGHAI BAOSIGHT SOFTWARE LTD B",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02135
+      },
+      "601857.HK": {
+        "Code": "601857",
+        "Exchange": "HK",
+        "Name": "PETROCHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02129
+      },
+      "2607.HK": {
+        "Code": "2607",
+        "Exchange": "HK",
+        "Name": "Shanghai Pharmaceuticals Holding Co Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Distribution",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02105
+      },
+      "002460.HK": {
+        "Code": "002460",
+        "Exchange": "HK",
+        "Name": "GANFENG LITHIUM GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02103
+      },
+      "002304.HK": {
+        "Code": "002304",
+        "Exchange": "HK",
+        "Name": "JIANGSU YANGHE BREWERY JOINT-STOCK",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02087
+      },
+      "600926.HK": {
+        "Code": "600926",
+        "Exchange": "HK",
+        "Name": "BANK OF HANGZHOU LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02079
+      },
+      "000425.HK": {
+        "Code": "000425",
+        "Exchange": "HK",
+        "Name": "XCMG CONSTRUCTION MACHINERY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02071
+      },
+      "600015.HK": {
+        "Code": "600015",
+        "Exchange": "HK",
+        "Name": "HUA XIA BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02026
+      },
+      "601888.HK": {
+        "Code": "601888",
+        "Exchange": "HK",
+        "Name": "CHINA TOURISM GROUP DUTY FREE CORP",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01997
+      },
+      "002938.HK": {
+        "Code": "002938",
+        "Exchange": "HK",
+        "Name": "AVARY HOLDING (SHENZHEN) LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01958
+      },
+      "000963.HK": {
+        "Code": "000963",
+        "Exchange": "HK",
+        "Name": "HUADONG MEDICINE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01922
+      },
+      "300308.HK": {
+        "Code": "300308",
+        "Exchange": "HK",
+        "Name": "ZHONGJI INNOLIGHT LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01919
+      },
+      "601727.HK": {
+        "Code": "601727",
+        "Exchange": "HK",
+        "Name": "SHANGHAI ELECTRIC GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0189
+      },
+      "600489.HK": {
+        "Code": "600489",
+        "Exchange": "HK",
+        "Name": "ZHONGJIN GOLD CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01835
+      },
+      "601336.HK": {
+        "Code": "601336",
+        "Exchange": "HK",
+        "Name": "NEW CHINA LIFE INSURANCE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01822
+      },
+      "600010.HK": {
+        "Code": "600010",
+        "Exchange": "HK",
+        "Name": "INNER MONGOLIA BAOTOU STEEL UNION",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01819
+      },
+      "002050.HK": {
+        "Code": "002050",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG SANHUA INTELLIGENT CONTRO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01808
+      },
+      "601825.HK": {
+        "Code": "601825",
+        "Exchange": "HK",
+        "Name": "SHANGHAI RURAL COMMERCIAL BANK LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01786
+      },
+      "600196.HK": {
+        "Code": "600196",
+        "Exchange": "HK",
+        "Name": "SHANGHAI FOSUN PHARMACEUTICAL (GRO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01785
+      },
+      "600988.HK": {
+        "Code": "600988",
+        "Exchange": "HK",
+        "Name": "CHIFENG JILONG GOLD MINING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01784
+      },
+      "600160.HK": {
+        "Code": "600160",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG JU HUA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01783
+      },
+      "600845.HK": {
+        "Code": "600845",
+        "Exchange": "HK",
+        "Name": "SHANGHAI BAOSIGHT SOFTWARE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01782
+      },
+      "001965.HK": {
+        "Code": "001965",
+        "Exchange": "HK",
+        "Name": "CHINA MERCHANTS EXPRESSWAY NETWORK",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01742
+      },
+      "601567.HK": {
+        "Code": "601567",
+        "Exchange": "HK",
+        "Name": "NINGBO SANXING MEDICAL ELECTRIC LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01738
+      },
+      "601058.HK": {
+        "Code": "601058",
+        "Exchange": "HK",
+        "Name": "SAILUN GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01722
+      },
+      "002466.HK": {
+        "Code": "002466",
+        "Exchange": "HK",
+        "Name": "TIANQI LITHIUM INDUSTRIES CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.017
+      },
+      "002600.HK": {
+        "Code": "002600",
+        "Exchange": "HK",
+        "Name": "LINGYI ITECH (GUANGDONG) A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01697
+      },
+      "601788.HK": {
+        "Code": "601788",
+        "Exchange": "HK",
+        "Name": "EVERBRIGHT SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01681
+      },
+      "600048.HK": {
+        "Code": "600048",
+        "Exchange": "HK",
+        "Name": "POLY DEVELOPMENTS AND HOLDINGS GRO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01678
+      },
+      "000895.HK": {
+        "Code": "000895",
+        "Exchange": "HK",
+        "Name": "HENAN SHUANGHUI INVESTMENT & DEVEL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01672
+      },
+      "601319.HK": {
+        "Code": "601319",
+        "Exchange": "HK",
+        "Name": "THE PEOPLES INSURANCE COMPANY (GRO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01656
+      },
+      "300124.HK": {
+        "Code": "300124",
+        "Exchange": "HK",
+        "Name": "SHENZHEN INOVANCE TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01654
+      },
+      "300782.HK": {
+        "Code": "300782",
+        "Exchange": "HK",
+        "Name": "MAXSCEND MICROELECTRONICS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01644
+      },
+      "002074.HK": {
+        "Code": "002074",
+        "Exchange": "HK",
+        "Name": "GOTION HIGH-TECH LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01641
+      },
+      "603369.HK": {
+        "Code": "603369",
+        "Exchange": "HK",
+        "Name": "JIANGSU KINGS LUCK BREWERY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01634
+      },
+      "601669.HK": {
+        "Code": "601669",
+        "Exchange": "HK",
+        "Name": "POWER CONSTRUCTION CORPORATION OF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01632
+      },
+      "600438.HK": {
+        "Code": "600438",
+        "Exchange": "HK",
+        "Name": "TONGWEI LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0163
+      },
+      "300498.HK": {
+        "Code": "300498",
+        "Exchange": "HK",
+        "Name": "WENS FOODSTUFF GROUP LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01621
+      },
+      "600029.HK": {
+        "Code": "600029",
+        "Exchange": "HK",
+        "Name": "CHINA SOUTHERN AIRLINES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01617
+      },
+      "600096.HK": {
+        "Code": "600096",
+        "Exchange": "HK",
+        "Name": "YUNNAN YUNTIANHUA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01613
+      },
+      "000977.HK": {
+        "Code": "000977",
+        "Exchange": "HK",
+        "Name": "INSPUR ELECTRONIC INFORMATION INDU",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01613
+      },
+      "600111.HK": {
+        "Code": "600111",
+        "Exchange": "HK",
+        "Name": "CHINA NORTHERN RARE EARTH (GROUP)",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01612
+      },
+      "688036.HK": {
+        "Code": "688036",
+        "Exchange": "HK",
+        "Name": "SHENZHEN TRANSSION HOLDINGS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01599
+      },
+      "601100.HK": {
+        "Code": "601100",
+        "Exchange": "HK",
+        "Name": "JIANGSU HENGLI HYDRAULIC LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01595
+      },
+      "601066.HK": {
+        "Code": "601066",
+        "Exchange": "HK",
+        "Name": "CHINA SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01593
+      },
+      "600585.HK": {
+        "Code": "600585",
+        "Exchange": "HK",
+        "Name": "ANHUI CONCH CEMENT LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01589
+      },
+      "601633.HK": {
+        "Code": "601633",
+        "Exchange": "HK",
+        "Name": "GREAT WALL MOTOR LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01588
+      },
+      "601360.HK": {
+        "Code": "601360",
+        "Exchange": "HK",
+        "Name": "360 SECURITY TECHNOLOGY INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01586
+      },
+      "601901.HK": {
+        "Code": "601901",
+        "Exchange": "HK",
+        "Name": "FOUNDER SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01579
+      },
+      "002463.HK": {
+        "Code": "002463",
+        "Exchange": "HK",
+        "Name": "WUS PRINTED CIRCUIT (KUNSHAN) LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01566
+      },
+      "002001.HK": {
+        "Code": "002001",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG NHU LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01554
+      },
+      "600161.HK": {
+        "Code": "600161",
+        "Exchange": "HK",
+        "Name": "BEIJING TIANTAN BIOLOGICAL PRODUCT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0155
+      },
+      "600115.HK": {
+        "Code": "600115",
+        "Exchange": "HK",
+        "Name": "CHINA EASTERN AIRLINES CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01548
+      },
+      "601877.HK": {
+        "Code": "601877",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG CHINT ELECTRICS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01539
+      },
+      "601077.HK": {
+        "Code": "601077",
+        "Exchange": "HK",
+        "Name": "CHONGQING RURAL COMMERCIAL BANK LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0152
+      },
+      "000596.HK": {
+        "Code": "000596",
+        "Exchange": "HK",
+        "Name": "ANHUI GUJING DISTILLERY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01514
+      },
+      "002736.HK": {
+        "Code": "002736",
+        "Exchange": "HK",
+        "Name": "GUOSEN SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01506
+      },
+      "688223.HK": {
+        "Code": "688223",
+        "Exchange": "HK",
+        "Name": "JINKO SOLAR LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01501
+      },
+      "601216.HK": {
+        "Code": "601216",
+        "Exchange": "HK",
+        "Name": "INNER MONGOLIA JUNZHENG ENERGY & C",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01498
+      },
+      "002241.HK": {
+        "Code": "002241",
+        "Exchange": "HK",
+        "Name": "GOERTEK INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01486
+      },
+      "600795.HK": {
+        "Code": "600795",
+        "Exchange": "HK",
+        "Name": "GD POWER DEVELOPMENT LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01484
+      },
+      "688072.HK": {
+        "Code": "688072",
+        "Exchange": "HK",
+        "Name": "PIOTECH INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01477
+      },
+      "600362.HK": {
+        "Code": "600362",
+        "Exchange": "HK",
+        "Name": "JIANGXI COPPER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01463
+      },
+      "600039.HK": {
+        "Code": "600039",
+        "Exchange": "HK",
+        "Name": "SICHUAN ROAD & BRIDGE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0146
+      },
+      "000786.HK": {
+        "Code": "000786",
+        "Exchange": "HK",
+        "Name": "BEIJING NEW BUILDING MATERIALS PUB",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01453
+      },
+      "601198.HK": {
+        "Code": "601198",
+        "Exchange": "HK",
+        "Name": "DONGXING SECURITIES CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01439
+      },
+      "600839.HK": {
+        "Code": "600839",
+        "Exchange": "HK",
+        "Name": "SICHUAN CHANGHONG ELECTRIC LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0143
+      },
+      "INR.NSE": {
+        "Code": "INR",
+        "Exchange": "NSE",
+        "Name": "INR CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.01428
+      },
+      "002252.HK": {
+        "Code": "002252",
+        "Exchange": "HK",
+        "Name": "SHANGHAI RAAS BLOOD PRODUCTS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01423
+      },
+      "000617.HK": {
+        "Code": "000617",
+        "Exchange": "HK",
+        "Name": "CNPC CAPITAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01406
+      },
+      "688009.HK": {
+        "Code": "688009",
+        "Exchange": "HK",
+        "Name": "CHINA RAILWAY SIGNAL & COMMUNICATI",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01398
+      },
+      "600079.HK": {
+        "Code": "600079",
+        "Exchange": "HK",
+        "Name": "HUMANWELL HEALTHCARE (GROUP) LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0139
+      },
+      "001979.HK": {
+        "Code": "001979",
+        "Exchange": "HK",
+        "Name": "CHINA MERCHANTS SHEKOU INDUSTRIAL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01389
+      },
+      "300122.HK": {
+        "Code": "300122",
+        "Exchange": "HK",
+        "Name": "CHONGQING ZHIFEI BIOLOGICAL PRODUC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01385
+      },
+      "000002.HK": {
+        "Code": "000002",
+        "Exchange": "HK",
+        "Name": "CHINA VANKE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01382
+      },
+      "002493.HK": {
+        "Code": "002493",
+        "Exchange": "HK",
+        "Name": "RONGSHENG PETRO CHEMICAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01377
+      },
+      "000157.HK": {
+        "Code": "000157",
+        "Exchange": "HK",
+        "Name": "ZOOMLION HEAVY INDUSTRY SCIENCE AN",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01365
+      },
+      "600547.HK": {
+        "Code": "600547",
+        "Exchange": "HK",
+        "Name": "SHANDONG GOLD-MINING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01363
+      },
+      "601456.HK": {
+        "Code": "601456",
+        "Exchange": "HK",
+        "Name": "GUOLIAN SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01355
+      },
+      "601600.HK": {
+        "Code": "601600",
+        "Exchange": "HK",
+        "Name": "ALUMINUM CORPORATION OF CHINA LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01347
+      },
+      "600958.HK": {
+        "Code": "600958",
+        "Exchange": "HK",
+        "Name": "ORIENT SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01335
+      },
+      "603568.HK": {
+        "Code": "603568",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG WEIMING ENVIRONMENT PROTE",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01333
+      },
+      "000975.HK": {
+        "Code": "000975",
+        "Exchange": "HK",
+        "Name": "SHANJIN INTERNATIONAL GOLD LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01327
+      },
+      "600188.HK": {
+        "Code": "600188",
+        "Exchange": "HK",
+        "Name": "YANKUANG ENERGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01324
+      },
+      "600803.HK": {
+        "Code": "600803",
+        "Exchange": "HK",
+        "Name": "ENN NATURAL GAS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01321
+      },
+      "601136.HK": {
+        "Code": "601136",
+        "Exchange": "HK",
+        "Name": "CAPITAL SECURITIES CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01311
+      },
+      "600570.HK": {
+        "Code": "600570",
+        "Exchange": "HK",
+        "Name": "HUNDSUN TECHNOLOGIES INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01311
+      },
+      "600745.HK": {
+        "Code": "600745",
+        "Exchange": "HK",
+        "Name": "WINGTECH TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01303
+      },
+      "688082.HK": {
+        "Code": "688082",
+        "Exchange": "HK",
+        "Name": "ACM RESEARCH (SHANGHAI) INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01295
+      },
+      "600741.HK": {
+        "Code": "600741",
+        "Exchange": "HK",
+        "Name": "HUAYU AUTOMOTIVE SYSTEMS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01293
+      },
+      "600584.HK": {
+        "Code": "600584",
+        "Exchange": "HK",
+        "Name": "JCET GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0129
+      },
+      "600089.HK": {
+        "Code": "600089",
+        "Exchange": "HK",
+        "Name": "TBEA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01278
+      },
+      "002414.HK": {
+        "Code": "002414",
+        "Exchange": "HK",
+        "Name": "WUHAN GUIDE INFRARED LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01253
+      },
+      "000301.HK": {
+        "Code": "000301",
+        "Exchange": "HK",
+        "Name": "JIANGSU EASTERN SHENGHONG LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01246
+      },
+      "601607.HK": {
+        "Code": "601607",
+        "Exchange": "HK",
+        "Name": "SHANGHAI PHARMACEUTICALS HOLDING L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01245
+      },
+      "601838.HK": {
+        "Code": "601838",
+        "Exchange": "HK",
+        "Name": "BANK OF CHENGDU LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0124
+      },
+      "601872.HK": {
+        "Code": "601872",
+        "Exchange": "HK",
+        "Name": "CHINA MERCHANTS ENERGY SHIPPING LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01237
+      },
+      "002128.HK": {
+        "Code": "002128",
+        "Exchange": "HK",
+        "Name": "INNER MONGOLIA DIAN TOU ENERGY COR",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01229
+      },
+      "002648.HK": {
+        "Code": "002648",
+        "Exchange": "HK",
+        "Name": "SATELLITE CHEMICAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01223
+      },
+      "600642.HK": {
+        "Code": "600642",
+        "Exchange": "HK",
+        "Name": "SHENERGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01222
+      },
+      "300413.HK": {
+        "Code": "300413",
+        "Exchange": "HK",
+        "Name": "MANGO EXCELLENT MEDIA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0121
+      },
+      "688396.HK": {
+        "Code": "688396",
+        "Exchange": "HK",
+        "Name": "CHINA RESOURCES MICROELECTRONICS L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01208
+      },
+      "600256.HK": {
+        "Code": "600256",
+        "Exchange": "HK",
+        "Name": "GUANGHUI ENERGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01207
+      },
+      "000661.HK": {
+        "Code": "000661",
+        "Exchange": "HK",
+        "Name": "CHANGCHUN HIGH & NEW TECHNOLOGY IN",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01202
+      },
+      "601117.HK": {
+        "Code": "601117",
+        "Exchange": "HK",
+        "Name": "CHINA NATIONAL CHEMICAL ENGINEERIN",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01193
+      },
+      "600918.HK": {
+        "Code": "600918",
+        "Exchange": "HK",
+        "Name": "ZHONGTAI SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01188
+      },
+      "601377.HK": {
+        "Code": "601377",
+        "Exchange": "HK",
+        "Name": "INDUSTRIAL SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01187
+      },
+      "000938.HK": {
+        "Code": "000938",
+        "Exchange": "HK",
+        "Name": "UNISPLENDOUR CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01178
+      },
+      "603659.HK": {
+        "Code": "603659",
+        "Exchange": "HK",
+        "Name": "SHANGHAI PUTAILAI NEW ENERGY TECHN",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01163
+      },
+      "600415.HK": {
+        "Code": "600415",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG CHINA COMMODITIES CITY GR",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01162
+      },
+      "000933.HK": {
+        "Code": "000933",
+        "Exchange": "HK",
+        "Name": "HENAN SHENHUO COAL & POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01159
+      },
+      "002049.HK": {
+        "Code": "002049",
+        "Exchange": "HK",
+        "Name": "UNIGROUP GUOXIN MICROELECTRONICS L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01146
+      },
+      "002085.HK": {
+        "Code": "002085",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG WANFENG AUTO WHEEL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01126
+      },
+      "601162.HK": {
+        "Code": "601162",
+        "Exchange": "HK",
+        "Name": "TIANFENG SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01121
+      },
+      "601168.HK": {
+        "Code": "601168",
+        "Exchange": "HK",
+        "Name": "WESTERN MINING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01111
+      },
+      "002156.HK": {
+        "Code": "002156",
+        "Exchange": "HK",
+        "Name": "TONGFU MICROELECTRONICS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01107
+      },
+      "600221.HK": {
+        "Code": "600221",
+        "Exchange": "HK",
+        "Name": "HAINAN AIRLINES HOLDING LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01105
+      },
+      "600023.HK": {
+        "Code": "600023",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG ZHENENG ELECTRIC POWER LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01099
+      },
+      "600875.HK": {
+        "Code": "600875",
+        "Exchange": "HK",
+        "Name": "DONGFANG ELECTRIC CORP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01093
+      },
+      "002939.HK": {
+        "Code": "002939",
+        "Exchange": "HK",
+        "Name": "CHINA GREATWALL SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01092
+      },
+      "601555.HK": {
+        "Code": "601555",
+        "Exchange": "HK",
+        "Name": "SOOCHOW SECURITIES CO LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01089
+      },
+      "600183.HK": {
+        "Code": "600183",
+        "Exchange": "HK",
+        "Name": "SHENGYI TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01085
+      },
+      "601933.HK": {
+        "Code": "601933",
+        "Exchange": "HK",
+        "Name": "YONGHUI SUPERSTORES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01085
+      },
+      "002532.HK": {
+        "Code": "002532",
+        "Exchange": "HK",
+        "Name": "TIANSHAN ALUMINUM GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01082
+      },
+      "000630.HK": {
+        "Code": "000630",
+        "Exchange": "HK",
+        "Name": "TONGLING NONFERROUS METALS GROUP L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01077
+      },
+      "000792.HK": {
+        "Code": "000792",
+        "Exchange": "HK",
+        "Name": "QINGHAI SALT LAKE INDUSTRY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01076
+      },
+      "000807.HK": {
+        "Code": "000807",
+        "Exchange": "HK",
+        "Name": "YUNNAN ALUMINIUM LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01066
+      },
+      "002236.HK": {
+        "Code": "002236",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG DAHUA TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01063
+      },
+      "601916.HK": {
+        "Code": "601916",
+        "Exchange": "HK",
+        "Name": "CHINA ZHESHANG BANK LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01053
+      },
+      "300316.HK": {
+        "Code": "300316",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG JINGSHENG MECHANICAL & EL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01041
+      },
+      "600487.HK": {
+        "Code": "600487",
+        "Exchange": "HK",
+        "Name": "HENGTONG OPTIC ELECTRIC LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0104
+      },
+      "601865.HK": {
+        "Code": "601865",
+        "Exchange": "HK",
+        "Name": "FLAT GLASS GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01033
+      },
+      "000728.HK": {
+        "Code": "000728",
+        "Exchange": "HK",
+        "Name": "GUOYUAN SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01033
+      },
+      "002673.HK": {
+        "Code": "002673",
+        "Exchange": "HK",
+        "Name": "WESTERN SECURITIES CO LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01028
+      },
+      "600733.HK": {
+        "Code": "600733",
+        "Exchange": "HK",
+        "Name": "BAIC BLUEPARK NEW ENERGY TECHNOLOG",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01011
+      },
+      "000338.HK": {
+        "Code": "000338",
+        "Exchange": "HK",
+        "Name": "WEICHAI POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0101
+      },
+      "601618.HK": {
+        "Code": "601618",
+        "Exchange": "HK",
+        "Name": "METALLURGICAL CORP OF CHINA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01006
+      },
+      "601108.HK": {
+        "Code": "601108",
+        "Exchange": "HK",
+        "Name": "CAITONG SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01006
+      },
+      "600219.HK": {
+        "Code": "600219",
+        "Exchange": "HK",
+        "Name": "SHANDONG NANSHAN ALUMINIUM LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.01005
+      },
+      "002185.HK": {
+        "Code": "002185",
+        "Exchange": "HK",
+        "Name": "TIANSHUI HUATIAN TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00996
+      },
+      "600588.HK": {
+        "Code": "600588",
+        "Exchange": "HK",
+        "Name": "YONYOU NETWORK TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00974
+      },
+      "600515.HK": {
+        "Code": "600515",
+        "Exchange": "HK",
+        "Name": "HAINAN AIRPORT INFRASTRUCTURE LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00962
+      },
+      "600061.HK": {
+        "Code": "600061",
+        "Exchange": "HK",
+        "Name": "SDIC CAPITAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00951
+      },
+      "601231.HK": {
+        "Code": "601231",
+        "Exchange": "HK",
+        "Name": "UNIVERSAL SCIENTIFIC INDUSTRIAL (S",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00948
+      },
+      "002064.HK": {
+        "Code": "002064",
+        "Exchange": "HK",
+        "Name": "HUAFON CHEMICAL LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00947
+      },
+      "002456.HK": {
+        "Code": "002456",
+        "Exchange": "HK",
+        "Name": "O FILM TECH LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00947
+      },
+      "003816.HK": {
+        "Code": "003816",
+        "Exchange": "HK",
+        "Name": "CGN POWER LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00944
+      },
+      "600011.HK": {
+        "Code": "600011",
+        "Exchange": "HK",
+        "Name": "HUANENG POWER INTERNATIONAL INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00934
+      },
+      "600522.HK": {
+        "Code": "600522",
+        "Exchange": "HK",
+        "Name": "JIANGSU ZHONGTIAN TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00931
+      },
+      "603806.HK": {
+        "Code": "603806",
+        "Exchange": "HK",
+        "Name": "HANGZHOU FIRST APPLIED MATERIAL LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00912
+      },
+      "000729.HK": {
+        "Code": "000729",
+        "Exchange": "HK",
+        "Name": "BEIJING YANJING BREWERY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00908
+      },
+      "000783.HK": {
+        "Code": "000783",
+        "Exchange": "HK",
+        "Name": "CHANGJIANG SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00906
+      },
+      "601868.HK": {
+        "Code": "601868",
+        "Exchange": "HK",
+        "Name": "CHINA ENERGY ENGINEERING CORP LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00906
+      },
+      "601991.HK": {
+        "Code": "601991",
+        "Exchange": "HK",
+        "Name": "DATANG INTERNATIONAL POWER GENERAT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00905
+      },
+      "601878.HK": {
+        "Code": "601878",
+        "Exchange": "HK",
+        "Name": "ZHESHANG SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00901
+      },
+      "002180.HK": {
+        "Code": "002180",
+        "Exchange": "HK",
+        "Name": "NINESTAR CORP A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00894
+      },
+      "600233.HK": {
+        "Code": "600233",
+        "Exchange": "HK",
+        "Name": "YTO EXPRESS GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00874
+      },
+      "000564.HK": {
+        "Code": "000564",
+        "Exchange": "HK",
+        "Name": "CCOOP GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0087
+      },
+      "600027.HK": {
+        "Code": "600027",
+        "Exchange": "HK",
+        "Name": "HUADIAN POWER INTERNATIONAL CORP L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00869
+      },
+      "002709.HK": {
+        "Code": "002709",
+        "Exchange": "HK",
+        "Name": "GUANGZHOU TINCI MATERIALS TECHNOLO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00866
+      },
+      "002202.HK": {
+        "Code": "002202",
+        "Exchange": "HK",
+        "Name": "GOLDWIND SCIENCE&TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00849
+      },
+      "600985.HK": {
+        "Code": "600985",
+        "Exchange": "HK",
+        "Name": "HUAIBEI MINING HOLDINGS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00832
+      },
+      "002152.HK": {
+        "Code": "002152",
+        "Exchange": "HK",
+        "Name": "GRG BANKING EQUIPMENT LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0082
+      },
+      "601928.HK": {
+        "Code": "601928",
+        "Exchange": "HK",
+        "Name": "JIANGSU PHOENIX PUBLISHING&MEDIA C",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00812
+      },
+      "002129.HK": {
+        "Code": "002129",
+        "Exchange": "HK",
+        "Name": "TCL ZHONGHUAN RENEWABLE ENERGY TEC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00809
+      },
+      "002812.HK": {
+        "Code": "002812",
+        "Exchange": "HK",
+        "Name": "YUNNAN ENERGY NEW MATERIALS LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00787
+      },
+      "000708.HK": {
+        "Code": "000708",
+        "Exchange": "HK",
+        "Name": "CITIC PACIFIC SPECIAL STEEL GROUP",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00764
+      },
+      "002459.HK": {
+        "Code": "002459",
+        "Exchange": "HK",
+        "Name": "JA SOLAR TECHNOLOGY LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00742
+      },
+      "300832.HK": {
+        "Code": "300832",
+        "Exchange": "HK",
+        "Name": "SHENZHEN NEW INDUSTRIES BIOMEDICAL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00734
+      },
+      "688599.HK": {
+        "Code": "688599",
+        "Exchange": "HK",
+        "Name": "TRINA SOLAR LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00688
+      },
+      "600153.HK": {
+        "Code": "600153",
+        "Exchange": "HK",
+        "Name": "XIAMEN C&D INC A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00687
+      },
+      "600352.HK": {
+        "Code": "600352",
+        "Exchange": "HK",
+        "Name": "ZHEJIANG LONGSHENG GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00678
+      },
+      "601696.HK": {
+        "Code": "601696",
+        "Exchange": "HK",
+        "Name": "BOC INTERNATIONAL (CHINA) LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00678
+      },
+      "601958.HK": {
+        "Code": "601958",
+        "Exchange": "HK",
+        "Name": "JINDUICHENG MOLYBDENUM LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00677
+      },
+      "600426.HK": {
+        "Code": "600426",
+        "Exchange": "HK",
+        "Name": "SHANDONG HUALU-HENGSHENG CHEMICAL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00673
+      },
+      "000876.HK": {
+        "Code": "000876",
+        "Exchange": "HK",
+        "Name": "NEW HOPE LIUHE LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00654
+      },
+      "601699.HK": {
+        "Code": "601699",
+        "Exchange": "HK",
+        "Name": "SHANXI LUAN ENVIRONMENTAL ENERGY D",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00653
+      },
+      "600157.HK": {
+        "Code": "600157",
+        "Exchange": "HK",
+        "Name": "WINTIME ENERGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00645
+      },
+      "601577.HK": {
+        "Code": "601577",
+        "Exchange": "HK",
+        "Name": "BANK OF CHANGSHA LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00641
+      },
+      "688538.HK": {
+        "Code": "688538",
+        "Exchange": "HK",
+        "Name": "EVERDISPLAY OPTRONICS (SHANGHAI) L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00637
+      },
+      "002603.HK": {
+        "Code": "002603",
+        "Exchange": "HK",
+        "Name": "SHIJIAZHUANG YILING PHARMACEUTICAL",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00596
+      },
+      "000027.HK": {
+        "Code": "000027",
+        "Exchange": "HK",
+        "Name": "SHENZHEN ENERGY GROUP LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0059
+      },
+      "002966.HK": {
+        "Code": "002966",
+        "Exchange": "HK",
+        "Name": "BANK OF SUZHOU LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00572
+      },
+      "600369.HK": {
+        "Code": "600369",
+        "Exchange": "HK",
+        "Name": "SOUTHWEST SECURITIES LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00569
+      },
+      "600968.HK": {
+        "Code": "600968",
+        "Exchange": "HK",
+        "Name": "CNOOC ENERGY TECHNOLOGY SERVICES L",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0053
+      },
+      "600398.HK": {
+        "Code": "600398",
+        "Exchange": "HK",
+        "Name": "HLA GROUP CORP  A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00522
+      },
+      "600177.HK": {
+        "Code": "600177",
+        "Exchange": "HK",
+        "Name": "YOUNGOR FASHION LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00507
+      },
+      "0CNH.HK": {
+        "Code": "0CNH",
+        "Exchange": "HK",
+        "Name": "CNH CASH(CORP ACT)",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00476
+      },
+      "600176.HK": {
+        "Code": "600176",
+        "Exchange": "HK",
+        "Name": "CHINA JUSHI LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00463
+      },
+      "002007.HK": {
+        "Code": "002007",
+        "Exchange": "HK",
+        "Name": "HUALAN BIOLOGICAL ENGINEERING INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00461
+      },
+      "002340.HK": {
+        "Code": "002340",
+        "Exchange": "HK",
+        "Name": "GEM LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00452
+      },
+      "601179.HK": {
+        "Code": "601179",
+        "Exchange": "HK",
+        "Name": "CHINA XD ELECTRIC LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00449
+      },
+      "603939.HK": {
+        "Code": "603939",
+        "Exchange": "HK",
+        "Name": "YIFENG PHARMACY CHAIN LTD A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00367
+      },
+      "000983.HK": {
+        "Code": "000983",
+        "Exchange": "HK",
+        "Name": "SHANXI COKING COAL ENERGY GROUP LT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00357
+      },
+      "000629.HK": {
+        "Code": "000629",
+        "Exchange": "HK",
+        "Name": "PANGANG GROUP VANADIUM TITANIUM&RE",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00308
+      },
+      "300442.HK": {
+        "Code": "300442",
+        "Exchange": "HK",
+        "Name": "RANGE INTELLIGENT COMPUTING TECHNO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.00146
+      },
+      "000-.HK": {
+        "Code": "000-",
+        "Exchange": "HK",
+        "Name": "China Common Rich Renewable Energy",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0
+      },
+      "BRL.US": {
+        "Code": "BRL",
+        "Exchange": "US",
+        "Name": "BARR PHARMACEUTICALS INC",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "USD.US": {
+        "Code": "USD",
+        "Exchange": "US",
+        "Name": "ProShares Ultra Semiconductors",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -2.01745
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "12.90134",
+        "Price/Book": "1.69809",
+        "Price/Sales": "1.58775",
+        "Price/Cash Flow": "8.13501",
+        "Dividend-Yield Factor": "2.66829"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.94241",
+        "Price/Book": "1.6652",
+        "Price/Sales": "1.43725",
+        "Price/Cash Flow": "6.3066",
+        "Dividend-Yield Factor": "3.12484"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.19736",
+        "Historical Earnings Growth": "5.26115",
+        "Sales Growth": "5.06942",
+        "Cash-Flow Growth": "6.12935",
+        "Book-Value Growth": "7.86732"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.63565",
+        "Historical Earnings Growth": "4.85437",
+        "Sales Growth": "4.63363",
+        "Cash-Flow Growth": "5.123",
+        "Book-Value Growth": "8.25275"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "1",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "1"
+    },
+    "Performance": {
+      "1y_Volatility": "13.20",
+      "3y_Volatility": "19.87",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.09",
+      "Returns_YTD": "12.30",
+      "Returns_1Y": "12.45",
+      "Returns_3Y": "7.08",
+      "Returns_5Y": "3.26",
+      "Returns_10Y": "2.23"
+    }
+  }
+}

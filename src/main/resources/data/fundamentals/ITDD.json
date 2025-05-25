@@ -1,0 +1,450 @@
+{
+  "General": {
+    "Code": "ITDD",
+    "Type": "ETF",
+    "Name": "iShares Trust",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01JRZWF92",
+    "Description": "The fund is actively managed and allocates and reallocates its assets among a combination of underlying funds in proportions based on its own investment strategy.",
+    "Category": "Target-Date 2040",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 31.92,
+    "52WeekLow": 27.55,
+    "50DayMA": 30.4154,
+    "200DayMA": 30.8894
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "iShares",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.560000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2023-10-17",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00110",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "32723050.00",
+    "Average_Mkt_Cap_Mil": "96250.8465",
+    "Market_Capitalisation": {
+      "Mega": "31.56313",
+      "Big": "23.66866",
+      "Medium": "16.10482",
+      "Small": "4.41917",
+      "Micro": "1.11907"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.91439",
+        "Short_%": "0.51965",
+        "Net_Assets_%": "0.39474"
+      },
+      "NotClassified": {
+        "Long_%": "0.01138",
+        "Short_%": "0",
+        "Net_Assets_%": "0.01138"
+      },
+      "Stock non-US": {
+        "Long_%": "28.22702",
+        "Short_%": "0",
+        "Net_Assets_%": "28.22702"
+      },
+      "Other": {
+        "Long_%": "0.04343",
+        "Short_%": "0",
+        "Net_Assets_%": "0.04343"
+      },
+      "Stock US": {
+        "Long_%": "49.08885",
+        "Short_%": "0",
+        "Net_Assets_%": "49.08885"
+      },
+      "Bond": {
+        "Long_%": "22.23458",
+        "Short_%": "0",
+        "Net_Assets_%": "22.23458"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "66.388",
+        "Relative_to_Category": "68.303"
+      },
+      "United Kingdom": {
+        "Equity_%": "3.20873",
+        "Relative_to_Category": "3.91317"
+      },
+      "Europe Developed": {
+        "Equity_%": "11.34",
+        "Relative_to_Category": "12.063"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.26",
+        "Relative_to_Category": "0.177"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "1.265",
+        "Relative_to_Category": "0.852"
+      },
+      "Japan": {
+        "Equity_%": "5.24",
+        "Relative_to_Category": "4.774"
+      },
+      "Australasia": {
+        "Equity_%": "1.961",
+        "Relative_to_Category": "1.213"
+      },
+      "Asia Developed": {
+        "Equity_%": "3.787",
+        "Relative_to_Category": "3.213"
+      },
+      "Asia Emerging": {
+        "Equity_%": "5.48",
+        "Relative_to_Category": "4.606"
+      },
+      "Latin America": {
+        "Equity_%": "1.071",
+        "Relative_to_Category": "0.886"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "3.53147",
+        "Relative_to_Category": "3.65565"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.98763",
+        "Relative_to_Category": "10.4733"
+      },
+      "Financial Services": {
+        "Equity_%": "16.32851",
+        "Relative_to_Category": "17.49555"
+      },
+      "Real Estate": {
+        "Equity_%": "6.88232",
+        "Relative_to_Category": "3.71833"
+      },
+      "Communication Services": {
+        "Equity_%": "7.44602",
+        "Relative_to_Category": "7.66684"
+      },
+      "Energy": {
+        "Equity_%": "3.94191",
+        "Relative_to_Category": "4.07442"
+      },
+      "Industrials": {
+        "Equity_%": "11.66262",
+        "Relative_to_Category": "11.1154"
+      },
+      "Technology": {
+        "Equity_%": "22.78118",
+        "Relative_to_Category": "22.61212"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.49944",
+        "Relative_to_Category": "5.65681"
+      },
+      "Healthcare": {
+        "Equity_%": "8.49948",
+        "Relative_to_Category": "10.76519"
+      },
+      "Utilities": {
+        "Equity_%": "3.43942",
+        "Relative_to_Category": "2.76639"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "1.58173",
+        "Relative_to_Category": "5.63196"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "1.60057",
+        "Relative_to_Category": "2.8115"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "2.32",
+        "Relative_to_Category": "8.87227"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "3.61343",
+        "Relative_to_Category": "4.00184"
+      },
+      "Price": {
+        "Fund_%": "90.78571",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "1.12",
+        "Relative_to_Category": "4.28934"
+      }
+    },
+    "Holdings_Count": 10,
+    "Top_10_Holdings": {
+      "IWB.US": {
+        "Code": "IWB",
+        "Exchange": "US",
+        "Name": "iShares Russell 1000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 41.75252
+      },
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 19.2649
+      },
+      "GOVT.US": {
+        "Code": "GOVT",
+        "Exchange": "US",
+        "Name": "iShares U.S. Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.17247
+      },
+      "IEMG.US": {
+        "Code": "IEMG",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.89162
+      },
+      "MBB.US": {
+        "Code": "MBB",
+        "Exchange": "US",
+        "Name": "iShares MBS ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.27936
+      },
+      "USRT.US": {
+        "Code": "USRT",
+        "Exchange": "US",
+        "Name": "iShares Core U.S. REIT ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.39956
+      },
+      "IGLB.US": {
+        "Code": "IGLB",
+        "Exchange": "US",
+        "Name": "iShares 10+ Year Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.27352
+      },
+      "IGSB.US": {
+        "Code": "IGSB",
+        "Exchange": "US",
+        "Name": "iShares 1-5 Year Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.38746
+      },
+      "IGF.US": {
+        "Code": "IGF",
+        "Exchange": "US",
+        "Name": "iShares Global Infrastructure ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.99398
+      },
+      "IWM.US": {
+        "Code": "IWM",
+        "Exchange": "US",
+        "Name": "iShares Russell 2000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79931
+      }
+    },
+    "Holdings": {
+      "IWB.US": {
+        "Code": "IWB",
+        "Exchange": "US",
+        "Name": "iShares Russell 1000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 41.75252
+      },
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 19.2649
+      },
+      "GOVT.US": {
+        "Code": "GOVT",
+        "Exchange": "US",
+        "Name": "iShares U.S. Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.17247
+      },
+      "IEMG.US": {
+        "Code": "IEMG",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.89162
+      },
+      "MBB.US": {
+        "Code": "MBB",
+        "Exchange": "US",
+        "Name": "iShares MBS ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.27936
+      },
+      "USRT.US": {
+        "Code": "USRT",
+        "Exchange": "US",
+        "Name": "iShares Core U.S. REIT ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.39956
+      },
+      "IGLB.US": {
+        "Code": "IGLB",
+        "Exchange": "US",
+        "Name": "iShares 10+ Year Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.27352
+      },
+      "IGSB.US": {
+        "Code": "IGSB",
+        "Exchange": "US",
+        "Name": "iShares 1-5 Year Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.38746
+      },
+      "IGF.US": {
+        "Code": "IGF",
+        "Exchange": "US",
+        "Name": "iShares Global Infrastructure ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.99398
+      },
+      "IWM.US": {
+        "Code": "IWM",
+        "Exchange": "US",
+        "Name": "iShares Russell 2000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79931
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "17.50299",
+        "Price/Book": "2.45853",
+        "Price/Sales": "1.93335",
+        "Price/Cash Flow": "10.60603",
+        "Dividend-Yield Factor": "2.32171"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "17.19471",
+        "Price/Book": "2.56909",
+        "Price/Sales": "1.9259",
+        "Price/Cash Flow": "10.83301",
+        "Dividend-Yield Factor": "2.17491"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.47015",
+        "Historical Earnings Growth": "6.09316",
+        "Sales Growth": "5.46253",
+        "Cash-Flow Growth": "5.11942",
+        "Book-Value Growth": "6.23897"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.65916",
+        "Historical Earnings Growth": "0.83081",
+        "Sales Growth": "5.77265",
+        "Cash-Flow Growth": "5.3229",
+        "Book-Value Growth": "6.94084"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "8.34",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "3.41",
+      "Returns_1Y": "9.35",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

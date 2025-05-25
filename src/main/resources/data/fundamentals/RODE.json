@@ -1,0 +1,810 @@
+{
+  "General": {
+    "Code": "RODE",
+    "Type": "ETF",
+    "Name": "Hartford Multifactor Diversified International ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00GNX29P7",
+    "Description": "The fund generally invests at least 80% of its assets in the equity securities that are components of the index and in depositary receipts (such as American Depositary Receipts (ADRs), Global Depositary Receipts (GDRs) and European Depositary Receipts (EDRs)) representing securities of the index. The index is designed to enhance return potential available from investment in a capitalization-weighted universe of developed and emerging markets located outside the U.S.",
+    "Category": "Foreign Large Value",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.9,
+    "52WeekHigh": 31.15,
+    "52WeekLow": 25.7986,
+    "50DayMA": 29.3336,
+    "200DayMA": 28.8318
+  },
+  "ETF_Data": {
+    "ISIN": "US5184166073",
+    "Company_Name": "Hartford Funds",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "4.720000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2017-05-10",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00290",
+    "AnnualHoldingsTurnover": "0.58000",
+    "TotalAssets": "20323203.00",
+    "Average_Mkt_Cap_Mil": "23328.84817",
+    "Market_Capitalisation": {
+      "Mega": "33.98496",
+      "Big": "43.62021",
+      "Medium": "18.40878",
+      "Small": "1.36562",
+      "Micro": "0.19368"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.33355",
+        "Short_%": "0",
+        "Net_Assets_%": "0.33355"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.66557",
+        "Short_%": "0",
+        "Net_Assets_%": "99.66557"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "5.571",
+        "Relative_to_Category": "7.254"
+      },
+      "United Kingdom": {
+        "Equity_%": "5.17784",
+        "Relative_to_Category": "17.10457"
+      },
+      "Europe Developed": {
+        "Equity_%": "21.523",
+        "Relative_to_Category": "43.748"
+      },
+      "Europe Emerging": {
+        "Equity_%": "2.654",
+        "Relative_to_Category": "0.244"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "3.052",
+        "Relative_to_Category": "0.741"
+      },
+      "Japan": {
+        "Equity_%": "11.613",
+        "Relative_to_Category": "17.239"
+      },
+      "Australasia": {
+        "Equity_%": "7.638",
+        "Relative_to_Category": "2.687"
+      },
+      "Asia Developed": {
+        "Equity_%": "16.474",
+        "Relative_to_Category": "6.613"
+      },
+      "Asia Emerging": {
+        "Equity_%": "23.029",
+        "Relative_to_Category": "3.022"
+      },
+      "Latin America": {
+        "Equity_%": "3.267",
+        "Relative_to_Category": "1.328"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.43795",
+        "Relative_to_Category": "7.03251"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "8.67959",
+        "Relative_to_Category": "9.01392"
+      },
+      "Financial Services": {
+        "Equity_%": "26.30433",
+        "Relative_to_Category": "26.3462"
+      },
+      "Real Estate": {
+        "Equity_%": "1.88649",
+        "Relative_to_Category": "1.23902"
+      },
+      "Communication Services": {
+        "Equity_%": "7.19955",
+        "Relative_to_Category": "5.70685"
+      },
+      "Energy": {
+        "Equity_%": "4.307",
+        "Relative_to_Category": "7.39933"
+      },
+      "Industrials": {
+        "Equity_%": "13.19384",
+        "Relative_to_Category": "14.56547"
+      },
+      "Technology": {
+        "Equity_%": "11.39146",
+        "Relative_to_Category": "7.01548"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "6.56838",
+        "Relative_to_Category": "8.72481"
+      },
+      "Healthcare": {
+        "Equity_%": "10.64432",
+        "Relative_to_Category": "9.10444"
+      },
+      "Utilities": {
+        "Equity_%": "4.38709",
+        "Relative_to_Category": "3.85198"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 46,
+    "Top_10_Holdings": {
+      "AD.AS": {
+        "Code": "AD",
+        "Exchange": "AS",
+        "Name": "Koninklijke Ahold Delhaize NV",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 1.08104
+      },
+      "HSBA.LSE": {
+        "Code": "HSBA",
+        "Exchange": "LSE",
+        "Name": "HSBC Holdings PLC",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98331
+      },
+      "MAERSK-B.CO": {
+        "Code": "MAERSK-B",
+        "Exchange": "CO",
+        "Name": "A.P. M\u00f8ller - M\u00e6rsk A/S",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 0.97601
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.93099
+      },
+      "1093.HK": {
+        "Code": "1093",
+        "Exchange": "HK",
+        "Name": "CSPC Pharmaceutical Group Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.9298
+      },
+      "NOVN.SW": {
+        "Code": "NOVN",
+        "Exchange": "SW",
+        "Name": "Novartis AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.906
+      },
+      "1919.HK": {
+        "Code": "1919",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING Holdings Co Ltd H",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.9049
+      },
+      "2388.HK": {
+        "Code": "2388",
+        "Exchange": "HK",
+        "Name": "BOC Hong Kong Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.89664
+      },
+      "NOK.US": {
+        "Code": "NOK",
+        "Exchange": "US",
+        "Name": "Nokia Corp ADR",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.89291
+      },
+      "021240.KO": {
+        "Code": "021240",
+        "Exchange": "KO",
+        "Name": "COWAY Co. Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.88991
+      }
+    },
+    "Holdings": {
+      "AD.AS": {
+        "Code": "AD",
+        "Exchange": "AS",
+        "Name": "Koninklijke Ahold Delhaize NV",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 1.08104
+      },
+      "HSBA.LSE": {
+        "Code": "HSBA",
+        "Exchange": "LSE",
+        "Name": "HSBC Holdings PLC",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98331
+      },
+      "MAERSK-B.CO": {
+        "Code": "MAERSK-B",
+        "Exchange": "CO",
+        "Name": "A.P. M\u00f8ller - M\u00e6rsk A/S",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 0.97601
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.93099
+      },
+      "1093.HK": {
+        "Code": "1093",
+        "Exchange": "HK",
+        "Name": "CSPC Pharmaceutical Group Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.9298
+      },
+      "NOVN.SW": {
+        "Code": "NOVN",
+        "Exchange": "SW",
+        "Name": "Novartis AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.906
+      },
+      "1919.HK": {
+        "Code": "1919",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING Holdings Co Ltd H",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.9049
+      },
+      "2388.HK": {
+        "Code": "2388",
+        "Exchange": "HK",
+        "Name": "BOC Hong Kong Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.89664
+      },
+      "NOK.US": {
+        "Code": "NOK",
+        "Exchange": "US",
+        "Name": "Nokia Corp ADR",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.89291
+      },
+      "021240.KO": {
+        "Code": "021240",
+        "Exchange": "KO",
+        "Name": "COWAY Co. Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.88991
+      },
+      "POLI.TA": {
+        "Code": "POLI",
+        "Exchange": "TA",
+        "Name": "Bank Hapoalim",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Israel",
+        "Region": "Asia",
+        "Assets_%": 0.87285
+      },
+      "BMO.TO": {
+        "Code": "BMO",
+        "Exchange": "TO",
+        "Name": "Bank of Montreal",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.86383
+      },
+      "HEI.F": {
+        "Code": "HEI",
+        "Exchange": "F",
+        "Name": "Heidelberg Materials AG",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.85498
+      },
+      "LUMI.TA": {
+        "Code": "LUMI",
+        "Exchange": "TA",
+        "Name": "Bank Leumi Le-Israel B.M",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Israel",
+        "Region": "Asia",
+        "Assets_%": 0.85494
+      },
+      "ROG.SW": {
+        "Code": "ROG",
+        "Exchange": "SW",
+        "Name": "Roche Holding AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.84329
+      },
+      "JBH.AU": {
+        "Code": "JBH",
+        "Exchange": "AU",
+        "Name": "JB Hi-Fi Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.84245
+      },
+      "SAN.PA": {
+        "Code": "SAN",
+        "Exchange": "PA",
+        "Name": "Sanofi SA",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.83559
+      },
+      "2618.TW": {
+        "Code": "2618",
+        "Exchange": "TW",
+        "Name": "Eva Airways Corp",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.80537
+      },
+      "GSK.US": {
+        "Code": "GSK",
+        "Exchange": "US",
+        "Name": "GlaxoSmithKline PLC ADR",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.80347
+      },
+      "RDY.US": {
+        "Code": "RDY",
+        "Exchange": "US",
+        "Name": "Dr. Reddy\u2019s Laboratories Ltd ADR",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.80094
+      },
+      "1339.HK": {
+        "Code": "1339",
+        "Exchange": "HK",
+        "Name": "People\u2019s Insurance Group of China Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.79238
+      },
+      "EQNR.OL": {
+        "Code": "EQNR",
+        "Exchange": "OL",
+        "Name": "Equinor ASA",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Norway",
+        "Region": "Europe",
+        "Assets_%": 0.79233
+      },
+      "PGAS.JK": {
+        "Code": "PGAS",
+        "Exchange": "JK",
+        "Name": "Perusahaan Gas Negara Persero",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 0.79086
+      },
+      "000270.KO": {
+        "Code": "000270",
+        "Exchange": "KO",
+        "Name": "Kia Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.77301
+      },
+      "INFY.US": {
+        "Code": "INFY",
+        "Exchange": "US",
+        "Name": "Infosys Ltd ADR",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.7606
+      },
+      "3988.HK": {
+        "Code": "3988",
+        "Exchange": "HK",
+        "Name": "Bank of China Ltd H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.75565
+      },
+      "017670.KO": {
+        "Code": "017670",
+        "Exchange": "KO",
+        "Name": "SK Telecom Co Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.726
+      },
+      "2603.TW": {
+        "Code": "2603",
+        "Exchange": "TW",
+        "Name": "Evergreen Marine Corp Taiwan Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.71596
+      },
+      "RBS.LSE": {
+        "Code": "RBS",
+        "Exchange": "LSE",
+        "Name": "The Royal Bank of Scotland Group plc",
+        "Sector": "Regional Banks",
+        "Industry": "Financial",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.71066
+      },
+      "2385.TW": {
+        "Code": "2385",
+        "Exchange": "TW",
+        "Name": "Chicony Electronics Co Ltd",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.7059
+      },
+      "ORA.PA": {
+        "Code": "ORA",
+        "Exchange": "PA",
+        "Name": "Orange S.A.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.6928
+      },
+      "8411.TSE": {
+        "Code": "8411",
+        "Exchange": "TSE",
+        "Name": "Mizuho Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.68547
+      },
+      "AVIVF.US": {
+        "Code": "AVIVF",
+        "Exchange": "US",
+        "Name": "Advanced Info Service PCL DRC",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.66191
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.65596
+      },
+      "BHP.AU": {
+        "Code": "BHP",
+        "Exchange": "AU",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.65589
+      },
+      "VOLV-B.ST": {
+        "Code": "VOLV-B",
+        "Exchange": "ST",
+        "Name": "AB Volvo (publ)",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.65005
+      },
+      "L.TO": {
+        "Code": "L",
+        "Exchange": "TO",
+        "Name": "Loblaw Companies Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.63713
+      },
+      "1658.HK": {
+        "Code": "1658",
+        "Exchange": "HK",
+        "Name": "Postal Savings Bank of China",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.63258
+      },
+      "0992.HK": {
+        "Code": "0992",
+        "Exchange": "HK",
+        "Name": "Lenovo Group",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.63072
+      },
+      "RY.TO": {
+        "Code": "RY",
+        "Exchange": "TO",
+        "Name": "Royal Bank of Canada",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.62375
+      },
+      "8316.TSE": {
+        "Code": "8316",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Mitsui Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.61554
+      },
+      "1113.HK": {
+        "Code": "1113",
+        "Exchange": "HK",
+        "Name": "CK Asset Holdings Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.60177
+      },
+      "2317.TW": {
+        "Code": "2317",
+        "Exchange": "TW",
+        "Name": "Hon Hai Precision Industry Co Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.59946
+      },
+      "5347.KLSE": {
+        "Code": "5347",
+        "Exchange": "KLSE",
+        "Name": "Tenaga Nasional Bhd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.57324
+      },
+      "BNP.PA": {
+        "Code": "BNP",
+        "Exchange": "PA",
+        "Name": "BNP Paribas SA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.55721
+      },
+      "COL.AU": {
+        "Code": "COL",
+        "Exchange": "AU",
+        "Name": "Coles Group Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.55501
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "9.8724",
+        "Price/Book": "1.11873",
+        "Price/Sales": "0.76389",
+        "Price/Cash Flow": "4.09641",
+        "Dividend-Yield Factor": "5.43959"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.81238",
+        "Price/Book": "1.23651",
+        "Price/Sales": "0.91634",
+        "Price/Cash Flow": "5.85117",
+        "Dividend-Yield Factor": "4.57714"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.1137",
+        "Historical Earnings Growth": "4.4648",
+        "Sales Growth": "6.3185",
+        "Cash-Flow Growth": "1.30692",
+        "Book-Value Growth": "5.91409"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.0022",
+        "Historical Earnings Growth": "5.19973",
+        "Sales Growth": "3.54635",
+        "Cash-Flow Growth": "-5.38384",
+        "Book-Value Growth": "5.67082"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "7.89",
+      "3y_Volatility": "14.54",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.30",
+      "Returns_YTD": "12.84",
+      "Returns_1Y": "13.83",
+      "Returns_3Y": "10.73",
+      "Returns_5Y": "12.34",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "General": {
+    "Code": "NDOW",
+    "Type": "ETF",
+    "Name": "Anydrus Advantage ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01MVBVQH1",
+    "Description": "The fund is an actively managed ETF that seeks to achieve its investment objective by investing in a combination of equity securities, fixed income securities and ETFs representing a broad range of asset classes. The fund seeks to provide attractive risk adjusted returns over market cycles by investing in a broadly diversified portfolio. In doing so, the fund seeks to provide investors with 1) reduced correlation to U.S. only stock and bond market movements, and 2) multiple alternative return sources that are independent from traditional U.S. stock and bond markets.",
+    "Category": "Global Moderately Conservative Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 25.22,
+    "52WeekLow": 22.775,
+    "50DayMA": 24.4358,
+    "200DayMA": 24.8421
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Anydrus",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": null,
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2024-05-13",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": null,
+    "AnnualHoldingsTurnover": null,
+    "TotalAssets": "42386356.00",
+    "Average_Mkt_Cap_Mil": "61506.56898",
+    "Market_Capitalisation": {
+      "Mega": "19.96022",
+      "Big": "20.51884",
+      "Medium": "14.66727",
+      "Small": "4.89964",
+      "Micro": "1.48238"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "12.32119",
+        "Short_%": "5.5781",
+        "Net_Assets_%": "6.74309"
+      },
+      "NotClassified": {
+        "Long_%": "0.1107",
+        "Short_%": "0",
+        "Net_Assets_%": "0.1107"
+      },
+      "Stock non-US": {
+        "Long_%": "24.81785",
+        "Short_%": "0.1669",
+        "Net_Assets_%": "24.65095"
+      },
+      "Other": {
+        "Long_%": "5.61093",
+        "Short_%": "2.66721",
+        "Net_Assets_%": "2.94372"
+      },
+      "Stock US": {
+        "Long_%": "38.32226",
+        "Short_%": "3.49093",
+        "Net_Assets_%": "34.83133"
+      },
+      "Bond": {
+        "Long_%": "30.93567",
+        "Short_%": "0.21563",
+        "Net_Assets_%": "30.72004"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "62.934",
+        "Relative_to_Category": "0"
+      },
+      "United Kingdom": {
+        "Equity_%": "4.91229",
+        "Relative_to_Category": "0"
+      },
+      "Europe Developed": {
+        "Equity_%": "10.488",
+        "Relative_to_Category": "0"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.487",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "1.321",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "4.663",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "1.182",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "4.706",
+        "Relative_to_Category": "0"
+      },
+      "Asia Emerging": {
+        "Equity_%": "4.317",
+        "Relative_to_Category": "0"
+      },
+      "Latin America": {
+        "Equity_%": "4.99",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "3.70426",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "8.85272",
+        "Relative_to_Category": "0"
+      },
+      "Financial Services": {
+        "Equity_%": "16.72339",
+        "Relative_to_Category": "0"
+      },
+      "Real Estate": {
+        "Equity_%": "1.57773",
+        "Relative_to_Category": "0"
+      },
+      "Communication Services": {
+        "Equity_%": "8.99187",
+        "Relative_to_Category": "0"
+      },
+      "Energy": {
+        "Equity_%": "4.84139",
+        "Relative_to_Category": "0"
+      },
+      "Industrials": {
+        "Equity_%": "10.61608",
+        "Relative_to_Category": "0"
+      },
+      "Technology": {
+        "Equity_%": "25.60936",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.95173",
+        "Relative_to_Category": "0"
+      },
+      "Healthcare": {
+        "Equity_%": "8.69828",
+        "Relative_to_Category": "0"
+      },
+      "Utilities": {
+        "Equity_%": "4.43319",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "5.53085",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "3.40073",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "7.2569",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "2.63296",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "94.36891",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "3.20731",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 49,
+    "Top_10_Holdings": {
+      "IBTH.US": {
+        "Code": "IBTH",
+        "Exchange": "US",
+        "Name": "iShares iBonds Dec 2027 Term Treasury ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.76343
+      },
+      "VGIT.US": {
+        "Code": "VGIT",
+        "Exchange": "US",
+        "Name": "Vanguard Intermediate-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.98672
+      },
+      "IAGG.US": {
+        "Code": "IAGG",
+        "Exchange": "US",
+        "Name": "iShares Core International Aggregate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.70648
+      },
+      "VGLT.US": {
+        "Code": "VGLT",
+        "Exchange": "US",
+        "Name": "Vanguard Long-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.22737
+      },
+      "ISHG.US": {
+        "Code": "ISHG",
+        "Exchange": "US",
+        "Name": "iShares 1-3 Year International Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.99205
+      },
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.59471
+      },
+      "CLSE.US": {
+        "Code": "CLSE",
+        "Exchange": "US",
+        "Name": "Trust For Professional Managers - Convergence Long/Short Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.59424
+      },
+      "VEU.MX": {
+        "Code": "VEU",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE All-World ex-US ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.36063
+      },
+      "MNA.US": {
+        "Code": "MNA",
+        "Exchange": "US",
+        "Name": "IQ Merger Arbitrage ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.35168
+      },
+      "FDEM.US": {
+        "Code": "FDEM",
+        "Exchange": "US",
+        "Name": "Fidelity\u00ae Emerging Markets Multifactor ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.2017
+      }
+    },
+    "Holdings": {
+      "IBTH.US": {
+        "Code": "IBTH",
+        "Exchange": "US",
+        "Name": "iShares iBonds Dec 2027 Term Treasury ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.76343
+      },
+      "VGIT.US": {
+        "Code": "VGIT",
+        "Exchange": "US",
+        "Name": "Vanguard Intermediate-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.98672
+      },
+      "IAGG.US": {
+        "Code": "IAGG",
+        "Exchange": "US",
+        "Name": "iShares Core International Aggregate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.70648
+      },
+      "VGLT.US": {
+        "Code": "VGLT",
+        "Exchange": "US",
+        "Name": "Vanguard Long-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.22737
+      },
+      "ISHG.US": {
+        "Code": "ISHG",
+        "Exchange": "US",
+        "Name": "iShares 1-3 Year International Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.99205
+      },
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.59471
+      },
+      "CLSE.US": {
+        "Code": "CLSE",
+        "Exchange": "US",
+        "Name": "Trust For Professional Managers - Convergence Long/Short Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.59424
+      },
+      "VEU.MX": {
+        "Code": "VEU",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE All-World ex-US ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.36063
+      },
+      "MNA.US": {
+        "Code": "MNA",
+        "Exchange": "US",
+        "Name": "IQ Merger Arbitrage ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.35168
+      },
+      "FDEM.US": {
+        "Code": "FDEM",
+        "Exchange": "US",
+        "Name": "Fidelity\u00ae Emerging Markets Multifactor ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.2017
+      },
+      "IBND.US": {
+        "Code": "IBND",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg International Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.81455
+      },
+      "IDV.MX": {
+        "Code": "IDV",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares International Select Dividend ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.58815
+      },
+      "FMF.US": {
+        "Code": "FMF",
+        "Exchange": "US",
+        "Name": "First Trust Managed Futures Strategy Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.35031
+      },
+      "FLSP.US": {
+        "Code": "FLSP",
+        "Exchange": "US",
+        "Name": "Franklin Liberty Systematic Style Premia ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.03878
+      },
+      "QLVD.US": {
+        "Code": "QLVD",
+        "Exchange": "US",
+        "Name": "FlexShares Developed Markets ex-US Quality Low Volatility Index Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.59244
+      },
+      "RPAR.US": {
+        "Code": "RPAR",
+        "Exchange": "US",
+        "Name": "RPAR Risk Parity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.54397
+      },
+      "RLY.US": {
+        "Code": "RLY",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae SSgA Multi-Asset Real Return ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.51599
+      },
+      "YBTC.US": {
+        "Code": "YBTC",
+        "Exchange": "US",
+        "Name": "Roundhill Bitcoin Covered Call Strategy ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.39504
+      },
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.31257
+      },
+      "MSFT.US": {
+        "Code": "MSFT",
+        "Exchange": "US",
+        "Name": "Microsoft Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.20063
+      },
+      "EWU.US": {
+        "Code": "EWU",
+        "Exchange": "US",
+        "Name": "iShares MSCI United Kingdom ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.12252
+      },
+      "EWJ.US": {
+        "Code": "EWJ",
+        "Exchange": "US",
+        "Name": "iShares MSCI Japan ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.11958
+      },
+      "EWZ.MX": {
+        "Code": "EWZ",
+        "Exchange": "MX",
+        "Name": "iShares MSCI Brazil ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.1075
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.97644
+      },
+      "IBIT.US": {
+        "Code": "IBIT",
+        "Exchange": "US",
+        "Name": "iShares Bitcoin Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.94555
+      },
+      "AVGO.US": {
+        "Code": "AVGO",
+        "Exchange": "US",
+        "Name": "Broadcom Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.78458
+      },
+      "FFLS.US": {
+        "Code": "FFLS",
+        "Exchange": "US",
+        "Name": "Northern Lights Fund Trust II",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.7643
+      },
+      "META.US": {
+        "Code": "META",
+        "Exchange": "US",
+        "Name": "Meta Platforms Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.76299
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.67227
+      },
+      "TSM.US": {
+        "Code": "TSM",
+        "Exchange": "US",
+        "Name": "Taiwan Semiconductor Manufacturing",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.62484
+      },
+      "AAPL.US": {
+        "Code": "AAPL",
+        "Exchange": "US",
+        "Name": "Apple Inc",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.61468
+      },
+      "DIS.US": {
+        "Code": "DIS",
+        "Exchange": "US",
+        "Name": "Walt Disney Company",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.60007
+      },
+      "PANW.US": {
+        "Code": "PANW",
+        "Exchange": "US",
+        "Name": "Palo Alto Networks Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.58988
+      },
+      "ASML.US": {
+        "Code": "ASML",
+        "Exchange": "US",
+        "Name": "ASML Holding NV ADR",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.57887
+      },
+      "DELL.US": {
+        "Code": "DELL",
+        "Exchange": "US",
+        "Name": "Dell Technologies Inc",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.55371
+      },
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.55364
+      },
+      "UTES.US": {
+        "Code": "UTES",
+        "Exchange": "US",
+        "Name": "Virtus Reaves Utilities ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.52893
+      },
+      "WMT.US": {
+        "Code": "WMT",
+        "Exchange": "US",
+        "Name": "Walmart Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Discount Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.52393
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.50787
+      },
+      "CSCO.US": {
+        "Code": "CSCO",
+        "Exchange": "US",
+        "Name": "Cisco Systems Inc",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.5073
+      },
+      "AXP.US": {
+        "Code": "AXP",
+        "Exchange": "US",
+        "Name": "American Express Company",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.47691
+      },
+      "MU.US": {
+        "Code": "MU",
+        "Exchange": "US",
+        "Name": "Micron Technology Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.47436
+      },
+      "ADBE.US": {
+        "Code": "ADBE",
+        "Exchange": "US",
+        "Name": "Adobe Systems Incorporated",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.4625
+      },
+      "GE.US": {
+        "Code": "GE",
+        "Exchange": "US",
+        "Name": "GE Aerospace",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46196
+      },
+      "ICE.US": {
+        "Code": "ICE",
+        "Exchange": "US",
+        "Name": "Intercontinental Exchange Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46071
+      },
+      "KLAC.US": {
+        "Code": "KLAC",
+        "Exchange": "US",
+        "Name": "KLA-Tencor Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.45542
+      },
+      "PGR.US": {
+        "Code": "PGR",
+        "Exchange": "US",
+        "Name": "Progressive Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.43419
+      },
+      "MPWR.US": {
+        "Code": "MPWR",
+        "Exchange": "US",
+        "Name": "Monolithic Power Systems Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.42674
+      },
+      "ULTA.US": {
+        "Code": "ULTA",
+        "Exchange": "US",
+        "Name": "Ulta Beauty Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.42062
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.80258",
+        "Price/Book": "2.20822",
+        "Price/Sales": "1.25503",
+        "Price/Cash Flow": "8.45355",
+        "Dividend-Yield Factor": "2.50181"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "",
+        "Price/Book": "",
+        "Price/Sales": "",
+        "Price/Cash Flow": "",
+        "Dividend-Yield Factor": ""
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.91258",
+        "Historical Earnings Growth": "3.52745",
+        "Sales Growth": "2.6",
+        "Cash-Flow Growth": "355.16183",
+        "Book-Value Growth": "8.46057"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "",
+        "Historical Earnings Growth": "",
+        "Sales Growth": "",
+        "Cash-Flow Growth": "",
+        "Book-Value Growth": ""
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "0.00",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "2.49",
+      "Returns_1Y": "-0.28",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

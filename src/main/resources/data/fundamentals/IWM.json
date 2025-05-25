@@ -1,0 +1,430 @@
+{
+  "General": {
+    "Code": "IWM",
+    "Type": "ETF",
+    "Name": "iShares Russell 2000 ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000CGC9C4",
+    "Description": "The fund generally invests at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index (i.e., depositary receipts representing securities of the underlying index) and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents.",
+    "Category": "Small Blend",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.18,
+    "52WeekHigh": 243.7079,
+    "52WeekLow": 171.73,
+    "50DayMA": 197.3852,
+    "200DayMA": 216.0074
+  },
+  "ETF_Data": {
+    "ISIN": "US4642876555",
+    "Company_Name": "iShares",
+    "Company_URL": "http://www.ishares.com",
+    "ETF_URL": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "1.270000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2000-05-22",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00190",
+    "AnnualHoldingsTurnover": "0.18000",
+    "TotalAssets": "65609769747.00",
+    "Average_Mkt_Cap_Mil": "2528.10898",
+    "Market_Capitalisation": {
+      "Mega": "0",
+      "Big": "0",
+      "Medium": "2.91244",
+      "Small": "51.57335",
+      "Micro": "44.9584"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.28459",
+        "Short_%": "0.20174",
+        "Net_Assets_%": "0.08285"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "1.54072",
+        "Short_%": "0",
+        "Net_Assets_%": "1.54072"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "98.37643",
+        "Short_%": "0",
+        "Net_Assets_%": "98.37643"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "98.564",
+        "Relative_to_Category": "98.331"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.04826",
+        "Relative_to_Category": "0.29309"
+      },
+      "Europe Developed": {
+        "Equity_%": "0.108",
+        "Relative_to_Category": "0.157"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.166",
+        "Relative_to_Category": "0.122"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "0.005",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.145",
+        "Relative_to_Category": "0.072"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.083",
+        "Relative_to_Category": "0.314"
+      },
+      "Latin America": {
+        "Equity_%": "0.881",
+        "Relative_to_Category": "0.712"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "3.89887",
+        "Relative_to_Category": "4.36464"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.30778",
+        "Relative_to_Category": "11.35476"
+      },
+      "Financial Services": {
+        "Equity_%": "18.10423",
+        "Relative_to_Category": "18.35288"
+      },
+      "Real Estate": {
+        "Equity_%": "7.01011",
+        "Relative_to_Category": "6.67725"
+      },
+      "Communication Services": {
+        "Equity_%": "2.04868",
+        "Relative_to_Category": "2.26888"
+      },
+      "Energy": {
+        "Equity_%": "4.55945",
+        "Relative_to_Category": "4.64809"
+      },
+      "Industrials": {
+        "Equity_%": "16.64305",
+        "Relative_to_Category": "17.93084"
+      },
+      "Technology": {
+        "Equity_%": "15.37027",
+        "Relative_to_Category": "14.31033"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.56593",
+        "Relative_to_Category": "4.45749"
+      },
+      "Healthcare": {
+        "Equity_%": "15.54341",
+        "Relative_to_Category": "12.96431"
+      },
+      "Utilities": {
+        "Equity_%": "2.94821",
+        "Relative_to_Category": "2.67052"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.91"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.12"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.32"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.18863"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.87"
+      }
+    },
+    "Holdings_Count": 9,
+    "Top_10_Holdings": {
+      "SFM.US": {
+        "Code": "SFM",
+        "Exchange": "US",
+        "Name": "Sprouts Farmers Market LLC",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73638
+      },
+      "INSM.US": {
+        "Code": "INSM",
+        "Exchange": "US",
+        "Name": "Insmed Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.53021
+      },
+      "FTAI.US": {
+        "Code": "FTAI",
+        "Exchange": "US",
+        "Name": "Fortress Transp & Infra Inv",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46489
+      },
+      "CRS.US": {
+        "Code": "CRS",
+        "Exchange": "US",
+        "Name": "Carpenter Technology Corporation",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.40236
+      },
+      "AIT.US": {
+        "Code": "AIT",
+        "Exchange": "US",
+        "Name": "Applied Industrial Technologies",
+        "Sector": "Industrials",
+        "Industry": "Industrial Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3979
+      },
+      "SSB.US": {
+        "Code": "SSB",
+        "Exchange": "US",
+        "Name": "SouthState Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.36265
+      },
+      "MLI.US": {
+        "Code": "MLI",
+        "Exchange": "US",
+        "Name": "Mueller Industries Inc",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3516
+      },
+      "RKLB.US": {
+        "Code": "RKLB",
+        "Exchange": "US",
+        "Name": "Rocket Lab USA Inc.",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.32868
+      },
+      "HALO.US": {
+        "Code": "HALO",
+        "Exchange": "US",
+        "Name": "Halozyme Therapeutics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3275
+      }
+    },
+    "Holdings": {
+      "SFM.US": {
+        "Code": "SFM",
+        "Exchange": "US",
+        "Name": "Sprouts Farmers Market LLC",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73638
+      },
+      "INSM.US": {
+        "Code": "INSM",
+        "Exchange": "US",
+        "Name": "Insmed Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.53021
+      },
+      "FTAI.US": {
+        "Code": "FTAI",
+        "Exchange": "US",
+        "Name": "Fortress Transp & Infra Inv",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46489
+      },
+      "CRS.US": {
+        "Code": "CRS",
+        "Exchange": "US",
+        "Name": "Carpenter Technology Corporation",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.40236
+      },
+      "AIT.US": {
+        "Code": "AIT",
+        "Exchange": "US",
+        "Name": "Applied Industrial Technologies",
+        "Sector": "Industrials",
+        "Industry": "Industrial Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3979
+      },
+      "SSB.US": {
+        "Code": "SSB",
+        "Exchange": "US",
+        "Name": "SouthState Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.36265
+      },
+      "MLI.US": {
+        "Code": "MLI",
+        "Exchange": "US",
+        "Name": "Mueller Industries Inc",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3516
+      },
+      "RKLB.US": {
+        "Code": "RKLB",
+        "Exchange": "US",
+        "Name": "Rocket Lab USA Inc.",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.32868
+      },
+      "HALO.US": {
+        "Code": "HALO",
+        "Exchange": "US",
+        "Name": "Halozyme Therapeutics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3275
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.94377",
+        "Price/Book": "1.59758",
+        "Price/Sales": "1.0376",
+        "Price/Cash Flow": "7.08767",
+        "Dividend-Yield Factor": "1.68589"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "14.67909",
+        "Price/Book": "2.04151",
+        "Price/Sales": "1.37789",
+        "Price/Cash Flow": "9.19963",
+        "Dividend-Yield Factor": "1.34071"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "11.24155",
+        "Historical Earnings Growth": "-1.35302",
+        "Sales Growth": "2.85731",
+        "Cash-Flow Growth": "-0.08648",
+        "Book-Value Growth": "2.89572"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.09086",
+        "Historical Earnings Growth": "7.22064",
+        "Sales Growth": "6.36147",
+        "Cash-Flow Growth": "1.9654",
+        "Book-Value Growth": "8.32218"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": "S&P 500 TR USD",
+      "Sustainability_Ratio": "2"
+    },
+    "Performance": {
+      "1y_Volatility": "21.09",
+      "3y_Volatility": "22.80",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.04",
+      "Returns_YTD": "-7.83",
+      "Returns_1Y": "-1.33",
+      "Returns_3Y": "6.35",
+      "Returns_5Y": "10.03",
+      "Returns_10Y": "6.38"
+    }
+  }
+}

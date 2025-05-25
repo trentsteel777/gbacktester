@@ -1,0 +1,810 @@
+{
+  "General": {
+    "Code": "SROI",
+    "Type": "ETF",
+    "Name": "Calamos Antetokounmpo Global Sustainable Equities ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01DZBX091",
+    "Description": "The fund is an actively managed exchange-traded fund (ETF) that does not seek to replicate the performance of a specified index. The fund will, under normal circumstances, invest at least 80% of its net assets (plus borrowings for investment purposes, if any) in equity securities of companies in developed markets (including the U.S.) and emerging markets (including frontier market countries) that, in the view of Calamos Advisors LLC's (Calamos Advisors) investment team (the Team), have above average growth potential and meet the sustainable investment criteria.",
+    "Category": "Global Large-Stock Blend",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 31.08,
+    "52WeekLow": 25.65,
+    "50DayMA": 28.973,
+    "200DayMA": 29.5792
+  },
+  "ETF_Data": {
+    "ISIN": "US12811T2096",
+    "Company_Name": "Calamos",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "0.680000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2023-02-03",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00950",
+    "AnnualHoldingsTurnover": "0.07000",
+    "TotalAssets": "14010382.00",
+    "Average_Mkt_Cap_Mil": "145825.11003",
+    "Market_Capitalisation": {
+      "Mega": "51.2297",
+      "Big": "31.49015",
+      "Medium": "12.73186",
+      "Small": "1.57906",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "2.58825",
+        "Short_%": "0",
+        "Net_Assets_%": "2.58825"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "45.6961",
+        "Short_%": "0",
+        "Net_Assets_%": "45.6961"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "51.71523",
+        "Short_%": "0",
+        "Net_Assets_%": "51.71523"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "53.99",
+        "Relative_to_Category": "67.664"
+      },
+      "United Kingdom": {
+        "Equity_%": "6.44375",
+        "Relative_to_Category": "4.8424"
+      },
+      "Europe Developed": {
+        "Equity_%": "21.352",
+        "Relative_to_Category": "14.792"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.067"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.554",
+        "Relative_to_Category": "0.228"
+      },
+      "Japan": {
+        "Equity_%": "4.87",
+        "Relative_to_Category": "4.177"
+      },
+      "Australasia": {
+        "Equity_%": "0.761",
+        "Relative_to_Category": "0.643"
+      },
+      "Asia Developed": {
+        "Equity_%": "4.83",
+        "Relative_to_Category": "3.569"
+      },
+      "Asia Emerging": {
+        "Equity_%": "5.166",
+        "Relative_to_Category": "3.382"
+      },
+      "Latin America": {
+        "Equity_%": "2.033",
+        "Relative_to_Category": "0.636"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "4.4446",
+        "Relative_to_Category": "3.57627"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.90925",
+        "Relative_to_Category": "10.84647"
+      },
+      "Financial Services": {
+        "Equity_%": "13.74461",
+        "Relative_to_Category": "16.30526"
+      },
+      "Real Estate": {
+        "Equity_%": "1.25439",
+        "Relative_to_Category": "1.5229"
+      },
+      "Communication Services": {
+        "Equity_%": "6.31507",
+        "Relative_to_Category": "7.92621"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.62153"
+      },
+      "Industrials": {
+        "Equity_%": "15.64546",
+        "Relative_to_Category": "13.2733"
+      },
+      "Technology": {
+        "Equity_%": "28.07992",
+        "Relative_to_Category": "23.54202"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.81616",
+        "Relative_to_Category": "5.8537"
+      },
+      "Healthcare": {
+        "Equity_%": "12.27539",
+        "Relative_to_Category": "10.80646"
+      },
+      "Utilities": {
+        "Equity_%": "2.51516",
+        "Relative_to_Category": "2.72588"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0.00703"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 46,
+    "Top_10_Holdings": {
+      "MSFT.US": {
+        "Code": "MSFT",
+        "Exchange": "US",
+        "Name": "Microsoft Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.32337
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.15724
+      },
+      "AAPL.US": {
+        "Code": "AAPL",
+        "Exchange": "US",
+        "Name": "Apple Inc",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.83569
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.72429
+      },
+      "TSM.US": {
+        "Code": "TSM",
+        "Exchange": "US",
+        "Name": "Taiwan Semiconductor Manufacturing",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01576
+      },
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.00796
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.86914
+      },
+      "1211.HK": {
+        "Code": "1211",
+        "Exchange": "HK",
+        "Name": "BYD Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.83072
+      },
+      "TJX.US": {
+        "Code": "TJX",
+        "Exchange": "US",
+        "Name": "The TJX Companies Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.61648
+      },
+      "HDB.US": {
+        "Code": "HDB",
+        "Exchange": "US",
+        "Name": "HDFC Bank Limited ADR",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49032
+      }
+    },
+    "Holdings": {
+      "MSFT.US": {
+        "Code": "MSFT",
+        "Exchange": "US",
+        "Name": "Microsoft Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.32337
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.15724
+      },
+      "AAPL.US": {
+        "Code": "AAPL",
+        "Exchange": "US",
+        "Name": "Apple Inc",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.83569
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.72429
+      },
+      "TSM.US": {
+        "Code": "TSM",
+        "Exchange": "US",
+        "Name": "Taiwan Semiconductor Manufacturing",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01576
+      },
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.00796
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.86914
+      },
+      "1211.HK": {
+        "Code": "1211",
+        "Exchange": "HK",
+        "Name": "BYD Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.83072
+      },
+      "TJX.US": {
+        "Code": "TJX",
+        "Exchange": "US",
+        "Name": "The TJX Companies Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.61648
+      },
+      "HDB.US": {
+        "Code": "HDB",
+        "Exchange": "US",
+        "Name": "HDFC Bank Limited ADR",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49032
+      },
+      "FI.US": {
+        "Code": "FI",
+        "Exchange": "US",
+        "Name": "Fiserv, Inc.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.2085
+      },
+      "1299.HK": {
+        "Code": "1299",
+        "Exchange": "HK",
+        "Name": "AIA Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.19142
+      },
+      "TRV.US": {
+        "Code": "TRV",
+        "Exchange": "US",
+        "Name": "The Travelers Companies Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.1713
+      },
+      "WM.US": {
+        "Code": "WM",
+        "Exchange": "US",
+        "Name": "Waste Management Inc",
+        "Sector": "Industrials",
+        "Industry": "Waste Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.15778
+      },
+      "AVGO.US": {
+        "Code": "AVGO",
+        "Exchange": "US",
+        "Name": "Broadcom Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.13886
+      },
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.1317
+      },
+      "UNH.US": {
+        "Code": "UNH",
+        "Exchange": "US",
+        "Name": "UnitedHealth Group Incorporated",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.06876
+      },
+      "GILD.US": {
+        "Code": "GILD",
+        "Exchange": "US",
+        "Name": "Gilead Sciences Inc",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.03758
+      },
+      "KRZ.IR": {
+        "Code": "KRZ",
+        "Exchange": "IR",
+        "Name": "Kerry Group",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Ireland",
+        "Region": "Europe",
+        "Assets_%": 1.01536
+      },
+      "AMS.MC": {
+        "Code": "AMS",
+        "Exchange": "MC",
+        "Name": "Amadeus IT Group S.A.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 1.01172
+      },
+      "HD.US": {
+        "Code": "HD",
+        "Exchange": "US",
+        "Name": "Home Depot Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Home Improvement Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.98865
+      },
+      "0QIU.LSE": {
+        "Code": "0QIU",
+        "Exchange": "LSE",
+        "Name": "Novo Nordisk A/S Class B",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98788
+      },
+      "PWR.US": {
+        "Code": "PWR",
+        "Exchange": "US",
+        "Name": "Quanta Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.97056
+      },
+      "COST.US": {
+        "Code": "COST",
+        "Exchange": "US",
+        "Name": "Costco Wholesale Corp",
+        "Sector": "Consumer Defensive",
+        "Industry": "Discount Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.96498
+      },
+      "TEL.US": {
+        "Code": "TEL",
+        "Exchange": "US",
+        "Name": "TE Connectivity Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.96235
+      },
+      "SGO.PA": {
+        "Code": "SGO",
+        "Exchange": "PA",
+        "Name": "Compagnie de Saint-Gobain S.A.",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.96033
+      },
+      "6501.TSE": {
+        "Code": "6501",
+        "Exchange": "TSE",
+        "Name": "Hitachi Ltd",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.9566
+      },
+      "LIN.US": {
+        "Code": "LIN",
+        "Exchange": "US",
+        "Name": "Linde plc Ordinary Shares",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.91419
+      },
+      "WMT.US": {
+        "Code": "WMT",
+        "Exchange": "US",
+        "Name": "Walmart Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Discount Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.90522
+      },
+      "CMG.US": {
+        "Code": "CMG",
+        "Exchange": "US",
+        "Name": "Chipotle Mexican Grill Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.89845
+      },
+      "HLN.LSE": {
+        "Code": "HLN",
+        "Exchange": "LSE",
+        "Name": "Haleon PLC",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.89064
+      },
+      "GRG.LSE": {
+        "Code": "GRG",
+        "Exchange": "LSE",
+        "Name": "Greggs PLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.88363
+      },
+      "BSY.US": {
+        "Code": "BSY",
+        "Exchange": "US",
+        "Name": "Bentley Systems\u00a0Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.88244
+      },
+      "CP.TO": {
+        "Code": "CP",
+        "Exchange": "TO",
+        "Name": "Canadian Pacific Railway Ltd",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.87699
+      },
+      "SPGI.US": {
+        "Code": "SPGI",
+        "Exchange": "US",
+        "Name": "S&P Global Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.87581
+      },
+      "ROG.SW": {
+        "Code": "ROG",
+        "Exchange": "SW",
+        "Name": "Roche Holding AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.87563
+      },
+      "VZ.US": {
+        "Code": "VZ",
+        "Exchange": "US",
+        "Name": "Verizon Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.86286
+      },
+      "ICE.US": {
+        "Code": "ICE",
+        "Exchange": "US",
+        "Name": "Intercontinental Exchange Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.86001
+      },
+      "ECL.US": {
+        "Code": "ECL",
+        "Exchange": "US",
+        "Name": "Ecolab Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.8485
+      },
+      "VIE.PA": {
+        "Code": "VIE",
+        "Exchange": "PA",
+        "Name": "Veolia Environnement VE SA",
+        "Sector": "Industrials",
+        "Industry": "Waste Management",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.84811
+      },
+      "TMO.US": {
+        "Code": "TMO",
+        "Exchange": "US",
+        "Name": "Thermo Fisher Scientific Inc",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.84617
+      },
+      "REL.LSE": {
+        "Code": "REL",
+        "Exchange": "LSE",
+        "Name": "Relx PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.84263
+      },
+      "DE.US": {
+        "Code": "DE",
+        "Exchange": "US",
+        "Name": "Deere & Company",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.83441
+      },
+      "AV.LSE": {
+        "Code": "AV",
+        "Exchange": "LSE",
+        "Name": "Aviva PLC",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.81744
+      },
+      "BK.US": {
+        "Code": "BK",
+        "Exchange": "US",
+        "Name": "The Bank of New York Mellon Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81618
+      },
+      "OTIS.US": {
+        "Code": "OTIS",
+        "Exchange": "US",
+        "Name": "Otis Worldwide Corp",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81125
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "19.46392",
+        "Price/Book": "3.57902",
+        "Price/Sales": "2.52548",
+        "Price/Cash Flow": "13.47276",
+        "Dividend-Yield Factor": "2.04099"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "17.38634",
+        "Price/Book": "2.79408",
+        "Price/Sales": "2.11232",
+        "Price/Cash Flow": "11.40928",
+        "Dividend-Yield Factor": "2.08578"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.76495",
+        "Historical Earnings Growth": "10.6193",
+        "Sales Growth": "8.2622",
+        "Cash-Flow Growth": "9.69447",
+        "Book-Value Growth": "9.01981"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.06963",
+        "Historical Earnings Growth": "8.36185",
+        "Sales Growth": "6.31652",
+        "Cash-Flow Growth": "8.05937",
+        "Book-Value Growth": "7.63033"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "8.96",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "6.85",
+      "Returns_1Y": "7.89",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

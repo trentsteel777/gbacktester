@@ -37,6 +37,7 @@ import org.ta4j.core.indicators.StochasticOscillatorDIndicator;
 import org.ta4j.core.indicators.StochasticOscillatorKIndicator;
 import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
 
+import gbacktester.MagicFormulaCalculator;
 import gbacktester.domain.CsvStockRecord;
 import gbacktester.ta.RollingWindowHigh;
 import gbacktester.util.StopWatch;
@@ -77,10 +78,11 @@ public class CsvWriterService {
     }
 
     public void writePrecalculatedTechnicalAnalysis() {
-        Map<String, List<CsvStockRecord>> allStockRecords = loadAllStockRecords();
+		/* Map<String, List<CsvStockRecord>> allStockRecords = */
+    	loadAllStockRecords();
 
         // For each symbol, write out a new CSV
-        for (Map.Entry<String, List<CsvStockRecord>> entry : allStockRecords.entrySet()) {
+        /*for (Map.Entry<String, List<CsvStockRecord>> entry : allStockRecords.entrySet()) {
             String symbol = entry.getKey();
             List<CsvStockRecord> stockRecords = entry.getValue();
 
@@ -91,10 +93,13 @@ public class CsvWriterService {
 
             writeStockPricesWithTA(outputFilePath, stockRecords);
             System.out.println("Wrote TA CSV for: " + symbol + " -> " + outputFilePath);
-        }
+        }*/
     }
 
-    private void writeStockPricesWithTA(String outputFilePath, List<CsvStockRecord> records) {
+    private void writeStockPricesWithTA(String symbol, String outputFilePath, List<CsvStockRecord> records) {
+    	MagicFormulaCalculator mfc = new MagicFormulaCalculator(records);
+    	mfc.loadAndCalculate(symbol);
+    	
         try (PrintWriter writer = new PrintWriter(new FileWriter(outputFilePath))) {
             // Write header (note the added comma before is_52_week_high)
             writer.println("Date,Open,High,Low,Close,Volume," +
@@ -160,7 +165,7 @@ public class CsvWriterService {
         }
     }
 
-    public Map<String, List<CsvStockRecord>> loadAllStockRecords() {
+	public /*Map<String, List<CsvStockRecord>> */ void loadAllStockRecords() {
         File folder = new File(FOLDER_PATH);
         File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".csv"));
 
@@ -178,10 +183,21 @@ public class CsvWriterService {
         List<Future<?>> futures = new ArrayList<>();
 
         for (File file : files) {
+            String symbol = file.getName().replace(".csv", "");
+            String outputFilePath = Paths.get(OUTPUT_PATH, symbol + ".csv")
+                    .toAbsolutePath()
+                    .toString();
+
+            File outputFile = new File(outputFilePath);
+            if (outputFile.exists()) {
+                System.out.println("⚠️ Skipping " + symbol + " — already exists at " + outputFilePath);
+                continue;
+            }
+
             futures.add(executor.submit(() -> {
-                String symbol = file.getName().replace(".csv", "");
-                List<CsvStockRecord> records = loadStockRecords(file.getAbsolutePath());
-                allData.put(symbol, records);
+                List<CsvStockRecord> stockRecords = loadStockRecords(file.getAbsolutePath());
+                writeStockPricesWithTA(symbol, outputFilePath, stockRecords);
+                System.out.println("✅ Wrote TA CSV for: " + symbol + " -> " + outputFilePath);
             }));
         }
 
@@ -197,7 +213,7 @@ public class CsvWriterService {
             }
         }
         executor.shutdown();
-        return allData;
+        // return allData
     }
 
     private List<CsvStockRecord> loadStockRecords(String filePath) {

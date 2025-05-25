@@ -1,0 +1,410 @@
+{
+  "General": {
+    "Code": "INTL",
+    "Type": "ETF",
+    "Name": "Main International ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01BTT0GP6",
+    "Description": "The fund utilizes a \"fund of funds\" structure to invest in ETFs that primarily provide exposure to non-U.S. equity securities of companies of any capitalization representing sectors and geographic regions that appear undervalued in comparison to their historical average price. Under normal circumstances, the fund invests at least 50% of its total assets in funds that invest at least 50% of their respective total assets in securities of non-U.S. issuers organized or having their principal place of business outside the U.S.",
+    "Category": "Foreign Large Blend",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 25,
+    "52WeekLow": 20.3401,
+    "50DayMA": 23.5099,
+    "200DayMA": 23.1046
+  },
+  "ETF_Data": {
+    "ISIN": "US66538H2379",
+    "Company_Name": "Main Management",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "2.520000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2022-12-01",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.01040",
+    "AnnualHoldingsTurnover": "0.33000",
+    "TotalAssets": "128523567.00",
+    "Average_Mkt_Cap_Mil": "34613.69901",
+    "Market_Capitalisation": {
+      "Mega": "46.33182",
+      "Big": "30.16089",
+      "Medium": "15.15077",
+      "Small": "3.10406",
+      "Micro": "0.27102"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.46475",
+        "Short_%": "0.54583",
+        "Net_Assets_%": "0.91892"
+      },
+      "NotClassified": {
+        "Long_%": "0.02325",
+        "Short_%": "0",
+        "Net_Assets_%": "0.02325"
+      },
+      "Stock non-US": {
+        "Long_%": "98.16827",
+        "Short_%": "0",
+        "Net_Assets_%": "98.16827"
+      },
+      "Other": {
+        "Long_%": "0.09624",
+        "Short_%": "0",
+        "Net_Assets_%": "0.09624"
+      },
+      "Stock US": {
+        "Long_%": "0.79316",
+        "Short_%": "0",
+        "Net_Assets_%": "0.79316"
+      },
+      "Bond": {
+        "Long_%": "0.00017",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00017"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "7.645",
+        "Relative_to_Category": "8.284"
+      },
+      "United Kingdom": {
+        "Equity_%": "8.03064",
+        "Relative_to_Category": "13.72305"
+      },
+      "Europe Developed": {
+        "Equity_%": "27.678",
+        "Relative_to_Category": "41.07"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.773",
+        "Relative_to_Category": "0.207"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "2.74",
+        "Relative_to_Category": "1.081"
+      },
+      "Japan": {
+        "Equity_%": "11.979",
+        "Relative_to_Category": "18.226"
+      },
+      "Australasia": {
+        "Equity_%": "3.722",
+        "Relative_to_Category": "4.27"
+      },
+      "Asia Developed": {
+        "Equity_%": "8.504",
+        "Relative_to_Category": "6.35"
+      },
+      "Asia Emerging": {
+        "Equity_%": "21.76",
+        "Relative_to_Category": "5.705"
+      },
+      "Latin America": {
+        "Equity_%": "7.169",
+        "Relative_to_Category": "1.084"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "6.61745",
+        "Relative_to_Category": "5.86274"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "12.40443",
+        "Relative_to_Category": "9.87307"
+      },
+      "Financial Services": {
+        "Equity_%": "21.07824",
+        "Relative_to_Category": "23.00982"
+      },
+      "Real Estate": {
+        "Equity_%": "3.02245",
+        "Relative_to_Category": "1.55228"
+      },
+      "Communication Services": {
+        "Equity_%": "9.62585",
+        "Relative_to_Category": "5.98087"
+      },
+      "Energy": {
+        "Equity_%": "3.9506",
+        "Relative_to_Category": "4.0004"
+      },
+      "Industrials": {
+        "Equity_%": "14.12898",
+        "Relative_to_Category": "16.78"
+      },
+      "Technology": {
+        "Equity_%": "11.3189",
+        "Relative_to_Category": "11.96737"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "7.72687",
+        "Relative_to_Category": "7.70361"
+      },
+      "Healthcare": {
+        "Equity_%": "7.55477",
+        "Relative_to_Category": "10.60477"
+      },
+      "Utilities": {
+        "Equity_%": "2.57146",
+        "Relative_to_Category": "2.66508"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.61475"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 8,
+    "Top_10_Holdings": {
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 40.46273
+      },
+      "IEMG.MX": {
+        "Code": "IEMG",
+        "Exchange": "MX",
+        "Name": "iShares Core MSCI Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 16.79376
+      },
+      "FEU.US": {
+        "Code": "FEU",
+        "Exchange": "US",
+        "Name": "SPDR STOXX Europe 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 13.19248
+      },
+      "KWEB.US": {
+        "Code": "KWEB",
+        "Exchange": "US",
+        "Name": "KraneShares CSI China Internet ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.20995
+      },
+      "GMM_old.US": {
+        "Code": "GMM_old",
+        "Exchange": "US",
+        "Name": "Global Mofy Metaverse Limited Ordinary Shares",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.26812
+      },
+      "FLMX.US": {
+        "Code": "FLMX",
+        "Exchange": "US",
+        "Name": "Franklin FTSE Mexico ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.4976
+      },
+      "VPL.MX": {
+        "Code": "VPL",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Pacific ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.4506
+      },
+      "FLCA.US": {
+        "Code": "FLCA",
+        "Exchange": "US",
+        "Name": "Franklin FTSE Canada ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.4129
+      }
+    },
+    "Holdings": {
+      "IDEV.US": {
+        "Code": "IDEV",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI International Developed Market",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 40.46273
+      },
+      "IEMG.MX": {
+        "Code": "IEMG",
+        "Exchange": "MX",
+        "Name": "iShares Core MSCI Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 16.79376
+      },
+      "FEU.US": {
+        "Code": "FEU",
+        "Exchange": "US",
+        "Name": "SPDR STOXX Europe 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 13.19248
+      },
+      "KWEB.US": {
+        "Code": "KWEB",
+        "Exchange": "US",
+        "Name": "KraneShares CSI China Internet ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.20995
+      },
+      "GMM_old.US": {
+        "Code": "GMM_old",
+        "Exchange": "US",
+        "Name": "Global Mofy Metaverse Limited Ordinary Shares",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.26812
+      },
+      "FLMX.US": {
+        "Code": "FLMX",
+        "Exchange": "US",
+        "Name": "Franklin FTSE Mexico ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.4976
+      },
+      "VPL.MX": {
+        "Code": "VPL",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Pacific ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.4506
+      },
+      "FLCA.US": {
+        "Code": "FLCA",
+        "Exchange": "US",
+        "Name": "Franklin FTSE Canada ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.4129
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.34822",
+        "Price/Book": "1.64837",
+        "Price/Sales": "1.35198",
+        "Price/Cash Flow": "7.90588",
+        "Dividend-Yield Factor": "3.16859"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.70863",
+        "Price/Book": "1.73346",
+        "Price/Sales": "1.44742",
+        "Price/Cash Flow": "8.48438",
+        "Dividend-Yield Factor": "3.20534"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "11.41042",
+        "Historical Earnings Growth": "6.69565",
+        "Sales Growth": "2.787",
+        "Cash-Flow Growth": "3.97302",
+        "Book-Value Growth": "6.7959"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.51329",
+        "Historical Earnings Growth": "6.57497",
+        "Sales Growth": "4.36754",
+        "Cash-Flow Growth": "6.05073",
+        "Book-Value Growth": "6.86916"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "7.17",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "12.38",
+      "Returns_1Y": "9.21",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

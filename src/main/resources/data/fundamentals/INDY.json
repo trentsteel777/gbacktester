@@ -1,0 +1,900 @@
+{
+  "General": {
+    "Code": "INDY",
+    "Type": "ETF",
+    "Name": "iShares India 50 ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000PW4R43",
+    "Description": "The underlying index measures the equity performance of the top 50 companies by free float market capitalization whose equity securities trade in the Indian securities markets. The fund generally will invest at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index. The fund is non-diversified.",
+    "Category": "India Equity",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.5,
+    "52WeekHigh": 57.2139,
+    "52WeekLow": 46.93,
+    "50DayMA": 51.306,
+    "200DayMA": 52.1656
+  },
+  "ETF_Data": {
+    "ISIN": "US4642895290",
+    "Company_Name": "iShares",
+    "Company_URL": "http://www.ishares.com",
+    "ETF_URL": "https://www.ishares.com/us/products/239758/ishares-india-50-etf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "0.080000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2009-11-18",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00890",
+    "AnnualHoldingsTurnover": "1.08000",
+    "TotalAssets": "700480183.00",
+    "Average_Mkt_Cap_Mil": "65426.16327",
+    "Market_Capitalisation": {
+      "Mega": "88.72426",
+      "Big": "11.20696",
+      "Medium": "0",
+      "Small": "0",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "4.32676",
+        "Short_%": "4.4555",
+        "Net_Assets_%": "-0.12874"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "100.12873",
+        "Short_%": "0",
+        "Net_Assets_%": "100.12873"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.492"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Emerging": {
+        "Equity_%": "100",
+        "Relative_to_Category": "99.508"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.94993",
+        "Relative_to_Category": "6.41558"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "11.24543",
+        "Relative_to_Category": "14.16742"
+      },
+      "Financial Services": {
+        "Equity_%": "37.27912",
+        "Relative_to_Category": "27.78362"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.97452"
+      },
+      "Communication Services": {
+        "Equity_%": "4.32277",
+        "Relative_to_Category": "3.44368"
+      },
+      "Energy": {
+        "Equity_%": "10.89969",
+        "Relative_to_Category": "7.10427"
+      },
+      "Industrials": {
+        "Equity_%": "5.81409",
+        "Relative_to_Category": "10.19479"
+      },
+      "Technology": {
+        "Equity_%": "11.24351",
+        "Relative_to_Category": "10.89504"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "6.89366",
+        "Relative_to_Category": "6.03842"
+      },
+      "Healthcare": {
+        "Equity_%": "3.68159",
+        "Relative_to_Category": "8.93644"
+      },
+      "Utilities": {
+        "Equity_%": "2.6702",
+        "Relative_to_Category": "3.04622"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 55,
+    "Top_10_Holdings": {
+      "HDFCBANK.NSE": {
+        "Code": "HDFCBANK",
+        "Exchange": "NSE",
+        "Name": "HDFC Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 13.0076
+      },
+      "ICICIBANK.NSE": {
+        "Code": "ICICIBANK",
+        "Exchange": "NSE",
+        "Name": "ICICI Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 9.06447
+      },
+      "RELIANCE.NSE": {
+        "Code": "RELIANCE",
+        "Exchange": "NSE",
+        "Name": "Reliance Industries Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 8.61872
+      },
+      "INFY.NSE": {
+        "Code": "INFY",
+        "Exchange": "NSE",
+        "Name": "Infosys Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 5.01647
+      },
+      "BHARTIARTL.NSE": {
+        "Code": "BHARTIARTL",
+        "Exchange": "NSE",
+        "Name": "Bharti Airtel Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 4.33325
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.31915
+      },
+      "LT.NSE": {
+        "Code": "LT",
+        "Exchange": "NSE",
+        "Name": "Larsen & Toubro Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.73991
+      },
+      "ITC.NSE": {
+        "Code": "ITC",
+        "Exchange": "NSE",
+        "Name": "ITC Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.61489
+      },
+      "TCS.NSE": {
+        "Code": "TCS",
+        "Exchange": "NSE",
+        "Name": "Tata Consultancy Services Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.19034
+      },
+      "AXISBANK.NSE": {
+        "Code": "AXISBANK",
+        "Exchange": "NSE",
+        "Name": "Axis Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.05118
+      }
+    },
+    "Holdings": {
+      "HDFCBANK.NSE": {
+        "Code": "HDFCBANK",
+        "Exchange": "NSE",
+        "Name": "HDFC Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 13.0076
+      },
+      "ICICIBANK.NSE": {
+        "Code": "ICICIBANK",
+        "Exchange": "NSE",
+        "Name": "ICICI Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 9.06447
+      },
+      "RELIANCE.NSE": {
+        "Code": "RELIANCE",
+        "Exchange": "NSE",
+        "Name": "Reliance Industries Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 8.61872
+      },
+      "INFY.NSE": {
+        "Code": "INFY",
+        "Exchange": "NSE",
+        "Name": "Infosys Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 5.01647
+      },
+      "BHARTIARTL.NSE": {
+        "Code": "BHARTIARTL",
+        "Exchange": "NSE",
+        "Name": "Bharti Airtel Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 4.33325
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.31915
+      },
+      "LT.NSE": {
+        "Code": "LT",
+        "Exchange": "NSE",
+        "Name": "Larsen & Toubro Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.73991
+      },
+      "ITC.NSE": {
+        "Code": "ITC",
+        "Exchange": "NSE",
+        "Name": "ITC Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.61489
+      },
+      "TCS.NSE": {
+        "Code": "TCS",
+        "Exchange": "NSE",
+        "Name": "Tata Consultancy Services Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.19034
+      },
+      "AXISBANK.NSE": {
+        "Code": "AXISBANK",
+        "Exchange": "NSE",
+        "Name": "Axis Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 3.05118
+      },
+      "KOTAKBANK.NSE": {
+        "Code": "KOTAKBANK",
+        "Exchange": "NSE",
+        "Name": "Kotak Mahindra Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.74421
+      },
+      "SBIN.NSE": {
+        "Code": "SBIN",
+        "Exchange": "NSE",
+        "Name": "State Bank of India",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.69524
+      },
+      "M&M.NSE": {
+        "Code": "M&M",
+        "Exchange": "NSE",
+        "Name": "Mahindra & Mahindra Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.42404
+      },
+      "BAJFINANCE.NSE": {
+        "Code": "BAJFINANCE",
+        "Exchange": "NSE",
+        "Name": "Bajaj Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 2.11998
+      },
+      "HINDUNILVR.NSE": {
+        "Code": "HINDUNILVR",
+        "Exchange": "NSE",
+        "Name": "Hindustan Unilever Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.85528
+      },
+      "SUNPHARMA.NSE": {
+        "Code": "SUNPHARMA",
+        "Exchange": "NSE",
+        "Name": "Sun Pharmaceutical Industries Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.64382
+      },
+      "HCLTECH.NSE": {
+        "Code": "HCLTECH",
+        "Exchange": "NSE",
+        "Name": "HCL Technologies Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.55115
+      },
+      "MARUTI.NSE": {
+        "Code": "MARUTI",
+        "Exchange": "NSE",
+        "Name": "Maruti Suzuki India Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.48033
+      },
+      "NTPC.NSE": {
+        "Code": "NTPC",
+        "Exchange": "NSE",
+        "Name": "NTPC Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.44978
+      },
+      "ETERNAL.NSE": {
+        "Code": "ETERNAL",
+        "Exchange": "NSE",
+        "Name": "Eternal Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.41556
+      },
+      "TATAMOTORS.NSE": {
+        "Code": "TATAMOTORS",
+        "Exchange": "NSE",
+        "Name": "Tata Motors Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.33865
+      },
+      "TITAN.NSE": {
+        "Code": "TITAN",
+        "Exchange": "NSE",
+        "Name": "Titan Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.31761
+      },
+      "ULTRACEMCO.NSE": {
+        "Code": "ULTRACEMCO",
+        "Exchange": "NSE",
+        "Name": "UltraTech Cement Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.21387
+      },
+      "POWERGRID.NSE": {
+        "Code": "POWERGRID",
+        "Exchange": "NSE",
+        "Name": "Power Grid Corporation of India Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.20703
+      },
+      "TATASTEEL.NSE": {
+        "Code": "TATASTEEL",
+        "Exchange": "NSE",
+        "Name": "Tata Steel Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.17027
+      },
+      "BEL_old.NSE": {
+        "Code": "BEL_old",
+        "Exchange": "NSE",
+        "Name": "Bharat Electronics Limited",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.16595
+      },
+      "TRENT.NSE": {
+        "Code": "TRENT",
+        "Exchange": "NSE",
+        "Name": "Trent Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.07972
+      },
+      "BAJAJFINSV.NSE": {
+        "Code": "BAJAJFINSV",
+        "Exchange": "NSE",
+        "Name": "Bajaj Finserv Limited",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.97226
+      },
+      "GRASIM.NSE": {
+        "Code": "GRASIM",
+        "Exchange": "NSE",
+        "Name": "Grasim Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.93397
+      },
+      "ASIANPAINT.NSE": {
+        "Code": "ASIANPAINT",
+        "Exchange": "NSE",
+        "Name": "Asian Paints Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.92927
+      },
+      "ADANIPORTS.NSE": {
+        "Code": "ADANIPORTS",
+        "Exchange": "NSE",
+        "Name": "Adani Ports and Special Economic Zone Limited",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.91441
+      },
+      "TECHM.NSE": {
+        "Code": "TECHM",
+        "Exchange": "NSE",
+        "Name": "Tech Mahindra Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.89382
+      },
+      "ONGC.NSE": {
+        "Code": "ONGC",
+        "Exchange": "NSE",
+        "Name": "Oil & Natural Gas Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.86547
+      },
+      "JSWSTEEL.NSE": {
+        "Code": "JSWSTEEL",
+        "Exchange": "NSE",
+        "Name": "JSW Steel Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.85891
+      },
+      "HINDALCO.NSE": {
+        "Code": "HINDALCO",
+        "Exchange": "NSE",
+        "Name": "Hindalco Industries Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.85681
+      },
+      "BAJAJ-AUTO.NSE": {
+        "Code": "BAJAJ-AUTO",
+        "Exchange": "NSE",
+        "Name": "Bajaj Auto Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.8495
+      },
+      "COALINDIA.NSE": {
+        "Code": "COALINDIA",
+        "Exchange": "NSE",
+        "Name": "Coal India Limited",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.82769
+      },
+      "SHRIRAMFIN.NSE": {
+        "Code": "SHRIRAMFIN",
+        "Exchange": "NSE",
+        "Name": "Shriram Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.82347
+      },
+      "JIOFIN.NSE": {
+        "Code": "JIOFIN",
+        "Exchange": "NSE",
+        "Name": "JIO Financial Services Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.79426
+      },
+      "NESTLEIND.NSE": {
+        "Code": "NESTLEIND",
+        "Exchange": "NSE",
+        "Name": "Nestle India Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.75535
+      },
+      "CIPLA.NSE": {
+        "Code": "CIPLA",
+        "Exchange": "NSE",
+        "Name": "Cipla Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.73084
+      },
+      "HDFCLIFE.NSE": {
+        "Code": "HDFCLIFE",
+        "Exchange": "NSE",
+        "Name": "HDFC Life Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.71418
+      },
+      "SBILIFE.NSE": {
+        "Code": "SBILIFE",
+        "Exchange": "NSE",
+        "Name": "SBI Life Insurance Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.70266
+      },
+      "DRREDDY.NSE": {
+        "Code": "DRREDDY",
+        "Exchange": "NSE",
+        "Name": "Dr. Reddy's Laboratories Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.66583
+      },
+      "EICHERMOT.NSE": {
+        "Code": "EICHERMOT",
+        "Exchange": "NSE",
+        "Name": "Eicher Motors Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.6605
+      },
+      "TATACONSUM.NSE": {
+        "Code": "TATACONSUM",
+        "Exchange": "NSE",
+        "Name": "TATA CONSUMER PRODUCTS LIMITED",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.65541
+      },
+      "WIPRO.NSE": {
+        "Code": "WIPRO",
+        "Exchange": "NSE",
+        "Name": "Wipro Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.63208
+      },
+      "APOLLOHOSP.NSE": {
+        "Code": "APOLLOHOSP",
+        "Exchange": "NSE",
+        "Name": "Apollo Hospitals Enterprise Limited",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.62236
+      },
+      "ADANIENT.NSE": {
+        "Code": "ADANIENT",
+        "Exchange": "NSE",
+        "Name": "Adani Enterprises Limited",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.58443
+      },
+      "HEROMOTOCO.NSE": {
+        "Code": "HEROMOTOCO",
+        "Exchange": "NSE",
+        "Name": "Hero MotoCorp Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.4921
+      },
+      "INDUSINDBK.NSE": {
+        "Code": "INDUSINDBK",
+        "Exchange": "NSE",
+        "Name": "IndusInd Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.46102
+      },
+      "INR.NSE": {
+        "Code": "INR",
+        "Exchange": "NSE",
+        "Name": "INR CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.27742
+      },
+      "WFFUT.US": {
+        "Code": "WFFUT",
+        "Exchange": "US",
+        "Name": "CASH COLLATERAL USD WFFUT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01116
+      },
+      "INR.US": {
+        "Code": "INR",
+        "Exchange": "US",
+        "Name": "Infinity Natural Resources, Inc.",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.00064
+      },
+      "USD.US": {
+        "Code": "USD",
+        "Exchange": "US",
+        "Name": "ProShares Ultra Semiconductors",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -4.31428
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.97663",
+        "Price/Book": "2.62133",
+        "Price/Sales": "2.60749",
+        "Price/Cash Flow": "13.89037",
+        "Dividend-Yield Factor": "1.40121"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.52119",
+        "Price/Book": "2.77524",
+        "Price/Sales": "2.71105",
+        "Price/Cash Flow": "16.20078",
+        "Dividend-Yield Factor": "1.25931"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "13.40921",
+        "Historical Earnings Growth": "18.59515",
+        "Sales Growth": "13.3965",
+        "Cash-Flow Growth": "6.62795",
+        "Book-Value Growth": "18.66032"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "23.1562",
+        "Historical Earnings Growth": "18.64566",
+        "Sales Growth": "13.10221",
+        "Cash-Flow Growth": "8.47578",
+        "Book-Value Growth": "17.6716"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "4"
+    },
+    "Performance": {
+      "1y_Volatility": "13.92",
+      "3y_Volatility": "12.90",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.24",
+      "Returns_YTD": "4.80",
+      "Returns_1Y": "5.08",
+      "Returns_3Y": "9.41",
+      "Returns_5Y": "16.91",
+      "Returns_10Y": "7.18"
+    }
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "General": {
+    "Code": "ABCS",
+    "Type": "ETF",
+    "Name": "Alpha Blue Capital US Small-Mid Cap Dynamic ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01KMFQRF2",
+    "Description": "Under normal circumstances, at least 80% of the fund\"s net assets, plus borrowings for investment purposes, will be invested in a blend of domestic equity securities of small- and mid- capitalization companies and ETFs that provide broad exposure to domestic equity securities of small- and mid- capitalization companies. It is non-diversified.",
+    "Category": "Mid-Cap Value",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 30.6405,
+    "52WeekLow": 24.01,
+    "50DayMA": 27.0486,
+    "200DayMA": 28.2661
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "ALPHA BLUE CAPITAL",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": "BNY Mellon ABC Index",
+    "Yield": "1.420000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2023-12-18",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00270",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "10016537.00",
+    "Average_Mkt_Cap_Mil": "14843.63056",
+    "Market_Capitalisation": {
+      "Mega": "1.07602",
+      "Big": "4.34773",
+      "Medium": "57.17621",
+      "Small": "32.32115",
+      "Micro": "3.90244"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.18651",
+        "Short_%": "0.01949",
+        "Net_Assets_%": "1.16702"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "2.40316",
+        "Short_%": "0",
+        "Net_Assets_%": "2.40316"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "96.42982",
+        "Short_%": "0",
+        "Net_Assets_%": "96.42982"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "98.742",
+        "Relative_to_Category": "95.741"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.34948",
+        "Relative_to_Category": "1.15263"
+      },
+      "Europe Developed": {
+        "Equity_%": "0.123",
+        "Relative_to_Category": "1.594"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.237"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.171"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.006"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.027",
+        "Relative_to_Category": "0.106"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.062",
+        "Relative_to_Category": "0.437"
+      },
+      "Latin America": {
+        "Equity_%": "0.695",
+        "Relative_to_Category": "0.554"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "4.36125",
+        "Relative_to_Category": "4.93929"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "16.43688",
+        "Relative_to_Category": "10.38425"
+      },
+      "Financial Services": {
+        "Equity_%": "20.21936",
+        "Relative_to_Category": "17.43389"
+      },
+      "Real Estate": {
+        "Equity_%": "4.93738",
+        "Relative_to_Category": "6.69796"
+      },
+      "Communication Services": {
+        "Equity_%": "2.14754",
+        "Relative_to_Category": "2.88526"
+      },
+      "Energy": {
+        "Equity_%": "7.7215",
+        "Relative_to_Category": "6.05519"
+      },
+      "Industrials": {
+        "Equity_%": "11.88578",
+        "Relative_to_Category": "15.19135"
+      },
+      "Technology": {
+        "Equity_%": "9.22278",
+        "Relative_to_Category": "10.57568"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.24303",
+        "Relative_to_Category": "7.48443"
+      },
+      "Healthcare": {
+        "Equity_%": "13.60426",
+        "Relative_to_Category": "10.96926"
+      },
+      "Utilities": {
+        "Equity_%": "4.22024",
+        "Relative_to_Category": "7.38344"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.13769"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.11637"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "8.11489"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.3703"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.09339"
+      }
+    },
+    "Holdings_Count": 50,
+    "Top_10_Holdings": {
+      "VO.MX": {
+        "Code": "VO",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Mid-Cap ETF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 10.64781
+      },
+      "VOE.US": {
+        "Code": "VOE",
+        "Exchange": "US",
+        "Name": "Vanguard Mid-Cap Value Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.92571
+      },
+      "VBR.US": {
+        "Code": "VBR",
+        "Exchange": "US",
+        "Name": "Vanguard Small-Cap Value Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.41686
+      },
+      "VB.MX": {
+        "Code": "VB",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Small-Cap ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.04009
+      },
+      "THC.US": {
+        "Code": "THC",
+        "Exchange": "US",
+        "Name": "Tenet Healthcare Corporation",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.69173
+      },
+      "GPN.US": {
+        "Code": "GPN",
+        "Exchange": "US",
+        "Name": "Global Payments Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49235
+      },
+      "LAD.US": {
+        "Code": "LAD",
+        "Exchange": "US",
+        "Name": "Lithia Motors Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.42372
+      },
+      "EXPE.US": {
+        "Code": "EXPE",
+        "Exchange": "US",
+        "Name": "Expedia Group Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.32476
+      },
+      "CNC.US": {
+        "Code": "CNC",
+        "Exchange": "US",
+        "Name": "Centene Corp",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.30054
+      },
+      "FIS.US": {
+        "Code": "FIS",
+        "Exchange": "US",
+        "Name": "Fidelity National Information Services Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.27133
+      }
+    },
+    "Holdings": {
+      "VO.MX": {
+        "Code": "VO",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Mid-Cap ETF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 10.64781
+      },
+      "VOE.US": {
+        "Code": "VOE",
+        "Exchange": "US",
+        "Name": "Vanguard Mid-Cap Value Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.92571
+      },
+      "VBR.US": {
+        "Code": "VBR",
+        "Exchange": "US",
+        "Name": "Vanguard Small-Cap Value Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.41686
+      },
+      "VB.MX": {
+        "Code": "VB",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Small-Cap ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.04009
+      },
+      "THC.US": {
+        "Code": "THC",
+        "Exchange": "US",
+        "Name": "Tenet Healthcare Corporation",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.69173
+      },
+      "GPN.US": {
+        "Code": "GPN",
+        "Exchange": "US",
+        "Name": "Global Payments Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49235
+      },
+      "LAD.US": {
+        "Code": "LAD",
+        "Exchange": "US",
+        "Name": "Lithia Motors Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.42372
+      },
+      "EXPE.US": {
+        "Code": "EXPE",
+        "Exchange": "US",
+        "Name": "Expedia Group Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.32476
+      },
+      "CNC.US": {
+        "Code": "CNC",
+        "Exchange": "US",
+        "Name": "Centene Corp",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.30054
+      },
+      "FIS.US": {
+        "Code": "FIS",
+        "Exchange": "US",
+        "Name": "Fidelity National Information Services Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.27133
+      },
+      "AMP.US": {
+        "Code": "AMP",
+        "Exchange": "US",
+        "Name": "Ameriprise Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.25823
+      },
+      "EG.US": {
+        "Code": "EG",
+        "Exchange": "US",
+        "Name": "Everest Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.18857
+      },
+      "HUM.US": {
+        "Code": "HUM",
+        "Exchange": "US",
+        "Name": "Humana Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.08369
+      },
+      "ACGL.US": {
+        "Code": "ACGL",
+        "Exchange": "US",
+        "Name": "Arch Capital Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.08162
+      },
+      "CNQ.TO": {
+        "Code": "CNQ",
+        "Exchange": "TO",
+        "Name": "Canadian Natural Resources Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 1.06938
+      },
+      "BWA.US": {
+        "Code": "BWA",
+        "Exchange": "US",
+        "Name": "BorgWarner Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.06405
+      },
+      "ET.US": {
+        "Code": "ET",
+        "Exchange": "US",
+        "Name": "Energy Transfer LP",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.02612
+      },
+      "LEA.US": {
+        "Code": "LEA",
+        "Exchange": "US",
+        "Name": "Lear Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.95896
+      },
+      "MOS.US": {
+        "Code": "MOS",
+        "Exchange": "US",
+        "Name": "The Mosaic Company",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.94612
+      },
+      "FGXXX.US": {
+        "Code": "FGXXX",
+        "Exchange": "US",
+        "Name": "First American Funds Inc. - Government Obligations Fund",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.94257
+      },
+      "BYD.US": {
+        "Code": "BYD",
+        "Exchange": "US",
+        "Name": "Boyd Gaming Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.8908
+      },
+      "GPK.US": {
+        "Code": "GPK",
+        "Exchange": "US",
+        "Name": "Graphic Packaging Holding Company",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Packaging & Containers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.88793
+      },
+      "TAP.US": {
+        "Code": "TAP",
+        "Exchange": "US",
+        "Name": "Molson Coors Brewing Co Class B",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.87774
+      },
+      "AXS.US": {
+        "Code": "AXS",
+        "Exchange": "US",
+        "Name": "AXIS Capital Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.87428
+      },
+      "LNG.US": {
+        "Code": "LNG",
+        "Exchange": "US",
+        "Name": "Cheniere Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81562
+      },
+      "ZBH.US": {
+        "Code": "ZBH",
+        "Exchange": "US",
+        "Name": "Zimmer Biomet Holdings Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81503
+      },
+      "EME.US": {
+        "Code": "EME",
+        "Exchange": "US",
+        "Name": "EMCOR Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.80359
+      },
+      "VLO.US": {
+        "Code": "VLO",
+        "Exchange": "US",
+        "Name": "Valero Energy Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.79866
+      },
+      "JLL.US": {
+        "Code": "JLL",
+        "Exchange": "US",
+        "Name": "Jones Lang LaSalle Incorporated",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.78912
+      },
+      "ESNT.US": {
+        "Code": "ESNT",
+        "Exchange": "US",
+        "Name": "Essent Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.78502
+      },
+      "CVS.US": {
+        "Code": "CVS",
+        "Exchange": "US",
+        "Name": "CVS Health Corp",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.75994
+      },
+      "MTH.US": {
+        "Code": "MTH",
+        "Exchange": "US",
+        "Name": "Meritage Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.75561
+      },
+      "CTVA.US": {
+        "Code": "CTVA",
+        "Exchange": "US",
+        "Name": "Corteva Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.75071
+      },
+      "NRG.US": {
+        "Code": "NRG",
+        "Exchange": "US",
+        "Name": "NRG Energy Inc.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.74718
+      },
+      "DAL.US": {
+        "Code": "DAL",
+        "Exchange": "US",
+        "Name": "Delta Air Lines Inc",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73701
+      },
+      "CROX.US": {
+        "Code": "CROX",
+        "Exchange": "US",
+        "Name": "Crocs Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73229
+      },
+      "FANG.US": {
+        "Code": "FANG",
+        "Exchange": "US",
+        "Name": "Diamondback Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73103
+      },
+      "BK.US": {
+        "Code": "BK",
+        "Exchange": "US",
+        "Name": "The Bank of New York Mellon Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.71169
+      },
+      "SKX.US": {
+        "Code": "SKX",
+        "Exchange": "US",
+        "Name": "Skechers USA Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.70836
+      },
+      "SNX.US": {
+        "Code": "SNX",
+        "Exchange": "US",
+        "Name": "Synnex Corporation",
+        "Sector": "Technology",
+        "Industry": "Electronics & Computer Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.69589
+      },
+      "KVUE.US": {
+        "Code": "KVUE",
+        "Exchange": "US",
+        "Name": "Kenvue Inc.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.69527
+      },
+      "TPX.US": {
+        "Code": "TPX",
+        "Exchange": "US",
+        "Name": "Tempur Sealy International Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.67359
+      },
+      "ICLR.US": {
+        "Code": "ICLR",
+        "Exchange": "US",
+        "Name": "ICON PLC",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.66559
+      },
+      "ARW.US": {
+        "Code": "ARW",
+        "Exchange": "US",
+        "Name": "Arrow Electronics Inc",
+        "Sector": "Technology",
+        "Industry": "Electronics & Computer Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.65437
+      },
+      "WTFC.US": {
+        "Code": "WTFC",
+        "Exchange": "US",
+        "Name": "Wintrust Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.64383
+      },
+      "EIX.US": {
+        "Code": "EIX",
+        "Exchange": "US",
+        "Name": "Edison International",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.63897
+      },
+      "RNR.US": {
+        "Code": "RNR",
+        "Exchange": "US",
+        "Name": "Renaissancere Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.62426
+      },
+      "FLEX.US": {
+        "Code": "FLEX",
+        "Exchange": "US",
+        "Name": "Flex Ltd",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.62259
+      },
+      "NCLH.US": {
+        "Code": "NCLH",
+        "Exchange": "US",
+        "Name": "Norwegian Cruise Line Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.62222
+      },
+      "SLM.US": {
+        "Code": "SLM",
+        "Exchange": "US",
+        "Name": "SLM Corp",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.60024
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "12.04374",
+        "Price/Book": "1.61782",
+        "Price/Sales": "0.68933",
+        "Price/Cash Flow": "6.3714",
+        "Dividend-Yield Factor": "2.13149"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.23048",
+        "Price/Book": "1.73509",
+        "Price/Sales": "0.94983",
+        "Price/Cash Flow": "7.72931",
+        "Dividend-Yield Factor": "2.65373"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.39949",
+        "Historical Earnings Growth": "4.14131",
+        "Sales Growth": "6.91263",
+        "Cash-Flow Growth": "0.41036",
+        "Book-Value Growth": "7.8983"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "11.99942",
+        "Historical Earnings Growth": "-1.6816",
+        "Sales Growth": "6.31201",
+        "Cash-Flow Growth": "-0.87947",
+        "Book-Value Growth": "5.03042"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "15.94",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "-2.43",
+      "Returns_1Y": "5.32",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "General": {
+    "Code": "CLM",
+    "Type": "FUND",
+    "Name": "Cornerstone Strategic Investment Fund, Inc.",
+    "Exchange": "NYSE MKT",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000B9YZT1",
+    "ISIN": "US21924B3024",
+    "CUSIP": "19764F813",
+    "Fund_Summary": "Cornerstone Strategic Value Fund, Inc. is a closed-ended equity mutual fund launched and managed by Cornerstone Advisors, LLC. The fund invests in public equity markets across the globe. It seeks to invest in stocks of companies operating across diversified sectors. The fund primarily invests in value and growth stocks of companies. It also invests through other closed-end investment companies and ETF's. Cornerstone Strategic Value Fund, Inc. was formed on May 1, 1987 and is domiciled in the United States.",
+    "Fund_Family": "Columbia",
+    "Fund_Category": null,
+    "Fund_Style": "Large Blend",
+    "Fiscal_Year_End": "May",
+    "MarketCapitalization": 1490016000
+  },
+  "MutualFund_Data": {
+    "Fund_Category": null,
+    "Fund_Style": "Large Blend",
+    "Nav": "6.31",
+    "Prev_Close_Price": "7.23",
+    "Update_Date": "2025-03-31",
+    "Portfolio_Net_Assets": "1996590000",
+    "Share_Class_Net_Assets": "123330000",
+    "Morning_Star_Rating": null,
+    "Morning_Star_Risk_Rating": null,
+    "Morning_Star_Category": null,
+    "Inception_Date": "1987-06-23",
+    "Currency": "USD",
+    "Domicile": "United States",
+    "Yield": "0.1011",
+    "Yield_YTD": null,
+    "Yield_1Year_YTD": "9.9104",
+    "Yield_3Year_YTD": "16.4731",
+    "Yield_5Year_YTD": "15.9374",
+    "Expense_Ratio": "2.0100",
+    "Expense_Ratio_Date": "2019-10-01",
+    "Asset_Allocation": {
+      "0": {
+        "Net_%": "0.67916",
+        "Long_%": "0.68370",
+        "Type": "Cash",
+        "Short_%": "0.00454",
+        "Category_Average": "2.08042",
+        "Benchmark": "0.00000"
+      },
+      "1": {
+        "Net_%": "0.29193",
+        "Long_%": "0.29324",
+        "Type": "Not Classified",
+        "Short_%": "0.00131",
+        "Category_Average": "0.02284",
+        "Benchmark": "0.0"
+      },
+      "2": {
+        "Net_%": "0.86239",
+        "Long_%": "0.86239",
+        "Type": "Non US Stock",
+        "Short_%": "0.00000",
+        "Category_Average": "2.10752",
+        "Benchmark": "0.77143"
+      },
+      "3": {
+        "Net_%": "0.52797",
+        "Long_%": "0.64385",
+        "Type": "Other",
+        "Short_%": "0.11588",
+        "Category_Average": "1.36031",
+        "Benchmark": "0.00000"
+      },
+      "4": {
+        "Net_%": "97.32828",
+        "Long_%": "97.35025",
+        "Type": "US Stock",
+        "Short_%": "0.02197",
+        "Category_Average": "96.01802",
+        "Benchmark": "99.22858"
+      },
+      "5": {
+        "Net_%": "0.31028",
+        "Long_%": "0.37688",
+        "Type": "Bond",
+        "Short_%": "0.06660",
+        "Category_Average": "0.54806",
+        "Benchmark": "0.00000"
+      }
+    },
+    "Value_Growth": {
+      "0": {
+        "Name": "Price/Prospective Earnings",
+        "Category_Average": 20.85617,
+        "Benchmark": 21.09858,
+        "Stock_Portfolio": 22.5347
+      },
+      "1": {
+        "Name": "Price/Book",
+        "Category_Average": 4.02821,
+        "Benchmark": 4.0607,
+        "Stock_Portfolio": 4.60439
+      },
+      "2": {
+        "Name": "Price/Sales",
+        "Category_Average": 2.52594,
+        "Benchmark": 2.72723,
+        "Stock_Portfolio": 3.21361
+      },
+      "3": {
+        "Name": "Price/Cash Flow",
+        "Category_Average": 13.97515,
+        "Benchmark": 13.99086,
+        "Stock_Portfolio": 16.66415
+      },
+      "4": {
+        "Name": "Dividend Yield %",
+        "Category_Average": 1.37206,
+        "Benchmark": 1.49294,
+        "Stock_Portfolio": 1.41074
+      },
+      "5": {
+        "Name": "Long-Term Earnings %",
+        "Category_Average": 10.32495,
+        "Benchmark": 9.91587,
+        "Stock_Portfolio": 9.80664
+      },
+      "6": {
+        "Name": "Historical Earnings %",
+        "Category_Average": 12.28119,
+        "Benchmark": 9.56811,
+        "Stock_Portfolio": 6.13032
+      },
+      "7": {
+        "Name": "Book-Value Growth %",
+        "Category_Average": 12.13862,
+        "Benchmark": 8.875,
+        "Stock_Portfolio": 8.08139
+      },
+      "8": {
+        "Name": "Sales Growth %",
+        "Category_Average": 8.41973,
+        "Benchmark": 8.02299,
+        "Stock_Portfolio": 9.3494
+      },
+      "9": {
+        "Name": "Cash-Flow Growth %",
+        "Category_Average": 10.19593,
+        "Benchmark": 7.27693,
+        "Stock_Portfolio": 8.7108
+      }
+    },
+    "Top_Holdings": {
+      "0": {
+        "Name": "Apple, Inc.",
+        "Weight": "7.77%"
+      },
+      "1": {
+        "Name": "Microsoft Corporation",
+        "Weight": "6.51%"
+      },
+      "2": {
+        "Name": "Alphabet, Inc. Class C",
+        "Weight": "4.13%"
+      },
+      "3": {
+        "Name": "Amazon.com, Inc.",
+        "Weight": "3.50%"
+      },
+      "4": {
+        "Name": "NVIDIA Corporation",
+        "Weight": "2.93%"
+      },
+      "5": {
+        "Name": "Berkshire Hathaway, Inc. Class B",
+        "Weight": "2.75%"
+      },
+      "6": {
+        "Name": "JPMorgan Chase  Company",
+        "Weight": "1.93%"
+      },
+      "7": {
+        "Name": "Tesla, Inc.",
+        "Weight": "1.90%"
+      },
+      "8": {
+        "Name": "Invesco QQQ Trust Series 1",
+        "Weight": "1.71%"
+      },
+      "9": {
+        "Name": "Visa, Inc. Class A",
+        "Weight": "1.68%"
+      }
+    },
+    "Market_Capitalization": {
+      "0": {
+        "Size": "AverageMarketCap",
+        "Category_Average": 394941.84214,
+        "Benchmark": 287687.02301,
+        "Portfolio_%": 464460.90634
+      },
+      "1": {
+        "Size": "Giant",
+        "Category_Average": 60.67567,
+        "Benchmark": 45.2885,
+        "Portfolio_%": 51.14471
+      },
+      "2": {
+        "Size": "Large",
+        "Category_Average": 12.34406,
+        "Benchmark": 33.33452,
+        "Portfolio_%": 37.54942
+      },
+      "3": {
+        "Size": "Medium",
+        "Category_Average": 19.63589,
+        "Benchmark": 20.6961,
+        "Portfolio_%": 8.83641
+      },
+      "4": {
+        "Size": "Small",
+        "Category_Average": 3.49379,
+        "Benchmark": 0.68089,
+        "Portfolio_%": 0.39303
+      },
+      "5": {
+        "Size": "Micro",
+        "Category_Average": 0.04787,
+        "Benchmark": 0,
+        "Portfolio_%": 0.17321
+      }
+    },
+    "Sector_Weights": {
+      "Cyclical": {
+        "0": {
+          "Name": "Basic Materials",
+          "Category_Average": 2.17397,
+          "Amount_%": 1.72556,
+          "Benchmark": 1.9114
+        },
+        "1": {
+          "Name": "Consumer Cyclical",
+          "Category_Average": 10.19818,
+          "Amount_%": 11.89517,
+          "Benchmark": 10.52468
+        },
+        "2": {
+          "Name": "Financial Services",
+          "Category_Average": 14.86823,
+          "Amount_%": 13.33016,
+          "Benchmark": 13.97965
+        },
+        "3": {
+          "Name": "Real Estate",
+          "Category_Average": 1.95658,
+          "Amount_%": 1.89041,
+          "Benchmark": 2.32633
+        }
+      },
+      "Defensive": {
+        "0": {
+          "Name": "Consumer Defensive",
+          "Category_Average": 5.99099,
+          "Amount_%": 7.15101,
+          "Benchmark": 5.9851
+        },
+        "1": {
+          "Name": "Healthcare",
+          "Category_Average": 11.81244,
+          "Amount_%": 10.11211,
+          "Benchmark": 10.81232
+        },
+        "2": {
+          "Name": "Utilities",
+          "Category_Average": 2.341,
+          "Amount_%": 2.29621,
+          "Benchmark": 2.42454
+        }
+      },
+      "Sensitive": {
+        "0": {
+          "Name": "Communication Services",
+          "Category_Average": 8.74877,
+          "Amount_%": 9.60323,
+          "Benchmark": 9.36617
+        },
+        "1": {
+          "Name": "Energy",
+          "Category_Average": 3.45445,
+          "Amount_%": 2.89789,
+          "Benchmark": 3.13638
+        },
+        "2": {
+          "Name": "Industrials",
+          "Category_Average": 9.58936,
+          "Amount_%": 8.65094,
+          "Benchmark": 7.94933
+        },
+        "3": {
+          "Name": "Technology",
+          "Category_Average": 28.86603,
+          "Amount_%": 30.44731,
+          "Benchmark": 31.58411
+        }
+      },
+      "Bond Sector": {
+        "0": {
+          "Name": "Government",
+          "Category_Average": 24.46943,
+          "Amount_%": 2.29621,
+          "Stocks_%": 5.08522,
+          "Benchmark": null
+        },
+        "1": {
+          "Name": "Municipal",
+          "Category_Average": 0.00191,
+          "Amount_%": 2.29621,
+          "Stocks_%": 0,
+          "Benchmark": null
+        },
+        "2": {
+          "Name": "Corporate",
+          "Category_Average": 2.95103,
+          "Amount_%": 2.29621,
+          "Stocks_%": 43.72535,
+          "Benchmark": null
+        },
+        "3": {
+          "Name": "Securitized",
+          "Category_Average": 6.9028,
+          "Amount_%": 2.29621,
+          "Stocks_%": 0.07812,
+          "Benchmark": null
+        },
+        "4": {
+          "Name": "Cash and Equivalents",
+          "Category_Average": 65.67445,
+          "Amount_%": 2.29621,
+          "Stocks_%": 51.09854,
+          "Benchmark": null
+        },
+        "5": {
+          "Name": "Derivative",
+          "Category_Average": 0.00038,
+          "Amount_%": 2.29621,
+          "Stocks_%": 0.01277,
+          "Benchmark": null
+        }
+      }
+    },
+    "World_Regions": {
+      "Americas": {
+        "0": {
+          "Name": "North America",
+          "Category_Average": 98.227,
+          "Stocks_%": 99.177,
+          "Benchmark": 99.229
+        },
+        "1": {
+          "Name": "Latin America",
+          "Category_Average": 0.07,
+          "Stocks_%": 0.008,
+          "Benchmark": 0.259
+        }
+      },
+      "Greater Asia": {
+        "0": {
+          "Name": "Japan",
+          "Category_Average": 0.074,
+          "Stocks_%": 0.036,
+          "Benchmark": 0
+        },
+        "1": {
+          "Name": "Australasia",
+          "Category_Average": 0.001,
+          "Stocks_%": 0.024,
+          "Benchmark": 0
+        },
+        "2": {
+          "Name": "Asia Developed",
+          "Category_Average": 0.224,
+          "Stocks_%": 0.027,
+          "Benchmark": 0.037
+        },
+        "3": {
+          "Name": "Asia Emerging",
+          "Category_Average": 0.05,
+          "Stocks_%": 0.014,
+          "Benchmark": 0
+        }
+      },
+      "Greater Europe": {
+        "0": {
+          "Name": "United Kingdom",
+          "Category_Average": 0.36389,
+          "Stocks_%": 0.15201,
+          "Benchmark": 0.0612
+        },
+        "1": {
+          "Name": "Europe Developed",
+          "Category_Average": 0.965,
+          "Stocks_%": 0.555,
+          "Benchmark": 0.415
+        },
+        "2": {
+          "Name": "Europe Emerging",
+          "Category_Average": 0,
+          "Stocks_%": 0,
+          "Benchmark": 0
+        },
+        "3": {
+          "Name": "Africa/Middle East",
+          "Category_Average": 0.021,
+          "Stocks_%": 0.008,
+          "Benchmark": 0
+        }
+      }
+    },
+    "Top_Countries": {},
+    "market_capitalization": null,
+    "world_regions": null,
+    "sector_weights": null,
+    "asset_allocation": null
+  }
+}

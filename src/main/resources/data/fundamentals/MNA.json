@@ -1,0 +1,820 @@
+{
+  "General": {
+    "Code": "MNA",
+    "Type": "ETF",
+    "Name": "IQ Merger Arbitrage ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000BBBDD7",
+    "Description": "The fund invests at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in the investments included in its underlying index. The underlying index seeks to employ a systematic investment process designed to identify opportunities in companies whose equity securities trade in developed markets, including the U.S., and which are involved in announced mergers, acquisitions and other buyout-related transactions. The fund is non-diversified.",
+    "Category": "Event Driven",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.08,
+    "52WeekHigh": 34.97,
+    "52WeekLow": 30.99,
+    "50DayMA": 34.4112,
+    "200DayMA": 33.3609
+  },
+  "ETF_Data": {
+    "ISIN": "US45409B8000",
+    "Company_Name": "New York Life",
+    "Company_URL": "http://www.indexiq.com",
+    "ETF_URL": "https://www.nylinvestments.com/IQetfs/etfs/IQ-Leaders-GTAA-Tracker-ETF",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "0.000000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2009-11-17",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00770",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "233429368.00",
+    "Average_Mkt_Cap_Mil": "4250.21653",
+    "Market_Capitalisation": {
+      "Mega": "0",
+      "Big": "5.2609",
+      "Medium": "29.79814",
+      "Small": "53.99185",
+      "Micro": "21.42719"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "5.39107",
+        "Short_%": "0.19513",
+        "Net_Assets_%": "5.19594"
+      },
+      "NotClassified": {
+        "Long_%": "1.14102",
+        "Short_%": "0",
+        "Net_Assets_%": "1.14102"
+      },
+      "Stock non-US": {
+        "Long_%": "31.79335",
+        "Short_%": "0",
+        "Net_Assets_%": "31.79335"
+      },
+      "Other": {
+        "Long_%": "9.58561",
+        "Short_%": "8.13052",
+        "Net_Assets_%": "1.45509"
+      },
+      "Stock US": {
+        "Long_%": "80.817",
+        "Short_%": "22.57071",
+        "Net_Assets_%": "58.24629"
+      },
+      "Bond": {
+        "Long_%": "2.16832",
+        "Short_%": "0",
+        "Net_Assets_%": "2.16832"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "79.668",
+        "Relative_to_Category": "91.95"
+      },
+      "United Kingdom": {
+        "Equity_%": "2.62082",
+        "Relative_to_Category": "3.77532"
+      },
+      "Europe Developed": {
+        "Equity_%": "11.63",
+        "Relative_to_Category": "3.295"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "1.587",
+        "Relative_to_Category": "0.034"
+      },
+      "Australasia": {
+        "Equity_%": "0.581",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "1.886",
+        "Relative_to_Category": "0.341"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.17"
+      },
+      "Latin America": {
+        "Equity_%": "2.028",
+        "Relative_to_Category": "0.436"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.28101",
+        "Relative_to_Category": "6.83675"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "11.57827",
+        "Relative_to_Category": "8.85758"
+      },
+      "Financial Services": {
+        "Equity_%": "24.33679",
+        "Relative_to_Category": "15.2482"
+      },
+      "Real Estate": {
+        "Equity_%": "1.54474",
+        "Relative_to_Category": "2.74625"
+      },
+      "Communication Services": {
+        "Equity_%": "14.399",
+        "Relative_to_Category": "8.87057"
+      },
+      "Energy": {
+        "Equity_%": "3.35628",
+        "Relative_to_Category": "10.75283"
+      },
+      "Industrials": {
+        "Equity_%": "17.01963",
+        "Relative_to_Category": "10.14721"
+      },
+      "Technology": {
+        "Equity_%": "1.64986",
+        "Relative_to_Category": "14.84634"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.36351",
+        "Relative_to_Category": "9.3975"
+      },
+      "Healthcare": {
+        "Equity_%": "9.79918",
+        "Relative_to_Category": "11.33066"
+      },
+      "Utilities": {
+        "Equity_%": "6.67173",
+        "Relative_to_Category": "0.9661"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.395"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.44313"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "7.42"
+      }
+    },
+    "Holdings_Count": 47,
+    "Top_10_Holdings": {
+      "WBA.US": {
+        "Code": "WBA",
+        "Exchange": "US",
+        "Name": "Walgreens Boots Alliance Inc",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.06494
+      },
+      "K.US": {
+        "Code": "K",
+        "Exchange": "US",
+        "Name": "Kellanova",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.94095
+      },
+      "FYBR.US": {
+        "Code": "FYBR",
+        "Exchange": "US",
+        "Name": "Frontier Communications Parent Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.90665
+      },
+      "IPG.US": {
+        "Code": "IPG",
+        "Exchange": "US",
+        "Name": "Interpublic Group of Companies Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.59726
+      },
+      "SPR.US": {
+        "Code": "SPR",
+        "Exchange": "US",
+        "Name": "Spirit Aerosystems Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.39938
+      },
+      "AZEK.US": {
+        "Code": "AZEK",
+        "Exchange": "US",
+        "Name": "Azek Company Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.30565
+      },
+      "SHV.US": {
+        "Code": "SHV",
+        "Exchange": "US",
+        "Name": "iShares Short Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.14863
+      },
+      "INE.TO": {
+        "Code": "INE",
+        "Exchange": "TO",
+        "Name": "Innergex Renewable Energy Inc.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 3.91749
+      },
+      "DNB.US": {
+        "Code": "DNB",
+        "Exchange": "US",
+        "Name": "Dun & Bradstreet Holdings Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.90543
+      },
+      "TKWY.AS": {
+        "Code": "TKWY",
+        "Exchange": "AS",
+        "Name": "Just Eat Takeaway",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 3.79437
+      }
+    },
+    "Holdings": {
+      "WBA.US": {
+        "Code": "WBA",
+        "Exchange": "US",
+        "Name": "Walgreens Boots Alliance Inc",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.06494
+      },
+      "K.US": {
+        "Code": "K",
+        "Exchange": "US",
+        "Name": "Kellanova",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.94095
+      },
+      "FYBR.US": {
+        "Code": "FYBR",
+        "Exchange": "US",
+        "Name": "Frontier Communications Parent Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.90665
+      },
+      "IPG.US": {
+        "Code": "IPG",
+        "Exchange": "US",
+        "Name": "Interpublic Group of Companies Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.59726
+      },
+      "SPR.US": {
+        "Code": "SPR",
+        "Exchange": "US",
+        "Name": "Spirit Aerosystems Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.39938
+      },
+      "AZEK.US": {
+        "Code": "AZEK",
+        "Exchange": "US",
+        "Name": "Azek Company Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.30565
+      },
+      "SHV.US": {
+        "Code": "SHV",
+        "Exchange": "US",
+        "Name": "iShares Short Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.14863
+      },
+      "INE.TO": {
+        "Code": "INE",
+        "Exchange": "TO",
+        "Name": "Innergex Renewable Energy Inc.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 3.91749
+      },
+      "DNB.US": {
+        "Code": "DNB",
+        "Exchange": "US",
+        "Name": "Dun & Bradstreet Holdings Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.90543
+      },
+      "TKWY.AS": {
+        "Code": "TKWY",
+        "Exchange": "AS",
+        "Name": "Just Eat Takeaway",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 3.79437
+      },
+      "SUBC.OL": {
+        "Code": "SUBC",
+        "Exchange": "OL",
+        "Name": "Subsea 7 S.A.",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "Norway",
+        "Region": "Europe",
+        "Assets_%": 3.75432
+      },
+      "ALE.US": {
+        "Code": "ALE",
+        "Exchange": "US",
+        "Name": "Allete Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.63467
+      },
+      "HEES.US": {
+        "Code": "HEES",
+        "Exchange": "US",
+        "Name": "H&E Equipment Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.46888
+      },
+      "CIX.TO": {
+        "Code": "CIX",
+        "Exchange": "TO",
+        "Name": "CI Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 3.08022
+      },
+      "COOP.US": {
+        "Code": "COOP",
+        "Exchange": "US",
+        "Name": "Mr. Cooper Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.0446
+      },
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.02808
+      },
+      "SWTX.US": {
+        "Code": "SWTX",
+        "Exchange": "US",
+        "Name": "SpringWorks Therapeutics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.97954
+      },
+      "DWL.LSE": {
+        "Code": "DWL",
+        "Exchange": "LSE",
+        "Name": "Dowlais Group Plc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 2.9368
+      },
+      "TGI.US": {
+        "Code": "TGI",
+        "Exchange": "US",
+        "Name": "Triumph Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.86207
+      },
+      "SPNO.CO": {
+        "Code": "SPNO",
+        "Exchange": "CO",
+        "Name": "Spar Nord Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 2.66125
+      },
+      "PLYA.US": {
+        "Code": "PLYA",
+        "Exchange": "US",
+        "Name": "Playa Hotels & Resorts BV",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.3021
+      },
+      "1310.HK": {
+        "Code": "1310",
+        "Exchange": "HK",
+        "Name": "HKBN Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.13651
+      },
+      "PPBI.US": {
+        "Code": "PPBI",
+        "Exchange": "US",
+        "Name": "Pacific Premier Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.08454
+      },
+      "EVRI.US": {
+        "Code": "EVRI",
+        "Exchange": "US",
+        "Name": "Everi Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8771
+      },
+      "GB_old.US": {
+        "Code": "GB_old",
+        "Exchange": "US",
+        "Name": "Greatbatch Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.87044
+      },
+      "CXB.TO": {
+        "Code": "CXB",
+        "Exchange": "TO",
+        "Name": "Calibre Mining Corp",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 1.80435
+      },
+      "3141.TSE": {
+        "Code": "3141",
+        "Exchange": "TSE",
+        "Name": "Welcia Holdings",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.79208
+      },
+      "RDFN.US": {
+        "Code": "RDFN",
+        "Exchange": "US",
+        "Name": "Redfin Corp",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.769
+      },
+      "BRDG_old.US": {
+        "Code": "BRDG_old",
+        "Exchange": "US",
+        "Name": "BRDG",
+        "Sector": "Real Estate",
+        "Industry": " REIT - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5307
+      },
+      "BBGI.LSE": {
+        "Code": "BBGI",
+        "Exchange": "LSE",
+        "Name": "BBGI SICAV SA",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.33596
+      },
+      "SS1A.F": {
+        "Code": "SS1A",
+        "Exchange": "F",
+        "Name": "Schnitzer Steel Industries Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.32135
+      },
+      "PRA.US": {
+        "Code": "PRA",
+        "Exchange": "US",
+        "Name": "ProAssurance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.06143
+      },
+      "AGS.US": {
+        "Code": "AGS",
+        "Exchange": "US",
+        "Name": "PlayAGS Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.00529
+      },
+      "BIOT.ST": {
+        "Code": "BIOT",
+        "Exchange": "ST",
+        "Name": "Biotage AB",
+        "Sector": "Healthcare",
+        "Industry": "Medical Instruments & Supplies",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.94784
+      },
+      "BRKL.US": {
+        "Code": "BRKL",
+        "Exchange": "US",
+        "Name": "Brookline Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.93697
+      },
+      "GYYSF.US": {
+        "Code": "GYYSF",
+        "Exchange": "US",
+        "Name": "Spartan Resources Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.65332
+      },
+      "CCRN.US": {
+        "Code": "CCRN",
+        "Exchange": "US",
+        "Name": "Cross Country Healthcare Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.27933
+      },
+      "ADRO.US": {
+        "Code": "ADRO",
+        "Exchange": "US",
+        "Name": "Aduro Biotech Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07389
+      },
+      "HRI.US": {
+        "Code": "HRI",
+        "Exchange": "US",
+        "Name": "Herc Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -0.64128
+      },
+      "BHLB.US": {
+        "Code": "BHLB",
+        "Exchange": "US",
+        "Name": "Berkshire Hills Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -0.95273
+      },
+      "AXL.US": {
+        "Code": "AXL",
+        "Exchange": "US",
+        "Name": "American Axle & Manufacturing",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -1.27895
+      },
+      "APO.US": {
+        "Code": "APO",
+        "Exchange": "US",
+        "Name": "Apollo Global Management LLC Class A",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -1.5536
+      },
+      "JHX.US": {
+        "Code": "JHX",
+        "Exchange": "US",
+        "Name": "James Hardie Industries PLC ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -2.13075
+      },
+      "COLB.US": {
+        "Code": "COLB",
+        "Exchange": "US",
+        "Name": "Columbia Banking System Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -2.14114
+      },
+      "BA.US": {
+        "Code": "BA",
+        "Exchange": "US",
+        "Name": "The Boeing Company",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -4.30605
+      },
+      "OMC.US": {
+        "Code": "OMC",
+        "Exchange": "US",
+        "Name": "Omnicom Group Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -4.77151
+      },
+      "RKT.US": {
+        "Code": "RKT",
+        "Exchange": "US",
+        "Name": "Rocket Companies\u00a0Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -5.08148
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.14841",
+        "Price/Book": "1.73785",
+        "Price/Sales": "0.39785",
+        "Price/Cash Flow": "6.75766",
+        "Dividend-Yield Factor": "3.36435"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "16.97315",
+        "Price/Book": "2.20442",
+        "Price/Sales": "1.0094",
+        "Price/Cash Flow": "8.10147",
+        "Dividend-Yield Factor": "1.65973"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.9947",
+        "Historical Earnings Growth": "2.77018",
+        "Sales Growth": "0.7117",
+        "Cash-Flow Growth": "24.27863",
+        "Book-Value Growth": "11.12896"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "22.40232",
+        "Historical Earnings Growth": "-19.61527",
+        "Sales Growth": "-1.00378",
+        "Cash-Flow Growth": "2.99974",
+        "Book-Value Growth": "2.41044"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "2",
+      "Category_Benchmark": "Morningstar Mod Tgt Risk TR...                    ",
+      "Sustainability_Ratio": "2"
+    },
+    "Performance": {
+      "1y_Volatility": "2.25",
+      "3y_Volatility": "3.84",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.35",
+      "Returns_YTD": "5.79",
+      "Returns_1Y": "11.88",
+      "Returns_3Y": "4.18",
+      "Returns_5Y": "3.22",
+      "Returns_10Y": "2.32"
+    }
+  }
+}

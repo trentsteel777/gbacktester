@@ -1,0 +1,810 @@
+{
+  "General": {
+    "Code": "AVES",
+    "Type": "ETF",
+    "Name": "Avantis\u00ae Emerging Markets Value ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG012NXXFT5",
+    "Description": "The fund invests primarily in a diverse group of companies related to emerging markets across market sectors, industry groups and countries. The fund may invest in companies of all market capitalizations. Under normal market conditions, the fund will invest at least 80% of its assets in equity securities of companies related to emerging market countries. The adviser generally intends to focus its investments in a subset of the emerging markets countries that comprise the MSCI Emerging Markets Value IMI Index.",
+    "Category": "Diversified Emerging Mkts",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1,
+    "52WeekHigh": 51.5868,
+    "52WeekLow": 41.68,
+    "50DayMA": 47.6685,
+    "200DayMA": 48.3307
+  },
+  "ETF_Data": {
+    "ISIN": "US0250723725",
+    "Company_Name": "American Century",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "3.950000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2021-09-29",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00360",
+    "AnnualHoldingsTurnover": "0.23000",
+    "TotalAssets": "670212539.00",
+    "Average_Mkt_Cap_Mil": "6978.09148",
+    "Market_Capitalisation": {
+      "Mega": "23.26964",
+      "Big": "38.23804",
+      "Medium": "27.84814",
+      "Small": "6.1769",
+      "Micro": "2.02374"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.19195",
+        "Short_%": "6.0E-5",
+        "Net_Assets_%": "0.19189"
+      },
+      "NotClassified": {
+        "Long_%": "0.00232",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00232"
+      },
+      "Stock non-US": {
+        "Long_%": "99.66283",
+        "Short_%": "0",
+        "Net_Assets_%": "99.66283"
+      },
+      "Other": {
+        "Long_%": "3.0E-5",
+        "Short_%": "0",
+        "Net_Assets_%": "3.0E-5"
+      },
+      "Stock US": {
+        "Long_%": "0.14281",
+        "Short_%": "0",
+        "Net_Assets_%": "0.14281"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0.267",
+        "Relative_to_Category": "1.946"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.02208",
+        "Relative_to_Category": "0.44399"
+      },
+      "Europe Developed": {
+        "Equity_%": "0.752",
+        "Relative_to_Category": "1.742"
+      },
+      "Europe Emerging": {
+        "Equity_%": "2.257",
+        "Relative_to_Category": "2.41"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "3.402",
+        "Relative_to_Category": "7.134"
+      },
+      "Japan": {
+        "Equity_%": "0.006",
+        "Relative_to_Category": "0.032"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.025"
+      },
+      "Asia Developed": {
+        "Equity_%": "33.185",
+        "Relative_to_Category": "25.809"
+      },
+      "Asia Emerging": {
+        "Equity_%": "52.043",
+        "Relative_to_Category": "49.531"
+      },
+      "Latin America": {
+        "Equity_%": "8.066",
+        "Relative_to_Category": "10.927"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "11.98743",
+        "Relative_to_Category": "5.01091"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "13.87003",
+        "Relative_to_Category": "15.26034"
+      },
+      "Financial Services": {
+        "Equity_%": "29.01753",
+        "Relative_to_Category": "23.38375"
+      },
+      "Real Estate": {
+        "Equity_%": "2.30614",
+        "Relative_to_Category": "1.74933"
+      },
+      "Communication Services": {
+        "Equity_%": "5.70288",
+        "Relative_to_Category": "9.75271"
+      },
+      "Energy": {
+        "Equity_%": "4.89701",
+        "Relative_to_Category": "4.25925"
+      },
+      "Industrials": {
+        "Equity_%": "12.39301",
+        "Relative_to_Category": "7.17668"
+      },
+      "Technology": {
+        "Equity_%": "8.53399",
+        "Relative_to_Category": "22.51315"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.53607",
+        "Relative_to_Category": "5.45023"
+      },
+      "Healthcare": {
+        "Equity_%": "4.04546",
+        "Relative_to_Category": "3.56727"
+      },
+      "Utilities": {
+        "Equity_%": "2.71047",
+        "Relative_to_Category": "1.87637"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2325"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.35"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.3"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.21926"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.45"
+      }
+    },
+    "Holdings_Count": 46,
+    "Top_10_Holdings": {
+      "0175.HK": {
+        "Code": "0175",
+        "Exchange": "HK",
+        "Name": "Geely Automobile Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.40835
+      },
+      "2882.TW": {
+        "Code": "2882",
+        "Exchange": "TW",
+        "Name": "Cathay Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.05743
+      },
+      "2891.TW": {
+        "Code": "2891",
+        "Exchange": "TW",
+        "Name": "CTBC Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.02013
+      },
+      "KOTAKBANK.NSE": {
+        "Code": "KOTAKBANK",
+        "Exchange": "NSE",
+        "Name": "Kotak Mahindra Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.99833
+      },
+      "2881.TW": {
+        "Code": "2881",
+        "Exchange": "TW",
+        "Name": "Fubon Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.89467
+      },
+      "1024.HK": {
+        "Code": "1024",
+        "Exchange": "HK",
+        "Name": "Kuaishou Technology",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.85292
+      },
+      "1801.HK": {
+        "Code": "1801",
+        "Exchange": "HK",
+        "Name": "Innovent Biologics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.84367
+      },
+      "MARUTI.NSE": {
+        "Code": "MARUTI",
+        "Exchange": "NSE",
+        "Name": "Maruti Suzuki India Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.8119
+      },
+      "LT.BSE": {
+        "Code": "LT",
+        "Exchange": "BSE",
+        "Name": "Larsen & Toubro Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.80541
+      },
+      "086790.KO": {
+        "Code": "086790",
+        "Exchange": "KO",
+        "Name": "Hana Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.78613
+      }
+    },
+    "Holdings": {
+      "0175.HK": {
+        "Code": "0175",
+        "Exchange": "HK",
+        "Name": "Geely Automobile Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.40835
+      },
+      "2882.TW": {
+        "Code": "2882",
+        "Exchange": "TW",
+        "Name": "Cathay Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.05743
+      },
+      "2891.TW": {
+        "Code": "2891",
+        "Exchange": "TW",
+        "Name": "CTBC Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.02013
+      },
+      "KOTAKBANK.NSE": {
+        "Code": "KOTAKBANK",
+        "Exchange": "NSE",
+        "Name": "Kotak Mahindra Bank Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.99833
+      },
+      "2881.TW": {
+        "Code": "2881",
+        "Exchange": "TW",
+        "Name": "Fubon Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.89467
+      },
+      "1024.HK": {
+        "Code": "1024",
+        "Exchange": "HK",
+        "Name": "Kuaishou Technology",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.85292
+      },
+      "1801.HK": {
+        "Code": "1801",
+        "Exchange": "HK",
+        "Name": "Innovent Biologics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.84367
+      },
+      "MARUTI.NSE": {
+        "Code": "MARUTI",
+        "Exchange": "NSE",
+        "Name": "Maruti Suzuki India Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.8119
+      },
+      "LT.BSE": {
+        "Code": "LT",
+        "Exchange": "BSE",
+        "Name": "Larsen & Toubro Limited",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.80541
+      },
+      "086790.KO": {
+        "Code": "086790",
+        "Exchange": "KO",
+        "Name": "Hana Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.78613
+      },
+      "KB.US": {
+        "Code": "KB",
+        "Exchange": "US",
+        "Name": "KB Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.77205
+      },
+      "012450.KO": {
+        "Code": "012450",
+        "Exchange": "KO",
+        "Name": "Hanwha Aerospace Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.76266
+      },
+      "2020.HK": {
+        "Code": "2020",
+        "Exchange": "HK",
+        "Name": "ANTA Sports Products Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.73633
+      },
+      "1378.HK": {
+        "Code": "1378",
+        "Exchange": "HK",
+        "Name": "China Hongqiao Group Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.73154
+      },
+      "VALE.US": {
+        "Code": "VALE",
+        "Exchange": "US",
+        "Name": "Vale SA ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.71973
+      },
+      "GFNORTEO.MX": {
+        "Code": "GFNORTEO",
+        "Exchange": "MX",
+        "Name": "Grupo Financiero Banorte S.A.B. de C.V",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.66225
+      },
+      "HCLTECH.NSE": {
+        "Code": "HCLTECH",
+        "Exchange": "NSE",
+        "Name": "HCL Technologies Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.65659
+      },
+      "3888.HK": {
+        "Code": "3888",
+        "Exchange": "HK",
+        "Name": "Kingsoft Corp Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.65099
+      },
+      "VIPS.US": {
+        "Code": "VIPS",
+        "Exchange": "US",
+        "Name": "Vipshop Holdings Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.63852
+      },
+      "000270.KO": {
+        "Code": "000270",
+        "Exchange": "KO",
+        "Name": "Kia Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.59542
+      },
+      "SHG.US": {
+        "Code": "SHG",
+        "Exchange": "US",
+        "Name": "Shinhan Financial Group Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.59333
+      },
+      "TATASTEEL.NSE": {
+        "Code": "TATASTEEL",
+        "Exchange": "NSE",
+        "Name": "Tata Steel Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.57912
+      },
+      "0836.HK": {
+        "Code": "0836",
+        "Exchange": "HK",
+        "Name": "China Resources Power Holding",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.56984
+      },
+      "1109.HK": {
+        "Code": "1109",
+        "Exchange": "HK",
+        "Name": "China Resources Land Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.56575
+      },
+      "1093.HK": {
+        "Code": "1093",
+        "Exchange": "HK",
+        "Name": "CSPC Pharmaceutical Group Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.56549
+      },
+      "005380.KO": {
+        "Code": "005380",
+        "Exchange": "KO",
+        "Name": "Hyundai Motor",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.55433
+      },
+      "1216.TW": {
+        "Code": "1216",
+        "Exchange": "TW",
+        "Name": "Uni-President Enterprises Corp",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.55374
+      },
+      "M&M.NSE": {
+        "Code": "M&M",
+        "Exchange": "NSE",
+        "Name": "Mahindra & Mahindra Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.55049
+      },
+      "1530.HK": {
+        "Code": "1530",
+        "Exchange": "HK",
+        "Name": "3SBio Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.54612
+      },
+      "316140.KO": {
+        "Code": "316140",
+        "Exchange": "KO",
+        "Name": "Woori Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.5444
+      },
+      "2603.TW": {
+        "Code": "2603",
+        "Exchange": "TW",
+        "Name": "Evergreen Marine Corp Taiwan Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.53952
+      },
+      "2002.TW": {
+        "Code": "2002",
+        "Exchange": "TW",
+        "Name": "China Steel Corp",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.52092
+      },
+      "2890.TW": {
+        "Code": "2890",
+        "Exchange": "TW",
+        "Name": "Sinopac Financial Holdings Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.52044
+      },
+      "2888.TW": {
+        "Code": "2888",
+        "Exchange": "TW",
+        "Name": "Shin Kong Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.49857
+      },
+      "GFI.US": {
+        "Code": "GFI",
+        "Exchange": "US",
+        "Name": "Gold Fields Ltd ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.48698
+      },
+      "BBAS3.SA": {
+        "Code": "BBAS3",
+        "Exchange": "SA",
+        "Name": "Banco do Brasil S.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.45838
+      },
+      "SHRIRAMFIN.NSE": {
+        "Code": "SHRIRAMFIN",
+        "Exchange": "NSE",
+        "Name": "Shriram Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.44883
+      },
+      "NTPC.NSE": {
+        "Code": "NTPC",
+        "Exchange": "NSE",
+        "Name": "NTPC Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.44332
+      },
+      "138040.KO": {
+        "Code": "138040",
+        "Exchange": "KO",
+        "Name": "Meritz Financi",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.43854
+      },
+      "BEL.BSE": {
+        "Code": "BEL",
+        "Exchange": "BSE",
+        "Name": "Bharat Electronics Limited",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.43314
+      },
+      "1818.HK": {
+        "Code": "1818",
+        "Exchange": "HK",
+        "Name": "Zhaojin Mining Industry Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.41555
+      },
+      "1177.HK": {
+        "Code": "1177",
+        "Exchange": "HK",
+        "Name": "Sino Biopharmaceutical Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.41433
+      },
+      "2609.TW": {
+        "Code": "2609",
+        "Exchange": "TW",
+        "Name": "Yang Ming Marine Transport Corp",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.41305
+      },
+      "2887.TW": {
+        "Code": "2887",
+        "Exchange": "TW",
+        "Name": "Taishin Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.41293
+      },
+      "SBK.JSE": {
+        "Code": "SBK",
+        "Exchange": "JSE",
+        "Name": "Standard Bank Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "South Africa",
+        "Region": "Africa",
+        "Assets_%": 0.40541
+      },
+      "0267.HK": {
+        "Code": "0267",
+        "Exchange": "HK",
+        "Name": "Citic Pacific",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.39785
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "8.48208",
+        "Price/Book": "0.95056",
+        "Price/Sales": "0.74653",
+        "Price/Cash Flow": "3.57542",
+        "Dividend-Yield Factor": "4.07366"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.94241",
+        "Price/Book": "1.6652",
+        "Price/Sales": "1.43725",
+        "Price/Cash Flow": "6.3066",
+        "Dividend-Yield Factor": "3.12484"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "12.38765",
+        "Historical Earnings Growth": "5.67363",
+        "Sales Growth": "1.14499",
+        "Cash-Flow Growth": "-5.17531",
+        "Book-Value Growth": "4.79399"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.63565",
+        "Historical Earnings Growth": "4.85437",
+        "Sales Growth": "4.63363",
+        "Cash-Flow Growth": "5.123",
+        "Book-Value Growth": "8.25275"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "9.19",
+      "3y_Volatility": "17.19",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.10",
+      "Returns_YTD": "10.02",
+      "Returns_1Y": "5.02",
+      "Returns_3Y": "8.11",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

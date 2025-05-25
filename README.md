@@ -39,3 +39,17 @@ DONE:
     Precompute TA
     Memcahce - process
     Add sqlite
+
+    
+    
+    
+EBIT (12-month)	= Operating Income + Interest Income – Interest Expense	
+Enterprise Value =	Market Cap + Net Debt – Cash & Equivalents	
+
+
+Greenblatt
+3. Using them together (Magic Formula ranking)
+	Rank the universe by EY (highest → lowest).
+	Rank again by ROC (highest → lowest).
+	Add the two ranks; pick the lowest combined scores.
+	The sweet spot is a stock that is cheap to buy (high EY) and high-quality (high ROC)—e.g., EY ≈ 12 %, ROC ≈ 30 %.

@@ -1,0 +1,700 @@
+{
+  "General": {
+    "Code": "MVPA",
+    "Type": "ETF",
+    "Name": "Advisor Managed Portfolios",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01L8F2MJ9",
+    "Description": "The fund is an actively-managed exchange-traded fund (\"ETF\") that seeks to achieve its investment objective by investing in securities that Miller Value Partners, LLC (the \"Adviser\") believes have an above-average probability of outperforming the S&P 500\u00ae Index (the \"S&P 500\") over a multi-year time horizon. It will typically invest in a portfolio of approximately 20-40 common stocks without regard to market capitalization. The fund is non-diversified.",
+    "Category": "Mid-Cap Value",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 37.4437,
+    "52WeekLow": 26.87,
+    "50DayMA": 31.0617,
+    "200DayMA": 33.1432
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Miller Value",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "0.860000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2024-01-30",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00600",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "64869774.00",
+    "Average_Mkt_Cap_Mil": "6157.12504",
+    "Market_Capitalisation": {
+      "Mega": "2.50883",
+      "Big": "8.53831",
+      "Medium": "23.81017",
+      "Small": "29.02277",
+      "Micro": "30.8761"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.30242",
+        "Short_%": "0.99719",
+        "Net_Assets_%": "0.30523"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "99.69477",
+        "Short_%": "0",
+        "Net_Assets_%": "99.69477"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "100",
+        "Relative_to_Category": "95.741"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.15263"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.594"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.237"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.171"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.006"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.106"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.437"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.554"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "4.93929"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "29.0175",
+        "Relative_to_Category": "10.38425"
+      },
+      "Financial Services": {
+        "Equity_%": "20.73575",
+        "Relative_to_Category": "17.43389"
+      },
+      "Real Estate": {
+        "Equity_%": "3.33142",
+        "Relative_to_Category": "6.69796"
+      },
+      "Communication Services": {
+        "Equity_%": "8.62952",
+        "Relative_to_Category": "2.88526"
+      },
+      "Energy": {
+        "Equity_%": "6.89614",
+        "Relative_to_Category": "6.05519"
+      },
+      "Industrials": {
+        "Equity_%": "5.24372",
+        "Relative_to_Category": "15.19135"
+      },
+      "Technology": {
+        "Equity_%": "14.24153",
+        "Relative_to_Category": "10.57568"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.04959",
+        "Relative_to_Category": "7.48443"
+      },
+      "Healthcare": {
+        "Equity_%": "8.85485",
+        "Relative_to_Category": "10.96926"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "7.38344"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.13769"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.11637"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "8.11489"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.3703"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.09339"
+      }
+    },
+    "Holdings_Count": 35,
+    "Top_10_Holdings": {
+      "CROX.US": {
+        "Code": "CROX",
+        "Exchange": "US",
+        "Name": "Crocs Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.81491
+      },
+      "BFH.US": {
+        "Code": "BFH",
+        "Exchange": "US",
+        "Name": "Bread Financial Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.16945
+      },
+      "CPNG.US": {
+        "Code": "CPNG",
+        "Exchange": "US",
+        "Name": "Coupang LLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.09828
+      },
+      "CNC.US": {
+        "Code": "CNC",
+        "Exchange": "US",
+        "Name": "Centene Corp",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.82105
+      },
+      "MSTR.US": {
+        "Code": "MSTR",
+        "Exchange": "US",
+        "Name": "MicroStrategy Incorporated",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.1165
+      },
+      "DBX.US": {
+        "Code": "DBX",
+        "Exchange": "US",
+        "Name": "Dropbox Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.92756
+      },
+      "LNC.US": {
+        "Code": "LNC",
+        "Exchange": "US",
+        "Name": "Lincoln National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.789
+      },
+      "CART.US": {
+        "Code": "CART",
+        "Exchange": "US",
+        "Name": "Maplebear Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.76099
+      },
+      "CTRN.US": {
+        "Code": "CTRN",
+        "Exchange": "US",
+        "Name": "Citi Trends Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.6914
+      },
+      "SMLR.US": {
+        "Code": "SMLR",
+        "Exchange": "US",
+        "Name": "Semler Scientific Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.62236
+      }
+    },
+    "Holdings": {
+      "CROX.US": {
+        "Code": "CROX",
+        "Exchange": "US",
+        "Name": "Crocs Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.81491
+      },
+      "BFH.US": {
+        "Code": "BFH",
+        "Exchange": "US",
+        "Name": "Bread Financial Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.16945
+      },
+      "CPNG.US": {
+        "Code": "CPNG",
+        "Exchange": "US",
+        "Name": "Coupang LLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.09828
+      },
+      "CNC.US": {
+        "Code": "CNC",
+        "Exchange": "US",
+        "Name": "Centene Corp",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.82105
+      },
+      "MSTR.US": {
+        "Code": "MSTR",
+        "Exchange": "US",
+        "Name": "MicroStrategy Incorporated",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.1165
+      },
+      "DBX.US": {
+        "Code": "DBX",
+        "Exchange": "US",
+        "Name": "Dropbox Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.92756
+      },
+      "LNC.US": {
+        "Code": "LNC",
+        "Exchange": "US",
+        "Name": "Lincoln National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.789
+      },
+      "CART.US": {
+        "Code": "CART",
+        "Exchange": "US",
+        "Name": "Maplebear Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.76099
+      },
+      "CTRN.US": {
+        "Code": "CTRN",
+        "Exchange": "US",
+        "Name": "Citi Trends Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.6914
+      },
+      "SMLR.US": {
+        "Code": "SMLR",
+        "Exchange": "US",
+        "Name": "Semler Scientific Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.62236
+      },
+      "CTO.US": {
+        "Code": "CTO",
+        "Exchange": "US",
+        "Name": "CTO Realty Growth Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.35331
+      },
+      "PINS.US": {
+        "Code": "PINS",
+        "Exchange": "US",
+        "Name": "Pinterest Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.32057
+      },
+      "PRDO.US": {
+        "Code": "PRDO",
+        "Exchange": "US",
+        "Name": "Perdoceo Education Corp",
+        "Sector": "Consumer Defensive",
+        "Industry": "Education & Training Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.04188
+      },
+      "TOST.US": {
+        "Code": "TOST",
+        "Exchange": "US",
+        "Name": "Toast Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.88048
+      },
+      "JXN.US": {
+        "Code": "JXN",
+        "Exchange": "US",
+        "Name": "Jackson Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.81627
+      },
+      "ZD.US": {
+        "Code": "ZD",
+        "Exchange": "US",
+        "Name": "Ziff Davis Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.75011
+      },
+      "FTI.US": {
+        "Code": "FTI",
+        "Exchange": "US",
+        "Name": "TechnipFMC PLC",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.61413
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.54921
+      },
+      "PYPL.US": {
+        "Code": "PYPL",
+        "Exchange": "US",
+        "Name": "PayPal Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.43554
+      },
+      "FNMA.US": {
+        "Code": "FNMA",
+        "Exchange": "US",
+        "Name": "Federal National Mortgage Association",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.42566
+      },
+      "BLDR.US": {
+        "Code": "BLDR",
+        "Exchange": "US",
+        "Name": "Builders FirstSource Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.20831
+      },
+      "FOUR.US": {
+        "Code": "FOUR",
+        "Exchange": "US",
+        "Name": "Shift4 Payments Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.17278
+      },
+      "ARLP.US": {
+        "Code": "ARLP",
+        "Exchange": "US",
+        "Name": "Alliance Resource Partners LP",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.10378
+      },
+      "QUAD.US": {
+        "Code": "QUAD",
+        "Exchange": "US",
+        "Name": "Quad Graphics Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.09581
+      },
+      "ABNB.US": {
+        "Code": "ABNB",
+        "Exchange": "US",
+        "Name": "Airbnb\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01186
+      },
+      "FMCC.US": {
+        "Code": "FMCC",
+        "Exchange": "US",
+        "Name": "Federal Home Loan Mortgage Corp",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.00167
+      },
+      "D55.F": {
+        "Code": "D55",
+        "Exchange": "F",
+        "Name": "MASTERBRAND INC. DL-001",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.96756
+      },
+      "WAL.US": {
+        "Code": "WAL",
+        "Exchange": "US",
+        "Name": "Western Alliance Bancorporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.73992
+      },
+      "LAD.US": {
+        "Code": "LAD",
+        "Exchange": "US",
+        "Name": "Lithia Motors Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.45894
+      },
+      "EXFY.US": {
+        "Code": "EXFY",
+        "Exchange": "US",
+        "Name": "Expensify Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.0577
+      },
+      "JELD.US": {
+        "Code": "JELD",
+        "Exchange": "US",
+        "Name": "Jeld-Wen Holding Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.93238
+      },
+      "BKE.US": {
+        "Code": "BKE",
+        "Exchange": "US",
+        "Name": "Buckle Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.84298
+      },
+      "GME.US": {
+        "Code": "GME",
+        "Exchange": "US",
+        "Name": "GameStop Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.83989
+      },
+      "VTRS.US": {
+        "Code": "VTRS",
+        "Exchange": "US",
+        "Name": "Viatris Inc",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.45564
+      },
+      "CHRD.US": {
+        "Code": "CHRD",
+        "Exchange": "US",
+        "Name": "Chord Energy Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08519
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "9.90543",
+        "Price/Book": "1.38812",
+        "Price/Sales": "0.66355",
+        "Price/Cash Flow": "7.05262",
+        "Dividend-Yield Factor": "1.53579"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.23048",
+        "Price/Book": "1.73509",
+        "Price/Sales": "0.94983",
+        "Price/Cash Flow": "7.72931",
+        "Dividend-Yield Factor": "2.65373"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.56885",
+        "Historical Earnings Growth": "2.53738",
+        "Sales Growth": "-9.32787",
+        "Cash-Flow Growth": "-15.40915",
+        "Book-Value Growth": "-18.732"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "11.99942",
+        "Historical Earnings Growth": "-1.6816",
+        "Sales Growth": "6.31201",
+        "Cash-Flow Growth": "-0.87947",
+        "Book-Value Growth": "5.03042"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "21.02",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "-5.08",
+      "Returns_1Y": "3.31",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

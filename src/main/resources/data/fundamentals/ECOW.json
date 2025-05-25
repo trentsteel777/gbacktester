@@ -1,0 +1,800 @@
+{
+  "General": {
+    "Code": "ECOW",
+    "Type": "ETF",
+    "Name": "Pacer Emerging Markets Cash Cows 100 ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00P1MK298",
+    "Description": "The index uses an objective, rules-based methodology to provide exposure to large and mid-capitalization companies in emerging markets with high free cash flow yields. Under normal circumstances, at least 80% of the fund's total assets (exclusive of collateral held from securities lending) will be invested in the component securities of the index and investments that have economic characteristics that are substantially identical to the economic characteristics of such component securities.",
+    "Category": "Diversified Emerging Mkts",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.06,
+    "52WeekHigh": 22.077,
+    "52WeekLow": 17.8,
+    "50DayMA": 20.3726,
+    "200DayMA": 20.4759
+  },
+  "ETF_Data": {
+    "ISIN": "US69374H8658",
+    "Company_Name": "Pacer",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "6.840000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2019-05-02",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00700",
+    "AnnualHoldingsTurnover": "0.66000",
+    "TotalAssets": "88531354.00",
+    "Average_Mkt_Cap_Mil": "13108.55068",
+    "Market_Capitalisation": {
+      "Mega": "28.06075",
+      "Big": "48.97645",
+      "Medium": "16.71467",
+      "Small": "1.75864",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.56625",
+        "Short_%": "0.00944",
+        "Net_Assets_%": "0.55681"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.44318",
+        "Short_%": "0",
+        "Net_Assets_%": "99.44318"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.946"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.44399"
+      },
+      "Europe Developed": {
+        "Equity_%": "2.685",
+        "Relative_to_Category": "1.742"
+      },
+      "Europe Emerging": {
+        "Equity_%": "7.323",
+        "Relative_to_Category": "2.41"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "6.678",
+        "Relative_to_Category": "7.134"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.032"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.025"
+      },
+      "Asia Developed": {
+        "Equity_%": "13.7",
+        "Relative_to_Category": "25.809"
+      },
+      "Asia Emerging": {
+        "Equity_%": "38.796",
+        "Relative_to_Category": "49.531"
+      },
+      "Latin America": {
+        "Equity_%": "30.817",
+        "Relative_to_Category": "10.927"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "12.01819",
+        "Relative_to_Category": "5.01091"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "13.36493",
+        "Relative_to_Category": "15.26034"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "23.38375"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.74933"
+      },
+      "Communication Services": {
+        "Equity_%": "18.14579",
+        "Relative_to_Category": "9.75271"
+      },
+      "Energy": {
+        "Equity_%": "11.07495",
+        "Relative_to_Category": "4.25925"
+      },
+      "Industrials": {
+        "Equity_%": "14.48237",
+        "Relative_to_Category": "7.17668"
+      },
+      "Technology": {
+        "Equity_%": "6.72582",
+        "Relative_to_Category": "22.51315"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "11.58191",
+        "Relative_to_Category": "5.45023"
+      },
+      "Healthcare": {
+        "Equity_%": "1.828",
+        "Relative_to_Category": "3.56727"
+      },
+      "Utilities": {
+        "Equity_%": "10.77804",
+        "Relative_to_Category": "1.87637"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2325"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.35"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.3"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.21926"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.45"
+      }
+    },
+    "Holdings_Count": 45,
+    "Top_10_Holdings": {
+      "CEZ.WAR": {
+        "Code": "CEZ",
+        "Exchange": "WAR",
+        "Name": "CEZ as",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Republic of Poland",
+        "Region": "Europe",
+        "Assets_%": 2.63498
+      },
+      "9999.HK": {
+        "Code": "9999",
+        "Exchange": "HK",
+        "Name": "NetEase\u00a0Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.45782
+      },
+      "1378.HK": {
+        "Code": "1378",
+        "Exchange": "HK",
+        "Name": "China Hongqiao Group Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.4271
+      },
+      "LI.US": {
+        "Code": "LI",
+        "Exchange": "US",
+        "Name": "Li Auto\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.38418
+      },
+      "ABEV.US": {
+        "Code": "ABEV",
+        "Exchange": "US",
+        "Name": "Ambev SA ADR",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11417
+      },
+      "JBSS3.SA": {
+        "Code": "JBSS3",
+        "Exchange": "SA",
+        "Name": "JBS S.A",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 2.0923
+      },
+      "2454.TW": {
+        "Code": "2454",
+        "Exchange": "TW",
+        "Name": "MediaTek Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 2.03967
+      },
+      "5347.KLSE": {
+        "Code": "5347",
+        "Exchange": "KLSE",
+        "Name": "Tenaga Nasional Bhd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 2.03519
+      },
+      "GMEXICOB.MX": {
+        "Code": "GMEXICOB",
+        "Exchange": "MX",
+        "Name": "Grupo M\u00e9xico S.A.B. de C.V",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.0229
+      },
+      "VALE.US": {
+        "Code": "VALE",
+        "Exchange": "US",
+        "Name": "Vale SA ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98855
+      }
+    },
+    "Holdings": {
+      "CEZ.WAR": {
+        "Code": "CEZ",
+        "Exchange": "WAR",
+        "Name": "CEZ as",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Republic of Poland",
+        "Region": "Europe",
+        "Assets_%": 2.63498
+      },
+      "9999.HK": {
+        "Code": "9999",
+        "Exchange": "HK",
+        "Name": "NetEase\u00a0Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.45782
+      },
+      "1378.HK": {
+        "Code": "1378",
+        "Exchange": "HK",
+        "Name": "China Hongqiao Group Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Aluminum",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.4271
+      },
+      "LI.US": {
+        "Code": "LI",
+        "Exchange": "US",
+        "Name": "Li Auto\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.38418
+      },
+      "ABEV.US": {
+        "Code": "ABEV",
+        "Exchange": "US",
+        "Name": "Ambev SA ADR",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11417
+      },
+      "JBSS3.SA": {
+        "Code": "JBSS3",
+        "Exchange": "SA",
+        "Name": "JBS S.A",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 2.0923
+      },
+      "2454.TW": {
+        "Code": "2454",
+        "Exchange": "TW",
+        "Name": "MediaTek Inc",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 2.03967
+      },
+      "5347.KLSE": {
+        "Code": "5347",
+        "Exchange": "KLSE",
+        "Name": "Tenaga Nasional Bhd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 2.03519
+      },
+      "GMEXICOB.MX": {
+        "Code": "GMEXICOB",
+        "Exchange": "MX",
+        "Name": "Grupo M\u00e9xico S.A.B. de C.V",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.0229
+      },
+      "VALE.US": {
+        "Code": "VALE",
+        "Exchange": "US",
+        "Name": "Vale SA ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98855
+      },
+      "BIDU.US": {
+        "Code": "BIDU",
+        "Exchange": "US",
+        "Name": "Baidu Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95028
+      },
+      "VIVT3.SA": {
+        "Code": "VIVT3",
+        "Exchange": "SA",
+        "Name": "Telef\u00f4nica Brasil S.A.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.9129
+      },
+      "PTT.BK": {
+        "Code": "PTT",
+        "Exchange": "BK",
+        "Name": "PTT Public Company Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 1.87762
+      },
+      "2609.TW": {
+        "Code": "2609",
+        "Exchange": "TW",
+        "Name": "Yang Ming Marine Transport Corp",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.86878
+      },
+      "TIMP3.SA": {
+        "Code": "TIMP3",
+        "Exchange": "SA",
+        "Name": "TIM Participa\u00e7\u00f5es S.A",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.77218
+      },
+      "JD.US": {
+        "Code": "JD",
+        "Exchange": "US",
+        "Name": "JD.com Inc Adr",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.7396
+      },
+      "TLKM.JK": {
+        "Code": "TLKM",
+        "Exchange": "JK",
+        "Name": "Telkom Indonesia (Persero) Tbk PT",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 1.66127
+      },
+      "PBR-A.US": {
+        "Code": "PBR-A",
+        "Exchange": "US",
+        "Name": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.66014
+      },
+      "1898.HK": {
+        "Code": "1898",
+        "Exchange": "HK",
+        "Name": "China Coal Energy",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.65788
+      },
+      "THYAO.IS": {
+        "Code": "THYAO",
+        "Exchange": "IS",
+        "Name": "Turkish Airlines",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Republic of Turkey",
+        "Region": "Asia",
+        "Assets_%": 1.65536
+      },
+      "PTTEP.BK": {
+        "Code": "PTTEP",
+        "Exchange": "BK",
+        "Name": "PTT Exploration and Production Public Company Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 1.52598
+      },
+      "ADVANC.BK": {
+        "Code": "ADVANC",
+        "Exchange": "BK",
+        "Name": "Advanced Info Service Public Company Limited",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 1.4414
+      },
+      "1958.HK": {
+        "Code": "1958",
+        "Exchange": "HK",
+        "Name": "BAIC Motor Corp Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.42861
+      },
+      "CPFE3.SA": {
+        "Code": "CPFE3",
+        "Exchange": "SA",
+        "Name": "CPFL Energia S.A",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.39767
+      },
+      "4938.TW": {
+        "Code": "4938",
+        "Exchange": "TW",
+        "Name": "Pegatron Corp",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.35125
+      },
+      "BS6.SG": {
+        "Code": "BS6",
+        "Exchange": "SG",
+        "Name": "YANGZIJIANG SHIPBLDG HLDGS LTD",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Singapore",
+        "Region": "Asia",
+        "Assets_%": 1.34225
+      },
+      "2603.TW": {
+        "Code": "2603",
+        "Exchange": "TW",
+        "Name": "Evergreen Marine Corp Taiwan Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.2645
+      },
+      "2618.HK": {
+        "Code": "2618",
+        "Exchange": "HK",
+        "Name": "JD Logistics Inc",
+        "Sector": "Industrials",
+        "Industry": "Integrated Freight & Logistics",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.25799
+      },
+      "VOD.JSE": {
+        "Code": "VOD",
+        "Exchange": "JSE",
+        "Name": "Vodacom Group Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "South Africa",
+        "Region": "Africa",
+        "Assets_%": 1.24744
+      },
+      "CENCOSUD.SN": {
+        "Code": "CENCOSUD",
+        "Exchange": "SN",
+        "Name": "Cencosud",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Department Stores",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 1.22187
+      },
+      "3808.HK": {
+        "Code": "3808",
+        "Exchange": "HK",
+        "Name": "Sinotruk Hong Kong Ltd",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.21427
+      },
+      "1216.TW": {
+        "Code": "1216",
+        "Exchange": "TW",
+        "Name": "Uni-President Enterprises Corp",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 1.20059
+      },
+      "TUPRS.IS": {
+        "Code": "TUPRS",
+        "Exchange": "IS",
+        "Name": "Turkiye Petrol Rafinerileri AS",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Republic of Turkey",
+        "Region": "Asia",
+        "Assets_%": 1.15156
+      },
+      "ASII.JK": {
+        "Code": "ASII",
+        "Exchange": "JK",
+        "Name": "Astra International Tbk",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 1.14679
+      },
+      "AC.MX": {
+        "Code": "AC",
+        "Exchange": "MX",
+        "Name": "Arca Continental S.A.B. de C.V",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.12095
+      },
+      "6618.HK": {
+        "Code": "6618",
+        "Exchange": "HK",
+        "Name": "Jd Health International\u00a0Inc",
+        "Sector": "Healthcare",
+        "Industry": "Pharmaceutical Retailers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.04067
+      },
+      "0135.HK": {
+        "Code": "0135",
+        "Exchange": "HK",
+        "Name": "Kunlun Energy",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.00728
+      },
+      "ADRO.JK": {
+        "Code": "ADRO",
+        "Exchange": "JK",
+        "Name": "PT Alamtri Resources Indonesia Tbk",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 0.98919
+      },
+      "ELET6.SA": {
+        "Code": "ELET6",
+        "Exchange": "SA",
+        "Name": "Centrais El\u00e9tricas Brasileiras S.A. - Eletrobr\u00e1s",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.98382
+      },
+      "KOF.US": {
+        "Code": "KOF",
+        "Exchange": "US",
+        "Name": "Coca-Cola Femsa SAB de CV ADR",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.96576
+      },
+      "0921.HK": {
+        "Code": "0921",
+        "Exchange": "HK",
+        "Name": "Hisense Home Appliances Group Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.91412
+      },
+      "3998.HK": {
+        "Code": "3998",
+        "Exchange": "HK",
+        "Name": "Bosideng International Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.90633
+      },
+      "CMIG4.SA": {
+        "Code": "CMIG4",
+        "Exchange": "SA",
+        "Name": "Companhia Energ\u00e9tica de Minas Gerais",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.90625
+      },
+      "KIO.JSE": {
+        "Code": "KIO",
+        "Exchange": "JSE",
+        "Name": "Kumba Iron Ore Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "South Africa",
+        "Region": "Africa",
+        "Assets_%": 0.89255
+      },
+      "ASR.US": {
+        "Code": "ASR",
+        "Exchange": "US",
+        "Name": "Grupo Aeroportuario del Sureste SAB de CV ADR",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.872
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "9.51673",
+        "Price/Book": "1.16192",
+        "Price/Sales": "0.65713",
+        "Price/Cash Flow": "3.41107",
+        "Dividend-Yield Factor": "5.48413"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.94241",
+        "Price/Book": "1.6652",
+        "Price/Sales": "1.43725",
+        "Price/Cash Flow": "6.3066",
+        "Dividend-Yield Factor": "3.12484"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.26789",
+        "Historical Earnings Growth": "7.17783",
+        "Sales Growth": "-1.53784",
+        "Cash-Flow Growth": "0.60947",
+        "Book-Value Growth": "8.93043"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.63565",
+        "Historical Earnings Growth": "4.85437",
+        "Sales Growth": "4.63363",
+        "Cash-Flow Growth": "5.123",
+        "Book-Value Growth": "8.25275"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "12.12",
+      "3y_Volatility": "18.96",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.05",
+      "Returns_YTD": "10.77",
+      "Returns_1Y": "4.54",
+      "Returns_3Y": "5.30",
+      "Returns_5Y": "8.03",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

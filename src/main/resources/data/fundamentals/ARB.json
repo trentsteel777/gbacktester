@@ -1,0 +1,770 @@
+{
+  "General": {
+    "Code": "ARB",
+    "Type": "ETF",
+    "Name": "AltShares Trust - AltShares Merger Arbitrage ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00S7NVQL5",
+    "Description": "The fund seeks to track the performance of the index, which is designed to reflect a global merger arbitrage strategy. Under normal market conditions, it will invest at least 80% of its net assets (including borrowings for investment purposes) in the constituents of the index and in financial instruments with economic characteristics similar to such constituents such as swaps on such constituents. The fund is non-diversified.",
+    "Category": "Event Driven",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.05,
+    "52WeekHigh": 28.75,
+    "52WeekLow": 25.523,
+    "50DayMA": 28.1455,
+    "200DayMA": 27.8888
+  },
+  "ETF_Data": {
+    "ISIN": "US02210T1088",
+    "Company_Name": "AltShares",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.100000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2020-05-07",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00770",
+    "AnnualHoldingsTurnover": "4.49000",
+    "TotalAssets": "82333770.00",
+    "Average_Mkt_Cap_Mil": "3677.80061",
+    "Market_Capitalisation": {
+      "Mega": "0",
+      "Big": "0",
+      "Medium": "22.78242",
+      "Small": "35.67675",
+      "Micro": "24.29161"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "21.89871",
+        "Short_%": "0",
+        "Net_Assets_%": "21.89871"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "11.3941",
+        "Short_%": "0",
+        "Net_Assets_%": "11.3941"
+      },
+      "Other": {
+        "Long_%": "16.36493",
+        "Short_%": "16.722",
+        "Net_Assets_%": "-0.35707"
+      },
+      "Stock US": {
+        "Long_%": "73.1055",
+        "Short_%": "6.04124",
+        "Net_Assets_%": "67.06426"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "90.543",
+        "Relative_to_Category": "91.95"
+      },
+      "United Kingdom": {
+        "Equity_%": "2.73653",
+        "Relative_to_Category": "3.77532"
+      },
+      "Europe Developed": {
+        "Equity_%": "4.032",
+        "Relative_to_Category": "3.295"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.034"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.341"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.17"
+      },
+      "Latin America": {
+        "Equity_%": "2.688",
+        "Relative_to_Category": "0.436"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "4.24157",
+        "Relative_to_Category": "6.83675"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "12.26379",
+        "Relative_to_Category": "8.85758"
+      },
+      "Financial Services": {
+        "Equity_%": "7.31194",
+        "Relative_to_Category": "15.2482"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.74625"
+      },
+      "Communication Services": {
+        "Equity_%": "9.33702",
+        "Relative_to_Category": "8.87057"
+      },
+      "Energy": {
+        "Equity_%": "3.00172",
+        "Relative_to_Category": "10.75283"
+      },
+      "Industrials": {
+        "Equity_%": "14.5411",
+        "Relative_to_Category": "10.14721"
+      },
+      "Technology": {
+        "Equity_%": "21.95876",
+        "Relative_to_Category": "14.84634"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.98526",
+        "Relative_to_Category": "9.3975"
+      },
+      "Healthcare": {
+        "Equity_%": "16.8876",
+        "Relative_to_Category": "11.33066"
+      },
+      "Utilities": {
+        "Equity_%": "5.47123",
+        "Relative_to_Category": "0.9661"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.395"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.44313"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "7.42"
+      }
+    },
+    "Holdings_Count": 42,
+    "Top_10_Holdings": {
+      "K.US": {
+        "Code": "K",
+        "Exchange": "US",
+        "Name": "Kellanova",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.21252
+      },
+      "FYBR.US": {
+        "Code": "FYBR",
+        "Exchange": "US",
+        "Name": "Frontier Communications Parent Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.20622
+      },
+      "ITCI.US": {
+        "Code": "ITCI",
+        "Exchange": "US",
+        "Name": "Intracellular Th",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.1288
+      },
+      "YV0.F": {
+        "Code": "YV0",
+        "Exchange": "F",
+        "Name": "ASPEN TECH.INC. DL -0001",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 4.10192
+      },
+      "ALTR.US": {
+        "Code": "ALTR",
+        "Exchange": "US",
+        "Name": "Altair Engineering Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.07448
+      },
+      "TGI.US": {
+        "Code": "TGI",
+        "Exchange": "US",
+        "Name": "Triumph Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.90271
+      },
+      "PDCO.US": {
+        "Code": "PDCO",
+        "Exchange": "US",
+        "Name": "Patterson Companies Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.87077
+      },
+      "PYCR.US": {
+        "Code": "PYCR",
+        "Exchange": "US",
+        "Name": "Paycor HCM Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.79054
+      },
+      "LBRDK.US": {
+        "Code": "LBRDK",
+        "Exchange": "US",
+        "Name": "Liberty Broadband Srs C",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.68352
+      },
+      "HEES.US": {
+        "Code": "HEES",
+        "Exchange": "US",
+        "Name": "H&E Equipment Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.65967
+      }
+    },
+    "Holdings": {
+      "K.US": {
+        "Code": "K",
+        "Exchange": "US",
+        "Name": "Kellanova",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.21252
+      },
+      "FYBR.US": {
+        "Code": "FYBR",
+        "Exchange": "US",
+        "Name": "Frontier Communications Parent Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.20622
+      },
+      "ITCI.US": {
+        "Code": "ITCI",
+        "Exchange": "US",
+        "Name": "Intracellular Th",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.1288
+      },
+      "YV0.F": {
+        "Code": "YV0",
+        "Exchange": "F",
+        "Name": "ASPEN TECH.INC. DL -0001",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 4.10192
+      },
+      "ALTR.US": {
+        "Code": "ALTR",
+        "Exchange": "US",
+        "Name": "Altair Engineering Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.07448
+      },
+      "TGI.US": {
+        "Code": "TGI",
+        "Exchange": "US",
+        "Name": "Triumph Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.90271
+      },
+      "PDCO.US": {
+        "Code": "PDCO",
+        "Exchange": "US",
+        "Name": "Patterson Companies Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.87077
+      },
+      "PYCR.US": {
+        "Code": "PYCR",
+        "Exchange": "US",
+        "Name": "Paycor HCM Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.79054
+      },
+      "LBRDK.US": {
+        "Code": "LBRDK",
+        "Exchange": "US",
+        "Name": "Liberty Broadband Srs C",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.68352
+      },
+      "HEES.US": {
+        "Code": "HEES",
+        "Exchange": "US",
+        "Name": "H&E Equipment Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.65967
+      },
+      "7WO0.F": {
+        "Code": "7WO0",
+        "Exchange": "F",
+        "Name": "ARCADIUM LITHIUM PLC ON",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 3.58411
+      },
+      "ATSG.US": {
+        "Code": "ATSG",
+        "Exchange": "US",
+        "Name": "Air Transport Services Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.71256
+      },
+      "ALE.US": {
+        "Code": "ALE",
+        "Exchange": "US",
+        "Name": "Allete Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.70489
+      },
+      "CIX.TO": {
+        "Code": "CIX",
+        "Exchange": "TO",
+        "Name": "CI Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 2.63612
+      },
+      "CHX.US": {
+        "Code": "CHX",
+        "Exchange": "US",
+        "Name": "ChampionX Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.53644
+      },
+      "CCRN.US": {
+        "Code": "CCRN",
+        "Exchange": "US",
+        "Name": "Cross Country Healthcare Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.46182
+      },
+      "PLYA.US": {
+        "Code": "PLYA",
+        "Exchange": "US",
+        "Name": "Playa Hotels & Resorts BV",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.27146
+      },
+      "PTVE.US": {
+        "Code": "PTVE",
+        "Exchange": "US",
+        "Name": "Pactiv Evergreen Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Packaging & Containers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.96377
+      },
+      "AMPS.US": {
+        "Code": "AMPS",
+        "Exchange": "US",
+        "Name": "Altus Power Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91829
+      },
+      "BERY.US": {
+        "Code": "BERY",
+        "Exchange": "US",
+        "Name": "Berry Global Group Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Packaging & Containers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91656
+      },
+      "EVRI.US": {
+        "Code": "EVRI",
+        "Exchange": "US",
+        "Name": "Everi Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.88638
+      },
+      "SWI.US": {
+        "Code": "SWI",
+        "Exchange": "US",
+        "Name": "SolarWinds Corp",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.85886
+      },
+      "ACCD.US": {
+        "Code": "ACCD",
+        "Exchange": "US",
+        "Name": "Accolade\u00a0Inc",
+        "Sector": "Healthcare",
+        "Industry": "Health Information Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.85471
+      },
+      "GHVI.US": {
+        "Code": "GHVI",
+        "Exchange": "US",
+        "Name": "Gores Holdings VI Inc",
+        "Sector": "Financial Services",
+        "Industry": "Shell Companies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.7488
+      },
+      "SPNO.CO": {
+        "Code": "SPNO",
+        "Exchange": "CO",
+        "Name": "Spar Nord Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 1.74807
+      },
+      "TIFS.LSE": {
+        "Code": "TIFS",
+        "Exchange": "LSE",
+        "Name": "TI Fluid Systems PLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.51194
+      },
+      "SPR.US": {
+        "Code": "SPR",
+        "Exchange": "US",
+        "Name": "Spirit Aerosystems Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.3275
+      },
+      "BRKL.US": {
+        "Code": "BRKL",
+        "Exchange": "US",
+        "Name": "Brookline Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.9632
+      },
+      "FBMS.US": {
+        "Code": "FBMS",
+        "Exchange": "US",
+        "Name": "The First Bancshares, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.83117
+      },
+      "NVRO.US": {
+        "Code": "NVRO",
+        "Exchange": "US",
+        "Name": "Nevro Corp",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.82165
+      },
+      "AGS.US": {
+        "Code": "AGS",
+        "Exchange": "US",
+        "Name": "PlayAGS Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81275
+      },
+      "SPT.LSE": {
+        "Code": "SPT",
+        "Exchange": "LSE",
+        "Name": "Spirent Communications plc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.80043
+      },
+      "LGTY.US": {
+        "Code": "LGTY",
+        "Exchange": "US",
+        "Name": "Logility Supply Chain Solutions, Inc.",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.79494
+      },
+      "90Q.F": {
+        "Code": "90Q",
+        "Exchange": "F",
+        "Name": "SOFTCHOICE CORP.",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.76704
+      },
+      "BEL.OL": {
+        "Code": "BEL",
+        "Exchange": "OL",
+        "Name": "Belships ASA",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Norway",
+        "Region": "Europe",
+        "Assets_%": 0.68474
+      },
+      "NXU.XETRA": {
+        "Code": "NXU",
+        "Exchange": "XETRA",
+        "Name": "Nexus AG",
+        "Sector": "Healthcare",
+        "Industry": "Health Information Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.60803
+      },
+      "SRDX.US": {
+        "Code": "SRDX",
+        "Exchange": "US",
+        "Name": "SurModics Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.52417
+      },
+      "GB_old.US": {
+        "Code": "GB_old",
+        "Exchange": "US",
+        "Name": "Greatbatch Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.36628
+      },
+      "ENFN.US": {
+        "Code": "ENFN",
+        "Exchange": "US",
+        "Name": "Enfusion Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.25176
+      },
+      "CWAN.US": {
+        "Code": "CWAN",
+        "Exchange": "US",
+        "Name": "Clearwater Analytics Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -0.12045
+      },
+      "SLB.US": {
+        "Code": "SLB",
+        "Exchange": "US",
+        "Name": "Schlumberger NV",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -2.0789
+      },
+      "CHTR.US": {
+        "Code": "CHTR",
+        "Exchange": "US",
+        "Name": "Charter Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -3.84188
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "20.24023",
+        "Price/Book": "1.90191",
+        "Price/Sales": "1.41879",
+        "Price/Cash Flow": "10.62432",
+        "Dividend-Yield Factor": "1.20957"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "16.97315",
+        "Price/Book": "2.20442",
+        "Price/Sales": "1.0094",
+        "Price/Cash Flow": "8.10147",
+        "Dividend-Yield Factor": "1.65973"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "6.88473",
+        "Historical Earnings Growth": "-17.41525",
+        "Sales Growth": "-0.17552",
+        "Cash-Flow Growth": "9.08013",
+        "Book-Value Growth": "6.27839"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "22.40232",
+        "Historical Earnings Growth": "-19.61527",
+        "Sales Growth": "-1.00378",
+        "Cash-Flow Growth": "2.99974",
+        "Book-Value Growth": "2.41044"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "2.07",
+      "3y_Volatility": "3.71",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.16",
+      "Returns_YTD": "2.62",
+      "Returns_1Y": "6.44",
+      "Returns_3Y": "4.83",
+      "Returns_5Y": "4.80",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

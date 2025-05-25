@@ -1,0 +1,470 @@
+{
+  "General": {
+    "Code": "MOOD",
+    "Type": "ETF",
+    "Name": "Relative Sentiment Tactical Allocation ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG017302LN5",
+    "Description": "The fund\"s investment strategy is to seek to grow capital by tactically investing in other ETFs that invest in equities, bonds, commodities, currencies, and gold based on \"relative sentiment\" factors. The fund\"s portfolio will be tactically allocated among passively-managed U.S. and foreign, developed market, equity ETFs, bond ETFs, and, in some instances, gold exchange-traded products (ETPs), commodities ETPs, and currency ETPs. The fund is non-diversified.",
+    "Category": "Tactical Allocation",
+    "UpdatedAt": "2025-05-20"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 32.03,
+    "52WeekLow": 27.7342,
+    "50DayMA": 31.1056,
+    "200DayMA": 30.4944
+  },
+  "ETF_Data": {
+    "ISIN": "US02072L8138",
+    "Company_Name": "Relative Sentiment",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.260000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2022-05-18",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00680",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "32711094.00",
+    "Average_Mkt_Cap_Mil": "48906.01183",
+    "Market_Capitalisation": {
+      "Mega": "21.00994",
+      "Big": "17.679",
+      "Medium": "14.20873",
+      "Small": "5.03791",
+      "Micro": "2.10622"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "6.25522",
+        "Short_%": "0.06521",
+        "Net_Assets_%": "6.19001"
+      },
+      "NotClassified": {
+        "Long_%": "0.00031",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00031"
+      },
+      "Stock non-US": {
+        "Long_%": "31.149",
+        "Short_%": "0",
+        "Net_Assets_%": "31.149"
+      },
+      "Other": {
+        "Long_%": "14.25227",
+        "Short_%": "0",
+        "Net_Assets_%": "14.25227"
+      },
+      "Stock US": {
+        "Long_%": "29.27671",
+        "Short_%": "0",
+        "Net_Assets_%": "29.27671"
+      },
+      "Bond": {
+        "Long_%": "19.1317",
+        "Short_%": "0",
+        "Net_Assets_%": "19.1317"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "56.274",
+        "Relative_to_Category": "84.373"
+      },
+      "United Kingdom": {
+        "Equity_%": "4.68109",
+        "Relative_to_Category": "2.13441"
+      },
+      "Europe Developed": {
+        "Equity_%": "15.356",
+        "Relative_to_Category": "5.568"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.32",
+        "Relative_to_Category": "0.093"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "2.13",
+        "Relative_to_Category": "0.478"
+      },
+      "Japan": {
+        "Equity_%": "7.802",
+        "Relative_to_Category": "1.998"
+      },
+      "Australasia": {
+        "Equity_%": "3.193",
+        "Relative_to_Category": "0.386"
+      },
+      "Asia Developed": {
+        "Equity_%": "3.98",
+        "Relative_to_Category": "1.721"
+      },
+      "Asia Emerging": {
+        "Equity_%": "5.481",
+        "Relative_to_Category": "2.54"
+      },
+      "Latin America": {
+        "Equity_%": "0.784",
+        "Relative_to_Category": "0.637"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "12.06931",
+        "Relative_to_Category": "2.99009"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.77789",
+        "Relative_to_Category": "9.93505"
+      },
+      "Financial Services": {
+        "Equity_%": "16.40334",
+        "Relative_to_Category": "16.43561"
+      },
+      "Real Estate": {
+        "Equity_%": "3.19203",
+        "Relative_to_Category": "2.69991"
+      },
+      "Communication Services": {
+        "Equity_%": "5.9179",
+        "Relative_to_Category": "8.34529"
+      },
+      "Energy": {
+        "Equity_%": "3.89428",
+        "Relative_to_Category": "4.51578"
+      },
+      "Industrials": {
+        "Equity_%": "12.33462",
+        "Relative_to_Category": "10.16469"
+      },
+      "Technology": {
+        "Equity_%": "18.32018",
+        "Relative_to_Category": "24.81528"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.77361",
+        "Relative_to_Category": "6.38102"
+      },
+      "Healthcare": {
+        "Equity_%": "9.3397",
+        "Relative_to_Category": "10.8125"
+      },
+      "Utilities": {
+        "Equity_%": "2.97713",
+        "Relative_to_Category": "2.90477"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "9.34403",
+        "Relative_to_Category": "4.27674"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "9.48908",
+        "Relative_to_Category": "4.8682"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "14.69881",
+        "Relative_to_Category": "6.58675"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "2.94887",
+        "Relative_to_Category": "3.86104"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "97.81484"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "4.262",
+        "Relative_to_Category": "4.83684"
+      }
+    },
+    "Holdings_Count": 12,
+    "Top_10_Holdings": {
+      "VEA.MX": {
+        "Code": "VEA",
+        "Exchange": "MX",
+        "Name": "Vanguard Tax-Managed Funds - Vanguard FTSE Developed Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 22.61763
+      },
+      "VTI.MX": {
+        "Code": "VTI",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Total Stock Market ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 13.4608
+      },
+      "TLT.MX": {
+        "Code": "TLT",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares 20+ Year Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 10.45345
+      },
+      "SHY.US": {
+        "Code": "SHY",
+        "Exchange": "US",
+        "Name": "iShares 1-3 Year Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.9163
+      },
+      "RSP.US": {
+        "Code": "RSP",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Equal Weight ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.66728
+      },
+      "VWO.MX": {
+        "Code": "VWO",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.13838
+      },
+      "UUP.US": {
+        "Code": "UUP",
+        "Exchange": "US",
+        "Name": "Invesco DB US Dollar Index Bullish Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.01021
+      },
+      "SLV.MX": {
+        "Code": "SLV",
+        "Exchange": "MX",
+        "Name": "iShares Silver Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.85562
+      },
+      "GDX.US": {
+        "Code": "GDX",
+        "Exchange": "US",
+        "Name": "VanEck Gold Miners ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.70847
+      },
+      "IWM.MX": {
+        "Code": "IWM",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares Russell 2000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.735
+      }
+    },
+    "Holdings": {
+      "VEA.MX": {
+        "Code": "VEA",
+        "Exchange": "MX",
+        "Name": "Vanguard Tax-Managed Funds - Vanguard FTSE Developed Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 22.61763
+      },
+      "VTI.MX": {
+        "Code": "VTI",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Total Stock Market ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 13.4608
+      },
+      "TLT.MX": {
+        "Code": "TLT",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares 20+ Year Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 10.45345
+      },
+      "SHY.US": {
+        "Code": "SHY",
+        "Exchange": "US",
+        "Name": "iShares 1-3 Year Treasury Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.9163
+      },
+      "RSP.US": {
+        "Code": "RSP",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Equal Weight ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.66728
+      },
+      "VWO.MX": {
+        "Code": "VWO",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.13838
+      },
+      "UUP.US": {
+        "Code": "UUP",
+        "Exchange": "US",
+        "Name": "Invesco DB US Dollar Index Bullish Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.01021
+      },
+      "SLV.MX": {
+        "Code": "SLV",
+        "Exchange": "MX",
+        "Name": "iShares Silver Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.85562
+      },
+      "GDX.US": {
+        "Code": "GDX",
+        "Exchange": "US",
+        "Name": "VanEck Gold Miners ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.70847
+      },
+      "IWM.MX": {
+        "Code": "IWM",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares Russell 2000 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.735
+      },
+      "QQQ.US": {
+        "Code": "QQQ",
+        "Exchange": "US",
+        "Name": "Invesco QQQ Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.69041
+      },
+      "FGXXX.US": {
+        "Code": "FGXXX",
+        "Exchange": "US",
+        "Name": "First American Funds Inc. - Government Obligations Fund",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.22932
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "15.3627",
+        "Price/Book": "2.06361",
+        "Price/Sales": "1.58658",
+        "Price/Cash Flow": "9.16635",
+        "Dividend-Yield Factor": "2.38211"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.0827",
+        "Price/Book": "3.01025",
+        "Price/Sales": "2.06073",
+        "Price/Cash Flow": "11.208",
+        "Dividend-Yield Factor": "1.92603"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.13417",
+        "Historical Earnings Growth": "5.24427",
+        "Sales Growth": "4.81614",
+        "Cash-Flow Growth": "5.42017",
+        "Book-Value Growth": "5.88601"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.60343",
+        "Historical Earnings Growth": "7.84075",
+        "Sales Growth": "6.23848",
+        "Cash-Flow Growth": "5.33928",
+        "Book-Value Growth": "6.6678"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "7.72",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "7.74",
+      "Returns_1Y": "10.56",
+      "Returns_3Y": "9.83",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

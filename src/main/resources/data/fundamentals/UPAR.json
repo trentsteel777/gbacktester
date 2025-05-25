@@ -1,0 +1,640 @@
+{
+  "General": {
+    "Code": "UPAR",
+    "Type": "ETF",
+    "Name": "Tidal ETF Trust",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG014BVNK36",
+    "Description": "The fund is an actively-managed ETF that seeks to replicate the returns of the Advanced Research Ultra Risk Parity Index (the \"UPAR Index\"). The UPAR Index is designed to provide leveraged exposure to the RPAR Index by using an implied financing rate to target 1.4 times the asset class exposures of the RPAR Index at each quarterly rebalance. It is non-diversified.",
+    "Category": "Moderate Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.73,
+    "52WeekHigh": 14.8171,
+    "52WeekLow": 12.02,
+    "50DayMA": 13.4438,
+    "200DayMA": 13.7882
+  },
+  "ETF_Data": {
+    "ISIN": "US8863645953",
+    "Company_Name": "Evoke",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "3.480000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2022-01-03",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00650",
+    "AnnualHoldingsTurnover": "0.36000",
+    "TotalAssets": "55199623.00",
+    "Average_Mkt_Cap_Mil": "71808.90256",
+    "Market_Capitalisation": {
+      "Mega": "23.75131",
+      "Big": "19.98969",
+      "Medium": "11.38606",
+      "Small": "2.70338",
+      "Micro": "0.67662"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "5.25617",
+        "Short_%": "72.41444",
+        "Net_Assets_%": "-67.15827"
+      },
+      "NotClassified": {
+        "Long_%": "4.0E-5",
+        "Short_%": "0",
+        "Net_Assets_%": "4.0E-5"
+      },
+      "Stock non-US": {
+        "Long_%": "29.5823",
+        "Short_%": "0",
+        "Net_Assets_%": "29.5823"
+      },
+      "Other": {
+        "Long_%": "16.36839",
+        "Short_%": "0",
+        "Net_Assets_%": "16.36839"
+      },
+      "Stock US": {
+        "Long_%": "29.20185",
+        "Short_%": "0",
+        "Net_Assets_%": "29.20185"
+      },
+      "Bond": {
+        "Long_%": "92.00571",
+        "Short_%": "0",
+        "Net_Assets_%": "92.00571"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "53.522",
+        "Relative_to_Category": "86.471"
+      },
+      "United Kingdom": {
+        "Equity_%": "6.1365",
+        "Relative_to_Category": "2.21329"
+      },
+      "Europe Developed": {
+        "Equity_%": "10.293",
+        "Relative_to_Category": "6.148"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.394",
+        "Relative_to_Category": "0.04"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "2.146",
+        "Relative_to_Category": "0.203"
+      },
+      "Japan": {
+        "Equity_%": "3.315",
+        "Relative_to_Category": "1.959"
+      },
+      "Australasia": {
+        "Equity_%": "4.459",
+        "Relative_to_Category": "0.428"
+      },
+      "Asia Developed": {
+        "Equity_%": "5.031",
+        "Relative_to_Category": "1.306"
+      },
+      "Asia Emerging": {
+        "Equity_%": "11.974",
+        "Relative_to_Category": "0.967"
+      },
+      "Latin America": {
+        "Equity_%": "2.73",
+        "Relative_to_Category": "0.261"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "18.84037",
+        "Relative_to_Category": "3.05196"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "7.19947",
+        "Relative_to_Category": "10.09488"
+      },
+      "Financial Services": {
+        "Equity_%": "12.01965",
+        "Relative_to_Category": "16.41124"
+      },
+      "Real Estate": {
+        "Equity_%": "1.69272",
+        "Relative_to_Category": "2.14047"
+      },
+      "Communication Services": {
+        "Equity_%": "5.15879",
+        "Relative_to_Category": "8.19201"
+      },
+      "Energy": {
+        "Equity_%": "15.17338",
+        "Relative_to_Category": "4.055"
+      },
+      "Industrials": {
+        "Equity_%": "12.90729",
+        "Relative_to_Category": "10.03349"
+      },
+      "Technology": {
+        "Equity_%": "15.48814",
+        "Relative_to_Category": "24.69959"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.85685",
+        "Relative_to_Category": "5.76702"
+      },
+      "Healthcare": {
+        "Equity_%": "5.67899",
+        "Relative_to_Category": "12.6184"
+      },
+      "Utilities": {
+        "Equity_%": "1.98435",
+        "Relative_to_Category": "2.93594"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.07936"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.37361"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "7.27099"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0.98406",
+        "Relative_to_Category": "4.31493"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "97.24494"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.74915"
+      }
+    },
+    "Holdings_Count": 29,
+    "Top_10_Holdings": {
+      "GLDM.US": {
+        "Code": "GLDM",
+        "Exchange": "US",
+        "Name": "SPDR Gold Mini Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 16.01184
+      },
+      "VWO.MX": {
+        "Code": "VWO",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.40995
+      },
+      "VXF.US": {
+        "Code": "VXF",
+        "Exchange": "US",
+        "Name": "Vanguard Extended Market Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.5246
+      },
+      "VEA.MX": {
+        "Code": "VEA",
+        "Exchange": "MX",
+        "Name": "Vanguard Tax-Managed Funds - Vanguard FTSE Developed Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.71531
+      },
+      "DE.US": {
+        "Code": "DE",
+        "Exchange": "US",
+        "Name": "Deere & Company",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.07588
+      },
+      "XOM.US": {
+        "Code": "XOM",
+        "Exchange": "US",
+        "Name": "Exxon Mobil Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74426
+      },
+      "BHP.US": {
+        "Code": "BHP",
+        "Exchange": "US",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.53867
+      },
+      "RIO.US": {
+        "Code": "RIO",
+        "Exchange": "US",
+        "Name": "Rio Tinto ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.27128
+      },
+      "CVX.US": {
+        "Code": "CVX",
+        "Exchange": "US",
+        "Name": "Chevron Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.95105
+      },
+      "SCCO.US": {
+        "Code": "SCCO",
+        "Exchange": "US",
+        "Name": "Southern Copper Corporation",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.8974
+      }
+    },
+    "Holdings": {
+      "GLDM.US": {
+        "Code": "GLDM",
+        "Exchange": "US",
+        "Name": "SPDR Gold Mini Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 16.01184
+      },
+      "VWO.MX": {
+        "Code": "VWO",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.40995
+      },
+      "VXF.US": {
+        "Code": "VXF",
+        "Exchange": "US",
+        "Name": "Vanguard Extended Market Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.5246
+      },
+      "VEA.MX": {
+        "Code": "VEA",
+        "Exchange": "MX",
+        "Name": "Vanguard Tax-Managed Funds - Vanguard FTSE Developed Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.71531
+      },
+      "DE.US": {
+        "Code": "DE",
+        "Exchange": "US",
+        "Name": "Deere & Company",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.07588
+      },
+      "XOM.US": {
+        "Code": "XOM",
+        "Exchange": "US",
+        "Name": "Exxon Mobil Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74426
+      },
+      "BHP.US": {
+        "Code": "BHP",
+        "Exchange": "US",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.53867
+      },
+      "RIO.US": {
+        "Code": "RIO",
+        "Exchange": "US",
+        "Name": "Rio Tinto ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.27128
+      },
+      "CVX.US": {
+        "Code": "CVX",
+        "Exchange": "US",
+        "Name": "Chevron Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.95105
+      },
+      "SCCO.US": {
+        "Code": "SCCO",
+        "Exchange": "US",
+        "Name": "Southern Copper Corporation",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.8974
+      },
+      "L3H.F": {
+        "Code": "L3H",
+        "Exchange": "F",
+        "Name": "SHELL PLC WI ADR/2",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.75095
+      },
+      "CTVA.US": {
+        "Code": "CTVA",
+        "Exchange": "US",
+        "Name": "Corteva Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.68068
+      },
+      "FCX.US": {
+        "Code": "FCX",
+        "Exchange": "US",
+        "Name": "Freeport-McMoran Copper & Gold Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.65828
+      },
+      "VALE.US": {
+        "Code": "VALE",
+        "Exchange": "US",
+        "Name": "Vale SA ADR",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.54956
+      },
+      "TTE.US": {
+        "Code": "TTE",
+        "Exchange": "US",
+        "Name": "TotalEnergies SE ADR",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.53651
+      },
+      "GLEN.LSE": {
+        "Code": "GLEN",
+        "Exchange": "LSE",
+        "Name": "Glencore PLC",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.49546
+      },
+      "COP.US": {
+        "Code": "COP",
+        "Exchange": "US",
+        "Name": "ConocoPhillips",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.4331
+      },
+      "NTR.TO": {
+        "Code": "NTR",
+        "Exchange": "TO",
+        "Name": "Nutrien Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.40795
+      },
+      "FMG.AU": {
+        "Code": "FMG",
+        "Exchange": "AU",
+        "Name": "Fortescue Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.40498
+      },
+      "FSLR.US": {
+        "Code": "FSLR",
+        "Exchange": "US",
+        "Name": "First Solar Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.39558
+      },
+      "ECL.US": {
+        "Code": "ECL",
+        "Exchange": "US",
+        "Name": "Ecolab Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.38406
+      },
+      "BP.US": {
+        "Code": "BP",
+        "Exchange": "US",
+        "Name": "BP PLC ADR",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3011
+      },
+      "VWS.CO": {
+        "Code": "VWS",
+        "Exchange": "CO",
+        "Name": "Vestas Wind Systems A/S",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 0.29104
+      },
+      "ANTO.LSE": {
+        "Code": "ANTO",
+        "Exchange": "LSE",
+        "Name": "Antofagasta PLC",
+        "Sector": "Basic Materials",
+        "Industry": "Copper",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.25632
+      },
+      "CNQ.TO": {
+        "Code": "CNQ",
+        "Exchange": "TO",
+        "Name": "Canadian Natural Resources Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.2463
+      },
+      "EQNR.US": {
+        "Code": "EQNR",
+        "Exchange": "US",
+        "Name": "Equinor ASA ADR",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24129
+      },
+      "CCO.TO": {
+        "Code": "CCO",
+        "Exchange": "TO",
+        "Name": "Cameco Corp",
+        "Sector": "Energy",
+        "Industry": "Uranium",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.24122
+      },
+      "CNHI.MI": {
+        "Code": "CNHI",
+        "Exchange": "MI",
+        "Name": "CNH Industrial N.V.",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.24077
+      },
+      "EOG.US": {
+        "Code": "EOG",
+        "Exchange": "US",
+        "Name": "EOG Resources Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.23548
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.76014",
+        "Price/Book": "1.97187",
+        "Price/Sales": "1.46207",
+        "Price/Cash Flow": "8.21905",
+        "Dividend-Yield Factor": "2.93684"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.39724",
+        "Price/Book": "3.11632",
+        "Price/Sales": "2.16222",
+        "Price/Cash Flow": "12.07323",
+        "Dividend-Yield Factor": "1.86144"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.25154",
+        "Historical Earnings Growth": "-0.92748",
+        "Sales Growth": "4.03881",
+        "Cash-Flow Growth": "-0.55885",
+        "Book-Value Growth": "5.95058"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.84341",
+        "Historical Earnings Growth": "4.5186",
+        "Sales Growth": "6.70425",
+        "Cash-Flow Growth": "5.65472",
+        "Book-Value Growth": "7.78184"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "1",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "13.43",
+      "3y_Volatility": "21.64",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.25",
+      "Returns_YTD": "4.15",
+      "Returns_1Y": "-1.01",
+      "Returns_3Y": "-1.75",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

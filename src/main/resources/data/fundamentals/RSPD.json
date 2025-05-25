@@ -1,0 +1,850 @@
+{
+  "General": {
+    "Code": "RSPD",
+    "Type": "ETF",
+    "Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00KJR27N2",
+    "Description": "The fund generally will invest at least 90% of its total assets in securities that comprise the underlying index. The underlying index is composed of all of the components of the S&P 500\u00ae Consumer Discretionary Index, an index that contains the common stocks of all companies included in the S&P 500\u00ae Index that are classified as members of the consumer discretionary sector, as defined according to the Global Industry Classification Standard (GICS).",
+    "Category": "Consumer Cyclical",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.43,
+    "52WeekHigh": 56.1986,
+    "52WeekLow": 43.47,
+    "50DayMA": 49.4942,
+    "200DayMA": 51.6963
+  },
+  "ETF_Data": {
+    "ISIN": "US46137V3814",
+    "Company_Name": "Invesco",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.010000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2006-11-01",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00400",
+    "AnnualHoldingsTurnover": "0.26000",
+    "TotalAssets": "207825840.00",
+    "Average_Mkt_Cap_Mil": "36392.428",
+    "Market_Capitalisation": {
+      "Mega": "6.39869",
+      "Big": "23.10909",
+      "Medium": "53.59687",
+      "Small": "16.86041",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.03494",
+        "Short_%": "0",
+        "Net_Assets_%": "0.03494"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "1.75396",
+        "Short_%": "0",
+        "Net_Assets_%": "1.75396"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "98.21109",
+        "Short_%": "0",
+        "Net_Assets_%": "98.21109"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "98.245",
+        "Relative_to_Category": "97.025"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.12384"
+      },
+      "Europe Developed": {
+        "Equity_%": "1.755",
+        "Relative_to_Category": "0.875"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.013"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.224"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.08"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.031"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.397"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.232"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.30121"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "94.46214",
+        "Relative_to_Category": "83.35238"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.04355"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.62212"
+      },
+      "Communication Services": {
+        "Equity_%": "2.03076",
+        "Relative_to_Category": "2.35469"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Industrials": {
+        "Equity_%": "1.75253",
+        "Relative_to_Category": "6.29263"
+      },
+      "Technology": {
+        "Equity_%": "1.75456",
+        "Relative_to_Category": "1.09104"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "4.73003"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.21235"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 50,
+    "Top_10_Holdings": {
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.53917
+      },
+      "ULTA.US": {
+        "Code": "ULTA",
+        "Exchange": "US",
+        "Name": "Ulta Beauty Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.29368
+      },
+      "RL.US": {
+        "Code": "RL",
+        "Exchange": "US",
+        "Name": "Ralph Lauren Corp Class A",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.26998
+      },
+      "RCL.US": {
+        "Code": "RCL",
+        "Exchange": "US",
+        "Name": "Royal Caribbean Cruises Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.256
+      },
+      "BKNG.US": {
+        "Code": "BKNG",
+        "Exchange": "US",
+        "Name": "Booking Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.25013
+      },
+      "ROST.US": {
+        "Code": "ROST",
+        "Exchange": "US",
+        "Name": "Ross Stores Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.24524
+      },
+      "CCL.US": {
+        "Code": "CCL",
+        "Exchange": "US",
+        "Name": "Carnival Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.20888
+      },
+      "TJX.US": {
+        "Code": "TJX",
+        "Exchange": "US",
+        "Name": "The TJX Companies Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.15588
+      },
+      "TPR.US": {
+        "Code": "TPR",
+        "Exchange": "US",
+        "Name": "Tapestry Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11586
+      },
+      "DPZ.US": {
+        "Code": "DPZ",
+        "Exchange": "US",
+        "Name": "Domino's Pizza Inc Common Stock",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.08835
+      }
+    },
+    "Holdings": {
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.53917
+      },
+      "ULTA.US": {
+        "Code": "ULTA",
+        "Exchange": "US",
+        "Name": "Ulta Beauty Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.29368
+      },
+      "RL.US": {
+        "Code": "RL",
+        "Exchange": "US",
+        "Name": "Ralph Lauren Corp Class A",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.26998
+      },
+      "RCL.US": {
+        "Code": "RCL",
+        "Exchange": "US",
+        "Name": "Royal Caribbean Cruises Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.256
+      },
+      "BKNG.US": {
+        "Code": "BKNG",
+        "Exchange": "US",
+        "Name": "Booking Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.25013
+      },
+      "ROST.US": {
+        "Code": "ROST",
+        "Exchange": "US",
+        "Name": "Ross Stores Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.24524
+      },
+      "CCL.US": {
+        "Code": "CCL",
+        "Exchange": "US",
+        "Name": "Carnival Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.20888
+      },
+      "TJX.US": {
+        "Code": "TJX",
+        "Exchange": "US",
+        "Name": "The TJX Companies Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.15588
+      },
+      "TPR.US": {
+        "Code": "TPR",
+        "Exchange": "US",
+        "Name": "Tapestry Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11586
+      },
+      "DPZ.US": {
+        "Code": "DPZ",
+        "Exchange": "US",
+        "Name": "Domino's Pizza Inc Common Stock",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.08835
+      },
+      "WYNN.US": {
+        "Code": "WYNN",
+        "Exchange": "US",
+        "Name": "Wynn Resorts Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.07538
+      },
+      "HLT.US": {
+        "Code": "HLT",
+        "Exchange": "US",
+        "Name": "Hilton Worldwide Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Lodging",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.0677
+      },
+      "F.US": {
+        "Code": "F",
+        "Exchange": "US",
+        "Name": "Ford Motor Company",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.06427
+      },
+      "MAR.US": {
+        "Code": "MAR",
+        "Exchange": "US",
+        "Name": "Marriott International Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Lodging",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.06343
+      },
+      "EBAY.US": {
+        "Code": "EBAY",
+        "Exchange": "US",
+        "Name": "eBay Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.04792
+      },
+      "HAS.US": {
+        "Code": "HAS",
+        "Exchange": "US",
+        "Name": "Hasbro Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02963
+      },
+      "DRI.US": {
+        "Code": "DRI",
+        "Exchange": "US",
+        "Name": "Darden Restaurants Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02494
+      },
+      "AZO.US": {
+        "Code": "AZO",
+        "Exchange": "US",
+        "Name": "AutoZone Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01377
+      },
+      "MGM.US": {
+        "Code": "MGM",
+        "Exchange": "US",
+        "Name": "MGM Resorts International",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.00077
+      },
+      "CZR.US": {
+        "Code": "CZR",
+        "Exchange": "US",
+        "Name": "Caesars Entertainment Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.99318
+      },
+      "ABNB.US": {
+        "Code": "ABNB",
+        "Exchange": "US",
+        "Name": "Airbnb\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98775
+      },
+      "DASH.US": {
+        "Code": "DASH",
+        "Exchange": "US",
+        "Name": "DoorDash, Inc. Class A Common Stock",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98363
+      },
+      "MCD.US": {
+        "Code": "MCD",
+        "Exchange": "US",
+        "Name": "McDonald\u2019s Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.97573
+      },
+      "ORLY.US": {
+        "Code": "ORLY",
+        "Exchange": "US",
+        "Name": "O\u2019Reilly Automotive Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.96749
+      },
+      "GPC.US": {
+        "Code": "GPC",
+        "Exchange": "US",
+        "Name": "Genuine Parts Co",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.9593
+      },
+      "APTV.US": {
+        "Code": "APTV",
+        "Exchange": "US",
+        "Name": "Aptiv PLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94491
+      },
+      "DECK.US": {
+        "Code": "DECK",
+        "Exchange": "US",
+        "Name": "Deckers Outdoor Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.92981
+      },
+      "GM.US": {
+        "Code": "GM",
+        "Exchange": "US",
+        "Name": "General Motors Company",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.92341
+      },
+      "CMG.US": {
+        "Code": "CMG",
+        "Exchange": "US",
+        "Name": "Chipotle Mexican Grill Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.9232
+      },
+      "HD.US": {
+        "Code": "HD",
+        "Exchange": "US",
+        "Name": "Home Depot Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Home Improvement Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91542
+      },
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.90883
+      },
+      "LOW.US": {
+        "Code": "LOW",
+        "Exchange": "US",
+        "Name": "Lowe's Companies Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Home Improvement Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8907
+      },
+      "LULU.US": {
+        "Code": "LULU",
+        "Exchange": "US",
+        "Name": "Lululemon Athletica Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.88351
+      },
+      "EXPE.US": {
+        "Code": "EXPE",
+        "Exchange": "US",
+        "Name": "Expedia Group Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.87522
+      },
+      "TSCO.US": {
+        "Code": "TSCO",
+        "Exchange": "US",
+        "Name": "Tractor Supply Company",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.86087
+      },
+      "WSM.US": {
+        "Code": "WSM",
+        "Exchange": "US",
+        "Name": "Williams-Sonoma Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.83502
+      },
+      "NVR.US": {
+        "Code": "NVR",
+        "Exchange": "US",
+        "Name": "NVR Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8346
+      },
+      "PHM.US": {
+        "Code": "PHM",
+        "Exchange": "US",
+        "Name": "PulteGroup Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.83335
+      },
+      "LKQ.US": {
+        "Code": "LKQ",
+        "Exchange": "US",
+        "Name": "LKQ Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.83199
+      },
+      "NCLH.US": {
+        "Code": "NCLH",
+        "Exchange": "US",
+        "Name": "Norwegian Cruise Line Holdings Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.83183
+      },
+      "LVS.US": {
+        "Code": "LVS",
+        "Exchange": "US",
+        "Name": "Las Vegas Sands Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.82086
+      },
+      "BBY.US": {
+        "Code": "BBY",
+        "Exchange": "US",
+        "Name": "Best Buy Co. Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.81515
+      },
+      "DHI.US": {
+        "Code": "DHI",
+        "Exchange": "US",
+        "Name": "DR Horton Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.788
+      },
+      "YUM.US": {
+        "Code": "YUM",
+        "Exchange": "US",
+        "Name": "Yum! Brands Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.78482
+      },
+      "POOL.US": {
+        "Code": "POOL",
+        "Exchange": "US",
+        "Name": "Pool Corporation",
+        "Sector": "Industrials",
+        "Industry": "Industrial Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.78147
+      },
+      "GRMN.US": {
+        "Code": "GRMN",
+        "Exchange": "US",
+        "Name": "Garmin Ltd",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74901
+      },
+      "MHK.US": {
+        "Code": "MHK",
+        "Exchange": "US",
+        "Name": "Mohawk Industries Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74649
+      },
+      "KMX.US": {
+        "Code": "KMX",
+        "Exchange": "US",
+        "Name": "CarMax Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.72551
+      },
+      "LEN.US": {
+        "Code": "LEN",
+        "Exchange": "US",
+        "Name": "Lennar Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.72082
+      },
+      "SBUX.US": {
+        "Code": "SBUX",
+        "Exchange": "US",
+        "Name": "Starbucks Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5788
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "16.25537",
+        "Price/Book": "2.98083",
+        "Price/Sales": "1.12229",
+        "Price/Cash Flow": "8.47486",
+        "Dividend-Yield Factor": "1.52129"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.32868",
+        "Price/Book": "3.03288",
+        "Price/Sales": "1.53263",
+        "Price/Cash Flow": "10.90295",
+        "Dividend-Yield Factor": "1.05456"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.05512",
+        "Historical Earnings Growth": "5.82264",
+        "Sales Growth": "9.93944",
+        "Cash-Flow Growth": "12.74051",
+        "Book-Value Growth": "7.39426"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.00536",
+        "Historical Earnings Growth": "11.67586",
+        "Sales Growth": "9.05888",
+        "Cash-Flow Growth": "6.88738",
+        "Book-Value Growth": "17.03778"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "14.81",
+      "3y_Volatility": "23.86",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.16",
+      "Returns_YTD": "-3.24",
+      "Returns_1Y": "7.97",
+      "Returns_3Y": "12.23",
+      "Returns_5Y": "14.14",
+      "Returns_10Y": "6.65"
+    }
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "General": {
+    "Code": "PSP",
+    "Type": "ETF",
+    "Name": "Invesco Global Listed Private Equity ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000Q4Y4F0",
+    "Description": "The fund generally will invest at least 90% of its total assets in securities (including American depositary receipts (ADRs) and global depositary receipts (GDRs)) that comprise the underlying index. The underlying index is composed of securities, ADRs and GDRs of 40 to 75 private equity companies, including business development companies (BDCs), master limited partnerships (MLPs), alternative asset managers and other entities that are listed on a nationally recognized exchange.",
+    "Category": "Global Small/Mid Stock",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.51,
+    "52WeekHigh": 71.8971,
+    "52WeekLow": 53.6,
+    "50DayMA": 63.7548,
+    "200DayMA": 66.7462
+  },
+  "ETF_Data": {
+    "ISIN": "US46137V1180",
+    "Company_Name": "Invesco",
+    "Company_URL": "http://www.invesco.com/us",
+    "ETF_URL": "https://www.invesco.com/static/us/productdetail?productId=PSP&productType=ETF",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "8.530000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2006-10-24",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.01060",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "260827453.00",
+    "Average_Mkt_Cap_Mil": "8935.70831",
+    "Market_Capitalisation": {
+      "Mega": "0.02046",
+      "Big": "22.53833",
+      "Medium": "30.91101",
+      "Small": "25.72282",
+      "Micro": "3.82477"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.35286",
+        "Short_%": "0.07403",
+        "Net_Assets_%": "1.27883"
+      },
+      "NotClassified": {
+        "Long_%": "0.21837",
+        "Short_%": "0",
+        "Net_Assets_%": "0.21837"
+      },
+      "Stock non-US": {
+        "Long_%": "44.24594",
+        "Short_%": "0",
+        "Net_Assets_%": "44.24594"
+      },
+      "Other": {
+        "Long_%": "14.15859",
+        "Short_%": "0.18436",
+        "Net_Assets_%": "13.97423"
+      },
+      "Stock US": {
+        "Long_%": "40.37118",
+        "Short_%": "0",
+        "Net_Assets_%": "40.37118"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0.08855",
+        "Net_Assets_%": "-0.08855"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "53.861",
+        "Relative_to_Category": "62.088"
+      },
+      "United Kingdom": {
+        "Equity_%": "3.27844",
+        "Relative_to_Category": "5.80852"
+      },
+      "Europe Developed": {
+        "Equity_%": "39.959",
+        "Relative_to_Category": "12.886"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.21"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.003",
+        "Relative_to_Category": "0.872"
+      },
+      "Japan": {
+        "Equity_%": "2.384",
+        "Relative_to_Category": "7.661"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.407"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.32",
+        "Relative_to_Category": "3.414"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.196",
+        "Relative_to_Category": "3.655"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.999"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0.10242",
+        "Relative_to_Category": "8.17943"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0.30109",
+        "Relative_to_Category": "11.46347"
+      },
+      "Financial Services": {
+        "Equity_%": "92.37679",
+        "Relative_to_Category": "14.39091"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "4.49494"
+      },
+      "Communication Services": {
+        "Equity_%": "1.22733",
+        "Relative_to_Category": "2.08788"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "5.19366"
+      },
+      "Industrials": {
+        "Equity_%": "1.3307",
+        "Relative_to_Category": "21.96215"
+      },
+      "Technology": {
+        "Equity_%": "0.86659",
+        "Relative_to_Category": "14.53596"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.48974",
+        "Relative_to_Category": "4.53823"
+      },
+      "Healthcare": {
+        "Equity_%": "0.30534",
+        "Relative_to_Category": "9.56073"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.59265"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.68469"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 63,
+    "Top_10_Holdings": {
+      "III.LSE": {
+        "Code": "III",
+        "Exchange": "LSE",
+        "Name": "3I Group PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 5.31064
+      },
+      "KKR.US": {
+        "Code": "KKR",
+        "Exchange": "US",
+        "Name": "KKR & Co LP",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.06867
+      },
+      "BX.US": {
+        "Code": "BX",
+        "Exchange": "US",
+        "Name": "Blackstone Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.66553
+      },
+      "OWL.US": {
+        "Code": "OWL",
+        "Exchange": "US",
+        "Name": "Blue Owl Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.6535
+      },
+      "SOF.BR": {
+        "Code": "SOF",
+        "Exchange": "BR",
+        "Name": "Sofina Soci\u00e9t\u00e9 Anonyme",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Belgium",
+        "Region": "Europe",
+        "Assets_%": 4.64204
+      },
+      "TPG.US": {
+        "Code": "TPG",
+        "Exchange": "US",
+        "Name": "TPG Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.56814
+      },
+      "EQT.ST": {
+        "Code": "EQT",
+        "Exchange": "ST",
+        "Name": "EQT AB (publ)",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 4.54002
+      },
+      "PGHN.SW": {
+        "Code": "PGHN",
+        "Exchange": "SW",
+        "Name": "Partners Group Holding AG",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 4.39599
+      },
+      "RF.PA": {
+        "Code": "RF",
+        "Exchange": "PA",
+        "Name": "Eurazeo",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 4.00362
+      },
+      "HAL.AS": {
+        "Code": "HAL",
+        "Exchange": "AS",
+        "Name": "HAL Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 3.98144
+      }
+    },
+    "Holdings": {
+      "III.LSE": {
+        "Code": "III",
+        "Exchange": "LSE",
+        "Name": "3I Group PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 5.31064
+      },
+      "KKR.US": {
+        "Code": "KKR",
+        "Exchange": "US",
+        "Name": "KKR & Co LP",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.06867
+      },
+      "BX.US": {
+        "Code": "BX",
+        "Exchange": "US",
+        "Name": "Blackstone Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.66553
+      },
+      "OWL.US": {
+        "Code": "OWL",
+        "Exchange": "US",
+        "Name": "Blue Owl Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.6535
+      },
+      "SOF.BR": {
+        "Code": "SOF",
+        "Exchange": "BR",
+        "Name": "Sofina Soci\u00e9t\u00e9 Anonyme",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Belgium",
+        "Region": "Europe",
+        "Assets_%": 4.64204
+      },
+      "TPG.US": {
+        "Code": "TPG",
+        "Exchange": "US",
+        "Name": "TPG Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.56814
+      },
+      "EQT.ST": {
+        "Code": "EQT",
+        "Exchange": "ST",
+        "Name": "EQT AB (publ)",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 4.54002
+      },
+      "PGHN.SW": {
+        "Code": "PGHN",
+        "Exchange": "SW",
+        "Name": "Partners Group Holding AG",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 4.39599
+      },
+      "RF.PA": {
+        "Code": "RF",
+        "Exchange": "PA",
+        "Name": "Eurazeo",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 4.00362
+      },
+      "HAL.AS": {
+        "Code": "HAL",
+        "Exchange": "AS",
+        "Name": "HAL Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 3.98144
+      },
+      "CVC.AS": {
+        "Code": "CVC",
+        "Exchange": "AS",
+        "Name": "CVC Capital Partners PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 3.76686
+      },
+      "CG.US": {
+        "Code": "CG",
+        "Exchange": "US",
+        "Name": "Carlyle Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.27569
+      },
+      "ONEX.TO": {
+        "Code": "ONEX",
+        "Exchange": "TO",
+        "Name": "Onex Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 2.87504
+      },
+      "ARCC.US": {
+        "Code": "ARCC",
+        "Exchange": "US",
+        "Name": "Ares Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.8
+      },
+      "HGT.LSE": {
+        "Code": "HGT",
+        "Exchange": "LSE",
+        "Name": "HG Capital Trust PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 2.68686
+      },
+      "HLNE.US": {
+        "Code": "HLNE",
+        "Exchange": "US",
+        "Name": "Hamilton Lane Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.60704
+      },
+      "STEP.US": {
+        "Code": "STEP",
+        "Exchange": "US",
+        "Name": "Stepstone Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.22897
+      },
+      "BPT.LSE": {
+        "Code": "BPT",
+        "Exchange": "LSE",
+        "Name": "Bridgepoint Group Plc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 2.16567
+      },
+      "KINV-B.ST": {
+        "Code": "KINV-B",
+        "Exchange": "ST",
+        "Name": "Kinnevik Investment AB ser. B",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 1.87034
+      },
+      "PHLL.LSE": {
+        "Code": "PHLL",
+        "Exchange": "LSE",
+        "Name": "Petershill Partners PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.77875
+      },
+      "MF.PA": {
+        "Code": "MF",
+        "Exchange": "PA",
+        "Name": "Wendel",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.73131
+      },
+      "GIMB.BR": {
+        "Code": "GIMB",
+        "Exchange": "BR",
+        "Name": "GIMV NV",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Belgium",
+        "Region": "Europe",
+        "Assets_%": 1.49535
+      },
+      "PIN.LSE": {
+        "Code": "PIN",
+        "Exchange": "LSE",
+        "Name": "Pantheon International PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.44576
+      },
+      "GHC.US": {
+        "Code": "GHC",
+        "Exchange": "US",
+        "Name": "Graham Holdings Co",
+        "Sector": "Consumer Defensive",
+        "Industry": "Education & Training Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.25943
+      },
+      "ORCC.US": {
+        "Code": "ORCC",
+        "Exchange": "US",
+        "Name": "Owl Rock Capital Corp",
+        "Sector": "Financials",
+        "Industry": "Investment Banking & Investment Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.20321
+      },
+      "SON.LS": {
+        "Code": "SON",
+        "Exchange": "LS",
+        "Name": "Sonae SGPS SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Portugal",
+        "Region": "Europe",
+        "Assets_%": 1.15166
+      },
+      "OCI.LSE": {
+        "Code": "OCI",
+        "Exchange": "LSE",
+        "Name": "Oakley Capital Investments Limited",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.03718
+      },
+      "F5X.F": {
+        "Code": "F5X",
+        "Exchange": "F",
+        "Name": "FAIRFAX INDIA HLDGS",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.97269
+      },
+      "BXSL.US": {
+        "Code": "BXSL",
+        "Exchange": "US",
+        "Name": "Blackstone Secured Lending Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.93983
+      },
+      "FSK.US": {
+        "Code": "FSK",
+        "Exchange": "US",
+        "Name": "FS KKR Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.91508
+      },
+      "IAC.US": {
+        "Code": "IAC",
+        "Exchange": "US",
+        "Name": "IAC Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.83369
+      },
+      "8595.TSE": {
+        "Code": "8595",
+        "Exchange": "TSE",
+        "Name": "Jafco Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.83026
+      },
+      "RATO-B.ST": {
+        "Code": "RATO-B",
+        "Exchange": "ST",
+        "Name": "Ratos AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.82498
+      },
+      "BBUC.US": {
+        "Code": "BBUC",
+        "Exchange": "US",
+        "Name": "Brookfield Business Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81114
+      },
+      "4819.TSE": {
+        "Code": "4819",
+        "Exchange": "TSE",
+        "Name": "Digital Garage Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.72672
+      },
+      "PEY.LSE": {
+        "Code": "PEY",
+        "Exchange": "LSE",
+        "Name": "Princess Private Equity Holding Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.71107
+      },
+      "HBMN.SW": {
+        "Code": "HBMN",
+        "Exchange": "SW",
+        "Name": "HBM Healthcare Investments",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.69673
+      },
+      "APAX.LSE": {
+        "Code": "APAX",
+        "Exchange": "LSE",
+        "Name": "Apax Global Alpha Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.69405
+      },
+      "IPO.LSE": {
+        "Code": "IPO",
+        "Exchange": "LSE",
+        "Name": "IP Group",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.58362
+      },
+      "MUX.XETRA": {
+        "Code": "MUX",
+        "Exchange": "XETRA",
+        "Name": "Mutares SE & Co. KGaA",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.55423
+      },
+      "MERI.LSE": {
+        "Code": "MERI",
+        "Exchange": "LSE",
+        "Name": "Chrysalis Investments Limited",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.5425
+      },
+      "ITM.MI": {
+        "Code": "ITM",
+        "Exchange": "MI",
+        "Name": "Italmobiliare S.p.A",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.51539
+      },
+      "5UK.F": {
+        "Code": "5UK",
+        "Exchange": "F",
+        "Name": "ALARIS EQ.PRT.INC.TR.REGS",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.49916
+      },
+      "GBDC.US": {
+        "Code": "GBDC",
+        "Exchange": "US",
+        "Name": "Golub Capital BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.49113
+      },
+      "NBPE.LSE": {
+        "Code": "NBPE",
+        "Exchange": "LSE",
+        "Name": "NB Private Equity Partners Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.47513
+      },
+      "MAIN.US": {
+        "Code": "MAIN",
+        "Exchange": "US",
+        "Name": "Main Street Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.4683
+      },
+      "HTGC.US": {
+        "Code": "HTGC",
+        "Exchange": "US",
+        "Name": "Hercules Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46339
+      },
+      "5842.TSE": {
+        "Code": "5842",
+        "Exchange": "TSE",
+        "Name": "Integral Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.44191
+      },
+      "DXYZ.US": {
+        "Code": "DXYZ",
+        "Exchange": "US",
+        "Name": "Destiny Tech100 Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.31258
+      },
+      "CODI.US": {
+        "Code": "CODI",
+        "Exchange": "US",
+        "Name": "Compass Diversified Holdings",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.29095
+      },
+      "PAX.US": {
+        "Code": "PAX",
+        "Exchange": "US",
+        "Name": "Patria Investments Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.27752
+      },
+      "041190.KQ": {
+        "Code": "041190",
+        "Exchange": "KQ",
+        "Name": "Woori Technology Investment Co. Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.26793
+      },
+      "CNNE.US": {
+        "Code": "CNNE",
+        "Exchange": "US",
+        "Name": "Cannae Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.25249
+      },
+      "PX.US": {
+        "Code": "PX",
+        "Exchange": "US",
+        "Name": "P10 Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.252
+      },
+      "TSLX.US": {
+        "Code": "TSLX",
+        "Exchange": "US",
+        "Name": "Sixth Street Specialty Lending Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24689
+      },
+      "KBDC.US": {
+        "Code": "KBDC",
+        "Exchange": "US",
+        "Name": "Kayne Anderson BDC, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24415
+      },
+      "NMFC.US": {
+        "Code": "NMFC",
+        "Exchange": "US",
+        "Name": "New Mountain Finance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.23342
+      },
+      "SLRC.US": {
+        "Code": "SLRC",
+        "Exchange": "US",
+        "Name": "SLR Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.23047
+      },
+      "CSWC.US": {
+        "Code": "CSWC",
+        "Exchange": "US",
+        "Name": "Capital Southwest Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.2297
+      },
+      "GSBD.US": {
+        "Code": "GSBD",
+        "Exchange": "US",
+        "Name": "Goldman Sachs BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.22331
+      },
+      "BCSF.US": {
+        "Code": "BCSF",
+        "Exchange": "US",
+        "Name": "Bain Capital Specialty Finance Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21979
+      },
+      "ANGI.US": {
+        "Code": "ANGI",
+        "Exchange": "US",
+        "Name": "ANGI Homeservices Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.19554
+      },
+      "AGPXX.US": {
+        "Code": "AGPXX",
+        "Exchange": "US",
+        "Name": "Invesco Short-Term Investments Trust Government & Agency Portfolio Institutional",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08522
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.06786",
+        "Price/Book": "1.29166",
+        "Price/Sales": "1.75096",
+        "Price/Cash Flow": "4.43451",
+        "Dividend-Yield Factor": "3.67962"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.29978",
+        "Price/Book": "1.36238",
+        "Price/Sales": "1.00217",
+        "Price/Cash Flow": "7.16588",
+        "Dividend-Yield Factor": "2.50016"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "55.37763",
+        "Historical Earnings Growth": "11.43492",
+        "Sales Growth": "-0.76593",
+        "Cash-Flow Growth": "20.91366",
+        "Book-Value Growth": "2.63747"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "12.48116",
+        "Historical Earnings Growth": "2.31444",
+        "Sales Growth": "5.04903",
+        "Cash-Flow Growth": "32.50248",
+        "Book-Value Growth": "4.9547"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "3"
+    },
+    "Performance": {
+      "1y_Volatility": "16.81",
+      "3y_Volatility": "25.35",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.31",
+      "Returns_YTD": "1.14",
+      "Returns_1Y": "10.66",
+      "Returns_3Y": "13.37",
+      "Returns_5Y": "13.77",
+      "Returns_10Y": "7.52"
+    }
+  }
+}

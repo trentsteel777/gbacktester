@@ -1,0 +1,570 @@
+{
+  "General": {
+    "Code": "RSPG",
+    "Type": "ETF",
+    "Name": "Invesco S&P 500 Equal Weight Energy ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00KJR2M22",
+    "Description": "The fund generally will invest at least 90% of its total assets in securities that comprise the underlying index. The underlying index is composed of all of the components of the S&P 500\u00ae Energy Index, an index that contains the common stocks of all companies included in the S&P 500\u00ae Index that are classified as members of the energy sector, as defined according to the Global Industry Classification Standard (GICS).",
+    "Category": "Equity Energy",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.98,
+    "52WeekHigh": 85.5553,
+    "52WeekLow": 63.76,
+    "50DayMA": 74.4072,
+    "200DayMA": 78.2076
+  },
+  "ETF_Data": {
+    "ISIN": "US46137V3657",
+    "Company_Name": "Invesco",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "2.780000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2006-11-01",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00400",
+    "AnnualHoldingsTurnover": "0.20000",
+    "TotalAssets": "441787481.00",
+    "Average_Mkt_Cap_Mil": "45196.06508",
+    "Market_Capitalisation": {
+      "Mega": "4.60848",
+      "Big": "13.56702",
+      "Medium": "77.66269",
+      "Small": "4.16239",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0",
+        "Short_%": "0.0006",
+        "Net_Assets_%": "-0.0006"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "-0.00059",
+        "Short_%": "0",
+        "Net_Assets_%": "-0.00059"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "100.00118",
+        "Short_%": "0",
+        "Net_Assets_%": "100.00118"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "100",
+        "Relative_to_Category": "88.882"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.73899"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "6.026"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.252"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.096"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.023"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.322"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.661"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.91619"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.24741"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.07365"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Energy": {
+        "Equity_%": "100",
+        "Relative_to_Category": "86.19149"
+      },
+      "Industrials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.04613"
+      },
+      "Technology": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.35093"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.08646"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "9.08774"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.38387"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 22,
+    "Top_10_Holdings": {
+      "MPC.US": {
+        "Code": "MPC",
+        "Exchange": "US",
+        "Name": "Marathon Petroleum Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.59287
+      },
+      "EQT.US": {
+        "Code": "EQT",
+        "Exchange": "US",
+        "Name": "EQT Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.36346
+      },
+      "VLO.US": {
+        "Code": "VLO",
+        "Exchange": "US",
+        "Name": "Valero Energy Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.07013
+      },
+      "KMI.US": {
+        "Code": "KMI",
+        "Exchange": "US",
+        "Name": "Kinder Morgan Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.98836
+      },
+      "TPL.US": {
+        "Code": "TPL",
+        "Exchange": "US",
+        "Name": "Texas Pacific Land Trust",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.97839
+      },
+      "WMB.US": {
+        "Code": "WMB",
+        "Exchange": "US",
+        "Name": "Williams Companies Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.91277
+      },
+      "PSX.US": {
+        "Code": "PSX",
+        "Exchange": "US",
+        "Name": "Phillips 66",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.65547
+      },
+      "XOM.US": {
+        "Code": "XOM",
+        "Exchange": "US",
+        "Name": "Exxon Mobil Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.60848
+      },
+      "FANG.US": {
+        "Code": "FANG",
+        "Exchange": "US",
+        "Name": "Diamondback Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.49165
+      },
+      "DVN.US": {
+        "Code": "DVN",
+        "Exchange": "US",
+        "Name": "Devon Energy Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.44382
+      }
+    },
+    "Holdings": {
+      "MPC.US": {
+        "Code": "MPC",
+        "Exchange": "US",
+        "Name": "Marathon Petroleum Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.59287
+      },
+      "EQT.US": {
+        "Code": "EQT",
+        "Exchange": "US",
+        "Name": "EQT Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.36346
+      },
+      "VLO.US": {
+        "Code": "VLO",
+        "Exchange": "US",
+        "Name": "Valero Energy Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.07013
+      },
+      "KMI.US": {
+        "Code": "KMI",
+        "Exchange": "US",
+        "Name": "Kinder Morgan Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.98836
+      },
+      "TPL.US": {
+        "Code": "TPL",
+        "Exchange": "US",
+        "Name": "Texas Pacific Land Trust",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.97839
+      },
+      "WMB.US": {
+        "Code": "WMB",
+        "Exchange": "US",
+        "Name": "Williams Companies Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.91277
+      },
+      "PSX.US": {
+        "Code": "PSX",
+        "Exchange": "US",
+        "Name": "Phillips 66",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.65547
+      },
+      "XOM.US": {
+        "Code": "XOM",
+        "Exchange": "US",
+        "Name": "Exxon Mobil Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.60848
+      },
+      "FANG.US": {
+        "Code": "FANG",
+        "Exchange": "US",
+        "Name": "Diamondback Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.49165
+      },
+      "DVN.US": {
+        "Code": "DVN",
+        "Exchange": "US",
+        "Name": "Devon Energy Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.44382
+      },
+      "COP.US": {
+        "Code": "COP",
+        "Exchange": "US",
+        "Name": "ConocoPhillips",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.36907
+      },
+      "HES.US": {
+        "Code": "HES",
+        "Exchange": "US",
+        "Name": "Hess Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.35512
+      },
+      "OXY.US": {
+        "Code": "OXY",
+        "Exchange": "US",
+        "Name": "Occidental Petroleum Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.33511
+      },
+      "EOG.US": {
+        "Code": "EOG",
+        "Exchange": "US",
+        "Name": "EOG Resources Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.33131
+      },
+      "OKE.US": {
+        "Code": "OKE",
+        "Exchange": "US",
+        "Name": "ONEOK Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.30517
+      },
+      "CVX.US": {
+        "Code": "CVX",
+        "Exchange": "US",
+        "Name": "Chevron Corp",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.28519
+      },
+      "CTRA.US": {
+        "Code": "CTRA",
+        "Exchange": "US",
+        "Name": "Coterra Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.25021
+      },
+      "BKR.US": {
+        "Code": "BKR",
+        "Exchange": "US",
+        "Name": "Baker Hughes Co",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.2145
+      },
+      "APA.US": {
+        "Code": "APA",
+        "Exchange": "US",
+        "Name": "APA Corporation",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.16239
+      },
+      "TRGP.US": {
+        "Code": "TRGP",
+        "Exchange": "US",
+        "Name": "Targa Resources Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.15717
+      },
+      "SLB.US": {
+        "Code": "SLB",
+        "Exchange": "US",
+        "Name": "Schlumberger NV",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.14112
+      },
+      "HAL.US": {
+        "Code": "HAL",
+        "Exchange": "US",
+        "Name": "Halliburton Company",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.98881
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.78222",
+        "Price/Book": "1.59929",
+        "Price/Sales": "0.96529",
+        "Price/Cash Flow": "5.38554",
+        "Dividend-Yield Factor": "3.7114"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.53663",
+        "Price/Book": "1.59787",
+        "Price/Sales": "1.14234",
+        "Price/Cash Flow": "5.45467",
+        "Dividend-Yield Factor": "4.01019"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.60756",
+        "Historical Earnings Growth": "-2.58371",
+        "Sales Growth": "8.49408",
+        "Cash-Flow Growth": "-7.17831",
+        "Book-Value Growth": "14.85292"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.64536",
+        "Historical Earnings Growth": "-3.43967",
+        "Sales Growth": "6.61644",
+        "Cash-Flow Growth": "-4.55194",
+        "Book-Value Growth": "11.3046"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "21.32",
+      "3y_Volatility": "28.31",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.15",
+      "Returns_YTD": "-2.54",
+      "Returns_1Y": "-8.19",
+      "Returns_3Y": "4.51",
+      "Returns_5Y": "24.54",
+      "Returns_10Y": "3.29"
+    }
+  }
+}

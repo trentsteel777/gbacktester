@@ -1,0 +1,450 @@
+{
+  "General": {
+    "Code": "PWS",
+    "Type": "ETF",
+    "Name": "Pacer WealthShield",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00JGBRQ18",
+    "Description": "The index utilizes a systematic risk management strategy that directs the index's exposure to U.S. equity securities, U.S. Treasury securities, or a mix of each. The Advisor attempts to invest all, or substantially all, of its assets in the component securities that make up (i) the component securities of the index or (ii) ETFs that seek to track the performance of some or all of the component securities of the index in the same approximate weight as such component securities.",
+    "Category": "Tactical Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.62,
+    "52WeekHigh": 32.4118,
+    "52WeekLow": 27.8378,
+    "50DayMA": 30.4499,
+    "200DayMA": 30.9532
+  },
+  "ETF_Data": {
+    "ISIN": "US69374H8401",
+    "Company_Name": "Pacer",
+    "Company_URL": "",
+    "ETF_URL": "",
+    "Domicile": "",
+    "Index_Name": null,
+    "Yield": "1.410000",
+    "Dividend_Paying_Frequency": "",
+    "Inception_Date": "2017-12-11",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00600",
+    "AnnualHoldingsTurnover": "6.69000",
+    "TotalAssets": "24614989.00",
+    "Average_Mkt_Cap_Mil": "150595.21364",
+    "Market_Capitalisation": {
+      "Mega": "26.94202",
+      "Big": "38.7143",
+      "Medium": "32.90239",
+      "Small": "1.30837",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.76983",
+        "Short_%": "0",
+        "Net_Assets_%": "1.76983"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Bond": {
+        "Long_%": "98.23017",
+        "Short_%": "0",
+        "Net_Assets_%": "98.23017"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "84.373"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.13441"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "5.568"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.093"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.478"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.998"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.386"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.721"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.54"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.637"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.99009"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0",
+        "Relative_to_Category": "9.93505"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "16.43561"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.69991"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "8.34529"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "4.51578"
+      },
+      "Industrials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "10.16469"
+      },
+      "Technology": {
+        "Equity_%": "0",
+        "Relative_to_Category": "24.81528"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "6.38102"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "10.8125"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.90477"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.27674"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.8682"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.58675"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "3.21697",
+        "Relative_to_Category": "3.86104"
+      },
+      "Price": {
+        "Fund_%": "74.97726",
+        "Relative_to_Category": "97.81484"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.83684"
+      }
+    },
+    "Holdings_Count": 10,
+    "Top_10_Holdings": {
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.74091
+      },
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.81846
+      },
+      "BRK-B.US": {
+        "Code": "BRK-B",
+        "Exchange": "US",
+        "Name": "Berkshire Hathaway Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.73034
+      },
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.45722
+      },
+      "META.US": {
+        "Code": "META",
+        "Exchange": "US",
+        "Name": "Meta Platforms Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.17459
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.16169
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.81986
+      },
+      "NFLX.US": {
+        "Code": "NFLX",
+        "Exchange": "US",
+        "Name": "Netflix Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.7481
+      },
+      "SO.US": {
+        "Code": "SO",
+        "Exchange": "US",
+        "Name": "Southern Company",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.67745
+      },
+      "DUK.US": {
+        "Code": "DUK",
+        "Exchange": "US",
+        "Name": "Duke Energy Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.548
+      }
+    },
+    "Holdings": {
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.74091
+      },
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.81846
+      },
+      "BRK-B.US": {
+        "Code": "BRK-B",
+        "Exchange": "US",
+        "Name": "Berkshire Hathaway Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.73034
+      },
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.45722
+      },
+      "META.US": {
+        "Code": "META",
+        "Exchange": "US",
+        "Name": "Meta Platforms Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.17459
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.16169
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.81986
+      },
+      "NFLX.US": {
+        "Code": "NFLX",
+        "Exchange": "US",
+        "Name": "Netflix Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.7481
+      },
+      "SO.US": {
+        "Code": "SO",
+        "Exchange": "US",
+        "Name": "Southern Company",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.67745
+      },
+      "DUK.US": {
+        "Code": "DUK",
+        "Exchange": "US",
+        "Name": "Duke Energy Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.548
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "",
+        "Price/Book": "",
+        "Price/Sales": "",
+        "Price/Cash Flow": "",
+        "Dividend-Yield Factor": ""
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.0827",
+        "Price/Book": "3.01025",
+        "Price/Sales": "2.06073",
+        "Price/Cash Flow": "11.208",
+        "Dividend-Yield Factor": "1.92603"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "",
+        "Historical Earnings Growth": "",
+        "Sales Growth": "",
+        "Cash-Flow Growth": "",
+        "Book-Value Growth": ""
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.60343",
+        "Historical Earnings Growth": "7.84075",
+        "Sales Growth": "6.23848",
+        "Cash-Flow Growth": "5.33928",
+        "Book-Value Growth": "6.6678"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": "",
+      "Sustainability_Ratio": ""
+    },
+    "Performance": {
+      "1y_Volatility": "12.51",
+      "3y_Volatility": "11.74",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.13",
+      "Returns_YTD": "-4.37",
+      "Returns_1Y": "1.39",
+      "Returns_3Y": "1.31",
+      "Returns_5Y": "5.69",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

@@ -1,0 +1,860 @@
+{
+  "General": {
+    "Code": "IGF",
+    "Type": "ETF",
+    "Name": "iShares Global Infrastructure ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000T1GGF6",
+    "Description": "The index is designed to track performance of the stocks of large infrastructure companies in developed or emerging markets. The fund generally will invest at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents,.",
+    "Category": "Infrastructure",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.91,
+    "52WeekHigh": 59.13,
+    "52WeekLow": 46.732,
+    "50DayMA": 55.3888,
+    "200DayMA": 53.8857
+  },
+  "ETF_Data": {
+    "ISIN": "US4642883726",
+    "Company_Name": "iShares",
+    "Company_URL": "http://www.ishares.com",
+    "ETF_URL": "https://www.ishares.com/us/products/239746/ishares-global-infrastructure-etf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "2.970000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2007-12-10",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00410",
+    "AnnualHoldingsTurnover": "0.19000",
+    "TotalAssets": "6899908982.00",
+    "Average_Mkt_Cap_Mil": "27688.94239",
+    "Market_Capitalisation": {
+      "Mega": "11.80489",
+      "Big": "41.79198",
+      "Medium": "44.18519",
+      "Small": "1.6663",
+      "Micro": "0.10709"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.85612",
+        "Short_%": "0.8368",
+        "Net_Assets_%": "0.01932"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "60.61183",
+        "Short_%": "0",
+        "Net_Assets_%": "60.61183"
+      },
+      "Other": {
+        "Long_%": "0.00101",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00101"
+      },
+      "Stock US": {
+        "Long_%": "39.36783",
+        "Short_%": "0",
+        "Net_Assets_%": "39.36783"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "46.562",
+        "Relative_to_Category": "54.477"
+      },
+      "United Kingdom": {
+        "Equity_%": "2.24098",
+        "Relative_to_Category": "9.6245"
+      },
+      "Europe Developed": {
+        "Equity_%": "21.988",
+        "Relative_to_Category": "22.781"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.158",
+        "Relative_to_Category": "0.035"
+      },
+      "Japan": {
+        "Equity_%": "1.394",
+        "Relative_to_Category": "1.315"
+      },
+      "Australasia": {
+        "Equity_%": "12.55",
+        "Relative_to_Category": "5.425"
+      },
+      "Asia Developed": {
+        "Equity_%": "1.274",
+        "Relative_to_Category": "1.932"
+      },
+      "Asia Emerging": {
+        "Equity_%": "4.617",
+        "Relative_to_Category": "1.887"
+      },
+      "Latin America": {
+        "Equity_%": "9.216",
+        "Relative_to_Category": "2.522"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0.01846",
+        "Relative_to_Category": "3.32927"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0.03006",
+        "Relative_to_Category": "0.19045"
+      },
+      "Financial Services": {
+        "Equity_%": "0.074",
+        "Relative_to_Category": "0.08679"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.70205"
+      },
+      "Communication Services": {
+        "Equity_%": "0.01824",
+        "Relative_to_Category": "1.80768"
+      },
+      "Energy": {
+        "Equity_%": "18.23188",
+        "Relative_to_Category": "8.58388"
+      },
+      "Industrials": {
+        "Equity_%": "41.74217",
+        "Relative_to_Category": "38.46639"
+      },
+      "Technology": {
+        "Equity_%": "0.03061",
+        "Relative_to_Category": "1.22968"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0.02753",
+        "Relative_to_Category": "0.04758"
+      },
+      "Healthcare": {
+        "Equity_%": "0.03917",
+        "Relative_to_Category": "0.10833"
+      },
+      "Utilities": {
+        "Equity_%": "39.78113",
+        "Relative_to_Category": "43.4479"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.50477"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 51,
+    "Top_10_Holdings": {
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.756
+      },
+      "SO.US": {
+        "Code": "SO",
+        "Exchange": "US",
+        "Name": "Southern Company",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.09593
+      },
+      "CEG.US": {
+        "Code": "CEG",
+        "Exchange": "US",
+        "Name": "Constellation Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.84597
+      },
+      "DUK.US": {
+        "Code": "DUK",
+        "Exchange": "US",
+        "Name": "Duke Energy Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.84148
+      },
+      "WMB.US": {
+        "Code": "WMB",
+        "Exchange": "US",
+        "Name": "Williams Companies Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.67989
+      },
+      "KMI.US": {
+        "Code": "KMI",
+        "Exchange": "US",
+        "Name": "Kinder Morgan Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02219
+      },
+      "LNG.US": {
+        "Code": "LNG",
+        "Exchange": "US",
+        "Name": "Cheniere Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95604
+      },
+      "OKE.US": {
+        "Code": "OKE",
+        "Exchange": "US",
+        "Name": "ONEOK Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95259
+      },
+      "AEP.US": {
+        "Code": "AEP",
+        "Exchange": "US",
+        "Name": "American Electric Power Co Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.70481
+      },
+      "VST.US": {
+        "Code": "VST",
+        "Exchange": "US",
+        "Name": "Vistra Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.66232
+      }
+    },
+    "Holdings": {
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.756
+      },
+      "SO.US": {
+        "Code": "SO",
+        "Exchange": "US",
+        "Name": "Southern Company",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.09593
+      },
+      "CEG.US": {
+        "Code": "CEG",
+        "Exchange": "US",
+        "Name": "Constellation Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.84597
+      },
+      "DUK.US": {
+        "Code": "DUK",
+        "Exchange": "US",
+        "Name": "Duke Energy Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.84148
+      },
+      "WMB.US": {
+        "Code": "WMB",
+        "Exchange": "US",
+        "Name": "Williams Companies Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.67989
+      },
+      "KMI.US": {
+        "Code": "KMI",
+        "Exchange": "US",
+        "Name": "Kinder Morgan Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02219
+      },
+      "LNG.US": {
+        "Code": "LNG",
+        "Exchange": "US",
+        "Name": "Cheniere Energy Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95604
+      },
+      "OKE.US": {
+        "Code": "OKE",
+        "Exchange": "US",
+        "Name": "ONEOK Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95259
+      },
+      "AEP.US": {
+        "Code": "AEP",
+        "Exchange": "US",
+        "Name": "American Electric Power Co Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.70481
+      },
+      "VST.US": {
+        "Code": "VST",
+        "Exchange": "US",
+        "Name": "Vistra Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.66232
+      },
+      "SRE.US": {
+        "Code": "SRE",
+        "Exchange": "US",
+        "Name": "Sempra Energy",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.54379
+      },
+      "D.US": {
+        "Code": "D",
+        "Exchange": "US",
+        "Name": "Dominion Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.51658
+      },
+      "EXC.US": {
+        "Code": "EXC",
+        "Exchange": "US",
+        "Name": "Exelon Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.3878
+      },
+      "TRGP.US": {
+        "Code": "TRGP",
+        "Exchange": "US",
+        "Name": "Targa Resources Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.32182
+      },
+      "XEL.US": {
+        "Code": "XEL",
+        "Exchange": "US",
+        "Name": "Xcel Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.30118
+      },
+      "9706.TSE": {
+        "Code": "9706",
+        "Exchange": "TSE",
+        "Name": "Japan Airport Terminal Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.2846
+      },
+      "PEG.US": {
+        "Code": "PEG",
+        "Exchange": "US",
+        "Name": "Public Service Enterprise Group Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.23922
+      },
+      "PCG.US": {
+        "Code": "PCG",
+        "Exchange": "US",
+        "Name": "PG&E Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.21138
+      },
+      "ED.US": {
+        "Code": "ED",
+        "Exchange": "US",
+        "Name": "Consolidated Edison Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.14021
+      },
+      "ETR.US": {
+        "Code": "ETR",
+        "Exchange": "US",
+        "Name": "Entergy Corporation",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.13372
+      },
+      "WEC.US": {
+        "Code": "WEC",
+        "Exchange": "US",
+        "Name": "WEC Energy Group Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.07579
+      },
+      "0144.HK": {
+        "Code": "0144",
+        "Exchange": "HK",
+        "Name": "China Merchants Port Holdings Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.91686
+      },
+      "0177.HK": {
+        "Code": "0177",
+        "Exchange": "HK",
+        "Name": "Jiangsu Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.66515
+      },
+      "0576.HK": {
+        "Code": "0576",
+        "Exchange": "HK",
+        "Name": "Zhejiang Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.57322
+      },
+      "0152.HK": {
+        "Code": "0152",
+        "Exchange": "HK",
+        "Name": "Shenzhen International Holdings Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.52894
+      },
+      "DTM.US": {
+        "Code": "DTM",
+        "Exchange": "US",
+        "Name": "DT Midstream Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.39644
+      },
+      "1199.HK": {
+        "Code": "1199",
+        "Exchange": "HK",
+        "Name": "COSCO Pacific Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.32019
+      },
+      "0694.HK": {
+        "Code": "0694",
+        "Exchange": "HK",
+        "Name": "Beijing Capital International Airport Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.29059
+      },
+      "0995.HK": {
+        "Code": "0995",
+        "Exchange": "HK",
+        "Name": "Anhui Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.26414
+      },
+      "AM.US": {
+        "Code": "AM",
+        "Exchange": "US",
+        "Name": "Antero Midstream Partners LP",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.23519
+      },
+      "0548.HK": {
+        "Code": "0548",
+        "Exchange": "HK",
+        "Name": "Shenzhen Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.22264
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21249
+      },
+      "0836.HK": {
+        "Code": "0836",
+        "Exchange": "HK",
+        "Name": "China Resources Power Holding",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.15049
+      },
+      "1816.HK": {
+        "Code": "1816",
+        "Exchange": "HK",
+        "Name": "CGN Power",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.1184
+      },
+      "0135.HK": {
+        "Code": "0135",
+        "Exchange": "HK",
+        "Name": "Kunlun Energy",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11701
+      },
+      "0517.HK": {
+        "Code": "0517",
+        "Exchange": "HK",
+        "Name": "COSCO SHIPPING International HONG KONG Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.11152
+      },
+      "SKYH.US": {
+        "Code": "SKYH",
+        "Exchange": "US",
+        "Name": "Sky Harbour Group Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.10263
+      },
+      "0916.HK": {
+        "Code": "0916",
+        "Exchange": "HK",
+        "Name": "China Longyuan Power Group Corp Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08818
+      },
+      "USD.US": {
+        "Code": "USD",
+        "Exchange": "US",
+        "Name": "ProShares Ultra Semiconductors",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.087
+      },
+      "0HKD.HK": {
+        "Code": "0HKD",
+        "Exchange": "HK",
+        "Name": "HKD CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08163
+      },
+      "0902.HK": {
+        "Code": "0902",
+        "Exchange": "HK",
+        "Name": "Huaneng Power International",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08074
+      },
+      "1193.HK": {
+        "Code": "1193",
+        "Exchange": "HK",
+        "Name": "China Resources Gas Group Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.08058
+      },
+      "0384.HK": {
+        "Code": "0384",
+        "Exchange": "HK",
+        "Name": "China Gas Holdings Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07574
+      },
+      "SGAFT.US": {
+        "Code": "SGAFT",
+        "Exchange": "US",
+        "Name": "CASH COLLATERAL USD SGAFT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04693
+      },
+      "JPY.TSE": {
+        "Code": "JPY",
+        "Exchange": "TSE",
+        "Name": "JPY CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.00582
+      },
+      "EUR.US": {
+        "Code": "EUR",
+        "Exchange": "US",
+        "Name": "EUR/USD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2e-05
+      },
+      "JPY.US": {
+        "Code": "JPY",
+        "Exchange": "US",
+        "Name": "Lazard Japanese Equity ETF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2e-05
+      },
+      "CHF.US": {
+        "Code": "CHF",
+        "Exchange": "US",
+        "Name": "Chock Full O Nuts Corp",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1e-05
+      },
+      "SGD.US": {
+        "Code": "SGD",
+        "Exchange": "US",
+        "Name": "Safe and Green Development Corporation",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -1e-05
+      },
+      "HKD.US": {
+        "Code": "HKD",
+        "Exchange": "US",
+        "Name": "AMTD Digital Inc.",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -1e-05
+      },
+      "DKK.US": {
+        "Code": "DKK",
+        "Exchange": "US",
+        "Name": "DKK/USD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": -2e-05
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "18.01144",
+        "Price/Book": "2.2285",
+        "Price/Sales": "2.43414",
+        "Price/Cash Flow": "7.1568",
+        "Dividend-Yield Factor": "3.93803"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "17.22326",
+        "Price/Book": "2.2076",
+        "Price/Sales": "2.20543",
+        "Price/Cash Flow": "8.40778",
+        "Dividend-Yield Factor": "3.50415"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "6.34709",
+        "Historical Earnings Growth": "12.09276",
+        "Sales Growth": "2.50549",
+        "Cash-Flow Growth": "8.4593",
+        "Book-Value Growth": "2.41441"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "7.73875",
+        "Historical Earnings Growth": "10.55306",
+        "Sales Growth": "1.78731",
+        "Cash-Flow Growth": "5.32321",
+        "Book-Value Growth": "3.30622"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": "MSCI ACWI NR USD",
+      "Sustainability_Ratio": "4"
+    },
+    "Performance": {
+      "1y_Volatility": "11.67",
+      "3y_Volatility": "16.43",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.28",
+      "Returns_YTD": "11.98",
+      "Returns_1Y": "19.36",
+      "Returns_3Y": "8.84",
+      "Returns_5Y": "12.96",
+      "Returns_10Y": "5.99"
+    }
+  }
+}

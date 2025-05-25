@@ -1,0 +1,1740 @@
+{
+  "General": {
+    "Code": "IVLU",
+    "Type": "ETF",
+    "Name": "iShares Edge MSCI Intl Value Factor ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG009DR6410",
+    "Description": "The fund generally will invest at least 80% of its assets in the component securities of the underlying index and in investments that have economic characteristics that are substantially identical to the component securities of the underlying index and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents as well as in securities not included in the underlying index. The index is based on a traditional market capitalization-weighted parent index, the MSCI World ex USA Index.",
+    "Category": "Foreign Large Value",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.99,
+    "52WeekHigh": 32.93,
+    "52WeekLow": 25.4514,
+    "50DayMA": 30.6456,
+    "200DayMA": 28.9683
+  },
+  "ETF_Data": {
+    "ISIN": "US46435G4091",
+    "Company_Name": "iShares",
+    "Company_URL": "http://www.ishares.com",
+    "ETF_URL": "https://www.ishares.com/us/products/275382/ishares-msci-international-developed-value-factor-etf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "3.870000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2015-06-16",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00300",
+    "AnnualHoldingsTurnover": "0.14000",
+    "TotalAssets": "2163963424.00",
+    "Average_Mkt_Cap_Mil": "44220.18221",
+    "Market_Capitalisation": {
+      "Mega": "39.37727",
+      "Big": "48.32631",
+      "Medium": "10.62769",
+      "Small": "0.0896",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.18186",
+        "Short_%": "1.16267",
+        "Net_Assets_%": "0.01919"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "98.48112",
+        "Short_%": "0",
+        "Net_Assets_%": "98.48112"
+      },
+      "Other": {
+        "Long_%": "0.5481",
+        "Short_%": "0",
+        "Net_Assets_%": "0.5481"
+      },
+      "Stock US": {
+        "Long_%": "0.95159",
+        "Short_%": "0",
+        "Net_Assets_%": "0.95159"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "3.72",
+        "Relative_to_Category": "7.254"
+      },
+      "United Kingdom": {
+        "Equity_%": "16.00195",
+        "Relative_to_Category": "17.10457"
+      },
+      "Europe Developed": {
+        "Equity_%": "46.278",
+        "Relative_to_Category": "43.748"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.091",
+        "Relative_to_Category": "0.244"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "1.457",
+        "Relative_to_Category": "0.741"
+      },
+      "Japan": {
+        "Equity_%": "27.855",
+        "Relative_to_Category": "17.239"
+      },
+      "Australasia": {
+        "Equity_%": "1.655",
+        "Relative_to_Category": "2.687"
+      },
+      "Asia Developed": {
+        "Equity_%": "2.745",
+        "Relative_to_Category": "6.613"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.196",
+        "Relative_to_Category": "3.022"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.328"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "6.04785",
+        "Relative_to_Category": "7.03251"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "8.83055",
+        "Relative_to_Category": "9.01392"
+      },
+      "Financial Services": {
+        "Equity_%": "26.81367",
+        "Relative_to_Category": "26.3462"
+      },
+      "Real Estate": {
+        "Equity_%": "1.76275",
+        "Relative_to_Category": "1.23902"
+      },
+      "Communication Services": {
+        "Equity_%": "4.28529",
+        "Relative_to_Category": "5.70685"
+      },
+      "Energy": {
+        "Equity_%": "4.86417",
+        "Relative_to_Category": "7.39933"
+      },
+      "Industrials": {
+        "Equity_%": "18.44978",
+        "Relative_to_Category": "14.56547"
+      },
+      "Technology": {
+        "Equity_%": "7.45366",
+        "Relative_to_Category": "7.01548"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "7.68692",
+        "Relative_to_Category": "8.72481"
+      },
+      "Healthcare": {
+        "Equity_%": "10.8063",
+        "Relative_to_Category": "9.10444"
+      },
+      "Utilities": {
+        "Equity_%": "2.99908",
+        "Relative_to_Category": "3.85198"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 139,
+    "Top_10_Holdings": {
+      "7203.TSE": {
+        "Code": "7203",
+        "Exchange": "TSE",
+        "Name": "Toyota Motor Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.97485
+      },
+      "8306.TSE": {
+        "Code": "8306",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi UFJ Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.10184
+      },
+      "8058.TSE": {
+        "Code": "8058",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.98867
+      },
+      "8031.TSE": {
+        "Code": "8031",
+        "Exchange": "TSE",
+        "Name": "Mitsui & Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.80719
+      },
+      "8001.TSE": {
+        "Code": "8001",
+        "Exchange": "TSE",
+        "Name": "Itochu Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.76631
+      },
+      "8316.TSE": {
+        "Code": "8316",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Mitsui Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.75621
+      },
+      "7267.TSE": {
+        "Code": "7267",
+        "Exchange": "TSE",
+        "Name": "Honda Motor Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.72628
+      },
+      "7751.TSE": {
+        "Code": "7751",
+        "Exchange": "TSE",
+        "Name": "Canon Inc",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.69319
+      },
+      "8411.TSE": {
+        "Code": "8411",
+        "Exchange": "TSE",
+        "Name": "Mizuho Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.61582
+      },
+      "8053.TSE": {
+        "Code": "8053",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.60023
+      }
+    },
+    "Holdings": {
+      "7203.TSE": {
+        "Code": "7203",
+        "Exchange": "TSE",
+        "Name": "Toyota Motor Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.97485
+      },
+      "8306.TSE": {
+        "Code": "8306",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi UFJ Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.10184
+      },
+      "8058.TSE": {
+        "Code": "8058",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.98867
+      },
+      "8031.TSE": {
+        "Code": "8031",
+        "Exchange": "TSE",
+        "Name": "Mitsui & Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.80719
+      },
+      "8001.TSE": {
+        "Code": "8001",
+        "Exchange": "TSE",
+        "Name": "Itochu Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.76631
+      },
+      "8316.TSE": {
+        "Code": "8316",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Mitsui Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.75621
+      },
+      "7267.TSE": {
+        "Code": "7267",
+        "Exchange": "TSE",
+        "Name": "Honda Motor Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.72628
+      },
+      "7751.TSE": {
+        "Code": "7751",
+        "Exchange": "TSE",
+        "Name": "Canon Inc",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.69319
+      },
+      "8411.TSE": {
+        "Code": "8411",
+        "Exchange": "TSE",
+        "Name": "Mizuho Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.61582
+      },
+      "8053.TSE": {
+        "Code": "8053",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.60023
+      },
+      "0001.HK": {
+        "Code": "0001",
+        "Exchange": "HK",
+        "Name": "CK Hutchison Holdings Limited",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.56529
+      },
+      "8002.TSE": {
+        "Code": "8002",
+        "Exchange": "TSE",
+        "Name": "Marubeni Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.55263
+      },
+      "6701.TSE": {
+        "Code": "6701",
+        "Exchange": "TSE",
+        "Name": "NEC Corp.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.52837
+      },
+      "4502.TSE": {
+        "Code": "4502",
+        "Exchange": "TSE",
+        "Name": "Takeda Pharmaceutical Co. Ltd.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.52559
+      },
+      "4901.TSE": {
+        "Code": "4901",
+        "Exchange": "TSE",
+        "Name": "Fujifilm Holdings Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.49761
+      },
+      "6702.TSE": {
+        "Code": "6702",
+        "Exchange": "TSE",
+        "Name": "Fujitsu Ltd.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.47602
+      },
+      "ERIC-B.ST": {
+        "Code": "ERIC-B",
+        "Exchange": "ST",
+        "Name": "Telefonaktiebolaget LM Ericsson (publ)",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.46051
+      },
+      "9433.TSE": {
+        "Code": "9433",
+        "Exchange": "TSE",
+        "Name": "KDDI Corp.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.45844
+      },
+      "6723.TSE": {
+        "Code": "6723",
+        "Exchange": "TSE",
+        "Name": "Renesas Electronics Corp",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.45834
+      },
+      "9101.TSE": {
+        "Code": "9101",
+        "Exchange": "TSE",
+        "Name": "Nippon Yusen K.K",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.42913
+      },
+      "6503.TSE": {
+        "Code": "6503",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Electric Corp",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.4233
+      },
+      "6301.TSE": {
+        "Code": "6301",
+        "Exchange": "TSE",
+        "Name": "Komatsu Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.41741
+      },
+      "VOLV-B.ST": {
+        "Code": "VOLV-B",
+        "Exchange": "ST",
+        "Name": "AB Volvo (publ)",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.41338
+      },
+      "6762.TSE": {
+        "Code": "6762",
+        "Exchange": "TSE",
+        "Name": "TDK Corp",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.40776
+      },
+      "6971.TSE": {
+        "Code": "6971",
+        "Exchange": "TSE",
+        "Name": "Kyocera Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.40469
+      },
+      "6752.TSE": {
+        "Code": "6752",
+        "Exchange": "TSE",
+        "Name": "Panasonic Corp",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.38886
+      },
+      "2914.TSE": {
+        "Code": "2914",
+        "Exchange": "TSE",
+        "Name": "Japan Tobacco Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.37694
+      },
+      "JPY.TSE": {
+        "Code": "JPY",
+        "Exchange": "TSE",
+        "Name": "JPY CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.36883
+      },
+      "6201.TSE": {
+        "Code": "6201",
+        "Exchange": "TSE",
+        "Name": "Toyota Industries Corp",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.36382
+      },
+      "5401.TSE": {
+        "Code": "5401",
+        "Exchange": "TSE",
+        "Name": "Nippon Steel Corp",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.35783
+      },
+      "9022.TSE": {
+        "Code": "9022",
+        "Exchange": "TSE",
+        "Name": "Central Japan Railway Co.",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.34496
+      },
+      "9432.TSE": {
+        "Code": "9432",
+        "Exchange": "TSE",
+        "Name": "Nippon Telegraph & Telephone Corp",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.34167
+      },
+      "1925.TSE": {
+        "Code": "1925",
+        "Exchange": "TSE",
+        "Name": "Daiwa House Industry Co. Ltd.",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.32957
+      },
+      "6981.TSE": {
+        "Code": "6981",
+        "Exchange": "TSE",
+        "Name": "Murata Mfg Co",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.32391
+      },
+      "3382.TSE": {
+        "Code": "3382",
+        "Exchange": "TSE",
+        "Name": "Seven & i Holdings Co. Ltd.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.31757
+      },
+      "9104.TSE": {
+        "Code": "9104",
+        "Exchange": "TSE",
+        "Name": "Mitsui O.S.K. Lines Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.31482
+      },
+      "8802.TSE": {
+        "Code": "8802",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Estate Co Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.27455
+      },
+      "2502.TSE": {
+        "Code": "2502",
+        "Exchange": "TSE",
+        "Name": "Asahi Group Holdings Ltd.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.26687
+      },
+      "0J36.HK": {
+        "Code": "0J36",
+        "Exchange": "HK",
+        "Name": "JARDINE MATHESON HOLDINGS LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.2653
+      },
+      "0016.HK": {
+        "Code": "0016",
+        "Exchange": "HK",
+        "Name": "Sun Hung Kai Properties Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.2586
+      },
+      "8015.TSE": {
+        "Code": "8015",
+        "Exchange": "TSE",
+        "Name": "Toyota Tsusho Corp.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.25457
+      },
+      "5108.TSE": {
+        "Code": "5108",
+        "Exchange": "TSE",
+        "Name": "Bridgestone Corp.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.24705
+      },
+      "4578.TSE": {
+        "Code": "4578",
+        "Exchange": "TSE",
+        "Name": "Otsuka Holdings Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.23031
+      },
+      "7270.TSE": {
+        "Code": "7270",
+        "Exchange": "TSE",
+        "Name": "Subaru Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.2277
+      },
+      "9613.TSE": {
+        "Code": "9613",
+        "Exchange": "TSE",
+        "Name": "NTT Data Corp.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.2205
+      },
+      "6178.TSE": {
+        "Code": "6178",
+        "Exchange": "TSE",
+        "Name": "Japan Post Holdings Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.21917
+      },
+      "8591.TSE": {
+        "Code": "8591",
+        "Exchange": "TSE",
+        "Name": "Orix T",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.20331
+      },
+      "6902.TSE": {
+        "Code": "6902",
+        "Exchange": "TSE",
+        "Name": "DENSO Corporation",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.19818
+      },
+      "1878.TSE": {
+        "Code": "1878",
+        "Exchange": "TSE",
+        "Name": "Daito Trust Construction",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.1961
+      },
+      "7269.TSE": {
+        "Code": "7269",
+        "Exchange": "TSE",
+        "Name": "Suzuki Motor Corp.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.19386
+      },
+      "2388.HK": {
+        "Code": "2388",
+        "Exchange": "HK",
+        "Name": "BOC Hong Kong Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.19099
+      },
+      "8604.TSE": {
+        "Code": "8604",
+        "Exchange": "TSE",
+        "Name": "Nomura Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.18946
+      },
+      "SWED-A.ST": {
+        "Code": "SWED-A",
+        "Exchange": "ST",
+        "Name": "Swedbank AB (publ)",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.18719
+      },
+      "0288.HK": {
+        "Code": "0288",
+        "Exchange": "HK",
+        "Name": "WH Group Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.18535
+      },
+      "9502.TSE": {
+        "Code": "9502",
+        "Exchange": "TSE",
+        "Name": "Chubu Electric Power Co. Inc.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.18247
+      },
+      "8309.TSE": {
+        "Code": "8309",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Mitsui Trust Holdings",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.16802
+      },
+      "9020.TSE": {
+        "Code": "9020",
+        "Exchange": "TSE",
+        "Name": "East Japan Railway Co.",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.16626
+      },
+      "7752.TSE": {
+        "Code": "7752",
+        "Exchange": "TSE",
+        "Name": "Ricoh Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Business Equipment & Supplies",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.16422
+      },
+      "4507.TSE": {
+        "Code": "4507",
+        "Exchange": "TSE",
+        "Name": "Shionogi & Co. Ltd.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.16315
+      },
+      "SHB-A.ST": {
+        "Code": "SHB-A",
+        "Exchange": "ST",
+        "Name": "Svenska Handelsbanken AB (publ)",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.16203
+      },
+      "1812.TSE": {
+        "Code": "1812",
+        "Exchange": "TSE",
+        "Name": "Kajima Corp.",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.16139
+      },
+      "7182.TSE": {
+        "Code": "7182",
+        "Exchange": "TSE",
+        "Name": "Japan Post Bank Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15847
+      },
+      "5411.TSE": {
+        "Code": "5411",
+        "Exchange": "TSE",
+        "Name": "JFE Holdings Inc.",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15788
+      },
+      "7201.TSE": {
+        "Code": "7201",
+        "Exchange": "TSE",
+        "Name": "Nissan Motor Co. Ltd.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15652
+      },
+      "9531.TSE": {
+        "Code": "9531",
+        "Exchange": "TSE",
+        "Name": "Tokyo Gas Co. Ltd.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15437
+      },
+      "9503.TSE": {
+        "Code": "9503",
+        "Exchange": "TSE",
+        "Name": "Kansai Electric Power Co Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15317
+      },
+      "5802.TSE": {
+        "Code": "5802",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Electric Industries Ltd.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.15285
+      },
+      "6326.TSE": {
+        "Code": "6326",
+        "Exchange": "TSE",
+        "Name": "Kubota Corp.",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.14994
+      },
+      "1605.TSE": {
+        "Code": "1605",
+        "Exchange": "TSE",
+        "Name": "Inpex Corp.",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.1445
+      },
+      "1802.TSE": {
+        "Code": "1802",
+        "Exchange": "TSE",
+        "Name": "Obayashi Corp.",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.13935
+      },
+      "9532.TSE": {
+        "Code": "9532",
+        "Exchange": "TSE",
+        "Name": "Osaka Gas Co. Ltd.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.13014
+      },
+      "9107.TSE": {
+        "Code": "9107",
+        "Exchange": "TSE",
+        "Name": "Kawasaki Kisen Kaisha Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.12895
+      },
+      "8308.TSE": {
+        "Code": "8308",
+        "Exchange": "TSE",
+        "Name": "Resona Holdings Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.12804
+      },
+      "4503.TSE": {
+        "Code": "4503",
+        "Exchange": "TSE",
+        "Name": "Astellas Pharma Inc.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.12743
+      },
+      "2503.TSE": {
+        "Code": "2503",
+        "Exchange": "TSE",
+        "Name": "Kirin Holdings Co. Ltd.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.12287
+      },
+      "1928.TSE": {
+        "Code": "1928",
+        "Exchange": "TSE",
+        "Name": "Sekisui House Ltd.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.1194
+      },
+      "5020.TSE": {
+        "Code": "5020",
+        "Exchange": "TSE",
+        "Name": "Eneos Holdings Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.11873
+      },
+      "3003.TSE": {
+        "Code": "3003",
+        "Exchange": "TSE",
+        "Name": "Hulic Co Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.11806
+      },
+      "9735.TSE": {
+        "Code": "9735",
+        "Exchange": "TSE",
+        "Name": "Secom Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Security & Protection Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.11389
+      },
+      "1801.TSE": {
+        "Code": "1801",
+        "Exchange": "TSE",
+        "Name": "Taisei Corp.",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.11108
+      },
+      "5201.TSE": {
+        "Code": "5201",
+        "Exchange": "TSE",
+        "Name": "AGC Inc",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.10572
+      },
+      "6724.TSE": {
+        "Code": "6724",
+        "Exchange": "TSE",
+        "Name": "Seiko Epson Cor",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.10562
+      },
+      "7911.TSE": {
+        "Code": "7911",
+        "Exchange": "TSE",
+        "Name": "Toppan Printing Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.10346
+      },
+      "3402.TSE": {
+        "Code": "3402",
+        "Exchange": "TSE",
+        "Name": "Toray Industries Inc.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Textile Manufacturing",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.10172
+      },
+      "SECU-B.ST": {
+        "Code": "SECU-B",
+        "Exchange": "ST",
+        "Name": "Securitas AB",
+        "Sector": "Industrials",
+        "Industry": "Security & Protection Services",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.10125
+      },
+      "7202.TSE": {
+        "Code": "7202",
+        "Exchange": "TSE",
+        "Name": "Isuzu Motors Ltd.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.09718
+      },
+      "9021.TSE": {
+        "Code": "9021",
+        "Exchange": "TSE",
+        "Name": "West Japan Railway Co.",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.09688
+      },
+      "4188.TSE": {
+        "Code": "4188",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Chemical Holdings Corp",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.09685
+      },
+      "7259.TSE": {
+        "Code": "7259",
+        "Exchange": "TSE",
+        "Name": "Aisin Seiki Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.0967
+      },
+      "SKA-B.ST": {
+        "Code": "SKA-B",
+        "Exchange": "ST",
+        "Name": "Skanska AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.09646
+      },
+      "3407.TSE": {
+        "Code": "3407",
+        "Exchange": "TSE",
+        "Name": "Asahi Kasei Corp.",
+        "Sector": "Basic Materials",
+        "Industry": "Chemicals",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.09639
+      },
+      "SKF-B.ST": {
+        "Code": "SKF-B",
+        "Exchange": "ST",
+        "Name": "AB SKF (publ)",
+        "Sector": "Industrials",
+        "Industry": "Tools & Accessories",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.09506
+      },
+      "INDU-C.ST": {
+        "Code": "INDU-C",
+        "Exchange": "ST",
+        "Name": "Industrivarden AB ser. C",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.09334
+      },
+      "0083.HK": {
+        "Code": "0083",
+        "Exchange": "HK",
+        "Name": "Sino Land",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.09138
+      },
+      "7912.TSE": {
+        "Code": "7912",
+        "Exchange": "TSE",
+        "Name": "Dai Nippon Printing Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.08998
+      },
+      "8951.TSE": {
+        "Code": "8951",
+        "Exchange": "TSE",
+        "Name": "Nippon Building Fund Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Office",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.08311
+      },
+      "9042.TSE": {
+        "Code": "9042",
+        "Exchange": "TSE",
+        "Name": "Hankyu Hanshin Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.08226
+      },
+      "7272.TSE": {
+        "Code": "7272",
+        "Exchange": "TSE",
+        "Name": "Yamaha Motor Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.08047
+      },
+      "0019.HK": {
+        "Code": "0019",
+        "Exchange": "HK",
+        "Name": "Swire Pacific A",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0801
+      },
+      "4204.TSE": {
+        "Code": "4204",
+        "Exchange": "TSE",
+        "Name": "Sekisui Chemical Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.07727
+      },
+      "4689.TSE": {
+        "Code": "4689",
+        "Exchange": "TSE",
+        "Name": "Z Holdings Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.07718
+      },
+      "INDU-A.ST": {
+        "Code": "INDU-A",
+        "Exchange": "ST",
+        "Name": "Industrivarden AB ser. A",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.07435
+      },
+      "6841.TSE": {
+        "Code": "6841",
+        "Exchange": "TSE",
+        "Name": "Yokogawa Electric Corp.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.07411
+      },
+      "0006.HK": {
+        "Code": "0006",
+        "Exchange": "HK",
+        "Name": "Power Assets",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.07312
+      },
+      "BOL.ST": {
+        "Code": "BOL",
+        "Exchange": "ST",
+        "Name": "Boliden AB",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.06756
+      },
+      "4528.TSE": {
+        "Code": "4528",
+        "Exchange": "TSE",
+        "Name": "Ono Pharmaceutical Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.06751
+      },
+      "0H78.HK": {
+        "Code": "0H78",
+        "Exchange": "HK",
+        "Name": "HONGKONG LAND HOLDINGS LTD",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06702
+      },
+      "0066.HK": {
+        "Code": "0066",
+        "Exchange": "HK",
+        "Name": "MTR Corp Ltd",
+        "Sector": "Industrials",
+        "Industry": "Railroads",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06644
+      },
+      "8473.TSE": {
+        "Code": "8473",
+        "Exchange": "TSE",
+        "Name": "SBI Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.06571
+      },
+      "1308.HK": {
+        "Code": "1308",
+        "Exchange": "HK",
+        "Name": "SITC International Holdings Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Marine Shipping",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.06484
+      },
+      "TELIA.ST": {
+        "Code": "TELIA",
+        "Exchange": "ST",
+        "Name": "Telia Company AB",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.06326
+      },
+      "7186.TSE": {
+        "Code": "7186",
+        "Exchange": "TSE",
+        "Name": "Concordia Financial Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.06243
+      },
+      "5713.TSE": {
+        "Code": "5713",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Metal Mining Co. Ltd.",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.06219
+      },
+      "2269.TSE": {
+        "Code": "2269",
+        "Exchange": "TSE",
+        "Name": "Meiji Holdings Co. Ltd.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.05466
+      },
+      "6504.TSE": {
+        "Code": "6504",
+        "Exchange": "TSE",
+        "Name": "Fuji Electric Co. Ltd.",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.05323
+      },
+      "TREL-B.ST": {
+        "Code": "TREL-B",
+        "Exchange": "ST",
+        "Name": "Trelleborg AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.05254
+      },
+      "8593.TSE": {
+        "Code": "8593",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi Ufj Lease Fin Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.05161
+      },
+      "6479.TSE": {
+        "Code": "6479",
+        "Exchange": "TSE",
+        "Name": "Minebea Mitsumi Inc",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.05157
+      },
+      "9719.TSE": {
+        "Code": "9719",
+        "Exchange": "TSE",
+        "Name": "SCSK Corp",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04918
+      },
+      "9202.TSE": {
+        "Code": "9202",
+        "Exchange": "TSE",
+        "Name": "ANA Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04856
+      },
+      "2587.TSE": {
+        "Code": "2587",
+        "Exchange": "TSE",
+        "Name": "Suntory Beverage & Food Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04782
+      },
+      "6586.TSE": {
+        "Code": "6586",
+        "Exchange": "TSE",
+        "Name": "Makita",
+        "Sector": "Industrials",
+        "Industry": "Tools & Accessories",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04548
+      },
+      "1038.HK": {
+        "Code": "1038",
+        "Exchange": "HK",
+        "Name": "CK Infrastructure Holdings Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.04414
+      },
+      "5019.TSE": {
+        "Code": "5019",
+        "Exchange": "TSE",
+        "Name": "Idemitsu Kosan Co Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04358
+      },
+      "7735.TSE": {
+        "Code": "7735",
+        "Exchange": "TSE",
+        "Name": "Dainippon Screen Mfg. Co. Ltd.",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04325
+      },
+      "8331.TSE": {
+        "Code": "8331",
+        "Exchange": "TSE",
+        "Name": "Chiba Bank Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.04166
+      },
+      "9201.TSE": {
+        "Code": "9201",
+        "Exchange": "TSE",
+        "Name": "Japan Airlines Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03987
+      },
+      "7181.TSE": {
+        "Code": "7181",
+        "Exchange": "TSE",
+        "Name": "Japan Post Insurance Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03941
+      },
+      "9435.TSE": {
+        "Code": "9435",
+        "Exchange": "TSE",
+        "Name": "Hikari Tsushin Inc",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03857
+      },
+      "4324.TSE": {
+        "Code": "4324",
+        "Exchange": "TSE",
+        "Name": "Dentsu Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03673
+      },
+      "1997.HK": {
+        "Code": "1997",
+        "Exchange": "HK",
+        "Name": "Wharf Real Estate Investment Co Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate Services",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.03367
+      },
+      "3626.TSE": {
+        "Code": "3626",
+        "Exchange": "TSE",
+        "Name": "TIS Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03351
+      },
+      "4151.TSE": {
+        "Code": "4151",
+        "Exchange": "TSE",
+        "Name": "Kyowa Kirin Co Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.03042
+      },
+      "USD.US": {
+        "Code": "USD",
+        "Exchange": "US",
+        "Name": "ProShares Ultra Semiconductors",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02908
+      },
+      "0012.HK": {
+        "Code": "0012",
+        "Exchange": "HK",
+        "Name": "Henderson Land",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.02329
+      },
+      "HBCFT.TSE": {
+        "Code": "HBCFT",
+        "Exchange": "TSE",
+        "Name": "CASH COLLATERAL JPY HBCFT",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.02256
+      },
+      "0HKD.HK": {
+        "Code": "0HKD",
+        "Exchange": "HK",
+        "Name": "HKD CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.0172
+      },
+      "XTSLA.US": {
+        "Code": "XTSLA",
+        "Exchange": "US",
+        "Name": "BlackRock Cash Funds Treasury SL Agency",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01528
+      },
+      "SEK.ST": {
+        "Code": "SEK",
+        "Exchange": "ST",
+        "Name": "SEK CASH",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.00371
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "9.77096",
+        "Price/Book": "0.96571",
+        "Price/Sales": "0.79139",
+        "Price/Cash Flow": "5.26531",
+        "Dividend-Yield Factor": "4.96936"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.81238",
+        "Price/Book": "1.23651",
+        "Price/Sales": "0.91634",
+        "Price/Cash Flow": "5.85117",
+        "Dividend-Yield Factor": "4.57714"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.26396",
+        "Historical Earnings Growth": "1.64775",
+        "Sales Growth": "4.78372",
+        "Cash-Flow Growth": "-1.98171",
+        "Book-Value Growth": "6.19398"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.0022",
+        "Historical Earnings Growth": "5.19973",
+        "Sales Growth": "3.54635",
+        "Cash-Flow Growth": "-5.38384",
+        "Book-Value Growth": "5.67082"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "3"
+    },
+    "Performance": {
+      "1y_Volatility": "11.66",
+      "3y_Volatility": "16.59",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.59",
+      "Returns_YTD": "20.80",
+      "Returns_1Y": "17.27",
+      "Returns_3Y": "15.15",
+      "Returns_5Y": "16.17",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

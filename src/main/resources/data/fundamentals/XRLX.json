@@ -1,0 +1,570 @@
+{
+  "General": {
+    "Code": "XRLX",
+    "Type": "ETF",
+    "Name": "FundX Investment Trust",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01J6JX850",
+    "Description": "The ETF is an ETF-of-ETFs and as such invests primarily in ETFs (\"underlying ETFs\"). The underlying ETFs, in turn, invest primarily in individual securities such as common stocks and corporate or government bonds. Under normal market conditions, the ETF may invest in Core Equity underlying ETFs, which generally invest in diversified portfolios of equity securities of well-established U.S. and foreign companies with a wide range of market capitalizations.",
+    "Category": "Tactical Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.61,
+    "52WeekHigh": 47.07,
+    "52WeekLow": 37.31,
+    "50DayMA": 41.3848,
+    "200DayMA": 43.1412
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "FundX Upgrader",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.750000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2002-07-01",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.01630",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "51576630.00",
+    "Average_Mkt_Cap_Mil": "233347.37259",
+    "Market_Capitalisation": {
+      "Mega": "28.64821",
+      "Big": "17.71017",
+      "Medium": "6.07149",
+      "Small": "0.61788",
+      "Micro": "0.03901"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "3.89865",
+        "Short_%": "1.57424",
+        "Net_Assets_%": "2.32441"
+      },
+      "NotClassified": {
+        "Long_%": "0.03731",
+        "Short_%": "0",
+        "Net_Assets_%": "0.03731"
+      },
+      "Stock non-US": {
+        "Long_%": "15.67733",
+        "Short_%": "0",
+        "Net_Assets_%": "15.67733"
+      },
+      "Other": {
+        "Long_%": "0.03342",
+        "Short_%": "0",
+        "Net_Assets_%": "0.03342"
+      },
+      "Stock US": {
+        "Long_%": "37.5996",
+        "Short_%": "0",
+        "Net_Assets_%": "37.5996"
+      },
+      "Bond": {
+        "Long_%": "44.64235",
+        "Short_%": "0.31443",
+        "Net_Assets_%": "44.32792"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "71.306",
+        "Relative_to_Category": "84.373"
+      },
+      "United Kingdom": {
+        "Equity_%": "4.64445",
+        "Relative_to_Category": "2.13441"
+      },
+      "Europe Developed": {
+        "Equity_%": "15.214",
+        "Relative_to_Category": "5.568"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.028",
+        "Relative_to_Category": "0.093"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.42",
+        "Relative_to_Category": "0.478"
+      },
+      "Japan": {
+        "Equity_%": "4.012",
+        "Relative_to_Category": "1.998"
+      },
+      "Australasia": {
+        "Equity_%": "1.465",
+        "Relative_to_Category": "0.386"
+      },
+      "Asia Developed": {
+        "Equity_%": "2.254",
+        "Relative_to_Category": "1.721"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.579",
+        "Relative_to_Category": "2.54"
+      },
+      "Latin America": {
+        "Equity_%": "0.079",
+        "Relative_to_Category": "0.637"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "2.1191",
+        "Relative_to_Category": "2.99009"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "11.52259",
+        "Relative_to_Category": "9.93505"
+      },
+      "Financial Services": {
+        "Equity_%": "15.96253",
+        "Relative_to_Category": "16.43561"
+      },
+      "Real Estate": {
+        "Equity_%": "1.47133",
+        "Relative_to_Category": "2.69991"
+      },
+      "Communication Services": {
+        "Equity_%": "11.37338",
+        "Relative_to_Category": "8.34529"
+      },
+      "Energy": {
+        "Equity_%": "4.08573",
+        "Relative_to_Category": "4.51578"
+      },
+      "Industrials": {
+        "Equity_%": "7.06952",
+        "Relative_to_Category": "10.16469"
+      },
+      "Technology": {
+        "Equity_%": "27.56499",
+        "Relative_to_Category": "24.81528"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "7.69377",
+        "Relative_to_Category": "6.38102"
+      },
+      "Healthcare": {
+        "Equity_%": "7.46791",
+        "Relative_to_Category": "10.8125"
+      },
+      "Utilities": {
+        "Equity_%": "3.66913",
+        "Relative_to_Category": "2.90477"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "2.54315",
+        "Relative_to_Category": "4.27674"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "3.06095",
+        "Relative_to_Category": "4.8682"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "4.27452",
+        "Relative_to_Category": "6.58675"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "3.66322",
+        "Relative_to_Category": "3.86104"
+      },
+      "Price": {
+        "Fund_%": "97.73923",
+        "Relative_to_Category": "97.81484"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "4.05048",
+        "Relative_to_Category": "4.83684"
+      }
+    },
+    "Holdings_Count": 22,
+    "Top_10_Holdings": {
+      "SPMO.US": {
+        "Code": "SPMO",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Momentum ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.60333
+      },
+      "VUG.MX": {
+        "Code": "VUG",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 8.20585
+      },
+      "XLG.US": {
+        "Code": "XLG",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Top 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.25846
+      },
+      "VONG.US": {
+        "Code": "VONG",
+        "Exchange": "US",
+        "Name": "Vanguard Russell 1000 Growth Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.85608
+      },
+      "AOR.US": {
+        "Code": "AOR",
+        "Exchange": "US",
+        "Name": "iShares Core Growth Allocation ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.12444
+      },
+      "CIU.US": {
+        "Code": "CIU",
+        "Exchange": "US",
+        "Name": "iShares Intermediate Credit Bond ETF",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.78939
+      },
+      "VTIP.MX": {
+        "Code": "VTIP",
+        "Exchange": "MX",
+        "Name": "Vanguard Malvern Funds - Vanguard Short-Term Inflation-Protected Securities ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.36111
+      },
+      "FTSL.US": {
+        "Code": "FTSL",
+        "Exchange": "US",
+        "Name": "First Trust Senior Loan Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.35131
+      },
+      "USIG.US": {
+        "Code": "USIG",
+        "Exchange": "US",
+        "Name": "iShares Broad USD Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.30797
+      },
+      "JAAA.US": {
+        "Code": "JAAA",
+        "Exchange": "US",
+        "Name": "Janus Detroit Street Trust - Janus Henderson AAA CLO ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.19083
+      }
+    },
+    "Holdings": {
+      "SPMO.US": {
+        "Code": "SPMO",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Momentum ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.60333
+      },
+      "VUG.MX": {
+        "Code": "VUG",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 8.20585
+      },
+      "XLG.US": {
+        "Code": "XLG",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Top 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.25846
+      },
+      "VONG.US": {
+        "Code": "VONG",
+        "Exchange": "US",
+        "Name": "Vanguard Russell 1000 Growth Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.85608
+      },
+      "AOR.US": {
+        "Code": "AOR",
+        "Exchange": "US",
+        "Name": "iShares Core Growth Allocation ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.12444
+      },
+      "CIU.US": {
+        "Code": "CIU",
+        "Exchange": "US",
+        "Name": "iShares Intermediate Credit Bond ETF",
+        "Sector": "Other",
+        "Industry": "Other",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.78939
+      },
+      "VTIP.MX": {
+        "Code": "VTIP",
+        "Exchange": "MX",
+        "Name": "Vanguard Malvern Funds - Vanguard Short-Term Inflation-Protected Securities ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 5.36111
+      },
+      "FTSL.US": {
+        "Code": "FTSL",
+        "Exchange": "US",
+        "Name": "First Trust Senior Loan Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.35131
+      },
+      "USIG.US": {
+        "Code": "USIG",
+        "Exchange": "US",
+        "Name": "iShares Broad USD Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.30797
+      },
+      "JAAA.US": {
+        "Code": "JAAA",
+        "Exchange": "US",
+        "Name": "Janus Detroit Street Trust - Janus Henderson AAA CLO ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.19083
+      },
+      "STIP.US": {
+        "Code": "STIP",
+        "Exchange": "US",
+        "Name": "iShares 0-5 Year TIPS Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.13409
+      },
+      "IDV.MX": {
+        "Code": "IDV",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares International Select Dividend ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.27272
+      },
+      "EFV.MX": {
+        "Code": "EFV",
+        "Exchange": "MX",
+        "Name": "iShares MSCI EAFE Value ETF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.22095
+      },
+      "EFAV.MX": {
+        "Code": "EFAV",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares MSCI EAFE Min Vol Factor ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.08248
+      },
+      "HDV.MX": {
+        "Code": "HDV",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares Core High Dividend ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.06605
+      },
+      "STPZ.US": {
+        "Code": "STPZ",
+        "Exchange": "US",
+        "Name": "PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.73079
+      },
+      "FLTR.US": {
+        "Code": "FLTR",
+        "Exchange": "US",
+        "Name": "VanEck Investment Grade Floating Rate ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.63708
+      },
+      "MINT.US": {
+        "Code": "MINT",
+        "Exchange": "US",
+        "Name": "PIMCO Enhanced Short Maturity Active Exchange-Traded Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.55091
+      },
+      "TDTT.US": {
+        "Code": "TDTT",
+        "Exchange": "US",
+        "Name": "FlexShares iBoxx 3-Year Target Duration TIPS Index Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.05832
+      },
+      "BNDX.MX": {
+        "Code": "BNDX",
+        "Exchange": "MX",
+        "Name": "Vanguard Charlotte Funds - Vanguard Total International Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.99759
+      },
+      "IEUR.US": {
+        "Code": "IEUR",
+        "Exchange": "US",
+        "Name": "iShares Core MSCI Europe ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.78358
+      },
+      "IWY.US": {
+        "Code": "IWY",
+        "Exchange": "US",
+        "Name": "iShares Russell Top 200 Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.21819
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "18.00076",
+        "Price/Book": "2.7417",
+        "Price/Sales": "2.18653",
+        "Price/Cash Flow": "11.18614",
+        "Dividend-Yield Factor": "2.37131"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.0827",
+        "Price/Book": "3.01025",
+        "Price/Sales": "2.06073",
+        "Price/Cash Flow": "11.208",
+        "Dividend-Yield Factor": "1.92603"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.8187",
+        "Historical Earnings Growth": "7.53692",
+        "Sales Growth": "4.73113",
+        "Cash-Flow Growth": "4.58241",
+        "Book-Value Growth": "5.98123"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.60343",
+        "Historical Earnings Growth": "7.84075",
+        "Sales Growth": "6.23848",
+        "Cash-Flow Growth": "5.33928",
+        "Book-Value Growth": "6.6678"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "9.36",
+      "3y_Volatility": "9.23",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.09",
+      "Returns_YTD": "-5.36",
+      "Returns_1Y": "6.16",
+      "Returns_3Y": "6.79",
+      "Returns_5Y": "7.48",
+      "Returns_10Y": "5.87"
+    }
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "General": {
+    "Code": "FLAU",
+    "Type": "ETF",
+    "Name": "Franklin FTSE Australia ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00J3M8WZ9",
+    "Description": "Under normal market conditions, the fund invests at least 80% of its assets in the component securities of the FTSE Australia Capped Index and in depositary receipts representing such securities. The FTSE Australia Capped Index is based on the FTSE Australia Index and is designed to measure the performance of Australian large- and mid-capitalization stocks. The fund is non-diversified.",
+    "Category": "Miscellaneous Region",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.23,
+    "52WeekHigh": 31.6035,
+    "52WeekLow": 24.41,
+    "50DayMA": 28.269,
+    "200DayMA": 29.53
+  },
+  "ETF_Data": {
+    "ISIN": "US35473P8436",
+    "Company_Name": "Franklin Templeton",
+    "Company_URL": "",
+    "ETF_URL": "",
+    "Domicile": "",
+    "Index_Name": null,
+    "Yield": "3.240000",
+    "Dividend_Paying_Frequency": "",
+    "Inception_Date": "2017-11-02",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00090",
+    "AnnualHoldingsTurnover": "0.05880",
+    "TotalAssets": "57686629.00",
+    "Average_Mkt_Cap_Mil": "35024.74005",
+    "Market_Capitalisation": {
+      "Mega": "51.21909",
+      "Big": "30.20099",
+      "Medium": "15.34007",
+      "Small": "0.30844",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.02401",
+        "Short_%": "0.00773",
+        "Net_Assets_%": "0.01628"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.13999",
+        "Short_%": "0",
+        "Net_Assets_%": "99.13999"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0.84373",
+        "Short_%": "0",
+        "Net_Assets_%": "0.84373"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0.844",
+        "Relative_to_Category": "56.954"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "7.95856"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "12.515"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.974"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.801"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "99.156",
+        "Relative_to_Category": "3.163"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "6.837"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.806"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "6.992"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "17.82627",
+        "Relative_to_Category": "10.45529"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "7.80254",
+        "Relative_to_Category": "6.61527"
+      },
+      "Financial Services": {
+        "Equity_%": "39.19834",
+        "Relative_to_Category": "30.62086"
+      },
+      "Real Estate": {
+        "Equity_%": "6.80951",
+        "Relative_to_Category": "1.5495"
+      },
+      "Communication Services": {
+        "Equity_%": "2.59884",
+        "Relative_to_Category": "2.89435"
+      },
+      "Energy": {
+        "Equity_%": "1.98983",
+        "Relative_to_Category": "11.55103"
+      },
+      "Industrials": {
+        "Equity_%": "6.24036",
+        "Relative_to_Category": "13.10618"
+      },
+      "Technology": {
+        "Equity_%": "3.18434",
+        "Relative_to_Category": "9.61661"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.28879",
+        "Relative_to_Category": "7.09512"
+      },
+      "Healthcare": {
+        "Equity_%": "8.40252",
+        "Relative_to_Category": "3.5136"
+      },
+      "Utilities": {
+        "Equity_%": "1.65866",
+        "Relative_to_Category": "2.98218"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.335"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.335"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.20129"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.53"
+      }
+    },
+    "Holdings_Count": 48,
+    "Top_10_Holdings": {
+      "CBA.AU": {
+        "Code": "CBA",
+        "Exchange": "AU",
+        "Name": "Commonwealth Bank Of Australia",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 13.17228
+      },
+      "BHP.AU": {
+        "Code": "BHP",
+        "Exchange": "AU",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 8.87099
+      },
+      "CSL.AU": {
+        "Code": "CSL",
+        "Exchange": "AU",
+        "Name": "CSL Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 5.37105
+      },
+      "NAB.AU": {
+        "Code": "NAB",
+        "Exchange": "AU",
+        "Name": "National Australia Bank Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 5.26923
+      },
+      "WBC.AU": {
+        "Code": "WBC",
+        "Exchange": "AU",
+        "Name": "Westpac Banking Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 4.9314
+      },
+      "WES.AU": {
+        "Code": "WES",
+        "Exchange": "AU",
+        "Name": "Wesfarmers Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Home Improvement Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 4.31311
+      },
+      "ANZ.AU": {
+        "Code": "ANZ",
+        "Exchange": "AU",
+        "Name": "Australia and New Zealand Banking Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 3.94579
+      },
+      "MQG.AU": {
+        "Code": "MQG",
+        "Exchange": "AU",
+        "Name": "Macquarie Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 3.32363
+      },
+      "GMG.AU": {
+        "Code": "GMG",
+        "Exchange": "AU",
+        "Name": "Goodman Group",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 2.90932
+      },
+      "RIO.AU": {
+        "Code": "RIO",
+        "Exchange": "AU",
+        "Name": "Rio Tinto Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 2.02161
+      }
+    },
+    "Holdings": {
+      "CBA.AU": {
+        "Code": "CBA",
+        "Exchange": "AU",
+        "Name": "Commonwealth Bank Of Australia",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 13.17228
+      },
+      "BHP.AU": {
+        "Code": "BHP",
+        "Exchange": "AU",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 8.87099
+      },
+      "CSL.AU": {
+        "Code": "CSL",
+        "Exchange": "AU",
+        "Name": "CSL Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 5.37105
+      },
+      "NAB.AU": {
+        "Code": "NAB",
+        "Exchange": "AU",
+        "Name": "National Australia Bank Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 5.26923
+      },
+      "WBC.AU": {
+        "Code": "WBC",
+        "Exchange": "AU",
+        "Name": "Westpac Banking Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 4.9314
+      },
+      "WES.AU": {
+        "Code": "WES",
+        "Exchange": "AU",
+        "Name": "Wesfarmers Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Home Improvement Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 4.31311
+      },
+      "ANZ.AU": {
+        "Code": "ANZ",
+        "Exchange": "AU",
+        "Name": "Australia and New Zealand Banking Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 3.94579
+      },
+      "MQG.AU": {
+        "Code": "MQG",
+        "Exchange": "AU",
+        "Name": "Macquarie Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 3.32363
+      },
+      "GMG.AU": {
+        "Code": "GMG",
+        "Exchange": "AU",
+        "Name": "Goodman Group",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 2.90932
+      },
+      "RIO.AU": {
+        "Code": "RIO",
+        "Exchange": "AU",
+        "Name": "Rio Tinto Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 2.02161
+      },
+      "TCL.AU": {
+        "Code": "TCL",
+        "Exchange": "AU",
+        "Name": "Transurban Group",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 2.01581
+      },
+      "ALL.AU": {
+        "Code": "ALL",
+        "Exchange": "AU",
+        "Name": "Aristocrat Leisure Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.79434
+      },
+      "WOW.AU": {
+        "Code": "WOW",
+        "Exchange": "AU",
+        "Name": "Woolworths Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.77547
+      },
+      "QBE.AU": {
+        "Code": "QBE",
+        "Exchange": "AU",
+        "Name": "Qbe Insurance Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.5577
+      },
+      "BXB.AU": {
+        "Code": "BXB",
+        "Exchange": "AU",
+        "Name": "Brambles Ltd",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.39928
+      },
+      "COL.AU": {
+        "Code": "COL",
+        "Exchange": "AU",
+        "Name": "Coles Group Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.28992
+      },
+      "XRO.AU": {
+        "Code": "XRO",
+        "Exchange": "AU",
+        "Name": "Xero Ltd",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.2568
+      },
+      "FMG.AU": {
+        "Code": "FMG",
+        "Exchange": "AU",
+        "Name": "Fortescue Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.17077
+      },
+      "NST.AU": {
+        "Code": "NST",
+        "Exchange": "AU",
+        "Name": "Northern Star Resources Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.15292
+      },
+      "CPU.AU": {
+        "Code": "CPU",
+        "Exchange": "AU",
+        "Name": "Computershare Ltd.",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.08927
+      },
+      "SUN.AU": {
+        "Code": "SUN",
+        "Exchange": "AU",
+        "Name": "Suncorp Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 1.02299
+      },
+      "STO.AU": {
+        "Code": "STO",
+        "Exchange": "AU",
+        "Name": "Santos Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.94323
+      },
+      "IAG.AU": {
+        "Code": "IAG",
+        "Exchange": "AU",
+        "Name": "Insurance Australia Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.92922
+      },
+      "WTC.AU": {
+        "Code": "WTC",
+        "Exchange": "AU",
+        "Name": "WiseTech Global Limited",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.88725
+      },
+      "SCG.AU": {
+        "Code": "SCG",
+        "Exchange": "AU",
+        "Name": "Scentre Group Ltd",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.87173
+      },
+      "ORG.AU": {
+        "Code": "ORG",
+        "Exchange": "AU",
+        "Name": "Origin Energy Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.86433
+      },
+      "TLS.AU": {
+        "Code": "TLS",
+        "Exchange": "AU",
+        "Name": "Telstra Corporation Ltd.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.86003
+      },
+      "COH.AU": {
+        "Code": "COH",
+        "Exchange": "AU",
+        "Name": "Cochlear Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.79804
+      },
+      "JHX.AU": {
+        "Code": "JHX",
+        "Exchange": "AU",
+        "Name": "James Hardie Industries PLC",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.76145
+      },
+      "EVN.AU": {
+        "Code": "EVN",
+        "Exchange": "AU",
+        "Name": "Evolution Mining Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.69142
+      },
+      "PME.AU": {
+        "Code": "PME",
+        "Exchange": "AU",
+        "Name": "Pro Medicus Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Health Information Services",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.64615
+      },
+      "S32.AU": {
+        "Code": "S32",
+        "Exchange": "AU",
+        "Name": "South32 Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.63249
+      },
+      "ASX.AU": {
+        "Code": "ASX",
+        "Exchange": "AU",
+        "Name": "ASX Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.6304
+      },
+      "CAR.AU": {
+        "Code": "CAR",
+        "Exchange": "AU",
+        "Name": "CAR GROUP LIMITED",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.61268
+      },
+      "SGP.AU": {
+        "Code": "SGP",
+        "Exchange": "AU",
+        "Name": "Stockland Corporation Ltd",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.60412
+      },
+      "MPL.AU": {
+        "Code": "MPL",
+        "Exchange": "AU",
+        "Name": "Medibank Private Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.59657
+      },
+      "SHL.AU": {
+        "Code": "SHL",
+        "Exchange": "AU",
+        "Name": "Sonic Healthcare Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.58374
+      },
+      "REA.AU": {
+        "Code": "REA",
+        "Exchange": "AU",
+        "Name": "Rea Group Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.58039
+      },
+      "TLC.AU": {
+        "Code": "TLC",
+        "Exchange": "AU",
+        "Name": "Lottery Corporation Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.54147
+      },
+      "JBH.AU": {
+        "Code": "JBH",
+        "Exchange": "AU",
+        "Name": "JB Hi-Fi Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.52424
+      },
+      "APA.AU": {
+        "Code": "APA",
+        "Exchange": "AU",
+        "Name": "APA Group",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.47917
+      },
+      "BSL.AU": {
+        "Code": "BSL",
+        "Exchange": "AU",
+        "Name": "Bluescope Steel Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.47372
+      },
+      "TNE.AU": {
+        "Code": "TNE",
+        "Exchange": "AU",
+        "Name": "Technology One Ltd",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.46908
+      },
+      "SOL.AU": {
+        "Code": "SOL",
+        "Exchange": "AU",
+        "Name": "Washington H Soul Pattinson&Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.42471
+      },
+      "VCX.AU": {
+        "Code": "VCX",
+        "Exchange": "AU",
+        "Name": "Vicinity Centres Re Ltd",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Retail",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.41606
+      },
+      "GPT.AU": {
+        "Code": "GPT",
+        "Exchange": "AU",
+        "Name": "GPT Group",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.41272
+      },
+      "ORI.AU": {
+        "Code": "ORI",
+        "Exchange": "AU",
+        "Name": "Orica Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.41212
+      },
+      "MGR.AU": {
+        "Code": "MGR",
+        "Exchange": "AU",
+        "Name": "Mirvac Group",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.41195
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "18.02769",
+        "Price/Book": "2.34635",
+        "Price/Sales": "2.43456",
+        "Price/Cash Flow": "11.14217",
+        "Dividend-Yield Factor": "3.75767"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "14.50347",
+        "Price/Book": "1.81189",
+        "Price/Sales": "1.70365",
+        "Price/Cash Flow": "8.39788",
+        "Dividend-Yield Factor": "3.22816"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "6.0385",
+        "Historical Earnings Growth": "-5.47248",
+        "Sales Growth": "6.09029",
+        "Cash-Flow Growth": "0.59077",
+        "Book-Value Growth": "3.83575"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.69884",
+        "Historical Earnings Growth": "1.55707",
+        "Sales Growth": "5.73617",
+        "Cash-Flow Growth": "296.37371",
+        "Book-Value Growth": "6.8197"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "",
+      "Category_Benchmark": "",
+      "Sustainability_Ratio": ""
+    },
+    "Performance": {
+      "1y_Volatility": "17.46",
+      "3y_Volatility": "21.02",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.06",
+      "Returns_YTD": "7.18",
+      "Returns_1Y": "5.02",
+      "Returns_3Y": "6.29",
+      "Returns_5Y": "12.70",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

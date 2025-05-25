@@ -1,0 +1,840 @@
+{
+  "General": {
+    "Code": "MGMT",
+    "Type": "ETF",
+    "Name": "Ballast Small/Mid Cap ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00YC6P304",
+    "Description": "Under normal circumstances, the fund invests at least 80% of the value of its net assets (plus borrowings for investment purposes) in equity securities (principally common stocks) of domestic companies with small to medium market capitalizations. It may also invest all or substantially all of its assets in cash and cash equivalents, including money market funds and other short-term fixed income investments, in seeking to protect principal, or when, in the Adviser's opinion, there are not sufficient companies appropriate for investment.",
+    "Category": "Small Blend",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.05,
+    "52WeekHigh": 44.2707,
+    "52WeekLow": 32.09,
+    "50DayMA": 37.4315,
+    "200DayMA": 39.4093
+  },
+  "ETF_Data": {
+    "ISIN": "US90470L5509",
+    "Company_Name": "Ballast",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "0.580000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2020-11-30",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.01100",
+    "AnnualHoldingsTurnover": "0.25000",
+    "TotalAssets": "150576313.00",
+    "Average_Mkt_Cap_Mil": "1586.43292",
+    "Market_Capitalisation": {
+      "Mega": "0",
+      "Big": "1.73529",
+      "Medium": "4.63532",
+      "Small": "25.67444",
+      "Micro": "65.32846"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.84833",
+        "Short_%": "0",
+        "Net_Assets_%": "1.84833"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "4.88573",
+        "Short_%": "0",
+        "Net_Assets_%": "4.88573"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "93.26592",
+        "Short_%": "0",
+        "Net_Assets_%": "93.26592"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "96.286",
+        "Relative_to_Category": "98.331"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.9036",
+        "Relative_to_Category": "0.29309"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.157"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.122"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.072"
+      },
+      "Asia Emerging": {
+        "Equity_%": "1.768",
+        "Relative_to_Category": "0.314"
+      },
+      "Latin America": {
+        "Equity_%": "1.042",
+        "Relative_to_Category": "0.712"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "13.10541",
+        "Relative_to_Category": "4.36464"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "10.36677",
+        "Relative_to_Category": "11.35476"
+      },
+      "Financial Services": {
+        "Equity_%": "12.69522",
+        "Relative_to_Category": "18.35288"
+      },
+      "Real Estate": {
+        "Equity_%": "2.04388",
+        "Relative_to_Category": "6.67725"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.26888"
+      },
+      "Energy": {
+        "Equity_%": "14.88788",
+        "Relative_to_Category": "4.64809"
+      },
+      "Industrials": {
+        "Equity_%": "20.1444",
+        "Relative_to_Category": "17.93084"
+      },
+      "Technology": {
+        "Equity_%": "16.64919",
+        "Relative_to_Category": "14.31033"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.90721",
+        "Relative_to_Category": "4.45749"
+      },
+      "Healthcare": {
+        "Equity_%": "5.20003",
+        "Relative_to_Category": "12.96431"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.67052"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "1.91"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.12"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.32"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.18863"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.87"
+      }
+    },
+    "Holdings_Count": 49,
+    "Top_10_Holdings": {
+      "NRP.US": {
+        "Code": "NRP",
+        "Exchange": "US",
+        "Name": "Natural Resource Partners LP",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.10014
+      },
+      "WSTG.US": {
+        "Code": "WSTG",
+        "Exchange": "US",
+        "Name": "Wayside Technology Group Inc",
+        "Sector": "Technology",
+        "Industry": "Integrated Hardware & Software",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.75698
+      },
+      "TPB.US": {
+        "Code": "TPB",
+        "Exchange": "US",
+        "Name": "Turning Point Brands Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.76763
+      },
+      "AGM.US": {
+        "Code": "AGM",
+        "Exchange": "US",
+        "Name": "Federal Agricultural Mortgage",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.63407
+      },
+      "CBNK.US": {
+        "Code": "CBNK",
+        "Exchange": "US",
+        "Name": "Capital Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.4563
+      },
+      "SOI.US": {
+        "Code": "SOI",
+        "Exchange": "US",
+        "Name": "Solaris Oilfield Infrastructure Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.3998
+      },
+      "CVCO.US": {
+        "Code": "CVCO",
+        "Exchange": "US",
+        "Name": "Cavco Industries Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.30437
+      },
+      "BELFB.US": {
+        "Code": "BELFB",
+        "Exchange": "US",
+        "Name": "Bel Fuse B Inc",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.66945
+      },
+      "AZZ.US": {
+        "Code": "AZZ",
+        "Exchange": "US",
+        "Name": "AZZ Incorporated",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.61034
+      },
+      "GEO.US": {
+        "Code": "GEO",
+        "Exchange": "US",
+        "Name": "Geo Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Security & Protection Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.4988
+      }
+    },
+    "Holdings": {
+      "NRP.US": {
+        "Code": "NRP",
+        "Exchange": "US",
+        "Name": "Natural Resource Partners LP",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.10014
+      },
+      "WSTG.US": {
+        "Code": "WSTG",
+        "Exchange": "US",
+        "Name": "Wayside Technology Group Inc",
+        "Sector": "Technology",
+        "Industry": "Integrated Hardware & Software",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.75698
+      },
+      "TPB.US": {
+        "Code": "TPB",
+        "Exchange": "US",
+        "Name": "Turning Point Brands Inc",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.76763
+      },
+      "AGM.US": {
+        "Code": "AGM",
+        "Exchange": "US",
+        "Name": "Federal Agricultural Mortgage",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.63407
+      },
+      "CBNK.US": {
+        "Code": "CBNK",
+        "Exchange": "US",
+        "Name": "Capital Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.4563
+      },
+      "SOI.US": {
+        "Code": "SOI",
+        "Exchange": "US",
+        "Name": "Solaris Oilfield Infrastructure Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Equipment & Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.3998
+      },
+      "CVCO.US": {
+        "Code": "CVCO",
+        "Exchange": "US",
+        "Name": "Cavco Industries Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.30437
+      },
+      "BELFB.US": {
+        "Code": "BELFB",
+        "Exchange": "US",
+        "Name": "Bel Fuse B Inc",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.66945
+      },
+      "AZZ.US": {
+        "Code": "AZZ",
+        "Exchange": "US",
+        "Name": "AZZ Incorporated",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.61034
+      },
+      "GEO.US": {
+        "Code": "GEO",
+        "Exchange": "US",
+        "Name": "Geo Group Inc",
+        "Sector": "Industrials",
+        "Industry": "Security & Protection Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.4988
+      },
+      "RGLD.US": {
+        "Code": "RGLD",
+        "Exchange": "US",
+        "Name": "Royal Gold Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Gold",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.39655
+      },
+      "EXP.US": {
+        "Code": "EXP",
+        "Exchange": "US",
+        "Name": "Eagle Materials Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Building Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.3166
+      },
+      "PATK.US": {
+        "Code": "PATK",
+        "Exchange": "US",
+        "Name": "Patrick Industries Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Furnishings, Fixtures & Appliances",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.2492
+      },
+      "BCO.US": {
+        "Code": "BCO",
+        "Exchange": "US",
+        "Name": "Brinks Company",
+        "Sector": "Industrials",
+        "Industry": "Security & Protection Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.24038
+      },
+      "PQG.US": {
+        "Code": "PQG",
+        "Exchange": "US",
+        "Name": "Ecovyst Inc.",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.0605
+      },
+      "EPR.US": {
+        "Code": "EPR",
+        "Exchange": "US",
+        "Name": "EPR Properties",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01343
+      },
+      "MTG.US": {
+        "Code": "MTG",
+        "Exchange": "US",
+        "Name": "MGIC Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.01224
+      },
+      "CASS.US": {
+        "Code": "CASS",
+        "Exchange": "US",
+        "Name": "Cass Information Systems Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98868
+      },
+      "LSTR.US": {
+        "Code": "LSTR",
+        "Exchange": "US",
+        "Name": "Landstar System Inc",
+        "Sector": "Industrials",
+        "Industry": "Integrated Freight & Logistics",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.96237
+      },
+      "MTUS.US": {
+        "Code": "MTUS",
+        "Exchange": "US",
+        "Name": "Metallus, Inc",
+        "Sector": "Basic Materials",
+        "Industry": "Steel",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91289
+      },
+      "CMPO.US": {
+        "Code": "CMPO",
+        "Exchange": "US",
+        "Name": "CompoSecure Inc",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.87189
+      },
+      "CNR.US": {
+        "Code": "CNR",
+        "Exchange": "US",
+        "Name": "Core Natural Resources, Inc.",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.80785
+      },
+      "G.US": {
+        "Code": "G",
+        "Exchange": "US",
+        "Name": "Genpact Limited",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.72936
+      },
+      "LCY.US": {
+        "Code": "LCY",
+        "Exchange": "US",
+        "Name": "Landcadia Holdings III Inc",
+        "Sector": "Financial Services",
+        "Industry": "Shell Companies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.69141
+      },
+      "GSM.US": {
+        "Code": "GSM",
+        "Exchange": "US",
+        "Name": "Ferroglobe PLC",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.6712
+      },
+      "RCMT.US": {
+        "Code": "RCMT",
+        "Exchange": "US",
+        "Name": "RCM Technologies Inc",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.60526
+      },
+      "EPSN.US": {
+        "Code": "EPSN",
+        "Exchange": "US",
+        "Name": "Epsilon Energy Ltd",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49956
+      },
+      "CCSI.US": {
+        "Code": "CCSI",
+        "Exchange": "US",
+        "Name": "Consensus Cloud Solutions Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.41011
+      },
+      "COLL.US": {
+        "Code": "COLL",
+        "Exchange": "US",
+        "Name": "Collegium Pharmaceutical Inc",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.34126
+      },
+      "TRIP.US": {
+        "Code": "TRIP",
+        "Exchange": "US",
+        "Name": "TripAdvisor Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Travel Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.33671
+      },
+      "MBIN.US": {
+        "Code": "MBIN",
+        "Exchange": "US",
+        "Name": "Merchants Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.28975
+      },
+      "BLCO.US": {
+        "Code": "BLCO",
+        "Exchange": "US",
+        "Name": "Bausch + Lomb Corp",
+        "Sector": "Healthcare",
+        "Industry": "Medical Instruments & Supplies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.27578
+      },
+      "KN.US": {
+        "Code": "KN",
+        "Exchange": "US",
+        "Name": "Knowles Cor",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.2711
+      },
+      "IMXI.US": {
+        "Code": "IMXI",
+        "Exchange": "US",
+        "Name": "International Money Express Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.26285
+      },
+      "CRMT.US": {
+        "Code": "CRMT",
+        "Exchange": "US",
+        "Name": "Americas Car-Mart Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto & Truck Dealerships",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.25835
+      },
+      "OZK.US": {
+        "Code": "OZK",
+        "Exchange": "US",
+        "Name": "Bank Ozk",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.22942
+      },
+      "APSG.US": {
+        "Code": "APSG",
+        "Exchange": "US",
+        "Name": "Apollo Strategic Growth Capital",
+        "Sector": "Financial Services",
+        "Industry": "Shell Companies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.1723
+      },
+      "TEX.US": {
+        "Code": "TEX",
+        "Exchange": "US",
+        "Name": "Terex Corporation",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.12594
+      },
+      "EXTR.US": {
+        "Code": "EXTR",
+        "Exchange": "US",
+        "Name": "Extreme Networks Inc",
+        "Sector": "Technology",
+        "Industry": "Communication Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.12526
+      },
+      "IPGP.US": {
+        "Code": "IPGP",
+        "Exchange": "US",
+        "Name": "IPG Photonics Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.11164
+      },
+      "CBT.US": {
+        "Code": "CBT",
+        "Exchange": "US",
+        "Name": "Cabot Corporation",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.10346
+      },
+      "IRMD.US": {
+        "Code": "IRMD",
+        "Exchange": "US",
+        "Name": "Iradimed Co",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.09556
+      },
+      "BIOX.US": {
+        "Code": "BIOX",
+        "Exchange": "US",
+        "Name": "Bioceres Crop Solutions Corp",
+        "Sector": "Basic Materials",
+        "Industry": "Agricultural Inputs",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.04678
+      },
+      "BRKR.US": {
+        "Code": "BRKR",
+        "Exchange": "US",
+        "Name": "Bruker Corporation",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.03487
+      },
+      "DCI.US": {
+        "Code": "DCI",
+        "Exchange": "US",
+        "Name": "Donaldson Company Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.03219
+      },
+      "DOX.US": {
+        "Code": "DOX",
+        "Exchange": "US",
+        "Name": "Amdocs Ltd",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.03103
+      },
+      "IMKTA.US": {
+        "Code": "IMKTA",
+        "Exchange": "US",
+        "Name": "Ingles Markets Incorporated",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.98929
+      },
+      "SB9.F": {
+        "Code": "SB9",
+        "Exchange": "F",
+        "Name": "BMC Stock Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.98171
+      },
+      "LII.US": {
+        "Code": "LII",
+        "Exchange": "US",
+        "Name": "Lennox International Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.94178
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "12.2375",
+        "Price/Book": "1.68371",
+        "Price/Sales": "1.18127",
+        "Price/Cash Flow": "6.68113",
+        "Dividend-Yield Factor": "1.45291"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "14.67909",
+        "Price/Book": "2.04151",
+        "Price/Sales": "1.37789",
+        "Price/Cash Flow": "9.19963",
+        "Dividend-Yield Factor": "1.34071"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.84353",
+        "Historical Earnings Growth": "-6.22321",
+        "Sales Growth": "2.4986",
+        "Cash-Flow Growth": "-4.47556",
+        "Book-Value Growth": "7.67852"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.09086",
+        "Historical Earnings Growth": "7.22064",
+        "Sales Growth": "6.36147",
+        "Cash-Flow Growth": "1.9654",
+        "Book-Value Growth": "8.32218"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "21.44",
+      "3y_Volatility": "20.88",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.10",
+      "Returns_YTD": "-9.11",
+      "Returns_1Y": "3.65",
+      "Returns_3Y": "6.15",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

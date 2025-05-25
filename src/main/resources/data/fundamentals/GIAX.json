@@ -1,0 +1,570 @@
+{
+  "General": {
+    "Code": "GIAX",
+    "Type": "ETF",
+    "Name": "Nicholas Global Equity and Income ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01P0XR910",
+    "Description": "The fund\"s strategy includes two components: (i) holding shares of unaffiliated passively managed ETFs that seek to provide exposure to a range of global equity securities (\"Index ETFs\") and (ii) selling daily index credit call spreads (\"Index Call Spreads\") on one or more US equity indices. The fund is non-diversified.",
+    "Category": "Derivative Income",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 18.3184,
+    "52WeekLow": 13.9188,
+    "50DayMA": 16.6181,
+    "200DayMA": 18.6879
+  },
+  "ETF_Data": {
+    "ISIN": "US88636J1622",
+    "Company_Name": "Nicholas Wealth Management",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": null,
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2024-07-29",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": null,
+    "AnnualHoldingsTurnover": null,
+    "TotalAssets": "56570635.00",
+    "Average_Mkt_Cap_Mil": "178696.22467",
+    "Market_Capitalisation": {
+      "Mega": "44.99066",
+      "Big": "27.68562",
+      "Medium": "22.37684",
+      "Small": "3.07397",
+      "Micro": "0.88637"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "3.59391",
+        "Short_%": "1.08995",
+        "Net_Assets_%": "2.50396"
+      },
+      "NotClassified": {
+        "Long_%": "8.0E-5",
+        "Short_%": "0",
+        "Net_Assets_%": "8.0E-5"
+      },
+      "Stock non-US": {
+        "Long_%": "24.00191",
+        "Short_%": "0.02071",
+        "Net_Assets_%": "23.9812"
+      },
+      "Other": {
+        "Long_%": "0.01598",
+        "Short_%": "0",
+        "Net_Assets_%": "0.01598"
+      },
+      "Stock US": {
+        "Long_%": "77.6254",
+        "Short_%": "4.12662",
+        "Net_Assets_%": "73.49878"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "76.633",
+        "Relative_to_Category": "94.378"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.9195",
+        "Relative_to_Category": "1.40165"
+      },
+      "Europe Developed": {
+        "Equity_%": "9.509",
+        "Relative_to_Category": "2.698"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.586",
+        "Relative_to_Category": "0.003"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "2.984",
+        "Relative_to_Category": "0.018"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.429"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.1"
+      },
+      "Asia Developed": {
+        "Equity_%": "3.616",
+        "Relative_to_Category": "0.44"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.663",
+        "Relative_to_Category": "0.352"
+      },
+      "Latin America": {
+        "Equity_%": "5.089",
+        "Relative_to_Category": "0.18"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "1.70329",
+        "Relative_to_Category": "2.52642"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "12.78971",
+        "Relative_to_Category": "10.38703"
+      },
+      "Financial Services": {
+        "Equity_%": "10.35555",
+        "Relative_to_Category": "13.06094"
+      },
+      "Real Estate": {
+        "Equity_%": "1.74586",
+        "Relative_to_Category": "1.98508"
+      },
+      "Communication Services": {
+        "Equity_%": "6.75349",
+        "Relative_to_Category": "9.21424"
+      },
+      "Energy": {
+        "Equity_%": "2.39656",
+        "Relative_to_Category": "4.06551"
+      },
+      "Industrials": {
+        "Equity_%": "7.57162",
+        "Relative_to_Category": "9.07824"
+      },
+      "Technology": {
+        "Equity_%": "45.39873",
+        "Relative_to_Category": "29.00948"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.11057",
+        "Relative_to_Category": "7.34721"
+      },
+      "Healthcare": {
+        "Equity_%": "6.0838",
+        "Relative_to_Category": "10.03653"
+      },
+      "Utilities": {
+        "Equity_%": "2.09083",
+        "Relative_to_Category": "3.28932"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "9.15347"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "9.29942"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "14.45833"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.19625"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.80667"
+      }
+    },
+    "Holdings_Count": 22,
+    "Top_10_Holdings": {
+      "VGT.MX": {
+        "Code": "VGT",
+        "Exchange": "MX",
+        "Name": "Vanguard World Fund - Vanguard Information Technology ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 15.16975
+      },
+      "VOT.US": {
+        "Code": "VOT",
+        "Exchange": "US",
+        "Name": "Vanguard Mid-Cap Growth Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 15.02889
+      },
+      "VOO.MX": {
+        "Code": "VOO",
+        "Exchange": "MX",
+        "Name": "Vanguard S&P 500 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 12.53194
+      },
+      "VIG.US": {
+        "Code": "VIG",
+        "Exchange": "US",
+        "Name": "Vanguard Dividend Appreciation Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.38258
+      },
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.71292
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.36722
+      },
+      "ARGT.US": {
+        "Code": "ARGT",
+        "Exchange": "US",
+        "Name": "Global X MSCI Argentina ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.12996
+      },
+      "ISRA.US": {
+        "Code": "ISRA",
+        "Exchange": "US",
+        "Name": "VanEck Israel ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.06365
+      },
+      "VGK.MX": {
+        "Code": "VGK",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Europe ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.01355
+      },
+      "FRDM.US": {
+        "Code": "FRDM",
+        "Exchange": "US",
+        "Name": "Freedom 100 Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.95406
+      }
+    },
+    "Holdings": {
+      "VGT.MX": {
+        "Code": "VGT",
+        "Exchange": "MX",
+        "Name": "Vanguard World Fund - Vanguard Information Technology ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 15.16975
+      },
+      "VOT.US": {
+        "Code": "VOT",
+        "Exchange": "US",
+        "Name": "Vanguard Mid-Cap Growth Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 15.02889
+      },
+      "VOO.MX": {
+        "Code": "VOO",
+        "Exchange": "MX",
+        "Name": "Vanguard S&P 500 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 12.53194
+      },
+      "VIG.US": {
+        "Code": "VIG",
+        "Exchange": "US",
+        "Name": "Vanguard Dividend Appreciation Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.38258
+      },
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.71292
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.36722
+      },
+      "ARGT.US": {
+        "Code": "ARGT",
+        "Exchange": "US",
+        "Name": "Global X MSCI Argentina ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.12996
+      },
+      "ISRA.US": {
+        "Code": "ISRA",
+        "Exchange": "US",
+        "Name": "VanEck Israel ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.06365
+      },
+      "VGK.MX": {
+        "Code": "VGK",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Europe ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.01355
+      },
+      "FRDM.US": {
+        "Code": "FRDM",
+        "Exchange": "US",
+        "Name": "Freedom 100 Emerging Markets ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.95406
+      },
+      "ADYEY.US": {
+        "Code": "ADYEY",
+        "Exchange": "US",
+        "Name": "Adyen\u00a0NV",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.2411
+      },
+      "FGXXX.US": {
+        "Code": "FGXXX",
+        "Exchange": "US",
+        "Name": "First American Funds Inc. - Government Obligations Fund",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.67561
+      },
+      "PLTR.US": {
+        "Code": "PLTR",
+        "Exchange": "US",
+        "Name": "Palantir Technologies Inc. Class A Common Stock",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.54985
+      },
+      "MSFT.US": {
+        "Code": "MSFT",
+        "Exchange": "US",
+        "Name": "Microsoft Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.17262
+      },
+      "TSM.US": {
+        "Code": "TSM",
+        "Exchange": "US",
+        "Name": "Taiwan Semiconductor Manufacturing",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.08518
+      },
+      "META.US": {
+        "Code": "META",
+        "Exchange": "US",
+        "Name": "Meta Platforms Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.93253
+      },
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.85703
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79872
+      },
+      "AAPL.US": {
+        "Code": "AAPL",
+        "Exchange": "US",
+        "Name": "Apple Inc",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.73186
+      },
+      "EWP.MX": {
+        "Code": "EWP",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares MSCI Spain ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.08292
+      },
+      "EWG.MX": {
+        "Code": "EWG",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares MSCI Germany ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.03556
+      },
+      "EWD.US": {
+        "Code": "EWD",
+        "Exchange": "US",
+        "Name": "iShares MSCI Sweden ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.99411
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "21.32475",
+        "Price/Book": "3.82739",
+        "Price/Sales": "3.00904",
+        "Price/Cash Flow": "13.81287",
+        "Dividend-Yield Factor": "1.42894"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "20.13318",
+        "Price/Book": "3.91514",
+        "Price/Sales": "2.46148",
+        "Price/Cash Flow": "13.84818",
+        "Dividend-Yield Factor": "1.83651"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "11.07019",
+        "Historical Earnings Growth": "12.30888",
+        "Sales Growth": "3.14956",
+        "Cash-Flow Growth": "909.07462",
+        "Book-Value Growth": "10.41793"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.96865",
+        "Historical Earnings Growth": "9.00868",
+        "Sales Growth": "7.14421",
+        "Cash-Flow Growth": "5.24683",
+        "Book-Value Growth": "7.89788"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "0.00",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "1.15",
+      "Returns_1Y": null,
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

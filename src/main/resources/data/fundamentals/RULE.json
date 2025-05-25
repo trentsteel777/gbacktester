@@ -1,0 +1,700 @@
+{
+  "General": {
+    "Code": "RULE",
+    "Type": "ETF",
+    "Name": "Collaborative Investment Series Trust - Adaptive Core ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG013B82N90",
+    "Description": "The fund invests in individual equity securities without regard to market capitalization and ETFs that invest in equity securities of any market capitalization including convertible equity securities and fixed income ETFs. The fund\"s portfolio may hold securities from issuers of any market capitalization, credit quality, maturity, or country. Fixed income securities may include securities with credit quality below investment grade (commonly referred to as \"junk bond\" credit quality).",
+    "Category": "Moderate Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.62,
+    "52WeekHigh": 23.64,
+    "52WeekLow": 18.63,
+    "50DayMA": 20.5607,
+    "200DayMA": 21.7905
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Mohrfunds",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "0.000000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2021-11-02",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.01100",
+    "AnnualHoldingsTurnover": "4.25000",
+    "TotalAssets": "13051410.00",
+    "Average_Mkt_Cap_Mil": "112698.84377",
+    "Market_Capitalisation": {
+      "Mega": "19.88865",
+      "Big": "33.38761",
+      "Medium": "37.61554",
+      "Small": "0.0687",
+      "Micro": "0.00149"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "5.86878",
+        "Short_%": "0.00481",
+        "Net_Assets_%": "5.86397"
+      },
+      "NotClassified": {
+        "Long_%": "0.00684",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00684"
+      },
+      "Stock non-US": {
+        "Long_%": "0.00485",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00485"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "90.96187",
+        "Short_%": "0",
+        "Net_Assets_%": "90.96187"
+      },
+      "Bond": {
+        "Long_%": "3.16234",
+        "Short_%": "0",
+        "Net_Assets_%": "3.16234"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "99.995",
+        "Relative_to_Category": "86.471"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.21329"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "6.148"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.04"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.203"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.959"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.428"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.306"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.967"
+      },
+      "Latin America": {
+        "Equity_%": "0.005",
+        "Relative_to_Category": "0.261"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0.12369",
+        "Relative_to_Category": "3.05196"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "5.79168",
+        "Relative_to_Category": "10.09488"
+      },
+      "Financial Services": {
+        "Equity_%": "19.33145",
+        "Relative_to_Category": "16.41124"
+      },
+      "Real Estate": {
+        "Equity_%": "0.01803",
+        "Relative_to_Category": "2.14047"
+      },
+      "Communication Services": {
+        "Equity_%": "4.19659",
+        "Relative_to_Category": "8.19201"
+      },
+      "Energy": {
+        "Equity_%": "0.11211",
+        "Relative_to_Category": "4.055"
+      },
+      "Industrials": {
+        "Equity_%": "28.22313",
+        "Relative_to_Category": "10.03349"
+      },
+      "Technology": {
+        "Equity_%": "16.57595",
+        "Relative_to_Category": "24.69959"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.74692",
+        "Relative_to_Category": "5.76702"
+      },
+      "Healthcare": {
+        "Equity_%": "18.38525",
+        "Relative_to_Category": "12.6184"
+      },
+      "Utilities": {
+        "Equity_%": "3.49521",
+        "Relative_to_Category": "2.93594"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0.75",
+        "Relative_to_Category": "5.07936"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.37361"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0.93",
+        "Relative_to_Category": "7.27099"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "4.47659",
+        "Relative_to_Category": "4.31493"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "97.24494"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "4.69",
+        "Relative_to_Category": "4.74915"
+      }
+    },
+    "Holdings_Count": 35,
+    "Top_10_Holdings": {
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.51996
+      },
+      "JPST.US": {
+        "Code": "JPST",
+        "Exchange": "US",
+        "Name": "JPMorgan Ultra-Short Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.5075
+      },
+      "ICE.US": {
+        "Code": "ICE",
+        "Exchange": "US",
+        "Name": "Intercontinental Exchange Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.81529
+      },
+      "RSG.US": {
+        "Code": "RSG",
+        "Exchange": "US",
+        "Name": "Republic Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Waste Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.63862
+      },
+      "APH.US": {
+        "Code": "APH",
+        "Exchange": "US",
+        "Name": "Amphenol Corporation",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.57381
+      },
+      "SPHQ.US": {
+        "Code": "SPHQ",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Quality ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.36392
+      },
+      "MOH.US": {
+        "Code": "MOH",
+        "Exchange": "US",
+        "Name": "Molina Healthcare Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.30624
+      },
+      "XLG.US": {
+        "Code": "XLG",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Top 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.24497
+      },
+      "IWF.US": {
+        "Code": "IWF",
+        "Exchange": "US",
+        "Name": "iShares Russell 1000 Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.16591
+      },
+      "CEG.US": {
+        "Code": "CEG",
+        "Exchange": "US",
+        "Name": "Constellation Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.15379
+      }
+    },
+    "Holdings": {
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.51996
+      },
+      "JPST.US": {
+        "Code": "JPST",
+        "Exchange": "US",
+        "Name": "JPMorgan Ultra-Short Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.5075
+      },
+      "ICE.US": {
+        "Code": "ICE",
+        "Exchange": "US",
+        "Name": "Intercontinental Exchange Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.81529
+      },
+      "RSG.US": {
+        "Code": "RSG",
+        "Exchange": "US",
+        "Name": "Republic Services Inc",
+        "Sector": "Industrials",
+        "Industry": "Waste Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.63862
+      },
+      "APH.US": {
+        "Code": "APH",
+        "Exchange": "US",
+        "Name": "Amphenol Corporation",
+        "Sector": "Technology",
+        "Industry": "Electronic Components",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.57381
+      },
+      "SPHQ.US": {
+        "Code": "SPHQ",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Quality ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.36392
+      },
+      "MOH.US": {
+        "Code": "MOH",
+        "Exchange": "US",
+        "Name": "Molina Healthcare Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.30624
+      },
+      "XLG.US": {
+        "Code": "XLG",
+        "Exchange": "US",
+        "Name": "Invesco S&P 500\u00ae Top 50 ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.24497
+      },
+      "IWF.US": {
+        "Code": "IWF",
+        "Exchange": "US",
+        "Name": "iShares Russell 1000 Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.16591
+      },
+      "CEG.US": {
+        "Code": "CEG",
+        "Exchange": "US",
+        "Name": "Constellation Energy Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.15379
+      },
+      "EW.US": {
+        "Code": "EW",
+        "Exchange": "US",
+        "Name": "Edwards Lifesciences Corp",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.06648
+      },
+      "ETN.US": {
+        "Code": "ETN",
+        "Exchange": "US",
+        "Name": "Eaton Corporation PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.03505
+      },
+      "GE.US": {
+        "Code": "GE",
+        "Exchange": "US",
+        "Name": "GE Aerospace",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.99166
+      },
+      "HWM.US": {
+        "Code": "HWM",
+        "Exchange": "US",
+        "Name": "Howmet Aerospace\u00a0Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.93437
+      },
+      "HEI.US": {
+        "Code": "HEI",
+        "Exchange": "US",
+        "Name": "Heico Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.92834
+      },
+      "CDNS.US": {
+        "Code": "CDNS",
+        "Exchange": "US",
+        "Name": "Cadence Design Systems Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.87868
+      },
+      "TW.US": {
+        "Code": "TW",
+        "Exchange": "US",
+        "Name": "Tradeweb Markets Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.86068
+      },
+      "FCNCA.US": {
+        "Code": "FCNCA",
+        "Exchange": "US",
+        "Name": "First Citizens BancShares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.74361
+      },
+      "LHX.US": {
+        "Code": "LHX",
+        "Exchange": "US",
+        "Name": "L3Harris Technologies Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.7133
+      },
+      "CRWD.US": {
+        "Code": "CRWD",
+        "Exchange": "US",
+        "Name": "Crowdstrike Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.68575
+      },
+      "CPRT.US": {
+        "Code": "CPRT",
+        "Exchange": "US",
+        "Name": "Copart Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.65851
+      },
+      "COST.US": {
+        "Code": "COST",
+        "Exchange": "US",
+        "Name": "Costco Wholesale Corp",
+        "Sector": "Consumer Defensive",
+        "Industry": "Discount Stores",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.64989
+      },
+      "TMUS.US": {
+        "Code": "TMUS",
+        "Exchange": "US",
+        "Name": "T-Mobile US Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.58093
+      },
+      "ABBV.US": {
+        "Code": "ABBV",
+        "Exchange": "US",
+        "Name": "AbbVie Inc",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.50088
+      },
+      "ACGL.US": {
+        "Code": "ACGL",
+        "Exchange": "US",
+        "Name": "Arch Capital Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.45147
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.45029
+      },
+      "LLY.US": {
+        "Code": "LLY",
+        "Exchange": "US",
+        "Name": "Eli Lilly and Company",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.41715
+      },
+      "EBAY.US": {
+        "Code": "EBAY",
+        "Exchange": "US",
+        "Name": "eBay Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.32842
+      },
+      "COR.US": {
+        "Code": "COR",
+        "Exchange": "US",
+        "Name": "Cencora Inc.",
+        "Sector": "Healthcare",
+        "Industry": "Medical Distribution",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.32842
+      },
+      "IDXX.US": {
+        "Code": "IDXX",
+        "Exchange": "US",
+        "Name": "IDEXX Laboratories Inc",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.26355
+      },
+      "MA.US": {
+        "Code": "MA",
+        "Exchange": "US",
+        "Name": "Mastercard Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.14377
+      },
+      "NVDA.US": {
+        "Code": "NVDA",
+        "Exchange": "US",
+        "Name": "NVIDIA Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.08379
+      },
+      "EFX.US": {
+        "Code": "EFX",
+        "Exchange": "US",
+        "Name": "Equifax Inc",
+        "Sector": "Industrials",
+        "Industry": "Consulting Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.07638
+      },
+      "BLDR.US": {
+        "Code": "BLDR",
+        "Exchange": "US",
+        "Name": "Builders FirstSource Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02463
+      },
+      "AMZN.US": {
+        "Code": "AMZN",
+        "Exchange": "US",
+        "Name": "Amazon.com Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Internet Retail",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91398
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "23.89014",
+        "Price/Book": "4.66113",
+        "Price/Sales": "2.02262",
+        "Price/Cash Flow": "17.19125",
+        "Dividend-Yield Factor": "0.86022"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.39724",
+        "Price/Book": "3.11632",
+        "Price/Sales": "2.16222",
+        "Price/Cash Flow": "12.07323",
+        "Dividend-Yield Factor": "1.86144"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.01538",
+        "Historical Earnings Growth": "9.96291",
+        "Sales Growth": "12.40725",
+        "Cash-Flow Growth": "-3.76929",
+        "Book-Value Growth": "14.8623"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.84341",
+        "Historical Earnings Growth": "4.5186",
+        "Sales Growth": "6.70425",
+        "Cash-Flow Growth": "5.65472",
+        "Book-Value Growth": "7.78184"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "1",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "13.59",
+      "3y_Volatility": "11.35",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.39",
+      "Returns_YTD": "-2.22",
+      "Returns_1Y": "-2.15",
+      "Returns_3Y": "1.96",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

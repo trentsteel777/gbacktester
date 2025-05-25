@@ -1,0 +1,840 @@
+{
+  "General": {
+    "Code": "PTEU",
+    "Type": "ETF",
+    "Name": "Pacer Trendpilot European Index ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00BLVPY10",
+    "Description": "Normally the fund will invest at least 80% of its total assets in the component securities of the index and investments that have economic characteristics that are substantially identical to the economic characteristics of such component securities. The index uses an objective, rules-based methodology to implement a systematic trend-following strategy that directs exposure (i) 100% to the FTSE Eurozone Index, (ii) 50% to the FTSE Eurozone Index and 50% to 3-Month U.S. Treasury bills, or (iii) 100% to 3-Month U.S. Treasury bills.",
+    "Category": "Europe Stock",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.53,
+    "52WeekHigh": 28.72,
+    "52WeekLow": 22.92,
+    "50DayMA": 27.069,
+    "200DayMA": 26.3846
+  },
+  "ETF_Data": {
+    "ISIN": "US69374H8088",
+    "Company_Name": "Pacer",
+    "Company_URL": "http://www.paceretfs.com",
+    "ETF_URL": "http://www.paceretfs.com/products/pteu",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "3.150000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2015-12-14",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00650",
+    "AnnualHoldingsTurnover": "0.05000",
+    "TotalAssets": "33788078.00",
+    "Average_Mkt_Cap_Mil": "64357.31012",
+    "Market_Capitalisation": {
+      "Mega": "50.50453",
+      "Big": "34.67155",
+      "Medium": "12.60976",
+      "Small": "0.30316",
+      "Micro": "0.0018"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.68052",
+        "Short_%": "0",
+        "Net_Assets_%": "1.68052"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "96.92113",
+        "Short_%": "0",
+        "Net_Assets_%": "96.92113"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "1.39835",
+        "Short_%": "0",
+        "Net_Assets_%": "1.39835"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "1.422",
+        "Relative_to_Category": "1.684"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "15.05371"
+      },
+      "Europe Developed": {
+        "Equity_%": "97.741",
+        "Relative_to_Category": "80.615"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.061",
+        "Relative_to_Category": "0.345"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.013"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.956"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.423"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.251",
+        "Relative_to_Category": "0.651"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.524",
+        "Relative_to_Category": "0.247"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.012"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "4.74758",
+        "Relative_to_Category": "5.26223"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.93936",
+        "Relative_to_Category": "9.15042"
+      },
+      "Financial Services": {
+        "Equity_%": "23.74409",
+        "Relative_to_Category": "21.97445"
+      },
+      "Real Estate": {
+        "Equity_%": "1.41901",
+        "Relative_to_Category": "0.96893"
+      },
+      "Communication Services": {
+        "Equity_%": "5.31535",
+        "Relative_to_Category": "4.8888"
+      },
+      "Energy": {
+        "Equity_%": "2.88598",
+        "Relative_to_Category": "3.91015"
+      },
+      "Industrials": {
+        "Equity_%": "19.66544",
+        "Relative_to_Category": "18.11373"
+      },
+      "Technology": {
+        "Equity_%": "13.8532",
+        "Relative_to_Category": "10.84289"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "6.01774",
+        "Relative_to_Category": "10.46639"
+      },
+      "Healthcare": {
+        "Equity_%": "6.62779",
+        "Relative_to_Category": "10.83819"
+      },
+      "Utilities": {
+        "Equity_%": "5.78446",
+        "Relative_to_Category": "3.58382"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 49,
+    "Top_10_Holdings": {
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 4.87644
+      },
+      "ASML.AS": {
+        "Code": "ASML",
+        "Exchange": "AS",
+        "Name": "ASML Holding NV",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 4.29964
+      },
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.75788
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.26924
+      },
+      "MC.PA": {
+        "Code": "MC",
+        "Exchange": "PA",
+        "Name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton Soci\u00e9t\u00e9 Europ\u00e9enne",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 2.06152
+      },
+      "SU.PA": {
+        "Code": "SU",
+        "Exchange": "PA",
+        "Name": "Schneider Electric S.E.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.94845
+      },
+      "DTE.XETRA": {
+        "Code": "DTE",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Telekom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.84086
+      },
+      "AI.PA": {
+        "Code": "AI",
+        "Exchange": "PA",
+        "Name": "Air Liquide SA",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.75817
+      },
+      "SAN.MC": {
+        "Code": "SAN",
+        "Exchange": "MC",
+        "Name": "Banco Santander",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 1.74681
+      },
+      "FP.PA": {
+        "Code": "FP",
+        "Exchange": "PA",
+        "Name": "TotalEnergies SE",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.71125
+      }
+    },
+    "Holdings": {
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 4.87644
+      },
+      "ASML.AS": {
+        "Code": "ASML",
+        "Exchange": "AS",
+        "Name": "ASML Holding NV",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 4.29964
+      },
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.75788
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.26924
+      },
+      "MC.PA": {
+        "Code": "MC",
+        "Exchange": "PA",
+        "Name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton Soci\u00e9t\u00e9 Europ\u00e9enne",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 2.06152
+      },
+      "SU.PA": {
+        "Code": "SU",
+        "Exchange": "PA",
+        "Name": "Schneider Electric S.E.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.94845
+      },
+      "DTE.XETRA": {
+        "Code": "DTE",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Telekom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.84086
+      },
+      "AI.PA": {
+        "Code": "AI",
+        "Exchange": "PA",
+        "Name": "Air Liquide SA",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.75817
+      },
+      "SAN.MC": {
+        "Code": "SAN",
+        "Exchange": "MC",
+        "Name": "Banco Santander",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 1.74681
+      },
+      "FP.PA": {
+        "Code": "FP",
+        "Exchange": "PA",
+        "Name": "TotalEnergies SE",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.71125
+      },
+      "SAN.PA": {
+        "Code": "SAN",
+        "Exchange": "PA",
+        "Name": "Sanofi SA",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.69672
+      },
+      "IBE.MC": {
+        "Code": "IBE",
+        "Exchange": "MC",
+        "Name": "Iberdrola S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 1.612
+      },
+      "AIR.PA": {
+        "Code": "AIR",
+        "Exchange": "PA",
+        "Name": "Airbus Group SE",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.58858
+      },
+      "UCG.MI": {
+        "Code": "UCG",
+        "Exchange": "MI",
+        "Name": "UniCredit S.p.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 1.50821
+      },
+      "SAF.PA": {
+        "Code": "SAF",
+        "Exchange": "PA",
+        "Name": "Safran SA",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.48498
+      },
+      "OR.PA": {
+        "Code": "OR",
+        "Exchange": "PA",
+        "Name": "L\u2019Oreal SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.46081
+      },
+      "RMS.PA": {
+        "Code": "RMS",
+        "Exchange": "PA",
+        "Name": "Hermes International SCA",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.44514
+      },
+      "EL.PA": {
+        "Code": "EL",
+        "Exchange": "PA",
+        "Name": "EssilorLuxottica S. A.",
+        "Sector": "Healthcare",
+        "Industry": "Medical Instruments & Supplies",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.35115
+      },
+      "BBVA.MC": {
+        "Code": "BBVA",
+        "Exchange": "MC",
+        "Name": "Banco Bilbao Vizcaya Argentaria SA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 1.30405
+      },
+      "BNP.PA": {
+        "Code": "BNP",
+        "Exchange": "PA",
+        "Name": "BNP Paribas SA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.3011
+      },
+      "ISP.MI": {
+        "Code": "ISP",
+        "Exchange": "MI",
+        "Name": "Intesa Sanpaolo SpA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 1.28623
+      },
+      "MUV2.XETRA": {
+        "Code": "MUV2",
+        "Exchange": "XETRA",
+        "Name": "M\u00fcnchener R\u00fcck AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.2825
+      },
+      "RHM.F": {
+        "Code": "RHM",
+        "Exchange": "F",
+        "Name": "Rheinmetall AG",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.27245
+      },
+      "CS.PA": {
+        "Code": "CS",
+        "Exchange": "PA",
+        "Name": "AXA SA",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.1937
+      },
+      "ENEL.MI": {
+        "Code": "ENEL",
+        "Exchange": "MI",
+        "Name": "Enel SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 1.04816
+      },
+      "DG.PA": {
+        "Code": "DG",
+        "Exchange": "PA",
+        "Name": "Vinci S.A.",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.04616
+      },
+      "ABI.BR": {
+        "Code": "ABI",
+        "Exchange": "BR",
+        "Name": "Anheuser Busch Inbev SA NV",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Brewers",
+        "Country": "Belgium",
+        "Region": "Europe",
+        "Assets_%": 1.00312
+      },
+      "PRX.AS": {
+        "Code": "PRX",
+        "Exchange": "AS",
+        "Name": "Prosus N.V.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.98236
+      },
+      "INGA.AS": {
+        "Code": "INGA",
+        "Exchange": "AS",
+        "Name": "ING Groep NV",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.93659
+      },
+      "RACE.MI": {
+        "Code": "RACE",
+        "Exchange": "MI",
+        "Name": "Ferrari NV",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.91103
+      },
+      "DB1.XETRA": {
+        "Code": "DB1",
+        "Exchange": "XETRA",
+        "Name": "Deutsche B\u00f6rse AG",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.88873
+      },
+      "ENR.XETRA": {
+        "Code": "ENR",
+        "Exchange": "XETRA",
+        "Name": "Siemens Energy AG",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.87704
+      },
+      "ITX.MC": {
+        "Code": "ITX",
+        "Exchange": "MC",
+        "Name": "Industria de Diseno Textil SA",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Retail",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.85216
+      },
+      "ADYEN.AS": {
+        "Code": "ADYEN",
+        "Exchange": "AS",
+        "Name": "Adyen NV",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.83479
+      },
+      "DBK.XETRA": {
+        "Code": "DBK",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Bank Aktiengesellschaft",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.79609
+      },
+      "BN.PA": {
+        "Code": "BN",
+        "Exchange": "PA",
+        "Name": "Danone SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.78218
+      },
+      "SGO.PA": {
+        "Code": "SGO",
+        "Exchange": "PA",
+        "Name": "Compagnie de Saint-Gobain S.A.",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.77847
+      },
+      "IFX.XETRA": {
+        "Code": "IFX",
+        "Exchange": "XETRA",
+        "Name": "Infineon Technologies AG",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.72825
+      },
+      "NDA-SE.ST": {
+        "Code": "NDA-SE",
+        "Exchange": "ST",
+        "Name": "Nordea Bank Abp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 0.72431
+      },
+      "G.MI": {
+        "Code": "G",
+        "Exchange": "MI",
+        "Name": "Assicurazioni Generali S.p.A.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.69585
+      },
+      "MBG.XETRA": {
+        "Code": "MBG",
+        "Exchange": "XETRA",
+        "Name": "Mercedes-Benz Group AG",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.68419
+      },
+      "BAS.XETRA": {
+        "Code": "BAS",
+        "Exchange": "XETRA",
+        "Name": "BASF SE",
+        "Sector": "Basic Materials",
+        "Industry": "Chemicals",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.65015
+      },
+      "WKL.AS": {
+        "Code": "WKL",
+        "Exchange": "AS",
+        "Name": "Wolters Kluwer N.V.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.63755
+      },
+      "DHL.XETRA": {
+        "Code": "DHL",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Post AG",
+        "Sector": "Industrials",
+        "Industry": "Integrated Freight & Logistics",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.63609
+      },
+      "ADS.XETRA": {
+        "Code": "ADS",
+        "Exchange": "XETRA",
+        "Name": "adidas AG",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Footwear & Accessories",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.63475
+      },
+      "GLE.PA": {
+        "Code": "GLE",
+        "Exchange": "PA",
+        "Name": "Societe Generale S.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.59043
+      },
+      "AD.AS": {
+        "Code": "AD",
+        "Exchange": "AS",
+        "Name": "Koninklijke Ahold Delhaize NV",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.56041
+      },
+      "EOAN.XETRA": {
+        "Code": "EOAN",
+        "Exchange": "XETRA",
+        "Name": "E.ON SE",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.55828
+      },
+      "ENGI.PA": {
+        "Code": "ENGI",
+        "Exchange": "PA",
+        "Name": "Engie S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.54215
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.61066",
+        "Price/Book": "1.70089",
+        "Price/Sales": "1.33172",
+        "Price/Cash Flow": "8.26897",
+        "Dividend-Yield Factor": "3.86784"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "14.21813",
+        "Price/Book": "1.97074",
+        "Price/Sales": "1.47194",
+        "Price/Cash Flow": "9.29607",
+        "Dividend-Yield Factor": "3.63312"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.09451",
+        "Historical Earnings Growth": "8.79536",
+        "Sales Growth": "1.8818",
+        "Cash-Flow Growth": "1.49424",
+        "Book-Value Growth": "3.5579"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.33843",
+        "Historical Earnings Growth": "6.03407",
+        "Sales Growth": "3.679",
+        "Cash-Flow Growth": "2.29915",
+        "Book-Value Growth": "4.9079"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "2",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "4"
+    },
+    "Performance": {
+      "1y_Volatility": "13.96",
+      "3y_Volatility": "13.14",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.31",
+      "Returns_YTD": "19.08",
+      "Returns_1Y": "7.61",
+      "Returns_3Y": "10.91",
+      "Returns_5Y": "5.49",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

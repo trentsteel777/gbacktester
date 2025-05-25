@@ -1,0 +1,840 @@
+{
+  "General": {
+    "Code": "BKIE",
+    "Type": "ETF",
+    "Name": "BNY Mellon International Equity ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00RYRB9H3",
+    "Description": "The fund invests all of its assets in equity securities comprising the Solactive GBS Developed Markets ex United States Large & Mid Cap USD Index NTR, depositary receipts based on securities comprising the index, ETFs providing exposure to such securities, and derivatives with economic characteristics similar to such securities or the index. The index is a free float market capitalization weighted index designed to measure the performance of developed market large- and mid-capitalization companies. It is non-diversified.",
+    "Category": "Foreign Large Blend",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.01,
+    "52WeekHigh": 83.71,
+    "52WeekLow": 68.09,
+    "50DayMA": 78.4515,
+    "200DayMA": 76.5849
+  },
+  "ETF_Data": {
+    "ISIN": "US09661T4040",
+    "Company_Name": "BNY Mellon",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "2.800000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2020-04-22",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00040",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "796299370.00",
+    "Average_Mkt_Cap_Mil": "52082.88781",
+    "Market_Capitalisation": {
+      "Mega": "51.45949",
+      "Big": "36.12319",
+      "Medium": "10.92852",
+      "Small": "0.2138",
+      "Micro": "0.01896"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.24402",
+        "Short_%": "0.11226",
+        "Net_Assets_%": "0.13176"
+      },
+      "NotClassified": {
+        "Long_%": "0.37774",
+        "Short_%": "0",
+        "Net_Assets_%": "0.37774"
+      },
+      "Stock non-US": {
+        "Long_%": "98.32685",
+        "Short_%": "0",
+        "Net_Assets_%": "98.32685"
+      },
+      "Other": {
+        "Long_%": "0.2532",
+        "Short_%": "0",
+        "Net_Assets_%": "0.2532"
+      },
+      "Stock US": {
+        "Long_%": "0.91037",
+        "Short_%": "0",
+        "Net_Assets_%": "0.91037"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "11.995",
+        "Relative_to_Category": "8.284"
+      },
+      "United Kingdom": {
+        "Equity_%": "12.72402",
+        "Relative_to_Category": "13.72305"
+      },
+      "Europe Developed": {
+        "Equity_%": "42.537",
+        "Relative_to_Category": "41.07"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.452",
+        "Relative_to_Category": "0.207"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.849",
+        "Relative_to_Category": "1.081"
+      },
+      "Japan": {
+        "Equity_%": "21.112",
+        "Relative_to_Category": "18.226"
+      },
+      "Australasia": {
+        "Equity_%": "6.585",
+        "Relative_to_Category": "4.27"
+      },
+      "Asia Developed": {
+        "Equity_%": "3.322",
+        "Relative_to_Category": "6.35"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.41",
+        "Relative_to_Category": "5.705"
+      },
+      "Latin America": {
+        "Equity_%": "0.013",
+        "Relative_to_Category": "1.084"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "6.34422",
+        "Relative_to_Category": "5.86274"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "8.87773",
+        "Relative_to_Category": "9.87307"
+      },
+      "Financial Services": {
+        "Equity_%": "24.12177",
+        "Relative_to_Category": "23.00982"
+      },
+      "Real Estate": {
+        "Equity_%": "2.13223",
+        "Relative_to_Category": "1.55228"
+      },
+      "Communication Services": {
+        "Equity_%": "5.08985",
+        "Relative_to_Category": "5.98087"
+      },
+      "Energy": {
+        "Equity_%": "4.65605",
+        "Relative_to_Category": "4.0004"
+      },
+      "Industrials": {
+        "Equity_%": "17.98758",
+        "Relative_to_Category": "16.78"
+      },
+      "Technology": {
+        "Equity_%": "9.82966",
+        "Relative_to_Category": "11.96737"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "7.69564",
+        "Relative_to_Category": "7.70361"
+      },
+      "Healthcare": {
+        "Equity_%": "9.96853",
+        "Relative_to_Category": "10.60477"
+      },
+      "Utilities": {
+        "Equity_%": "3.29674",
+        "Relative_to_Category": "2.66508"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.61475"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 49,
+    "Top_10_Holdings": {
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.45315
+      },
+      "ASML.AS": {
+        "Code": "ASML",
+        "Exchange": "AS",
+        "Name": "ASML Holding NV",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 1.36575
+      },
+      "NESN.SW": {
+        "Code": "NESN",
+        "Exchange": "SW",
+        "Name": "Nestl\u00e9 S.A.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.30243
+      },
+      "ROG.SW": {
+        "Code": "ROG",
+        "Exchange": "SW",
+        "Name": "Roche Holding AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.04237
+      },
+      "NOVN.SW": {
+        "Code": "NOVN",
+        "Exchange": "SW",
+        "Name": "Novartis AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.02885
+      },
+      "HSBA.LSE": {
+        "Code": "HSBA",
+        "Exchange": "LSE",
+        "Name": "HSBC Holdings PLC",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.00125
+      },
+      "0QIU.LSE": {
+        "Code": "0QIU",
+        "Exchange": "LSE",
+        "Name": "Novo Nordisk A/S Class B",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98809
+      },
+      "AZN.LSE": {
+        "Code": "AZN",
+        "Exchange": "LSE",
+        "Name": "AstraZeneca PLC",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98501
+      },
+      "SHEL.LSE": {
+        "Code": "SHEL",
+        "Exchange": "LSE",
+        "Name": "Shell plc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.94009
+      },
+      "7203.TSE": {
+        "Code": "7203",
+        "Exchange": "TSE",
+        "Name": "Toyota Motor Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.91913
+      }
+    },
+    "Holdings": {
+      "SAP.XETRA": {
+        "Code": "SAP",
+        "Exchange": "XETRA",
+        "Name": "SAP SE",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.45315
+      },
+      "ASML.AS": {
+        "Code": "ASML",
+        "Exchange": "AS",
+        "Name": "ASML Holding NV",
+        "Sector": "Technology",
+        "Industry": "Semiconductor Equipment & Materials",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 1.36575
+      },
+      "NESN.SW": {
+        "Code": "NESN",
+        "Exchange": "SW",
+        "Name": "Nestl\u00e9 S.A.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.30243
+      },
+      "ROG.SW": {
+        "Code": "ROG",
+        "Exchange": "SW",
+        "Name": "Roche Holding AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.04237
+      },
+      "NOVN.SW": {
+        "Code": "NOVN",
+        "Exchange": "SW",
+        "Name": "Novartis AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.02885
+      },
+      "HSBA.LSE": {
+        "Code": "HSBA",
+        "Exchange": "LSE",
+        "Name": "HSBC Holdings PLC",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.00125
+      },
+      "0QIU.LSE": {
+        "Code": "0QIU",
+        "Exchange": "LSE",
+        "Name": "Novo Nordisk A/S Class B",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98809
+      },
+      "AZN.LSE": {
+        "Code": "AZN",
+        "Exchange": "LSE",
+        "Name": "AstraZeneca PLC",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.98501
+      },
+      "SHEL.LSE": {
+        "Code": "SHEL",
+        "Exchange": "LSE",
+        "Name": "Shell plc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.94009
+      },
+      "7203.TSE": {
+        "Code": "7203",
+        "Exchange": "TSE",
+        "Name": "Toyota Motor Corp",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.91913
+      },
+      "CBA.AU": {
+        "Code": "CBA",
+        "Exchange": "AU",
+        "Name": "Commonwealth Bank Of Australia",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.87678
+      },
+      "SIE.XETRA": {
+        "Code": "SIE",
+        "Exchange": "XETRA",
+        "Name": "Siemens Aktiengesellschaft",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.87346
+      },
+      "RY.TO": {
+        "Code": "RY",
+        "Exchange": "TO",
+        "Name": "Royal Bank of Canada",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.84701
+      },
+      "8306.TSE": {
+        "Code": "8306",
+        "Exchange": "TSE",
+        "Name": "Mitsubishi UFJ Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.74591
+      },
+      "ULVR.LSE": {
+        "Code": "ULVR",
+        "Exchange": "LSE",
+        "Name": "Unilever PLC",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.72694
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.72543
+      },
+      "6758.TSE": {
+        "Code": "6758",
+        "Exchange": "TSE",
+        "Name": "Sony Corp",
+        "Sector": "Technology",
+        "Industry": "Consumer Electronics",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.71357
+      },
+      "MC.PA": {
+        "Code": "MC",
+        "Exchange": "PA",
+        "Name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton Soci\u00e9t\u00e9 Europ\u00e9enne",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.68938
+      },
+      "SU.PA": {
+        "Code": "SU",
+        "Exchange": "PA",
+        "Name": "Schneider Electric S.E.",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.63083
+      },
+      "SHOP.US": {
+        "Code": "SHOP",
+        "Exchange": "US",
+        "Name": "Shopify Inc. Class A Subordinate Voting Shares",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.61431
+      },
+      "BHP.AU": {
+        "Code": "BHP",
+        "Exchange": "AU",
+        "Name": "BHP Group Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.58621
+      },
+      "DTE.XETRA": {
+        "Code": "DTE",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Telekom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.57666
+      },
+      "FP.PA": {
+        "Code": "FP",
+        "Exchange": "PA",
+        "Name": "TotalEnergies SE",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.573
+      },
+      "AI.PA": {
+        "Code": "AI",
+        "Exchange": "PA",
+        "Name": "Air Liquide SA",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.55589
+      },
+      "SAN.MC": {
+        "Code": "SAN",
+        "Exchange": "MC",
+        "Name": "Banco Santander",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.55332
+      },
+      "SAN.PA": {
+        "Code": "SAN",
+        "Exchange": "PA",
+        "Name": "Sanofi SA",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.54504
+      },
+      "6501.TSE": {
+        "Code": "6501",
+        "Exchange": "TSE",
+        "Name": "Hitachi Ltd",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.54364
+      },
+      "8640.TSE": {
+        "Code": "8640",
+        "Exchange": "TSE",
+        "Name": "Toronto Dominion Bank",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.53666
+      },
+      "UBSG.SW": {
+        "Code": "UBSG",
+        "Exchange": "SW",
+        "Name": "UBS Group AG",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.51156
+      },
+      "AIR.PA": {
+        "Code": "AIR",
+        "Exchange": "PA",
+        "Name": "Airbus Group SE",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.50795
+      },
+      "IBE.MC": {
+        "Code": "IBE",
+        "Exchange": "MC",
+        "Name": "Iberdrola S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.49738
+      },
+      "CFR.SW": {
+        "Code": "CFR",
+        "Exchange": "SW",
+        "Name": "Compagnie Financi\u00e8re Richemont SA",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.49723
+      },
+      "SAF.PA": {
+        "Code": "SAF",
+        "Exchange": "PA",
+        "Name": "Safran SA",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.48559
+      },
+      "ZURN.SW": {
+        "Code": "ZURN",
+        "Exchange": "SW",
+        "Name": "Zurich Insurance Group AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.48526
+      },
+      "REL.LSE": {
+        "Code": "REL",
+        "Exchange": "LSE",
+        "Name": "Relx PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.48256
+      },
+      "ENB.TO": {
+        "Code": "ENB",
+        "Exchange": "TO",
+        "Name": "Enbridge Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.46524
+      },
+      "OR.PA": {
+        "Code": "OR",
+        "Exchange": "PA",
+        "Name": "L\u2019Oreal SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.45095
+      },
+      "RMS.PA": {
+        "Code": "RMS",
+        "Exchange": "PA",
+        "Name": "Hermes International SCA",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.44294
+      },
+      "RR.LSE": {
+        "Code": "RR",
+        "Exchange": "LSE",
+        "Name": "Rolls-Royce Holdings PLC",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.44166
+      },
+      "7974.TSE": {
+        "Code": "7974",
+        "Exchange": "TSE",
+        "Name": "Nintendo Co Ltd",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.43958
+      },
+      "8316.TSE": {
+        "Code": "8316",
+        "Exchange": "TSE",
+        "Name": "Sumitomo Mitsui Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.43607
+      },
+      "ABBN.SW": {
+        "Code": "ABBN",
+        "Exchange": "SW",
+        "Name": "ABB Ltd",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.42855
+      },
+      "UCG.MI": {
+        "Code": "UCG",
+        "Exchange": "MI",
+        "Name": "UniCredit S.p.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.42703
+      },
+      "1299.HK": {
+        "Code": "1299",
+        "Exchange": "HK",
+        "Name": "AIA Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.42386
+      },
+      "RHM.F": {
+        "Code": "RHM",
+        "Exchange": "F",
+        "Name": "Rheinmetall AG",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.41329
+      },
+      "BNP.PA": {
+        "Code": "BNP",
+        "Exchange": "PA",
+        "Name": "BNP Paribas SA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.41208
+      },
+      "BBVA.MC": {
+        "Code": "BBVA",
+        "Exchange": "MC",
+        "Name": "Banco Bilbao Vizcaya Argentaria SA",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.4099
+      },
+      "MUV2.XETRA": {
+        "Code": "MUV2",
+        "Exchange": "XETRA",
+        "Name": "M\u00fcnchener R\u00fcck AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.40826
+      },
+      "BATS.LSE": {
+        "Code": "BATS",
+        "Exchange": "LSE",
+        "Name": "British American Tobacco PLC",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.40185
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.18145",
+        "Price/Book": "1.71051",
+        "Price/Sales": "1.4336",
+        "Price/Cash Flow": "8.5746",
+        "Dividend-Yield Factor": "3.38936"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.70863",
+        "Price/Book": "1.73346",
+        "Price/Sales": "1.44742",
+        "Price/Cash Flow": "8.48438",
+        "Dividend-Yield Factor": "3.20534"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.61582",
+        "Historical Earnings Growth": "4.30701",
+        "Sales Growth": "5.01496",
+        "Cash-Flow Growth": "3.89301",
+        "Book-Value Growth": "6.21731"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.51329",
+        "Historical Earnings Growth": "6.57497",
+        "Sales Growth": "4.36754",
+        "Cash-Flow Growth": "6.05073",
+        "Book-Value Growth": "6.86916"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "10.73",
+      "3y_Volatility": "16.19",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.39",
+      "Returns_YTD": "15.08",
+      "Returns_1Y": "12.14",
+      "Returns_3Y": "12.31",
+      "Returns_5Y": "12.66",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

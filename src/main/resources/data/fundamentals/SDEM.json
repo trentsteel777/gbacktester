@@ -1,0 +1,810 @@
+{
+  "General": {
+    "Code": "SDEM",
+    "Type": "ETF",
+    "Name": "Global X MSCI SuperDividend\u00ae Emerging Markets ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG0089CYTT4",
+    "Description": "The fund invests at least 80% of its total assets in the securities of the underlying index and in American Depositary Receipts (ADRs) and Global Depositary Receipts (GDRs) based on the securities in the underlying index. The underlying index tracks the performance of 50 equally-weighted companies that rank among the highest dividend yielding equity securities in emerging markets, as defined by MSCI.",
+    "Category": "Diversified Emerging Mkts",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.95,
+    "52WeekHigh": 26.83,
+    "52WeekLow": 22.3171,
+    "50DayMA": 25.8826,
+    "200DayMA": 25.1808
+  },
+  "ETF_Data": {
+    "ISIN": "US37950E1192",
+    "Company_Name": "Global X",
+    "Company_URL": "http://www.globalxfunds.com",
+    "ETF_URL": "https://www.globalxfunds.com/funds/sdem/",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "6.390000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2015-03-16",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00680",
+    "AnnualHoldingsTurnover": "0.87060",
+    "TotalAssets": "37354252.00",
+    "Average_Mkt_Cap_Mil": "12280.97664",
+    "Market_Capitalisation": {
+      "Mega": "22.90479",
+      "Big": "40.45073",
+      "Medium": "35.39931",
+      "Small": "0",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "2.15407",
+        "Short_%": "1.90755",
+        "Net_Assets_%": "0.24652"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.75348",
+        "Short_%": "0",
+        "Net_Assets_%": "99.75348"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.946"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.44399"
+      },
+      "Europe Developed": {
+        "Equity_%": "5.136",
+        "Relative_to_Category": "1.742"
+      },
+      "Europe Emerging": {
+        "Equity_%": "17.856",
+        "Relative_to_Category": "2.41"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "10.16",
+        "Relative_to_Category": "7.134"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.032"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.025"
+      },
+      "Asia Developed": {
+        "Equity_%": "4.377",
+        "Relative_to_Category": "25.809"
+      },
+      "Asia Emerging": {
+        "Equity_%": "44.427",
+        "Relative_to_Category": "49.531"
+      },
+      "Latin America": {
+        "Equity_%": "18.044",
+        "Relative_to_Category": "10.927"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.48348",
+        "Relative_to_Category": "5.01091"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "16.74603",
+        "Relative_to_Category": "15.26034"
+      },
+      "Financial Services": {
+        "Equity_%": "34.59241",
+        "Relative_to_Category": "23.38375"
+      },
+      "Real Estate": {
+        "Equity_%": "6.17382",
+        "Relative_to_Category": "1.74933"
+      },
+      "Communication Services": {
+        "Equity_%": "7.49009",
+        "Relative_to_Category": "9.75271"
+      },
+      "Energy": {
+        "Equity_%": "16.54122",
+        "Relative_to_Category": "4.25925"
+      },
+      "Industrials": {
+        "Equity_%": "4.20495",
+        "Relative_to_Category": "7.17668"
+      },
+      "Technology": {
+        "Equity_%": "2.97195",
+        "Relative_to_Category": "22.51315"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "5.45023"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.56727"
+      },
+      "Utilities": {
+        "Equity_%": "5.79605",
+        "Relative_to_Category": "1.87637"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2325"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.35"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.3"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.21926"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.45"
+      }
+    },
+    "Holdings_Count": 46,
+    "Top_10_Holdings": {
+      "0RGC.LSE": {
+        "Code": "0RGC",
+        "Exchange": "LSE",
+        "Name": "Moneta Money Bank AS",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 3.24318
+      },
+      "OPAP.AT": {
+        "Code": "OPAP",
+        "Exchange": "AT",
+        "Name": "Greek Organization of Football Prognostics S.A.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "Hellenic Republic",
+        "Region": "Europe",
+        "Assets_%": 2.82117
+      },
+      "0IKH.LSE": {
+        "Code": "0IKH",
+        "Exchange": "LSE",
+        "Name": "Komercni Banka",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 2.82037
+      },
+      "PZU.WAR": {
+        "Code": "PZU",
+        "Exchange": "WAR",
+        "Name": "Powszechny Zaklad Ubezpieczen SA",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Republic of Poland",
+        "Region": "Europe",
+        "Assets_%": 2.81338
+      },
+      "1929.HK": {
+        "Code": "1929",
+        "Exchange": "HK",
+        "Name": "Chow Tai Fook Jewellery Group Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.80263
+      },
+      "601216.SHG": {
+        "Code": "601216",
+        "Exchange": "SHG",
+        "Name": "Inner Mongolia Junzheng Energy & Chemical Group Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Chemicals",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 2.58094
+      },
+      "SCB-R.BK": {
+        "Code": "SCB-R",
+        "Exchange": "BK",
+        "Name": "The Siam Commercial Bank Public Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 2.52629
+      },
+      "3988.HK": {
+        "Code": "3988",
+        "Exchange": "HK",
+        "Name": "Bank of China Ltd H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.39475
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.3864
+      },
+      "600398.SHG": {
+        "Code": "600398",
+        "Exchange": "SHG",
+        "Name": "HLA GROUP CORP LTD",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 2.34745
+      }
+    },
+    "Holdings": {
+      "0RGC.LSE": {
+        "Code": "0RGC",
+        "Exchange": "LSE",
+        "Name": "Moneta Money Bank AS",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 3.24318
+      },
+      "OPAP.AT": {
+        "Code": "OPAP",
+        "Exchange": "AT",
+        "Name": "Greek Organization of Football Prognostics S.A.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Gambling",
+        "Country": "Hellenic Republic",
+        "Region": "Europe",
+        "Assets_%": 2.82117
+      },
+      "0IKH.LSE": {
+        "Code": "0IKH",
+        "Exchange": "LSE",
+        "Name": "Komercni Banka",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 2.82037
+      },
+      "PZU.WAR": {
+        "Code": "PZU",
+        "Exchange": "WAR",
+        "Name": "Powszechny Zaklad Ubezpieczen SA",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "Republic of Poland",
+        "Region": "Europe",
+        "Assets_%": 2.81338
+      },
+      "1929.HK": {
+        "Code": "1929",
+        "Exchange": "HK",
+        "Name": "Chow Tai Fook Jewellery Group Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Luxury Goods",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.80263
+      },
+      "601216.SHG": {
+        "Code": "601216",
+        "Exchange": "SHG",
+        "Name": "Inner Mongolia Junzheng Energy & Chemical Group Co Ltd",
+        "Sector": "Basic Materials",
+        "Industry": "Chemicals",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 2.58094
+      },
+      "SCB-R.BK": {
+        "Code": "SCB-R",
+        "Exchange": "BK",
+        "Name": "The Siam Commercial Bank Public Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 2.52629
+      },
+      "3988.HK": {
+        "Code": "3988",
+        "Exchange": "HK",
+        "Name": "Bank of China Ltd H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.39475
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.3864
+      },
+      "600398.SHG": {
+        "Code": "600398",
+        "Exchange": "SHG",
+        "Name": "HLA GROUP CORP LTD",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 2.34745
+      },
+      "COB07PA00078.EUBOND": {
+        "Code": "COB07PA00078",
+        "Exchange": "EUBOND",
+        "Name": "BANCOLOMBIA SA",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 2.28729
+      },
+      "BELA.AT": {
+        "Code": "BELA",
+        "Exchange": "AT",
+        "Name": "Jumbo S.A.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Hellenic Republic",
+        "Region": "Europe",
+        "Assets_%": 2.25128
+      },
+      "NRP.AS": {
+        "Code": "NRP",
+        "Exchange": "AS",
+        "Name": "NEPI Rockcastle PLC",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 2.23639
+      },
+      "ABG.JSE": {
+        "Code": "ABG",
+        "Exchange": "JSE",
+        "Name": "Absa Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "South Africa",
+        "Region": "Africa",
+        "Assets_%": 2.20671
+      },
+      "BZI.F": {
+        "Code": "BZI",
+        "Exchange": "F",
+        "Name": "Santander Bank Polska S.A",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 2.13423
+      },
+      "1908.HK": {
+        "Code": "1908",
+        "Exchange": "HK",
+        "Name": "C&D International Investment Group Ltd",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Development",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.11946
+      },
+      "0177.HK": {
+        "Code": "0177",
+        "Exchange": "HK",
+        "Name": "Jiangsu Expressway Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Infrastructure Operations",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 2.0922
+      },
+      "600066.SHG": {
+        "Code": "600066",
+        "Exchange": "SHG",
+        "Name": "Zhengzhou Yutong Bus Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Farm & Heavy Construction Machinery",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 2.06039
+      },
+      "MOL.BUD": {
+        "Code": "MOL",
+        "Exchange": "BUD",
+        "Name": "MOL Nyrt.",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Hungary",
+        "Region": "Europe",
+        "Assets_%": 2.01571
+      },
+      "COE15PA00026.EUBOND": {
+        "Code": "COE15PA00026",
+        "Exchange": "EUBOND",
+        "Name": "INTERCONEXION ELECTRICA SA",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 1.96923
+      },
+      "TLKM.JK": {
+        "Code": "TLKM",
+        "Exchange": "JK",
+        "Name": "Telkom Indonesia (Persero) Tbk PT",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 1.94238
+      },
+      "900948.SHG": {
+        "Code": "900948",
+        "Exchange": "SHG",
+        "Name": "Inner Mongolia Yitai Coal Co Ltd",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 1.9235
+      },
+      "0384.HK": {
+        "Code": "0384",
+        "Exchange": "HK",
+        "Name": "China Gas Holdings Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.91767
+      },
+      "KW0EQ0601058.EUBOND": {
+        "Code": "KW0EQ0601058",
+        "Exchange": "EUBOND",
+        "Name": "MOBILE TELECOMMUNICATIONS CO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 1.86356
+      },
+      "CMIG4.SA": {
+        "Code": "CMIG4",
+        "Exchange": "SA",
+        "Name": "Companhia Energ\u00e9tica de Minas Gerais",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.83699
+      },
+      "TIMP3.SA": {
+        "Code": "TIMP3",
+        "Exchange": "SA",
+        "Name": "TIM Participa\u00e7\u00f5es S.A",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.82508
+      },
+      "4190.SR": {
+        "Code": "4190",
+        "Exchange": "SR",
+        "Name": "Jarir Marketing Co",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Saudi Arabia",
+        "Region": "Asia",
+        "Assets_%": 1.79389
+      },
+      "IOC.NSE": {
+        "Code": "IOC",
+        "Exchange": "NSE",
+        "Name": "Indian Oil Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.77793
+      },
+      "TEL.PSE": {
+        "Code": "TEL",
+        "Exchange": "PSE",
+        "Name": "PLDT Inc",
+        "Sector": "Technology",
+        "Industry": "Telecommunications Services",
+        "Country": "Republic of the Philippines",
+        "Region": "Asia",
+        "Assets_%": 1.76581
+      },
+      "MXCFFU000001.EUBOND": {
+        "Code": "MXCFFU000001",
+        "Exchange": "EUBOND",
+        "Name": "TRUST FIBRA UNO",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 1.7411
+      },
+      "BPCL.NSE": {
+        "Code": "BPCL",
+        "Exchange": "NSE",
+        "Name": "Bharat Petroleum Corporation Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.73252
+      },
+      "600177.SHG": {
+        "Code": "600177",
+        "Exchange": "SHG",
+        "Name": "Youngor Group Co Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Apparel Manufacturing",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 1.71374
+      },
+      "BBAS3.SA": {
+        "Code": "BBAS3",
+        "Exchange": "SA",
+        "Name": "Banco do Brasil S.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.66955
+      },
+      "VALE3.SA": {
+        "Code": "VALE3",
+        "Exchange": "SA",
+        "Name": "Vale S.A.",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.66068
+      },
+      "BBDC3.SA": {
+        "Code": "BBDC3",
+        "Exchange": "SA",
+        "Name": "Banco Bradesco S.A.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.64755
+      },
+      "900926.SHG": {
+        "Code": "900926",
+        "Exchange": "SHG",
+        "Name": "Shanghai Baosight Software Co Ltd B",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 1.64564
+      },
+      "2222.SR": {
+        "Code": "2222",
+        "Exchange": "SR",
+        "Name": "Saudi Aramco",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Saudi Arabia",
+        "Region": "Asia",
+        "Assets_%": 1.64287
+      },
+      "COALINDIA.NSE": {
+        "Code": "COALINDIA",
+        "Exchange": "NSE",
+        "Name": "Coal India Limited",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.63731
+      },
+      "0857.HK": {
+        "Code": "0857",
+        "Exchange": "HK",
+        "Name": "PetroChina Company Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.62534
+      },
+      "005385.KO": {
+        "Code": "005385",
+        "Exchange": "KO",
+        "Name": "Hyundai Motor Co. Ltd. Pfd. Series 1",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 1.5201
+      },
+      "NVAL.F": {
+        "Code": "NVAL",
+        "Exchange": "F",
+        "Name": "PTT Exploration and Production Public Company Limited",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas E&P",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.45253
+      },
+      "2223.SR": {
+        "Code": "2223",
+        "Exchange": "SR",
+        "Name": "Saudi Aramco Base Oil Company - Luberef",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Saudi Arabia",
+        "Region": "Asia",
+        "Assets_%": 1.35282
+      },
+      "0968.HK": {
+        "Code": "0968",
+        "Exchange": "HK",
+        "Name": "Xinyi Solar Holdings Ltd",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.2893
+      },
+      "VBBR3.SA": {
+        "Code": "VBBR3",
+        "Exchange": "SA",
+        "Name": "Vibra Energia S.A.",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Specialty Retail",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.28726
+      },
+      "YKBNK.IS": {
+        "Code": "YKBNK",
+        "Exchange": "IS",
+        "Name": "Yapi ve Kredi Bankasi AS",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Republic of Turkey",
+        "Region": "Asia",
+        "Assets_%": 1.19543
+      },
+      "TUPRS.IS": {
+        "Code": "TUPRS",
+        "Exchange": "IS",
+        "Name": "Turkiye Petrol Rafinerileri AS",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Refining & Marketing",
+        "Country": "Republic of Turkey",
+        "Region": "Asia",
+        "Assets_%": 1.17472
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "8.72126",
+        "Price/Book": "1.06765",
+        "Price/Sales": "0.8416",
+        "Price/Cash Flow": "4.99777",
+        "Dividend-Yield Factor": "8.99527"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.94241",
+        "Price/Book": "1.6652",
+        "Price/Sales": "1.43725",
+        "Price/Cash Flow": "6.3066",
+        "Dividend-Yield Factor": "3.12484"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.67759",
+        "Historical Earnings Growth": "3.14739",
+        "Sales Growth": "6.18147",
+        "Cash-Flow Growth": "-13.07871",
+        "Book-Value Growth": "6.00175"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.63565",
+        "Historical Earnings Growth": "4.85437",
+        "Sales Growth": "4.63363",
+        "Cash-Flow Growth": "5.123",
+        "Book-Value Growth": "8.25275"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "2",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "4"
+    },
+    "Performance": {
+      "1y_Volatility": "13.07",
+      "3y_Volatility": "17.92",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.09",
+      "Returns_YTD": "13.26",
+      "Returns_1Y": "3.89",
+      "Returns_3Y": "5.95",
+      "Returns_5Y": "5.57",
+      "Returns_10Y": "-0.72"
+    }
+  }
+}

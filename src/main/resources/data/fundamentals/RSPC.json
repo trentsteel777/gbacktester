@@ -1,0 +1,610 @@
+{
+  "General": {
+    "Code": "RSPC",
+    "Type": "ETF",
+    "Name": "Invesco S&P 500 Equal Weight Communication Services ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00MH2Y8Y6",
+    "Description": "The fund generally will invest at least 90% of its total assets in securities that comprise the underlying index. The underlying index is composed of all of the components of the S&P 500\u00ae Communication Services Index. The Parent Index is designed to measure the performance of common stocks of all companies included in the S&P 500\u00ae Index that are classified as members of the communication services sector, as defined according to the GICS\u00ae, with a 22 company minimum count at each quarterly rebalance. It is non-diversified.",
+    "Category": "Communications",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.09,
+    "52WeekHigh": 36.78,
+    "52WeekLow": 28.5649,
+    "50DayMA": 34.7154,
+    "200DayMA": 34.0127
+  },
+  "ETF_Data": {
+    "ISIN": "US46137Y6095",
+    "Company_Name": "Invesco",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.060000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2018-11-07",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00400",
+    "AnnualHoldingsTurnover": "0.37000",
+    "TotalAssets": "63774849.00",
+    "Average_Mkt_Cap_Mil": "52553.28464",
+    "Market_Capitalisation": {
+      "Mega": "14.19889",
+      "Big": "22.35145",
+      "Medium": "41.51442",
+      "Small": "21.93439",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.00083",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00083"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "0.00085",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00085"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "99.9983",
+        "Short_%": "0",
+        "Net_Assets_%": "99.9983"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "99.999",
+        "Relative_to_Category": "93.129"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.24009"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.894"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.057"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.286"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.052"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.655"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.983"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.702"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.523"
+      },
+      "Financial Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "2.01861"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.91679"
+      },
+      "Communication Services": {
+        "Equity_%": "99.99915",
+        "Relative_to_Category": "83.57106"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.01657"
+      },
+      "Industrials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.01544"
+      },
+      "Technology": {
+        "Equity_%": "0",
+        "Relative_to_Category": "9.93853"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 26,
+    "Top_10_Holdings": {
+      "NFLX.US": {
+        "Code": "NFLX",
+        "Exchange": "US",
+        "Name": "Netflix Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.53003
+      },
+      "LYV.US": {
+        "Code": "LYV",
+        "Exchange": "US",
+        "Name": "Live Nation Entertainment Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.14732
+      },
+      "CHTR.US": {
+        "Code": "CHTR",
+        "Exchange": "US",
+        "Name": "Charter Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.11024
+      },
+      "NYT.US": {
+        "Code": "NYT",
+        "Exchange": "US",
+        "Name": "New York Times Company",
+        "Sector": "Communication Services",
+        "Industry": "Publishing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.92844
+      },
+      "TTWO.US": {
+        "Code": "TTWO",
+        "Exchange": "US",
+        "Name": "Take-Two Interactive Software Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.8826
+      },
+      "DIS.US": {
+        "Code": "DIS",
+        "Exchange": "US",
+        "Name": "Walt Disney Company",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.87248
+      },
+      "TKO.US": {
+        "Code": "TKO",
+        "Exchange": "US",
+        "Name": "TKO Group Holdings, Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.75751
+      },
+      "EA.US": {
+        "Code": "EA",
+        "Exchange": "US",
+        "Name": "Electronic Arts Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.71933
+      },
+      "T.US": {
+        "Code": "T",
+        "Exchange": "US",
+        "Name": "AT&T Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.65057
+      },
+      "VZ.US": {
+        "Code": "VZ",
+        "Exchange": "US",
+        "Name": "Verizon Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.44174
+      }
+    },
+    "Holdings": {
+      "NFLX.US": {
+        "Code": "NFLX",
+        "Exchange": "US",
+        "Name": "Netflix Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.53003
+      },
+      "LYV.US": {
+        "Code": "LYV",
+        "Exchange": "US",
+        "Name": "Live Nation Entertainment Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.14732
+      },
+      "CHTR.US": {
+        "Code": "CHTR",
+        "Exchange": "US",
+        "Name": "Charter Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.11024
+      },
+      "NYT.US": {
+        "Code": "NYT",
+        "Exchange": "US",
+        "Name": "New York Times Company",
+        "Sector": "Communication Services",
+        "Industry": "Publishing",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.92844
+      },
+      "TTWO.US": {
+        "Code": "TTWO",
+        "Exchange": "US",
+        "Name": "Take-Two Interactive Software Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.8826
+      },
+      "DIS.US": {
+        "Code": "DIS",
+        "Exchange": "US",
+        "Name": "Walt Disney Company",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.87248
+      },
+      "TKO.US": {
+        "Code": "TKO",
+        "Exchange": "US",
+        "Name": "TKO Group Holdings, Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.75751
+      },
+      "EA.US": {
+        "Code": "EA",
+        "Exchange": "US",
+        "Name": "Electronic Arts Inc",
+        "Sector": "Communication Services",
+        "Industry": "Electronic Gaming & Multimedia",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.71933
+      },
+      "T.US": {
+        "Code": "T",
+        "Exchange": "US",
+        "Name": "AT&T Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.65057
+      },
+      "VZ.US": {
+        "Code": "VZ",
+        "Exchange": "US",
+        "Name": "Verizon Communications Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.44174
+      },
+      "META.US": {
+        "Code": "META",
+        "Exchange": "US",
+        "Name": "Meta Platforms Inc.",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.41643
+      },
+      "FYBR.US": {
+        "Code": "FYBR",
+        "Exchange": "US",
+        "Name": "Frontier Communications Parent Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.37038
+      },
+      "PARA.US": {
+        "Code": "PARA",
+        "Exchange": "US",
+        "Name": "Paramount Global Class B",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.34641
+      },
+      "CMCSA.US": {
+        "Code": "CMCSA",
+        "Exchange": "US",
+        "Name": "Comcast Corp",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.30376
+      },
+      "MTCH.US": {
+        "Code": "MTCH",
+        "Exchange": "US",
+        "Name": "Match Group Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.16031
+      },
+      "IPG.US": {
+        "Code": "IPG",
+        "Exchange": "US",
+        "Name": "Interpublic Group of Companies Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.12886
+      },
+      "OMC.US": {
+        "Code": "OMC",
+        "Exchange": "US",
+        "Name": "Omnicom Group Inc",
+        "Sector": "Communication Services",
+        "Industry": "Advertising Agencies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.10786
+      },
+      "TMUS.US": {
+        "Code": "TMUS",
+        "Exchange": "US",
+        "Name": "T-Mobile US Inc",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.08293
+      },
+      "WBD.US": {
+        "Code": "WBD",
+        "Exchange": "US",
+        "Name": "Warner Bros Discovery Inc",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.71109
+      },
+      "NWSA.US": {
+        "Code": "NWSA",
+        "Exchange": "US",
+        "Name": "News Corp A",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.3779
+      },
+      "FOXA.US": {
+        "Code": "FOXA",
+        "Exchange": "US",
+        "Name": "Fox Corp Class A",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.91609
+      },
+      "GOOGL.US": {
+        "Code": "GOOGL",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class A",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.34153
+      },
+      "GOOG.US": {
+        "Code": "GOOG",
+        "Exchange": "US",
+        "Name": "Alphabet Inc Class C",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.9109
+      },
+      "FOX.US": {
+        "Code": "FOX",
+        "Exchange": "US",
+        "Name": "Fox Corp Class B",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.63406
+      },
+      "NWS.US": {
+        "Code": "NWS",
+        "Exchange": "US",
+        "Name": "News Corp B",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.15042
+      },
+      "AGPXX.US": {
+        "Code": "AGPXX",
+        "Exchange": "US",
+        "Name": "Invesco Short-Term Investments Trust Government & Agency Portfolio Institutional",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.00083
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.6866",
+        "Price/Book": "2.10735",
+        "Price/Sales": "1.35366",
+        "Price/Cash Flow": "4.49532",
+        "Dividend-Yield Factor": "1.70478"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "17.18353",
+        "Price/Book": "2.96717",
+        "Price/Sales": "2.33908",
+        "Price/Cash Flow": "7.05349",
+        "Dividend-Yield Factor": "2.42662"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "7.52975",
+        "Historical Earnings Growth": "11.04204",
+        "Sales Growth": "2.98734",
+        "Cash-Flow Growth": "10.47955",
+        "Book-Value Growth": "-4.35086"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "6.90425",
+        "Historical Earnings Growth": "10.03172",
+        "Sales Growth": "-0.68528",
+        "Cash-Flow Growth": "7.56217",
+        "Book-Value Growth": "-3.54826"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "13.07",
+      "3y_Volatility": "19.29",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.18",
+      "Returns_YTD": "7.45",
+      "Returns_1Y": "25.50",
+      "Returns_3Y": "9.20",
+      "Returns_5Y": "9.98",
+      "Returns_10Y": null
+    }
+  }
+}

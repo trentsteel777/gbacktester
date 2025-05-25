@@ -1,0 +1,820 @@
+{
+  "General": {
+    "Code": "SMOG",
+    "Type": "ETF",
+    "Name": "VanEck Low Carbon Energy ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000R18YM0",
+    "Description": "The fund normally invests at least 80% of its total assets in stocks of low carbon energy companies. Such companies may include small- and medium-capitalization companies and foreign issuers. \"Low carbon energy companies\" refers to companies primarily engaged in renewable energy, including renewable energy production, alternative fuels, electric vehicles, and related technologies and building materials (such as advanced batteries). It is non-diversified.",
+    "Category": "Miscellaneous Sector",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.2,
+    "52WeekHigh": 112.46,
+    "52WeekLow": 88.51,
+    "50DayMA": 102.561,
+    "200DayMA": 102.5924
+  },
+  "ETF_Data": {
+    "ISIN": "US92189F5026",
+    "Company_Name": "VanEck",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "1.580000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2007-05-03",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00610",
+    "AnnualHoldingsTurnover": "0.16000",
+    "TotalAssets": "123999723.00",
+    "Average_Mkt_Cap_Mil": "30912.09533",
+    "Market_Capitalisation": {
+      "Mega": "37.9986",
+      "Big": "21.68882",
+      "Medium": "29.169",
+      "Small": "9.91253",
+      "Micro": "1.02303"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.01924",
+        "Short_%": "0.04268",
+        "Net_Assets_%": "-0.02344"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "63.82532",
+        "Short_%": "0",
+        "Net_Assets_%": "63.82532"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "36.1981",
+        "Short_%": "0",
+        "Net_Assets_%": "36.1981"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "38.56",
+        "Relative_to_Category": "57.897"
+      },
+      "United Kingdom": {
+        "Equity_%": "1.31877",
+        "Relative_to_Category": "2.90305"
+      },
+      "Europe Developed": {
+        "Equity_%": "30.5",
+        "Relative_to_Category": "12.584"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.501"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.736"
+      },
+      "Japan": {
+        "Equity_%": "0.694",
+        "Relative_to_Category": "8.941"
+      },
+      "Australasia": {
+        "Equity_%": "2.941",
+        "Relative_to_Category": "1.578"
+      },
+      "Asia Developed": {
+        "Equity_%": "2.625",
+        "Relative_to_Category": "3.689"
+      },
+      "Asia Emerging": {
+        "Equity_%": "19.102",
+        "Relative_to_Category": "9.091"
+      },
+      "Latin America": {
+        "Equity_%": "4.255",
+        "Relative_to_Category": "2.081"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0.65291",
+        "Relative_to_Category": "1.97842"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "32.64998",
+        "Relative_to_Category": "3.77882"
+      },
+      "Financial Services": {
+        "Equity_%": "0.56352",
+        "Relative_to_Category": "2.68118"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "8.27419"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.82435"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "5.31334"
+      },
+      "Industrials": {
+        "Equity_%": "19.35213",
+        "Relative_to_Category": "19.04255"
+      },
+      "Technology": {
+        "Equity_%": "7.92011",
+        "Relative_to_Category": "32.57614"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.69773"
+      },
+      "Healthcare": {
+        "Equity_%": "0",
+        "Relative_to_Category": "7.94934"
+      },
+      "Utilities": {
+        "Equity_%": "38.85719",
+        "Relative_to_Category": "16.88394"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.62459"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "7.67606"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "14.4372"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.14997"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.48099"
+      }
+    },
+    "Holdings_Count": 47,
+    "Top_10_Holdings": {
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.18427
+      },
+      "IBE.MC": {
+        "Code": "IBE",
+        "Exchange": "MC",
+        "Name": "Iberdrola S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 7.79875
+      },
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.49884
+      },
+      "ENEL.MI": {
+        "Code": "ENEL",
+        "Exchange": "MI",
+        "Name": "Enel SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 7.15615
+      },
+      "1211.HK": {
+        "Code": "1211",
+        "Exchange": "HK",
+        "Name": "BYD Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 6.87332
+      },
+      "VWS.CO": {
+        "Code": "VWS",
+        "Exchange": "CO",
+        "Name": "Vestas Wind Systems A/S",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 4.04908
+      },
+      "XPEV.US": {
+        "Code": "XPEV",
+        "Exchange": "US",
+        "Name": "Xpeng Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.64405
+      },
+      "LI.US": {
+        "Code": "LI",
+        "Exchange": "US",
+        "Name": "Li Auto\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.54375
+      },
+      "RIVN.US": {
+        "Code": "RIVN",
+        "Exchange": "US",
+        "Name": "Rivian Automotive Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.46262
+      },
+      "FSLR.US": {
+        "Code": "FSLR",
+        "Exchange": "US",
+        "Name": "First Solar Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.40676
+      }
+    },
+    "Holdings": {
+      "TSLA.US": {
+        "Code": "TSLA",
+        "Exchange": "US",
+        "Name": "Tesla Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.18427
+      },
+      "IBE.MC": {
+        "Code": "IBE",
+        "Exchange": "MC",
+        "Name": "Iberdrola S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 7.79875
+      },
+      "NEE.US": {
+        "Code": "NEE",
+        "Exchange": "US",
+        "Name": "Nextera Energy Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.49884
+      },
+      "ENEL.MI": {
+        "Code": "ENEL",
+        "Exchange": "MI",
+        "Name": "Enel SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 7.15615
+      },
+      "1211.HK": {
+        "Code": "1211",
+        "Exchange": "HK",
+        "Name": "BYD Company Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 6.87332
+      },
+      "VWS.CO": {
+        "Code": "VWS",
+        "Exchange": "CO",
+        "Name": "Vestas Wind Systems A/S",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 4.04908
+      },
+      "XPEV.US": {
+        "Code": "XPEV",
+        "Exchange": "US",
+        "Name": "Xpeng Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.64405
+      },
+      "LI.US": {
+        "Code": "LI",
+        "Exchange": "US",
+        "Name": "Li Auto\u00a0Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.54375
+      },
+      "RIVN.US": {
+        "Code": "RIVN",
+        "Exchange": "US",
+        "Name": "Rivian Automotive Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.46262
+      },
+      "FSLR.US": {
+        "Code": "FSLR",
+        "Exchange": "US",
+        "Name": "First Solar Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.40676
+      },
+      "KRX.IR": {
+        "Code": "KRX",
+        "Exchange": "IR",
+        "Name": "Kingspan Group plc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "Ireland",
+        "Region": "Europe",
+        "Assets_%": 2.72756
+      },
+      "OC.US": {
+        "Code": "OC",
+        "Exchange": "US",
+        "Name": "Owens Corning Inc",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.52425
+      },
+      "EBR.US": {
+        "Code": "EBR",
+        "Exchange": "US",
+        "Name": "Centrais Electricas Brasileiras SA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.44237
+      },
+      "ORSTED.CO": {
+        "Code": "ORSTED",
+        "Exchange": "CO",
+        "Name": "Orsted A/S",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Assets_%": 2.17181
+      },
+      "NIBE-B.ST": {
+        "Code": "NIBE-B",
+        "Exchange": "ST",
+        "Name": "NIBE Industrier AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Building Products & Equipment",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 1.68873
+      },
+      "NIO.US": {
+        "Code": "NIO",
+        "Exchange": "US",
+        "Name": "Nio Inc Class A ADR",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.6048
+      },
+      "006400.KO": {
+        "Code": "006400",
+        "Exchange": "KO",
+        "Name": "Samsung SDI",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 1.42702
+      },
+      "ENPH.US": {
+        "Code": "ENPH",
+        "Exchange": "US",
+        "Name": "Enphase Energy Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.32326
+      },
+      "BLD.US": {
+        "Code": "BLD",
+        "Exchange": "US",
+        "Name": "Topbuild Corp",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.25469
+      },
+      "MEL.NZ": {
+        "Code": "MEL",
+        "Exchange": "NZ",
+        "Name": "Meridian Energy Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "New Zealand",
+        "Region": "Australasia",
+        "Assets_%": 1.19749
+      },
+      "CEN.NZ": {
+        "Code": "CEN",
+        "Exchange": "NZ",
+        "Name": "Contact Energy Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "New Zealand",
+        "Region": "Australasia",
+        "Assets_%": 1.08956
+      },
+      "ANA.MC": {
+        "Code": "ANA",
+        "Exchange": "MC",
+        "Name": "Acciona",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.99163
+      },
+      "LCID.US": {
+        "Code": "LCID",
+        "Exchange": "US",
+        "Name": "Lucid Group Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.98603
+      },
+      "NPI.TO": {
+        "Code": "NPI",
+        "Exchange": "TO",
+        "Name": "Northland Power Inc.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.96874
+      },
+      "ORA.US": {
+        "Code": "ORA",
+        "Exchange": "US",
+        "Name": "Ormat Technologies Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.91029
+      },
+      "EDPR.LS": {
+        "Code": "EDPR",
+        "Exchange": "LS",
+        "Name": "EDP Renovaveis",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Portugal",
+        "Region": "Europe",
+        "Assets_%": 0.84235
+      },
+      "ENS.US": {
+        "Code": "ENS",
+        "Exchange": "US",
+        "Name": "Enersys",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.77774
+      },
+      "IBP.US": {
+        "Code": "IBP",
+        "Exchange": "US",
+        "Name": "Installed Building Products Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Residential Construction",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.74342
+      },
+      "BE.US": {
+        "Code": "BE",
+        "Exchange": "US",
+        "Name": "Bloom Energy Corp",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.73162
+      },
+      "CIG.US": {
+        "Code": "CIG",
+        "Exchange": "US",
+        "Name": "Companhia Energetica de Minas Gerais CEMIG Pref ADR",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.7313
+      },
+      "6856.TSE": {
+        "Code": "6856",
+        "Exchange": "TSE",
+        "Name": "Horiba Ltd",
+        "Sector": "Technology",
+        "Industry": "Scientific & Technical Instruments",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 0.69401
+      },
+      "009830.KO": {
+        "Code": "009830",
+        "Exchange": "KO",
+        "Name": "Hanwha Solutions",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Korea",
+        "Region": "Asia",
+        "Assets_%": 0.68595
+      },
+      "NDX1.XETRA": {
+        "Code": "NDX1",
+        "Exchange": "XETRA",
+        "Name": "Nordex SE",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.67818
+      },
+      "DRX.LSE": {
+        "Code": "DRX",
+        "Exchange": "LSE",
+        "Name": "Drax Group PLC",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.66585
+      },
+      "MCY.NZ": {
+        "Code": "MCY",
+        "Exchange": "NZ",
+        "Name": "Mercury NZ Limited",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "New Zealand",
+        "Region": "Australasia",
+        "Assets_%": 0.65442
+      },
+      "JMAT.LSE": {
+        "Code": "JMAT",
+        "Exchange": "LSE",
+        "Name": "Johnson Matthey PLC",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.65291
+      },
+      "VER.VI": {
+        "Code": "VER",
+        "Exchange": "VI",
+        "Name": "VERBUND AG",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Austria",
+        "Region": "Europe",
+        "Assets_%": 0.6455
+      },
+      "3800.HK": {
+        "Code": "3800",
+        "Exchange": "HK",
+        "Name": "GCL-Poly Energy Holdings Ltd",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.63834
+      },
+      "HASI.US": {
+        "Code": "HASI",
+        "Exchange": "US",
+        "Name": "Hannon Armstrong Sustainable Infrastructure Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.56352
+      },
+      "ELP.US": {
+        "Code": "ELP",
+        "Exchange": "US",
+        "Name": "Companhia Paranaense de Energia Pref ADR",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.5446
+      },
+      "ENELAM.SN": {
+        "Code": "ENELAM",
+        "Exchange": "SN",
+        "Name": "Enel Am\u00e9ricas S.A",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 0.53694
+      },
+      "TA.TO": {
+        "Code": "TA",
+        "Exchange": "TO",
+        "Name": "TransAlta Corp",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.52543
+      },
+      "6121.TWO": {
+        "Code": "6121",
+        "Exchange": "TWO",
+        "Name": "Simplo Technology Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Electrical Equipment & Parts",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.51173
+      },
+      "0968.HK": {
+        "Code": "0968",
+        "Exchange": "HK",
+        "Name": "Xinyi Solar Holdings Ltd",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.50618
+      },
+      "0916.HK": {
+        "Code": "0916",
+        "Exchange": "HK",
+        "Name": "China Longyuan Power Group Corp Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.49885
+      },
+      "BLX.TO": {
+        "Code": "BLX",
+        "Exchange": "TO",
+        "Name": "Boralex Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Renewable",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.48247
+      },
+      "RUN.US": {
+        "Code": "RUN",
+        "Exchange": "US",
+        "Name": "Sunrun Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46176
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "16.12021",
+        "Price/Book": "2.08905",
+        "Price/Sales": "1.37682",
+        "Price/Cash Flow": "8.09312",
+        "Dividend-Yield Factor": "2.24564"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "16.4307",
+        "Price/Book": "2.06702",
+        "Price/Sales": "2.09307",
+        "Price/Cash Flow": "9.759",
+        "Dividend-Yield Factor": "1.72454"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.08987",
+        "Historical Earnings Growth": "5.65168",
+        "Sales Growth": "5.01811",
+        "Cash-Flow Growth": "4.07606",
+        "Book-Value Growth": "2.88026"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.677",
+        "Historical Earnings Growth": "2.80268",
+        "Sales Growth": "0.28725",
+        "Cash-Flow Growth": "3.56311",
+        "Book-Value Growth": "1.76207"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "1",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "19.39",
+      "3y_Volatility": "24.63",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.29",
+      "Returns_YTD": "12.82",
+      "Returns_1Y": "10.87",
+      "Returns_3Y": "-1.90",
+      "Returns_5Y": "9.82",
+      "Returns_10Y": "6.60"
+    }
+  }
+}

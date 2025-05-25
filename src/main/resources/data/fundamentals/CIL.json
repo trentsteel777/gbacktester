@@ -1,0 +1,840 @@
+{
+  "General": {
+    "Code": "CIL",
+    "Type": "ETF",
+    "Name": "VictoryShares International Volatility Wtd ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG009QTF396",
+    "Description": "The fund seeks to achieve its investment objective by investing, under normal market conditions, at least 80% of its assets directly or indirectly in the securities included in the Nasdaq Victory International 500 Volatility Weighted Index, an unmanaged, volatility weighted index maintained exclusively by the index provider. The index identifies the 500 largest foreign companies by market capitalization measured at the time the index's constituent securities are determined.",
+    "Category": "Foreign Large Blend",
+    "UpdatedAt": "2025-05-20"
+  },
+  "Technicals": {
+    "Beta": 1,
+    "52WeekHigh": 49.1364,
+    "52WeekLow": 39.8448,
+    "50DayMA": 46.092,
+    "200DayMA": 44.301
+  },
+  "ETF_Data": {
+    "ISIN": "US92647N8406",
+    "Company_Name": "Victory Capital",
+    "Company_URL": "http://www.VictorySharesLiterature.com",
+    "ETF_URL": "http://compassempetf.com/files/2115/File/VictoryShares_International_Volatility_Wtd_ETF_Fact_Sheet.pdf",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "3.080000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2015-08-20",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00450",
+    "AnnualHoldingsTurnover": "0.30000",
+    "TotalAssets": "109755861.00",
+    "Average_Mkt_Cap_Mil": "31986.64761",
+    "Market_Capitalisation": {
+      "Mega": "24.6783",
+      "Big": "60.73995",
+      "Medium": "12.64306",
+      "Small": "0.12917",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.14594",
+        "Short_%": "0",
+        "Net_Assets_%": "0.14594"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.11765",
+        "Short_%": "0",
+        "Net_Assets_%": "99.11765"
+      },
+      "Other": {
+        "Long_%": "0.21923",
+        "Short_%": "0",
+        "Net_Assets_%": "0.21923"
+      },
+      "Stock US": {
+        "Long_%": "0.51695",
+        "Short_%": "0",
+        "Net_Assets_%": "0.51695"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "12.467",
+        "Relative_to_Category": "8.284"
+      },
+      "United Kingdom": {
+        "Equity_%": "10.33467",
+        "Relative_to_Category": "13.72305"
+      },
+      "Europe Developed": {
+        "Equity_%": "45.18",
+        "Relative_to_Category": "41.07"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.3",
+        "Relative_to_Category": "0.207"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "1.232",
+        "Relative_to_Category": "1.081"
+      },
+      "Japan": {
+        "Equity_%": "16.32",
+        "Relative_to_Category": "18.226"
+      },
+      "Australasia": {
+        "Equity_%": "6.62",
+        "Relative_to_Category": "4.27"
+      },
+      "Asia Developed": {
+        "Equity_%": "7.396",
+        "Relative_to_Category": "6.35"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.15",
+        "Relative_to_Category": "5.705"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.084"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "6.24612",
+        "Relative_to_Category": "5.86274"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "8.14477",
+        "Relative_to_Category": "9.87307"
+      },
+      "Financial Services": {
+        "Equity_%": "24.17232",
+        "Relative_to_Category": "23.00982"
+      },
+      "Real Estate": {
+        "Equity_%": "1.4013",
+        "Relative_to_Category": "1.55228"
+      },
+      "Communication Services": {
+        "Equity_%": "6.85139",
+        "Relative_to_Category": "5.98087"
+      },
+      "Energy": {
+        "Equity_%": "4.93378",
+        "Relative_to_Category": "4.0004"
+      },
+      "Industrials": {
+        "Equity_%": "19.55753",
+        "Relative_to_Category": "16.78"
+      },
+      "Technology": {
+        "Equity_%": "5.83489",
+        "Relative_to_Category": "11.96737"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "9.69366",
+        "Relative_to_Category": "7.70361"
+      },
+      "Healthcare": {
+        "Equity_%": "7.05131",
+        "Relative_to_Category": "10.60477"
+      },
+      "Utilities": {
+        "Equity_%": "6.11291",
+        "Relative_to_Category": "2.66508"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.61475"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 49,
+    "Top_10_Holdings": {
+      "SCMN.SW": {
+        "Code": "SCMN",
+        "Exchange": "SW",
+        "Name": "Swisscom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.41523
+      },
+      "COL.AU": {
+        "Code": "COL",
+        "Exchange": "AU",
+        "Name": "Coles Group Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.38469
+      },
+      "BN.PA": {
+        "Code": "BN",
+        "Exchange": "PA",
+        "Name": "Danone SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.38244
+      },
+      "KPN.AS": {
+        "Code": "KPN",
+        "Exchange": "AS",
+        "Name": "Koninklijke KPN NV",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.3817
+      },
+      "TLS.AU": {
+        "Code": "TLS",
+        "Exchange": "AU",
+        "Name": "Telstra Corporation Ltd.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.37056
+      },
+      "DB1.XETRA": {
+        "Code": "DB1",
+        "Exchange": "XETRA",
+        "Name": "Deutsche B\u00f6rse AG",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.36957
+      },
+      "SLHN.SW": {
+        "Code": "SLHN",
+        "Exchange": "SW",
+        "Name": "Swiss Life Holding AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.36957
+      },
+      "H.TO": {
+        "Code": "H",
+        "Exchange": "TO",
+        "Name": "Hydro One Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.35685
+      },
+      "RY.TO": {
+        "Code": "RY",
+        "Exchange": "TO",
+        "Name": "Royal Bank of Canada",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.35622
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.35581
+      }
+    },
+    "Holdings": {
+      "SCMN.SW": {
+        "Code": "SCMN",
+        "Exchange": "SW",
+        "Name": "Swisscom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.41523
+      },
+      "COL.AU": {
+        "Code": "COL",
+        "Exchange": "AU",
+        "Name": "Coles Group Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.38469
+      },
+      "BN.PA": {
+        "Code": "BN",
+        "Exchange": "PA",
+        "Name": "Danone SA",
+        "Sector": "Consumer Defensive",
+        "Industry": "Packaged Foods",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.38244
+      },
+      "KPN.AS": {
+        "Code": "KPN",
+        "Exchange": "AS",
+        "Name": "Koninklijke KPN NV",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.3817
+      },
+      "TLS.AU": {
+        "Code": "TLS",
+        "Exchange": "AU",
+        "Name": "Telstra Corporation Ltd.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.37056
+      },
+      "DB1.XETRA": {
+        "Code": "DB1",
+        "Exchange": "XETRA",
+        "Name": "Deutsche B\u00f6rse AG",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.36957
+      },
+      "SLHN.SW": {
+        "Code": "SLHN",
+        "Exchange": "SW",
+        "Name": "Swiss Life Holding AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.36957
+      },
+      "H.TO": {
+        "Code": "H",
+        "Exchange": "TO",
+        "Name": "Hydro One Ltd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.35685
+      },
+      "RY.TO": {
+        "Code": "RY",
+        "Exchange": "TO",
+        "Name": "Royal Bank of Canada",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.35622
+      },
+      "ALV.XETRA": {
+        "Code": "ALV",
+        "Exchange": "XETRA",
+        "Name": "Allianz SE VNA O.N.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.35581
+      },
+      "FTS.TO": {
+        "Code": "FTS",
+        "Exchange": "TO",
+        "Name": "Fortis Inc",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.35301
+      },
+      "ENX.PA": {
+        "Code": "ENX",
+        "Exchange": "PA",
+        "Name": "Euronext N.V.",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.35118
+      },
+      "TRN.MI": {
+        "Code": "TRN",
+        "Exchange": "MI",
+        "Name": "Terna Rete Elettrica Nazionale SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.35106
+      },
+      "ORA.PA": {
+        "Code": "ORA",
+        "Exchange": "PA",
+        "Name": "Orange S.A.",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.35067
+      },
+      "NN.AS": {
+        "Code": "NN",
+        "Exchange": "AS",
+        "Name": "NN Group NV",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.3497
+      },
+      "ZURN.SW": {
+        "Code": "ZURN",
+        "Exchange": "SW",
+        "Name": "Zurich Insurance Group AG",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.3464
+      },
+      "SAMPO.HE": {
+        "Code": "SAMPO",
+        "Exchange": "HE",
+        "Name": "Sampo Oyj A",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Finland",
+        "Region": "Europe",
+        "Assets_%": 0.34297
+      },
+      "PST.MI": {
+        "Code": "PST",
+        "Exchange": "MI",
+        "Name": "Poste Italiane SpA",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.34184
+      },
+      "ENB.TO": {
+        "Code": "ENB",
+        "Exchange": "TO",
+        "Name": "Enbridge Inc",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Midstream",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.33804
+      },
+      "IBE.MC": {
+        "Code": "IBE",
+        "Exchange": "MC",
+        "Name": "Iberdrola S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.33454
+      },
+      "MRU.TO": {
+        "Code": "MRU",
+        "Exchange": "TO",
+        "Name": "Metro Inc.",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.33367
+      },
+      "SRG.MI": {
+        "Code": "SRG",
+        "Exchange": "MI",
+        "Name": "Snam SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Gas",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.33363
+      },
+      "L.TO": {
+        "Code": "L",
+        "Exchange": "TO",
+        "Name": "Loblaw Companies Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.33343
+      },
+      "S63.SG": {
+        "Code": "S63",
+        "Exchange": "SG",
+        "Name": "SINGAPORE TECH ENGINEERING LTD",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Singapore",
+        "Region": "Asia",
+        "Assets_%": 0.33325
+      },
+      "ENGI.PA": {
+        "Code": "ENGI",
+        "Exchange": "PA",
+        "Name": "Engie S.A.",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.33075
+      },
+      "ENEL.MI": {
+        "Code": "ENEL",
+        "Exchange": "MI",
+        "Name": "Enel SpA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.32962
+      },
+      "NG.LSE": {
+        "Code": "NG",
+        "Exchange": "LSE",
+        "Name": "National Grid PLC",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.32578
+      },
+      "EOAN.XETRA": {
+        "Code": "EOAN",
+        "Exchange": "XETRA",
+        "Name": "E.ON SE",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Diversified",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.32395
+      },
+      "EN.PA": {
+        "Code": "EN",
+        "Exchange": "PA",
+        "Name": "Bouygues SA",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.32271
+      },
+      "ELE.MC": {
+        "Code": "ELE",
+        "Exchange": "MC",
+        "Name": "Endesa SA",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.32057
+      },
+      "SCHP.SW": {
+        "Code": "SCHP",
+        "Exchange": "SW",
+        "Name": "Schindler Ps",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 0.31942
+      },
+      "BNS.TO": {
+        "Code": "BNS",
+        "Exchange": "TO",
+        "Name": "Bank of Nova Scotia",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.31752
+      },
+      "REL.LSE": {
+        "Code": "REL",
+        "Exchange": "LSE",
+        "Name": "Relx PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.31729
+      },
+      "CPG.LSE": {
+        "Code": "CPG",
+        "Exchange": "LSE",
+        "Name": "Compass Group PLC",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.31683
+      },
+      "WCN.US": {
+        "Code": "WCN",
+        "Exchange": "US",
+        "Name": "Waste Connections Inc",
+        "Sector": "Industrials",
+        "Industry": "Waste Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.31623
+      },
+      "WN.TO": {
+        "Code": "WN",
+        "Exchange": "TO",
+        "Name": "George Weston Limited",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.31365
+      },
+      "AENA.MC": {
+        "Code": "AENA",
+        "Exchange": "MC",
+        "Name": "Aena SA",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "Spain",
+        "Region": "Europe",
+        "Assets_%": 0.3128
+      },
+      "TEL.OL": {
+        "Code": "TEL",
+        "Exchange": "OL",
+        "Name": "Telenor ASA",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Norway",
+        "Region": "Europe",
+        "Assets_%": 0.31069
+      },
+      "DTE.XETRA": {
+        "Code": "DTE",
+        "Exchange": "XETRA",
+        "Name": "Deutsche Telekom AG",
+        "Sector": "Communication Services",
+        "Industry": "Telecom Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.3099
+      },
+      "AD.AS": {
+        "Code": "AD",
+        "Exchange": "AS",
+        "Name": "Koninklijke Ahold Delhaize NV",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.30819
+      },
+      "G.MI": {
+        "Code": "G",
+        "Exchange": "MI",
+        "Name": "Assicurazioni Generali S.p.A.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Italy",
+        "Region": "Europe",
+        "Assets_%": 0.30334
+      },
+      "SLF.TO": {
+        "Code": "SLF",
+        "Exchange": "TO",
+        "Name": "Sun Life Financial Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.30238
+      },
+      "AI.PA": {
+        "Code": "AI",
+        "Exchange": "PA",
+        "Name": "Air Liquide SA",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 0.30221
+      },
+      "HLN.LSE": {
+        "Code": "HLN",
+        "Exchange": "LSE",
+        "Name": "Haleon PLC",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.30194
+      },
+      "0O84.LSE": {
+        "Code": "0O84",
+        "Exchange": "LSE",
+        "Name": "DnB Bank ASA",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.30165
+      },
+      "WOW.AU": {
+        "Code": "WOW",
+        "Exchange": "AU",
+        "Name": "Woolworths Ltd",
+        "Sector": "Consumer Defensive",
+        "Industry": "Grocery Stores",
+        "Country": "Australia",
+        "Region": "Australasia",
+        "Assets_%": 0.30128
+      },
+      "0002.HK": {
+        "Code": "0002",
+        "Exchange": "HK",
+        "Name": "CLP Holdings",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.30124
+      },
+      "CM.TO": {
+        "Code": "CM",
+        "Exchange": "TO",
+        "Name": "Canadian Imperial Bank Of Commerce",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 0.3003
+      },
+      "ULVR.LSE": {
+        "Code": "ULVR",
+        "Exchange": "LSE",
+        "Name": "Unilever PLC",
+        "Sector": "Consumer Defensive",
+        "Industry": "Household & Personal Products",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.30011
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.00884",
+        "Price/Book": "1.56753",
+        "Price/Sales": "1.27179",
+        "Price/Cash Flow": "7.71927",
+        "Dividend-Yield Factor": "3.68608"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.70863",
+        "Price/Book": "1.73346",
+        "Price/Sales": "1.44742",
+        "Price/Cash Flow": "8.48438",
+        "Dividend-Yield Factor": "3.20534"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.24977",
+        "Historical Earnings Growth": "4.58543",
+        "Sales Growth": "2.8662",
+        "Cash-Flow Growth": "4.65739",
+        "Book-Value Growth": "5.67248"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "8.51329",
+        "Historical Earnings Growth": "6.57497",
+        "Sales Growth": "4.36754",
+        "Cash-Flow Growth": "6.05073",
+        "Book-Value Growth": "6.86916"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": "MSCI ACWI Ex USA NR USD",
+      "Sustainability_Ratio": "4"
+    },
+    "Performance": {
+      "1y_Volatility": "11.20",
+      "3y_Volatility": "16.19",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.33",
+      "Returns_YTD": "17.95",
+      "Returns_1Y": "15.63",
+      "Returns_3Y": "11.50",
+      "Returns_5Y": "12.06",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "General": {
+    "Code": "AVMA",
+    "Type": "ETF",
+    "Name": "American Century ETF Trust",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG01H4897B2",
+    "Description": "The fund is a \"fund of funds,\" meaning that it seeks to achieve its objective by investing in other Avantis ETFs (collectively, the underlying funds). The underlying funds represent a broadly diversified basket of equity and fixed income securities that seek to select or overweight securities that are expected to have higher returns or better risk characteristics than a passive, market-cap weighted index. The managers will allocate to the underlying funds across geographies and investment styles to achieve the desired allocation.",
+    "Category": "Moderate Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 61.5576,
+    "52WeekLow": 52.83,
+    "50DayMA": 57.7477,
+    "200DayMA": 58.8052
+  },
+  "ETF_Data": {
+    "ISIN": "US0250721828",
+    "Company_Name": "American Century",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "2.290000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2023-06-27",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00210",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "28589340.00",
+    "Average_Mkt_Cap_Mil": "41237.4848",
+    "Market_Capitalisation": {
+      "Mega": "18.17006",
+      "Big": "16.74793",
+      "Medium": "19.32024",
+      "Small": "8.24477",
+      "Micro": "4.75014"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "8.6731",
+        "Short_%": "6.34638",
+        "Net_Assets_%": "2.32672"
+      },
+      "NotClassified": {
+        "Long_%": "0.00832",
+        "Short_%": "0",
+        "Net_Assets_%": "0.00832"
+      },
+      "Stock non-US": {
+        "Long_%": "21.03332",
+        "Short_%": "0",
+        "Net_Assets_%": "21.03332"
+      },
+      "Other": {
+        "Long_%": "0.04566",
+        "Short_%": "0",
+        "Net_Assets_%": "0.04566"
+      },
+      "Stock US": {
+        "Long_%": "46.86385",
+        "Short_%": "0",
+        "Net_Assets_%": "46.86385"
+      },
+      "Bond": {
+        "Long_%": "30.18812",
+        "Short_%": "0.46603",
+        "Net_Assets_%": "29.72209"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "71.075",
+        "Relative_to_Category": "86.471"
+      },
+      "United Kingdom": {
+        "Equity_%": "2.57414",
+        "Relative_to_Category": "2.21329"
+      },
+      "Europe Developed": {
+        "Equity_%": "8.354",
+        "Relative_to_Category": "6.148"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.294",
+        "Relative_to_Category": "0.04"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.681",
+        "Relative_to_Category": "0.203"
+      },
+      "Japan": {
+        "Equity_%": "4.348",
+        "Relative_to_Category": "1.959"
+      },
+      "Australasia": {
+        "Equity_%": "1.505",
+        "Relative_to_Category": "0.428"
+      },
+      "Asia Developed": {
+        "Equity_%": "4.205",
+        "Relative_to_Category": "1.306"
+      },
+      "Asia Emerging": {
+        "Equity_%": "5.51",
+        "Relative_to_Category": "0.967"
+      },
+      "Latin America": {
+        "Equity_%": "1.452",
+        "Relative_to_Category": "0.261"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "5.11517",
+        "Relative_to_Category": "3.05196"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "13.82935",
+        "Relative_to_Category": "10.09488"
+      },
+      "Financial Services": {
+        "Equity_%": "19.93894",
+        "Relative_to_Category": "16.41124"
+      },
+      "Real Estate": {
+        "Equity_%": "3.46379",
+        "Relative_to_Category": "2.14047"
+      },
+      "Communication Services": {
+        "Equity_%": "7.59796",
+        "Relative_to_Category": "8.19201"
+      },
+      "Energy": {
+        "Equity_%": "7.38654",
+        "Relative_to_Category": "4.055"
+      },
+      "Industrials": {
+        "Equity_%": "13.66504",
+        "Relative_to_Category": "10.03349"
+      },
+      "Technology": {
+        "Equity_%": "14.9578",
+        "Relative_to_Category": "24.69959"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "5.25922",
+        "Relative_to_Category": "5.76702"
+      },
+      "Healthcare": {
+        "Equity_%": "6.60142",
+        "Relative_to_Category": "12.6184"
+      },
+      "Utilities": {
+        "Equity_%": "2.18476",
+        "Relative_to_Category": "2.93594"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "4.9113",
+        "Relative_to_Category": "5.07936"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.37361"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "6.55248",
+        "Relative_to_Category": "7.27099"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "4.38479",
+        "Relative_to_Category": "4.31493"
+      },
+      "Price": {
+        "Fund_%": "97.8836",
+        "Relative_to_Category": "97.24494"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "4.65586",
+        "Relative_to_Category": "4.74915"
+      }
+    },
+    "Holdings_Count": 16,
+    "Top_10_Holdings": {
+      "AVUS.US": {
+        "Code": "AVUS",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae U.S. Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 29.14433
+      },
+      "AVIG.US": {
+        "Code": "AVIG",
+        "Exchange": "US",
+        "Name": "Avantis Core Fixed Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 21.13795
+      },
+      "AVSF.US": {
+        "Code": "AVSF",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust - Avantis Short-Term Fixed Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.62151
+      },
+      "AVLV.US": {
+        "Code": "AVLV",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust - Avantis U.S. Large Cap Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.90579
+      },
+      "AVDE.US": {
+        "Code": "AVDE",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae International Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.70224
+      },
+      "AVEM.US": {
+        "Code": "AVEM",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae Emerging Markets Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.34683
+      },
+      "AVIV.US": {
+        "Code": "AVIV",
+        "Exchange": "US",
+        "Name": "Avantis International Large Cap",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.93906
+      },
+      "AVSC.US": {
+        "Code": "AVSC",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.33427
+      },
+      "AVUV.US": {
+        "Code": "AVUV",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae U.S. Small Cap Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.327
+      },
+      "AVES.US": {
+        "Code": "AVES",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae Emerging Markets Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.27944
+      }
+    },
+    "Holdings": {
+      "AVUS.US": {
+        "Code": "AVUS",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae U.S. Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 29.14433
+      },
+      "AVIG.US": {
+        "Code": "AVIG",
+        "Exchange": "US",
+        "Name": "Avantis Core Fixed Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 21.13795
+      },
+      "AVSF.US": {
+        "Code": "AVSF",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust - Avantis Short-Term Fixed Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 10.62151
+      },
+      "AVLV.US": {
+        "Code": "AVLV",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust - Avantis U.S. Large Cap Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.90579
+      },
+      "AVDE.US": {
+        "Code": "AVDE",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae International Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.70224
+      },
+      "AVEM.US": {
+        "Code": "AVEM",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae Emerging Markets Equity ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.34683
+      },
+      "AVIV.US": {
+        "Code": "AVIV",
+        "Exchange": "US",
+        "Name": "Avantis International Large Cap",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.93906
+      },
+      "AVSC.US": {
+        "Code": "AVSC",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.33427
+      },
+      "AVUV.US": {
+        "Code": "AVUV",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae U.S. Small Cap Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.327
+      },
+      "AVES.US": {
+        "Code": "AVES",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae Emerging Markets Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.27944
+      },
+      "AVRE.US": {
+        "Code": "AVRE",
+        "Exchange": "US",
+        "Name": "Avantis Real Estate ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.90301
+      },
+      "AVMC.US": {
+        "Code": "AVMC",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.01334
+      },
+      "AVMV.US": {
+        "Code": "AVMV",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.00877
+      },
+      "AVDV.US": {
+        "Code": "AVDV",
+        "Exchange": "US",
+        "Name": "Avantis\u00ae International Small Cap Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.87109
+      },
+      "AVEE.US": {
+        "Code": "AVEE",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.642
+      },
+      "AVDS.US": {
+        "Code": "AVDS",
+        "Exchange": "US",
+        "Name": "American Century ETF Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.63574
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "13.95295",
+        "Price/Book": "1.89009",
+        "Price/Sales": "1.17532",
+        "Price/Cash Flow": "7.4055",
+        "Dividend-Yield Factor": "2.5577"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.39724",
+        "Price/Book": "3.11632",
+        "Price/Sales": "2.16222",
+        "Price/Cash Flow": "12.07323",
+        "Dividend-Yield Factor": "1.86144"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.43238",
+        "Historical Earnings Growth": "2.2597",
+        "Sales Growth": "4.33686",
+        "Cash-Flow Growth": "1.50991",
+        "Book-Value Growth": "6.20312"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "10.84341",
+        "Historical Earnings Growth": "4.5186",
+        "Sales Growth": "6.70425",
+        "Cash-Flow Growth": "5.65472",
+        "Book-Value Growth": "7.78184"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "8.41",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "3.48",
+      "Returns_1Y": "7.45",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

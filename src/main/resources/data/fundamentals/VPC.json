@@ -1,0 +1,850 @@
+{
+  "General": {
+    "Code": "VPC",
+    "Type": "ETF",
+    "Name": "Virtus Private Credit ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00N875F15",
+    "Description": "Under normal market conditions, the fund will invest not less than 80% of its assets in component securities of the underlying index. The underlying index is designed to track the performance of U.S.-listed, registered closed-end investment companies that have elected to be regulated as business development companies under the Investment Company Act of 1940, as well as U.S.-listed, non-BDC registered closed-end funds.",
+    "Category": "Nontraditional Bond",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.04,
+    "52WeekHigh": 22.4251,
+    "52WeekLow": 17.985,
+    "50DayMA": 20.406,
+    "200DayMA": 21.8318
+  },
+  "ETF_Data": {
+    "ISIN": "US26923G7988",
+    "Company_Name": "Virtus",
+    "Company_URL": "",
+    "ETF_URL": "",
+    "Domicile": "",
+    "Index_Name": null,
+    "Yield": "11.880000",
+    "Dividend_Paying_Frequency": "",
+    "Inception_Date": "2019-02-07",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.09720",
+    "AnnualHoldingsTurnover": "0.40000",
+    "TotalAssets": "56074647.00",
+    "Average_Mkt_Cap_Mil": "826.4211",
+    "Market_Capitalisation": {
+      "Mega": "0",
+      "Big": "0",
+      "Medium": "1.32451",
+      "Small": "6.81523",
+      "Micro": "45.2052"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "3.28238",
+        "Short_%": "2.84309",
+        "Net_Assets_%": "0.43929"
+      },
+      "NotClassified": {
+        "Long_%": "0.09824",
+        "Short_%": "0",
+        "Net_Assets_%": "0.09824"
+      },
+      "Stock non-US": {
+        "Long_%": "0.01339",
+        "Short_%": "0",
+        "Net_Assets_%": "0.01339"
+      },
+      "Other": {
+        "Long_%": "17.50553",
+        "Short_%": "0",
+        "Net_Assets_%": "17.50553"
+      },
+      "Stock US": {
+        "Long_%": "55.83978",
+        "Short_%": "0",
+        "Net_Assets_%": "55.83978"
+      },
+      "Bond": {
+        "Long_%": "27.23043",
+        "Short_%": "1.12667",
+        "Net_Assets_%": "26.10376"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "99.976",
+        "Relative_to_Category": "0"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.00219",
+        "Relative_to_Category": "4.28275"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Latin America": {
+        "Equity_%": "0.022",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0.01244",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0.02402",
+        "Relative_to_Category": "0"
+      },
+      "Financial Services": {
+        "Equity_%": "99.82909",
+        "Relative_to_Category": "0"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Communication Services": {
+        "Equity_%": "0.01698",
+        "Relative_to_Category": "0"
+      },
+      "Energy": {
+        "Equity_%": "0.03481",
+        "Relative_to_Category": "0"
+      },
+      "Industrials": {
+        "Equity_%": "0.04404",
+        "Relative_to_Category": "0"
+      },
+      "Technology": {
+        "Equity_%": "0.01544",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Healthcare": {
+        "Equity_%": "0.01797",
+        "Relative_to_Category": "0"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "1.48988",
+        "Relative_to_Category": "2.76158"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "3.00724",
+        "Relative_to_Category": "3.50226"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "5.62648",
+        "Relative_to_Category": "6.05102"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "7.27509",
+        "Relative_to_Category": "4.79986"
+      },
+      "Price": {
+        "Fund_%": "95.56819",
+        "Relative_to_Category": "94.48081"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "2.52164",
+        "Relative_to_Category": "6.11145"
+      }
+    },
+    "Holdings_Count": 50,
+    "Top_10_Holdings": {
+      "TPVG.US": {
+        "Code": "TPVG",
+        "Exchange": "US",
+        "Name": "Triplepoint Venture Growth BDC Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.71747
+      },
+      "XFLT.US": {
+        "Code": "XFLT",
+        "Exchange": "US",
+        "Name": "XAI Octagon Floating Rate & Alternative Income Term Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.29419
+      },
+      "PSEC.US": {
+        "Code": "PSEC",
+        "Exchange": "US",
+        "Name": "Prospect Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.2611
+      },
+      "JQC.US": {
+        "Code": "JQC",
+        "Exchange": "US",
+        "Name": "Nuveen Credit Strategies Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.12009
+      },
+      "GAIN.US": {
+        "Code": "GAIN",
+        "Exchange": "US",
+        "Name": "Gladstone Investment Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11597
+      },
+      "GSBD.US": {
+        "Code": "GSBD",
+        "Exchange": "US",
+        "Name": "Goldman Sachs BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.0263
+      },
+      "WHF.US": {
+        "Code": "WHF",
+        "Exchange": "US",
+        "Name": "WhiteHorse Finance",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.99722
+      },
+      "TCPC.US": {
+        "Code": "TCPC",
+        "Exchange": "US",
+        "Name": "BlackRock TCP Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.97165
+      },
+      "PNNT.US": {
+        "Code": "PNNT",
+        "Exchange": "US",
+        "Name": "PennantPark Investment Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.90559
+      },
+      "RWAY_old.US": {
+        "Code": "RWAY_old",
+        "Exchange": "US",
+        "Name": "RWAY",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8711
+      }
+    },
+    "Holdings": {
+      "TPVG.US": {
+        "Code": "TPVG",
+        "Exchange": "US",
+        "Name": "Triplepoint Venture Growth BDC Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.71747
+      },
+      "XFLT.US": {
+        "Code": "XFLT",
+        "Exchange": "US",
+        "Name": "XAI Octagon Floating Rate & Alternative Income Term Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.29419
+      },
+      "PSEC.US": {
+        "Code": "PSEC",
+        "Exchange": "US",
+        "Name": "Prospect Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.2611
+      },
+      "JQC.US": {
+        "Code": "JQC",
+        "Exchange": "US",
+        "Name": "Nuveen Credit Strategies Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.12009
+      },
+      "GAIN.US": {
+        "Code": "GAIN",
+        "Exchange": "US",
+        "Name": "Gladstone Investment Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.11597
+      },
+      "GSBD.US": {
+        "Code": "GSBD",
+        "Exchange": "US",
+        "Name": "Goldman Sachs BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.0263
+      },
+      "WHF.US": {
+        "Code": "WHF",
+        "Exchange": "US",
+        "Name": "WhiteHorse Finance",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.99722
+      },
+      "TCPC.US": {
+        "Code": "TCPC",
+        "Exchange": "US",
+        "Name": "BlackRock TCP Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.97165
+      },
+      "PNNT.US": {
+        "Code": "PNNT",
+        "Exchange": "US",
+        "Name": "PennantPark Investment Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.90559
+      },
+      "RWAY_old.US": {
+        "Code": "RWAY_old",
+        "Exchange": "US",
+        "Name": "RWAY",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8711
+      },
+      "FSK.US": {
+        "Code": "FSK",
+        "Exchange": "US",
+        "Name": "FS KKR Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.80434
+      },
+      "KIO.US": {
+        "Code": "KIO",
+        "Exchange": "US",
+        "Name": "KKR Income Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79827
+      },
+      "PHD.US": {
+        "Code": "PHD",
+        "Exchange": "US",
+        "Name": "Pioneer Floating Rate Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.78248
+      },
+      "VVR.US": {
+        "Code": "VVR",
+        "Exchange": "US",
+        "Name": "Invesco Senior Income Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.77126
+      },
+      "SAR.US": {
+        "Code": "SAR",
+        "Exchange": "US",
+        "Name": "Saratoga Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74197
+      },
+      "JFR.US": {
+        "Code": "JFR",
+        "Exchange": "US",
+        "Name": "Nuveen Floating Rate Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.73744
+      },
+      "NMFC.US": {
+        "Code": "NMFC",
+        "Exchange": "US",
+        "Name": "New Mountain Finance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.73695
+      },
+      "HRZN.US": {
+        "Code": "HRZN",
+        "Exchange": "US",
+        "Name": "Horizon Technology Finance",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.72927
+      },
+      "PFLT.US": {
+        "Code": "PFLT",
+        "Exchange": "US",
+        "Name": "PennantPark Floating Rate Capital Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.67358
+      },
+      "FCT.US": {
+        "Code": "FCT",
+        "Exchange": "US",
+        "Name": "First Trust Senior Floating Rate Income Fund II",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.65702
+      },
+      "BGT.US": {
+        "Code": "BGT",
+        "Exchange": "US",
+        "Name": "BlackRock Floating Rate Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.60981
+      },
+      "FRA.US": {
+        "Code": "FRA",
+        "Exchange": "US",
+        "Name": "BlackRock Floating Rate Income Strategies Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.60815
+      },
+      "DSU.US": {
+        "Code": "DSU",
+        "Exchange": "US",
+        "Name": "BlackRock Debt Strategies Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.60253
+      },
+      "EVF.US": {
+        "Code": "EVF",
+        "Exchange": "US",
+        "Name": "Eaton Vance Senior Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.56118
+      },
+      "CSWC.US": {
+        "Code": "CSWC",
+        "Exchange": "US",
+        "Name": "Capital Southwest Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.55666
+      },
+      "GBDC.US": {
+        "Code": "GBDC",
+        "Exchange": "US",
+        "Name": "Golub Capital BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.55319
+      },
+      "SCM.US": {
+        "Code": "SCM",
+        "Exchange": "US",
+        "Name": "Stellus Capital Investment",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5138
+      },
+      "SLRC.US": {
+        "Code": "SLRC",
+        "Exchange": "US",
+        "Name": "SLR Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5115
+      },
+      "EFR.US": {
+        "Code": "EFR",
+        "Exchange": "US",
+        "Name": "Eaton Vance Senior Floating Rate Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.50419
+      },
+      "AINV.US": {
+        "Code": "AINV",
+        "Exchange": "US",
+        "Name": "Apollo Investment Corp",
+        "Sector": "Financial",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.49661
+      },
+      "TSLX.US": {
+        "Code": "TSLX",
+        "Exchange": "US",
+        "Name": "Sixth Street Specialty Lending Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.48933
+      },
+      "EFT.US": {
+        "Code": "EFT",
+        "Exchange": "US",
+        "Name": "Eaton Vance Floating Rate Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.48609
+      },
+      "BLW.US": {
+        "Code": "BLW",
+        "Exchange": "US",
+        "Name": "BlackRock Limited Duration Income Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.47707
+      },
+      "CION.US": {
+        "Code": "CION",
+        "Exchange": "US",
+        "Name": "Cion Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.46719
+      },
+      "BGX.US": {
+        "Code": "BGX",
+        "Exchange": "US",
+        "Name": "Blackstone GSO Long Short Credit Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.43539
+      },
+      "BSL.US": {
+        "Code": "BSL",
+        "Exchange": "US",
+        "Name": "Blackstone GSO Senior Floating Rate Term Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.41829
+      },
+      "FDUS.US": {
+        "Code": "FDUS",
+        "Exchange": "US",
+        "Name": "Fidus Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.40581
+      },
+      "CCAP.US": {
+        "Code": "CCAP",
+        "Exchange": "US",
+        "Name": "Crescent Capital BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.36222
+      },
+      "ARDC.US": {
+        "Code": "ARDC",
+        "Exchange": "US",
+        "Name": "Ares Dynamic Credit Allocation Fund Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.35264
+      },
+      "BBDC.US": {
+        "Code": "BBDC",
+        "Exchange": "US",
+        "Name": "Barings BDC Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.32947
+      },
+      "ARCC.US": {
+        "Code": "ARCC",
+        "Exchange": "US",
+        "Name": "Ares Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.3179
+      },
+      "BXSL.US": {
+        "Code": "BXSL",
+        "Exchange": "US",
+        "Name": "Blackstone Secured Lending Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.28297
+      },
+      "HTGC.US": {
+        "Code": "HTGC",
+        "Exchange": "US",
+        "Name": "Hercules Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.26633
+      },
+      "BCSF.US": {
+        "Code": "BCSF",
+        "Exchange": "US",
+        "Name": "Bain Capital Specialty Finance Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.254
+      },
+      "CGBD.US": {
+        "Code": "CGBD",
+        "Exchange": "US",
+        "Name": "Carlyle Secured Lending Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.22358
+      },
+      "OFS.US": {
+        "Code": "OFS",
+        "Exchange": "US",
+        "Name": "OFS Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.12066
+      },
+      "OXSQ.US": {
+        "Code": "OXSQ",
+        "Exchange": "US",
+        "Name": "Oxford Square Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.92419
+      },
+      "MAIN.US": {
+        "Code": "MAIN",
+        "Exchange": "US",
+        "Name": "Main Street Capital Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.85986
+      },
+      "MRCC.US": {
+        "Code": "MRCC",
+        "Exchange": "US",
+        "Name": "Monroe Capital Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.78887
+      },
+      "PTMN.US": {
+        "Code": "PTMN",
+        "Exchange": "US",
+        "Name": "Portman Ridge Finance Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.76749
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "7.81224",
+        "Price/Book": "0.87622",
+        "Price/Sales": "3.47072",
+        "Price/Cash Flow": "3.29883",
+        "Dividend-Yield Factor": "15.09997"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "9.84483",
+        "Price/Book": "1.43599",
+        "Price/Sales": "1.57057",
+        "Price/Cash Flow": "9.36263",
+        "Dividend-Yield Factor": "6.00747"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "14.5235",
+        "Historical Earnings Growth": "-7.28214",
+        "Sales Growth": "-4.58764",
+        "Cash-Flow Growth": "-10.10511",
+        "Book-Value Growth": "-4.08117"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "6.98241",
+        "Historical Earnings Growth": "7.09317",
+        "Sales Growth": "-0.07191",
+        "Cash-Flow Growth": "1.71809",
+        "Book-Value Growth": "7.88796"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "",
+      "Sustainability_Ratio": ""
+    },
+    "Performance": {
+      "1y_Volatility": "9.28",
+      "3y_Volatility": "14.63",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.11",
+      "Returns_YTD": "-4.18",
+      "Returns_1Y": "-1.63",
+      "Returns_3Y": "8.12",
+      "Returns_5Y": "14.46",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

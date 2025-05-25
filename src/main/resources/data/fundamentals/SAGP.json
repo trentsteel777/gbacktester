@@ -1,0 +1,830 @@
+{
+  "General": {
+    "Code": "SAGP",
+    "Type": "ETF",
+    "Name": "The Advisorsa Inner Circle Fund III",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG014RLWCF6",
+    "Description": "The fund is an actively-managed exchange-traded fund (\"ETF\") that seeks to achieve its objective by investing principally in the common stocks of U.S. and non-U.S. companies interested in influencing public policy through their lobbying activity in Washington D.C. Strategas Asset Management, LLC (the \"Adviser\") considers lobbying a nontraditional and largely unrecognized factor in company analysis. It may, from time to time, invest a significant portion of its total assets in securities of companies in certain sectors or located in particular countries or regions outside the U.S.",
+    "Category": "Global Small/Mid Stock",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.94,
+    "52WeekHigh": 31.92,
+    "52WeekLow": 26.2106,
+    "50DayMA": 30.2675,
+    "200DayMA": 29.8072
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Strategas",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "0.690000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2022-01-25",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00650",
+    "AnnualHoldingsTurnover": "0.74000",
+    "TotalAssets": "49116336.00",
+    "Average_Mkt_Cap_Mil": "22906.73315",
+    "Market_Capitalisation": {
+      "Mega": "7.79758",
+      "Big": "29.94528",
+      "Medium": "38.51797",
+      "Small": "15.86191",
+      "Micro": "4.87843"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "1.46787",
+        "Short_%": "0.00106",
+        "Net_Assets_%": "1.46681"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "35.60577",
+        "Short_%": "0.03039",
+        "Net_Assets_%": "35.57538"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "62.95781",
+        "Short_%": "0",
+        "Net_Assets_%": "62.95781"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "67.261",
+        "Relative_to_Category": "62.088"
+      },
+      "United Kingdom": {
+        "Equity_%": "8.50733",
+        "Relative_to_Category": "5.80852"
+      },
+      "Europe Developed": {
+        "Equity_%": "16.701",
+        "Relative_to_Category": "12.886"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.21"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "1.847",
+        "Relative_to_Category": "0.872"
+      },
+      "Japan": {
+        "Equity_%": "2.991",
+        "Relative_to_Category": "7.661"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.407"
+      },
+      "Asia Developed": {
+        "Equity_%": "1.12",
+        "Relative_to_Category": "3.414"
+      },
+      "Asia Emerging": {
+        "Equity_%": "1.572",
+        "Relative_to_Category": "3.655"
+      },
+      "Latin America": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.999"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "6.24346",
+        "Relative_to_Category": "8.17943"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "2.16249",
+        "Relative_to_Category": "11.46347"
+      },
+      "Financial Services": {
+        "Equity_%": "5.43419",
+        "Relative_to_Category": "14.39091"
+      },
+      "Real Estate": {
+        "Equity_%": "0",
+        "Relative_to_Category": "4.49494"
+      },
+      "Communication Services": {
+        "Equity_%": "7.7077",
+        "Relative_to_Category": "2.08788"
+      },
+      "Energy": {
+        "Equity_%": "0.36532",
+        "Relative_to_Category": "5.19366"
+      },
+      "Industrials": {
+        "Equity_%": "31.58171",
+        "Relative_to_Category": "21.96215"
+      },
+      "Technology": {
+        "Equity_%": "13.69066",
+        "Relative_to_Category": "14.53596"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "3.21416",
+        "Relative_to_Category": "4.53823"
+      },
+      "Healthcare": {
+        "Equity_%": "29.60031",
+        "Relative_to_Category": "9.56073"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "3.59265"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.68469"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 48,
+    "Top_10_Holdings": {
+      "PLTR.US": {
+        "Code": "PLTR",
+        "Exchange": "US",
+        "Name": "Palantir Technologies Inc. Class A Common Stock",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.70134
+      },
+      "AXON.US": {
+        "Code": "AXON",
+        "Exchange": "US",
+        "Name": "Axon Enterprise Inc.",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.54426
+      },
+      "HII.US": {
+        "Code": "HII",
+        "Exchange": "US",
+        "Name": "Huntington Ingalls Industries Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.40357
+      },
+      "LDOS.US": {
+        "Code": "LDOS",
+        "Exchange": "US",
+        "Name": "Leidos Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.19195
+      },
+      "VRSN.US": {
+        "Code": "VRSN",
+        "Exchange": "US",
+        "Name": "VeriSign Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.15229
+      },
+      "SAAB-B.ST": {
+        "Code": "SAAB-B",
+        "Exchange": "ST",
+        "Name": "Saab AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 2.1495
+      },
+      "FICO.US": {
+        "Code": "FICO",
+        "Exchange": "US",
+        "Name": "Fair Isaac Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.12152
+      },
+      "GD.US": {
+        "Code": "GD",
+        "Exchange": "US",
+        "Name": "General Dynamics Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02974
+      },
+      "HUM.US": {
+        "Code": "HUM",
+        "Exchange": "US",
+        "Name": "Humana Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.00915
+      },
+      "TXT.US": {
+        "Code": "TXT",
+        "Exchange": "US",
+        "Name": "Textron Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95612
+      }
+    },
+    "Holdings": {
+      "PLTR.US": {
+        "Code": "PLTR",
+        "Exchange": "US",
+        "Name": "Palantir Technologies Inc. Class A Common Stock",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.70134
+      },
+      "AXON.US": {
+        "Code": "AXON",
+        "Exchange": "US",
+        "Name": "Axon Enterprise Inc.",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.54426
+      },
+      "HII.US": {
+        "Code": "HII",
+        "Exchange": "US",
+        "Name": "Huntington Ingalls Industries Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.40357
+      },
+      "LDOS.US": {
+        "Code": "LDOS",
+        "Exchange": "US",
+        "Name": "Leidos Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.19195
+      },
+      "VRSN.US": {
+        "Code": "VRSN",
+        "Exchange": "US",
+        "Name": "VeriSign Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.15229
+      },
+      "SAAB-B.ST": {
+        "Code": "SAAB-B",
+        "Exchange": "ST",
+        "Name": "Saab AB (publ)",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 2.1495
+      },
+      "FICO.US": {
+        "Code": "FICO",
+        "Exchange": "US",
+        "Name": "Fair Isaac Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.12152
+      },
+      "GD.US": {
+        "Code": "GD",
+        "Exchange": "US",
+        "Name": "General Dynamics Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.02974
+      },
+      "HUM.US": {
+        "Code": "HUM",
+        "Exchange": "US",
+        "Name": "Humana Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.00915
+      },
+      "TXT.US": {
+        "Code": "TXT",
+        "Exchange": "US",
+        "Name": "Textron Inc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.95612
+      },
+      "FME.XETRA": {
+        "Code": "FME",
+        "Exchange": "XETRA",
+        "Name": "Fresenius Medical Care AG & Co. KGaA",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 1.956
+      },
+      "AOS.US": {
+        "Code": "AOS",
+        "Exchange": "US",
+        "Name": "Smith AO Corporation",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94458
+      },
+      "MOH.US": {
+        "Code": "MOH",
+        "Exchange": "US",
+        "Name": "Molina Healthcare Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.92981
+      },
+      "MO.US": {
+        "Code": "MO",
+        "Exchange": "US",
+        "Name": "Altria Group",
+        "Sector": "Consumer Defensive",
+        "Industry": "Tobacco",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91492
+      },
+      "LMT.US": {
+        "Code": "LMT",
+        "Exchange": "US",
+        "Name": "Lockheed Martin Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.90942
+      },
+      "COIN.US": {
+        "Code": "COIN",
+        "Exchange": "US",
+        "Name": "Coinbase Global Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.87775
+      },
+      "NOC.US": {
+        "Code": "NOC",
+        "Exchange": "US",
+        "Name": "Northrop Grumman Corporation",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.84935
+      },
+      "DVA.US": {
+        "Code": "DVA",
+        "Exchange": "US",
+        "Name": "DaVita HealthCare Partners Inc",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.83306
+      },
+      "ESLT.TA": {
+        "Code": "ESLT",
+        "Exchange": "TA",
+        "Name": "Elbit Systems Ltd",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Israel",
+        "Region": "Asia",
+        "Assets_%": 1.8067
+      },
+      "LH.US": {
+        "Code": "LH",
+        "Exchange": "US",
+        "Name": "Laboratory Corporation of America Holdings",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79444
+      },
+      "FOXA.US": {
+        "Code": "FOXA",
+        "Exchange": "US",
+        "Name": "Fox Corp Class A",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.79224
+      },
+      "BA.LSE": {
+        "Code": "BA",
+        "Exchange": "LSE",
+        "Name": "BAE Systems plc",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.78459
+      },
+      "KOG.OL": {
+        "Code": "KOG",
+        "Exchange": "OL",
+        "Name": "Kongsberg Gruppen ASA",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "Norway",
+        "Region": "Europe",
+        "Assets_%": 1.78347
+      },
+      "MTCH.US": {
+        "Code": "MTCH",
+        "Exchange": "US",
+        "Name": "Match Group Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.76293
+      },
+      "BAM.TO": {
+        "Code": "BAM",
+        "Exchange": "TO",
+        "Name": "Brookfield Asset Management Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 1.7479
+      },
+      "SWK.US": {
+        "Code": "SWK",
+        "Exchange": "US",
+        "Name": "Stanley Black & Decker Inc",
+        "Sector": "Industrials",
+        "Industry": "Tools & Accessories",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.73462
+      },
+      "IVN.TO": {
+        "Code": "IVN",
+        "Exchange": "TO",
+        "Name": "Ivanhoe Mines Ltd.",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "Canada",
+        "Region": "North America",
+        "Assets_%": 1.71935
+      },
+      "YUM.US": {
+        "Code": "YUM",
+        "Exchange": "US",
+        "Name": "Yum! Brands Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.71284
+      },
+      "SPOT.US": {
+        "Code": "SPOT",
+        "Exchange": "US",
+        "Name": "Spotify Technology SA",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.70846
+      },
+      "REL.LSE": {
+        "Code": "REL",
+        "Exchange": "LSE",
+        "Name": "Relx PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.69554
+      },
+      "UMG.AS": {
+        "Code": "UMG",
+        "Exchange": "AS",
+        "Name": "Universal Music Group N.V.",
+        "Sector": "Communication Services",
+        "Industry": "Entertainment",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 1.67598
+      },
+      "SMIN.LSE": {
+        "Code": "SMIN",
+        "Exchange": "LSE",
+        "Name": "Smiths Group PLC",
+        "Sector": "Industrials",
+        "Industry": "Specialty Industrial Machinery",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.67505
+      },
+      "EXPN.LSE": {
+        "Code": "EXPN",
+        "Exchange": "LSE",
+        "Name": "Experian PLC",
+        "Sector": "Industrials",
+        "Industry": "Consulting Services",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.66575
+      },
+      "INCY.US": {
+        "Code": "INCY",
+        "Exchange": "US",
+        "Name": "Incyte Corporation",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.6574
+      },
+      "BIM.PA": {
+        "Code": "BIM",
+        "Exchange": "PA",
+        "Name": "Biomerieux SA",
+        "Sector": "Healthcare",
+        "Industry": "Diagnostics & Research",
+        "Country": "France",
+        "Region": "Europe",
+        "Assets_%": 1.65152
+      },
+      "VRTX.US": {
+        "Code": "VRTX",
+        "Exchange": "US",
+        "Name": "Vertex Pharmaceuticals Inc",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.64271
+      },
+      "LUPIN.BSE": {
+        "Code": "LUPIN",
+        "Exchange": "BSE",
+        "Name": "LUPIN LTD.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.60416
+      },
+      "LYB.US": {
+        "Code": "LYB",
+        "Exchange": "US",
+        "Name": "LyondellBasell Industries NV",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.60062
+      },
+      "EMN.US": {
+        "Code": "EMN",
+        "Exchange": "US",
+        "Name": "Eastman Chemical Company",
+        "Sector": "Basic Materials",
+        "Industry": "Specialty Chemicals",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.59319
+      },
+      "FSLR.US": {
+        "Code": "FSLR",
+        "Exchange": "US",
+        "Name": "First Solar Inc",
+        "Sector": "Technology",
+        "Industry": "Solar",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.5734
+      },
+      "LOGN.SW": {
+        "Code": "LOGN",
+        "Exchange": "SW",
+        "Name": "Logitech International S.A.",
+        "Sector": "Technology",
+        "Industry": "Computer Hardware",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.54308
+      },
+      "EQT.ST": {
+        "Code": "EQT",
+        "Exchange": "ST",
+        "Name": "EQT AB (publ)",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Assets_%": 1.49473
+      },
+      "4503.TSE": {
+        "Code": "4503",
+        "Exchange": "TSE",
+        "Name": "Astellas Pharma Inc.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.46703
+      },
+      "4523.TSE": {
+        "Code": "4523",
+        "Exchange": "TSE",
+        "Name": "Eisai Co. Ltd.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "Japan",
+        "Region": "Asia",
+        "Assets_%": 1.4632
+      },
+      "SN.LSE": {
+        "Code": "SN",
+        "Exchange": "LSE",
+        "Name": "Smith & Nephew PLC",
+        "Sector": "Healthcare",
+        "Industry": "Medical Devices",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.46121
+      },
+      "ROG.SW": {
+        "Code": "ROG",
+        "Exchange": "SW",
+        "Name": "Roche Holding AG",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - General",
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Assets_%": 1.38867
+      },
+      "6160.HK": {
+        "Code": "6160",
+        "Exchange": "HK",
+        "Name": "Beigene Ltd",
+        "Sector": "Healthcare",
+        "Industry": "Biotechnology",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 1.33181
+      },
+      "0QIU.LSE": {
+        "Code": "0QIU",
+        "Exchange": "LSE",
+        "Name": "Novo Nordisk A/S Class B",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 1.13594
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "18.28612",
+        "Price/Book": "2.88513",
+        "Price/Sales": "1.44743",
+        "Price/Cash Flow": "12.16481",
+        "Dividend-Yield Factor": "1.67002"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "13.29978",
+        "Price/Book": "1.36238",
+        "Price/Sales": "1.00217",
+        "Price/Cash Flow": "7.16588",
+        "Dividend-Yield Factor": "2.50016"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.20034",
+        "Historical Earnings Growth": "1.43073",
+        "Sales Growth": "5.19561",
+        "Cash-Flow Growth": "-2.23481",
+        "Book-Value Growth": "6.21164"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "12.48116",
+        "Historical Earnings Growth": "2.31444",
+        "Sales Growth": "5.04903",
+        "Cash-Flow Growth": "32.50248",
+        "Book-Value Growth": "4.9547"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "5",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "11.08",
+      "3y_Volatility": "15.49",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.34",
+      "Returns_YTD": "10.18",
+      "Returns_1Y": "16.70",
+      "Returns_3Y": "11.39",
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

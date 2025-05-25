@@ -1,0 +1,630 @@
+{
+  "General": {
+    "Code": "HFND",
+    "Type": "ETF",
+    "Name": "Tidal ETF Trust - Unlimited HFND Multi-Strategy Return Tracker ETF",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG019VDCT72",
+    "Description": "The fund\"s portfolio will generally consist of long and short positions in 30 to 50 Underlying ETFs and futures contracts. In addition, the fund may invest in swap agreements. It will not invest in hedge funds. To achieve an appropriate risk/return profile for the fund\"s portfolio, the fund will also \"short\" the securities of Underlying ETFs. It is non-diversified.",
+    "Category": "Multistrategy",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0,
+    "52WeekHigh": 24.52,
+    "52WeekLow": 19.34,
+    "50DayMA": 21.1454,
+    "200DayMA": 21.9449
+  },
+  "ETF_Data": {
+    "ISIN": "US8863644394",
+    "Company_Name": "Unlimited",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "3.830000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2022-10-10",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.01220",
+    "AnnualHoldingsTurnover": "0.00000",
+    "TotalAssets": "28106850.00",
+    "Average_Mkt_Cap_Mil": "75712.79274",
+    "Market_Capitalisation": {
+      "Mega": "18.37875",
+      "Big": "13.18806",
+      "Medium": "5.53177",
+      "Small": "1.36095",
+      "Micro": "0.8693"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "58.45148",
+        "Short_%": "24.58142",
+        "Net_Assets_%": "33.87006"
+      },
+      "NotClassified": {
+        "Long_%": "3.14236",
+        "Short_%": "0",
+        "Net_Assets_%": "3.14236"
+      },
+      "Stock non-US": {
+        "Long_%": "24.12841",
+        "Short_%": "0.47024",
+        "Net_Assets_%": "23.65817"
+      },
+      "Other": {
+        "Long_%": "6.4642",
+        "Short_%": "1.64069",
+        "Net_Assets_%": "4.82351"
+      },
+      "Stock US": {
+        "Long_%": "18.43805",
+        "Short_%": "0",
+        "Net_Assets_%": "18.43805"
+      },
+      "Bond": {
+        "Long_%": "35.79148",
+        "Short_%": "19.72362",
+        "Net_Assets_%": "16.06786"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "43.348",
+        "Relative_to_Category": "80.242"
+      },
+      "United Kingdom": {
+        "Equity_%": "3.0305",
+        "Relative_to_Category": "2.20911"
+      },
+      "Europe Developed": {
+        "Equity_%": "10.804",
+        "Relative_to_Category": "7.294"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0.809",
+        "Relative_to_Category": "0.136"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "3.618",
+        "Relative_to_Category": "0.462"
+      },
+      "Japan": {
+        "Equity_%": "2.111",
+        "Relative_to_Category": "5.115"
+      },
+      "Australasia": {
+        "Equity_%": "0.666",
+        "Relative_to_Category": "0.986"
+      },
+      "Asia Developed": {
+        "Equity_%": "11.077",
+        "Relative_to_Category": "1.373"
+      },
+      "Asia Emerging": {
+        "Equity_%": "21.751",
+        "Relative_to_Category": "1.771"
+      },
+      "Latin America": {
+        "Equity_%": "2.786",
+        "Relative_to_Category": "0.41"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "3.44246",
+        "Relative_to_Category": "4.64017"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "13.11819",
+        "Relative_to_Category": "11.59987"
+      },
+      "Financial Services": {
+        "Equity_%": "28.79202",
+        "Relative_to_Category": "16.73125"
+      },
+      "Real Estate": {
+        "Equity_%": "1.50782",
+        "Relative_to_Category": "4.44745"
+      },
+      "Communication Services": {
+        "Equity_%": "7.59514",
+        "Relative_to_Category": "6.54573"
+      },
+      "Energy": {
+        "Equity_%": "3.21693",
+        "Relative_to_Category": "4.89863"
+      },
+      "Industrials": {
+        "Equity_%": "9.83819",
+        "Relative_to_Category": "14.17375"
+      },
+      "Technology": {
+        "Equity_%": "17.89072",
+        "Relative_to_Category": "16.9188"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "4.63763",
+        "Relative_to_Category": "6.25418"
+      },
+      "Healthcare": {
+        "Equity_%": "6.39331",
+        "Relative_to_Category": "10.1119"
+      },
+      "Utilities": {
+        "Equity_%": "3.5676",
+        "Relative_to_Category": "3.67828"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "4.30081",
+        "Relative_to_Category": "1.67694"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "4.49819",
+        "Relative_to_Category": "1.0894"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "7.24488",
+        "Relative_to_Category": "1.89194"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "4.13925",
+        "Relative_to_Category": "0"
+      },
+      "Price": {
+        "Fund_%": "97.22419",
+        "Relative_to_Category": "99.06423"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "5.58747",
+        "Relative_to_Category": "4.06337"
+      }
+    },
+    "Holdings_Count": 28,
+    "Top_10_Holdings": {
+      "FGXXX.US": {
+        "Code": "FGXXX",
+        "Exchange": "US",
+        "Name": "First American Funds Inc. - Government Obligations Fund",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 49.03258
+      },
+      "AGZ.US": {
+        "Code": "AGZ",
+        "Exchange": "US",
+        "Name": "iShares Agency Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.02287
+      },
+      "XLF.MX": {
+        "Code": "XLF",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Financial Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.92807
+      },
+      "VUG.MX": {
+        "Code": "VUG",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.79631
+      },
+      "ICVT.US": {
+        "Code": "ICVT",
+        "Exchange": "US",
+        "Name": "iShares Convertible Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.26362
+      },
+      "VGK.MX": {
+        "Code": "VGK",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Europe ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.90644
+      },
+      "VFMO.US": {
+        "Code": "VFMO",
+        "Exchange": "US",
+        "Name": "Vanguard U.S. Momentum Factor",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.75883
+      },
+      "VWOB.MX": {
+        "Code": "VWOB",
+        "Exchange": "MX",
+        "Name": "Vanguard Whitehall Funds - Vanguard Emerging Markets Government Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.41073
+      },
+      "BKLN.US": {
+        "Code": "BKLN",
+        "Exchange": "US",
+        "Name": "Invesco Senior Loan ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.27122
+      },
+      "EMHY.MX": {
+        "Code": "EMHY",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares J.P. Morgan EM High Yield Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.84372
+      }
+    },
+    "Holdings": {
+      "FGXXX.US": {
+        "Code": "FGXXX",
+        "Exchange": "US",
+        "Name": "First American Funds Inc. - Government Obligations Fund",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 49.03258
+      },
+      "AGZ.US": {
+        "Code": "AGZ",
+        "Exchange": "US",
+        "Name": "iShares Agency Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.02287
+      },
+      "XLF.MX": {
+        "Code": "XLF",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Financial Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.92807
+      },
+      "VUG.MX": {
+        "Code": "VUG",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Growth ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 4.79631
+      },
+      "ICVT.US": {
+        "Code": "ICVT",
+        "Exchange": "US",
+        "Name": "iShares Convertible Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.26362
+      },
+      "VGK.MX": {
+        "Code": "VGK",
+        "Exchange": "MX",
+        "Name": "Vanguard International Equity Index Funds - Vanguard FTSE Europe ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.90644
+      },
+      "VFMO.US": {
+        "Code": "VFMO",
+        "Exchange": "US",
+        "Name": "Vanguard U.S. Momentum Factor",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.75883
+      },
+      "VWOB.MX": {
+        "Code": "VWOB",
+        "Exchange": "MX",
+        "Name": "Vanguard Whitehall Funds - Vanguard Emerging Markets Government Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.41073
+      },
+      "BKLN.US": {
+        "Code": "BKLN",
+        "Exchange": "US",
+        "Name": "Invesco Senior Loan ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.27122
+      },
+      "EMHY.MX": {
+        "Code": "EMHY",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares J.P. Morgan EM High Yield Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.84372
+      },
+      "CMBS.US": {
+        "Code": "CMBS",
+        "Exchange": "US",
+        "Name": "iShares CMBS ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.72297
+      },
+      "VTV.MX": {
+        "Code": "VTV",
+        "Exchange": "MX",
+        "Name": "Vanguard Index Funds - Vanguard Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.45239
+      },
+      "MCHI.MX": {
+        "Code": "MCHI",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares MSCI China ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.33234
+      },
+      "LQD.MX": {
+        "Code": "LQD",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares iBoxx $ Investment Grade Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.18873
+      },
+      "TIP.MX": {
+        "Code": "TIP",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares TIPS Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.15425
+      },
+      "XLU.MX": {
+        "Code": "XLU",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Utilities Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.66322
+      },
+      "XLY.MX": {
+        "Code": "XLY",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Consumer Discretionary Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.66194
+      },
+      "XLI.MX": {
+        "Code": "XLI",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Industrial Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.64269
+      },
+      "XHB.MX": {
+        "Code": "XHB",
+        "Exchange": "MX",
+        "Name": "SPDR Series Trust - SPDR S&P Homebuilders ETF",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.60496
+      },
+      "EWY.MX": {
+        "Code": "EWY",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares MSCI South Korea ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.35302
+      },
+      "VTWO.US": {
+        "Code": "VTWO",
+        "Exchange": "US",
+        "Name": "Vanguard Russell 2000 Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.34806
+      },
+      "XRT.MX": {
+        "Code": "XRT",
+        "Exchange": "MX",
+        "Name": "SPDR Series Trust - SPDR S&P Retail ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.3213
+      },
+      "EWH.MX": {
+        "Code": "EWH",
+        "Exchange": "MX",
+        "Name": "iShares Inc. - iShares MSCI Hong Kong ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.19627
+      },
+      "XLV.MX": {
+        "Code": "XLV",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Health Care Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.0806
+      },
+      "XLE.MX": {
+        "Code": "XLE",
+        "Exchange": "MX",
+        "Name": "The Select Sector SPDR Trust - The Energy Select Sector SPDR Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.06688
+      },
+      "EWW.US": {
+        "Code": "EWW",
+        "Exchange": "US",
+        "Name": "iShares MSCI Mexico ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05057
+      },
+      "EWZ.MX": {
+        "Code": "EWZ",
+        "Exchange": "MX",
+        "Name": "iShares MSCI Brazil ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.0175
+      },
+      "INDA.MX": {
+        "Code": "INDA",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares MSCI India ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.01576
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "14.8487",
+        "Price/Book": "2.01458",
+        "Price/Sales": "1.70485",
+        "Price/Cash Flow": "8.55008",
+        "Dividend-Yield Factor": "2.37892"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "14.17869",
+        "Price/Book": "2.02651",
+        "Price/Sales": "1.12397",
+        "Price/Cash Flow": "7.58177",
+        "Dividend-Yield Factor": "2.3168"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "8.8647",
+        "Historical Earnings Growth": "5.90716",
+        "Sales Growth": "4.12496",
+        "Cash-Flow Growth": "2.61741",
+        "Book-Value Growth": "7.19172"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "11.34759",
+        "Historical Earnings Growth": "7.87909",
+        "Sales Growth": "4.91068",
+        "Cash-Flow Growth": "13.17071",
+        "Book-Value Growth": "5.80001"
+      }
+    },
+    "MorningStar": {
+      "Ratio": null,
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "6.93",
+      "3y_Volatility": "0.00",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.00",
+      "Returns_YTD": "-1.22",
+      "Returns_1Y": "2.12",
+      "Returns_3Y": null,
+      "Returns_5Y": null,
+      "Returns_10Y": null
+    }
+  }
+}

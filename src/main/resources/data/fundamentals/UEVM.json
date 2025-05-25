@@ -1,0 +1,780 @@
+{
+  "General": {
+    "Code": "UEVM",
+    "Type": "ETF",
+    "Name": "VictoryShares Emerging Markets Value Momentum ETF",
+    "Exchange": "NASDAQ",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00HZBYD94",
+    "Description": "The fund invests at least 80% of its assets in securities in the index, depositary receipts on securities in the index and securities underlying depositary receipts in the index. The index is designed to deliver exposure to equity market performance in the global emerging markets and provide higher exposure to value and momentum factors within the parent index while also maintaining moderate Index turnover and lower realized volatility than traditional capitalization weighted indexes.",
+    "Category": "Diversified Emerging Mkts",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.79,
+    "52WeekHigh": 50.9946,
+    "52WeekLow": 41.2039,
+    "50DayMA": 47.3455,
+    "200DayMA": 47.4591
+  },
+  "ETF_Data": {
+    "ISIN": "US92647N5436",
+    "Company_Name": "Victory Capital",
+    "Company_URL": "",
+    "ETF_URL": "",
+    "Domicile": "",
+    "Index_Name": null,
+    "Yield": "5.970000",
+    "Dividend_Paying_Frequency": "",
+    "Inception_Date": "2017-10-24",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00450",
+    "AnnualHoldingsTurnover": "1.09000",
+    "TotalAssets": "217474491.00",
+    "Average_Mkt_Cap_Mil": "12457.37892",
+    "Market_Capitalisation": {
+      "Mega": "24.50508",
+      "Big": "49.55915",
+      "Medium": "21.89003",
+      "Small": "2.37423",
+      "Micro": "0"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "0.06738",
+        "Short_%": "0.27023",
+        "Net_Assets_%": "-0.20285"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "99.85187",
+        "Short_%": "0",
+        "Net_Assets_%": "99.85187"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "0.35094",
+        "Short_%": "0",
+        "Net_Assets_%": "0.35094"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "0.35",
+        "Relative_to_Category": "1.946"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.44399"
+      },
+      "Europe Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.742"
+      },
+      "Europe Emerging": {
+        "Equity_%": "6.462",
+        "Relative_to_Category": "2.41"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "4.148",
+        "Relative_to_Category": "7.134"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.032"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.025"
+      },
+      "Asia Developed": {
+        "Equity_%": "15.731",
+        "Relative_to_Category": "25.809"
+      },
+      "Asia Emerging": {
+        "Equity_%": "58.093",
+        "Relative_to_Category": "49.531"
+      },
+      "Latin America": {
+        "Equity_%": "15.216",
+        "Relative_to_Category": "10.927"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "9.84949",
+        "Relative_to_Category": "5.01091"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "9.73005",
+        "Relative_to_Category": "15.26034"
+      },
+      "Financial Services": {
+        "Equity_%": "24.19674",
+        "Relative_to_Category": "23.38375"
+      },
+      "Real Estate": {
+        "Equity_%": "2.27329",
+        "Relative_to_Category": "1.74933"
+      },
+      "Communication Services": {
+        "Equity_%": "2.95004",
+        "Relative_to_Category": "9.75271"
+      },
+      "Energy": {
+        "Equity_%": "5.14285",
+        "Relative_to_Category": "4.25925"
+      },
+      "Industrials": {
+        "Equity_%": "14.47788",
+        "Relative_to_Category": "7.17668"
+      },
+      "Technology": {
+        "Equity_%": "10.59912",
+        "Relative_to_Category": "22.51315"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "6.89406",
+        "Relative_to_Category": "5.45023"
+      },
+      "Healthcare": {
+        "Equity_%": "7.68737",
+        "Relative_to_Category": "3.56727"
+      },
+      "Utilities": {
+        "Equity_%": "6.1991",
+        "Relative_to_Category": "1.87637"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "2.2325"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.35"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "5.3"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.21926"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "3.45"
+      }
+    },
+    "Holdings_Count": 43,
+    "Top_10_Holdings": {
+      "1066.KLSE": {
+        "Code": "1066",
+        "Exchange": "KLSE",
+        "Name": "RHB Bank Bhd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 1.32456
+      },
+      "5225.KLSE": {
+        "Code": "5225",
+        "Exchange": "KLSE",
+        "Name": "IHH Healthcare Bhd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 1.24926
+      },
+      "PSSA3.SA": {
+        "Code": "PSSA3",
+        "Exchange": "SA",
+        "Name": "Porto Seguro S.A",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.155
+      },
+      "SUNPHARMA.NSE": {
+        "Code": "SUNPHARMA",
+        "Exchange": "NSE",
+        "Name": "Sun Pharmaceutical Industries Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.07706
+      },
+      "CENCOSUD.SN": {
+        "Code": "CENCOSUD",
+        "Exchange": "SN",
+        "Name": "Cencosud",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Department Stores",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 1.06104
+      },
+      "FALABELLA.SN": {
+        "Code": "FALABELLA",
+        "Exchange": "SN",
+        "Name": "Falabella",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Department Stores",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 1.04881
+      },
+      "KBANK.BK": {
+        "Code": "KBANK",
+        "Exchange": "BK",
+        "Name": "Kasikornbank Public Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 1.03995
+      },
+      "CPLE6.SA": {
+        "Code": "CPLE6",
+        "Exchange": "SA",
+        "Name": "Companhia Paranaense de Energia - COPEL",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.0005
+      },
+      "5347.KLSE": {
+        "Code": "5347",
+        "Exchange": "KLSE",
+        "Name": "Tenaga Nasional Bhd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.99495
+      },
+      "1023.KLSE": {
+        "Code": "1023",
+        "Exchange": "KLSE",
+        "Name": "CIMB Group Holdings Bhd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.89196
+      }
+    },
+    "Holdings": {
+      "1066.KLSE": {
+        "Code": "1066",
+        "Exchange": "KLSE",
+        "Name": "RHB Bank Bhd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 1.32456
+      },
+      "5225.KLSE": {
+        "Code": "5225",
+        "Exchange": "KLSE",
+        "Name": "IHH Healthcare Bhd",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 1.24926
+      },
+      "PSSA3.SA": {
+        "Code": "PSSA3",
+        "Exchange": "SA",
+        "Name": "Porto Seguro S.A",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.155
+      },
+      "SUNPHARMA.NSE": {
+        "Code": "SUNPHARMA",
+        "Exchange": "NSE",
+        "Name": "Sun Pharmaceutical Industries Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 1.07706
+      },
+      "CENCOSUD.SN": {
+        "Code": "CENCOSUD",
+        "Exchange": "SN",
+        "Name": "Cencosud",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Department Stores",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 1.06104
+      },
+      "FALABELLA.SN": {
+        "Code": "FALABELLA",
+        "Exchange": "SN",
+        "Name": "Falabella",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Department Stores",
+        "Country": "Republic of Chile",
+        "Region": "Latin America",
+        "Assets_%": 1.04881
+      },
+      "KBANK.BK": {
+        "Code": "KBANK",
+        "Exchange": "BK",
+        "Name": "Kasikornbank Public Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 1.03995
+      },
+      "CPLE6.SA": {
+        "Code": "CPLE6",
+        "Exchange": "SA",
+        "Name": "Companhia Paranaense de Energia - COPEL",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 1.0005
+      },
+      "5347.KLSE": {
+        "Code": "5347",
+        "Exchange": "KLSE",
+        "Name": "Tenaga Nasional Bhd",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.99495
+      },
+      "1023.KLSE": {
+        "Code": "1023",
+        "Exchange": "KLSE",
+        "Name": "CIMB Group Holdings Bhd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.89196
+      },
+      "ASTERDM.NSE": {
+        "Code": "ASTERDM",
+        "Exchange": "NSE",
+        "Name": "Aster DM Healthcare Limited",
+        "Sector": "Healthcare",
+        "Industry": "Medical Care Facilities",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.89107
+      },
+      "CEZ.WAR": {
+        "Code": "CEZ",
+        "Exchange": "WAR",
+        "Name": "CEZ as",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Electric",
+        "Country": "Republic of Poland",
+        "Region": "Europe",
+        "Assets_%": 0.87653
+      },
+      "KTB.BK": {
+        "Code": "KTB",
+        "Exchange": "BK",
+        "Name": "Krung Thai Bank Public Company Limited",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Thailand",
+        "Region": "Asia",
+        "Assets_%": 0.86527
+      },
+      "KLBN11.SA": {
+        "Code": "KLBN11",
+        "Exchange": "SA",
+        "Name": "Klabin S.A.",
+        "Sector": "Basic Materials",
+        "Industry": "Paper & Paper Products",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.85229
+      },
+      "SBSP3.SA": {
+        "Code": "SBSP3",
+        "Exchange": "SA",
+        "Name": "Companhia de Saneamento B\u00e1sico do Estado de S\u00e3o Paulo - SABESP",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Regulated Water",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.84282
+      },
+      "BEL.BSE": {
+        "Code": "BEL",
+        "Exchange": "BSE",
+        "Name": "Bharat Electronics Limited",
+        "Sector": "Industrials",
+        "Industry": "Aerospace & Defense",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.83763
+      },
+      "1015.KLSE": {
+        "Code": "1015",
+        "Exchange": "KLSE",
+        "Name": "AMMB Holdings Bhd",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.83397
+      },
+      "2303.TW": {
+        "Code": "2303",
+        "Exchange": "TW",
+        "Name": "United Microelectronics Corporation",
+        "Sector": "Technology",
+        "Industry": "Semiconductors",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.8225
+      },
+      "NRP.AS": {
+        "Code": "NRP",
+        "Exchange": "AS",
+        "Name": "NEPI Rockcastle PLC",
+        "Sector": "Real Estate",
+        "Industry": "Real Estate - Diversified",
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Assets_%": 0.81704
+      },
+      "ASII.JK": {
+        "Code": "ASII",
+        "Exchange": "JK",
+        "Name": "Astra International Tbk",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "Indonesia",
+        "Region": "Asia",
+        "Assets_%": 0.81323
+      },
+      "900948.SHG": {
+        "Code": "900948",
+        "Exchange": "SHG",
+        "Name": "Inner Mongolia Yitai Coal Co Ltd",
+        "Sector": "Energy",
+        "Industry": "Thermal Coal",
+        "Country": "China",
+        "Region": "Asia",
+        "Assets_%": 0.80854
+      },
+      "3988.HK": {
+        "Code": "3988",
+        "Exchange": "HK",
+        "Name": "Bank of China Ltd H",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.80465
+      },
+      "2474.TW": {
+        "Code": "2474",
+        "Exchange": "TW",
+        "Name": "Catcher Technology Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Metal Fabrication",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.78762
+      },
+      "KOFUBL.MX": {
+        "Code": "KOFUBL",
+        "Exchange": "MX",
+        "Name": "Coca-Cola FEMSA S.A.B. de C.V",
+        "Sector": "Consumer Defensive",
+        "Industry": "Beverages - Non-Alcoholic",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.74607
+      },
+      "2404.TW": {
+        "Code": "2404",
+        "Exchange": "TW",
+        "Name": "United Integrated Services Co Ltd",
+        "Sector": "Industrials",
+        "Industry": "Engineering & Construction",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.74437
+      },
+      "3182.KLSE": {
+        "Code": "3182",
+        "Exchange": "KLSE",
+        "Name": "Genting Bhd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Resorts & Casinos",
+        "Country": "Malaysia",
+        "Region": "Asia",
+        "Assets_%": 0.74044
+      },
+      "0902.HK": {
+        "Code": "0902",
+        "Exchange": "HK",
+        "Name": "Huaneng Power International",
+        "Sector": "Utilities",
+        "Industry": "Utilities - Independent Power Producers",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.73717
+      },
+      "0939.HK": {
+        "Code": "0939",
+        "Exchange": "HK",
+        "Name": "China Construction Bank Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.73123
+      },
+      "2881.TW": {
+        "Code": "2881",
+        "Exchange": "TW",
+        "Name": "Fubon Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.72655
+      },
+      "OMAB.MX": {
+        "Code": "OMAB",
+        "Exchange": "MX",
+        "Name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.72647
+      },
+      "GAPB.MX": {
+        "Code": "GAPB",
+        "Exchange": "MX",
+        "Name": "Grupo Aeroportuario del Pac\u00edfico S.A.B. de C.V",
+        "Sector": "Industrials",
+        "Industry": "Airports & Air Services",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 0.72579
+      },
+      "2618.TW": {
+        "Code": "2618",
+        "Exchange": "TW",
+        "Name": "Eva Airways Corp",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.71906
+      },
+      "LUPIN.BSE": {
+        "Code": "LUPIN",
+        "Exchange": "BSE",
+        "Name": "LUPIN LTD.",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.71764
+      },
+      "0M69.LSE": {
+        "Code": "0M69",
+        "Exchange": "LSE",
+        "Name": "OTP Bank Nyrt",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Assets_%": 0.71363
+      },
+      "GLENMARK.NSE": {
+        "Code": "GLENMARK",
+        "Exchange": "NSE",
+        "Name": "Glenmark Pharmaceuticals Limited",
+        "Sector": "Healthcare",
+        "Industry": "Drug Manufacturers - Specialty & Generic",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.71291
+      },
+      "2882.TW": {
+        "Code": "2882",
+        "Exchange": "TW",
+        "Name": "Cathay Financial Holding Co Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.7118
+      },
+      "2610.TW": {
+        "Code": "2610",
+        "Exchange": "TW",
+        "Name": "China Airlines Ltd",
+        "Sector": "Industrials",
+        "Industry": "Airlines",
+        "Country": "Taiwan",
+        "Region": "Asia",
+        "Assets_%": 0.71142
+      },
+      "M&M.NSE": {
+        "Code": "M&M",
+        "Exchange": "NSE",
+        "Name": "Mahindra & Mahindra Limited",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Auto Manufacturers",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.70237
+      },
+      "MUTHOOTFIN.NSE": {
+        "Code": "MUTHOOTFIN",
+        "Exchange": "NSE",
+        "Name": "Muthoot Finance Limited",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.70231
+      },
+      "9992.HK": {
+        "Code": "9992",
+        "Exchange": "HK",
+        "Name": "Pop Mart International Group\u00a0Ltd",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Leisure",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.69806
+      },
+      "PETR4.SA": {
+        "Code": "PETR4",
+        "Exchange": "SA",
+        "Name": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+        "Sector": "Energy",
+        "Industry": "Oil & Gas Integrated",
+        "Country": "Brazil",
+        "Region": "Latin America",
+        "Assets_%": 0.6826
+      },
+      "1398.HK": {
+        "Code": "1398",
+        "Exchange": "HK",
+        "Name": "Industrial and Commercial Bank of China",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "Hong Kong",
+        "Region": "Asia",
+        "Assets_%": 0.67885
+      },
+      "VEDL.NSE": {
+        "Code": "VEDL",
+        "Exchange": "NSE",
+        "Name": "Vedanta Limited",
+        "Sector": "Basic Materials",
+        "Industry": "Other Industrial Metals & Mining",
+        "Country": "India",
+        "Region": "Asia",
+        "Assets_%": 0.6691
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "8.81574",
+        "Price/Book": "1.10975",
+        "Price/Sales": "0.82234",
+        "Price/Cash Flow": "4.02567",
+        "Dividend-Yield Factor": "4.60516"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.94241",
+        "Price/Book": "1.6652",
+        "Price/Sales": "1.43725",
+        "Price/Cash Flow": "6.3066",
+        "Dividend-Yield Factor": "3.12484"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "13.77573",
+        "Historical Earnings Growth": "16.35929",
+        "Sales Growth": "-4.68825",
+        "Cash-Flow Growth": "-3.41168",
+        "Book-Value Growth": "6.08172"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.63565",
+        "Historical Earnings Growth": "4.85437",
+        "Sales Growth": "4.63363",
+        "Cash-Flow Growth": "5.123",
+        "Book-Value Growth": "8.25275"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "",
+      "Sustainability_Ratio": ""
+    },
+    "Performance": {
+      "1y_Volatility": "9.37",
+      "3y_Volatility": "14.48",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.20",
+      "Returns_YTD": "7.16",
+      "Returns_1Y": "7.38",
+      "Returns_3Y": "10.13",
+      "Returns_5Y": "11.44",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

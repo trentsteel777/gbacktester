@@ -1,0 +1,4340 @@
+{
+  "General": {
+    "Code": "VFH",
+    "Type": "ETF",
+    "Name": "Vanguard Financials Index Fund ETF Shares",
+    "Exchange": "NYSE ARCA",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG000HSSXW1",
+    "Description": "The fund employs an indexing investment approach designed to track the performance of the index, an index made up of stocks of large, mid-size, and small U.S. companies within the financials sector, as classified under the GICS. The Advisor attempts to replicate the target index by seeking to invest all, or substantially all, of its assets in the stocks that make up the index, in order to hold each stock in approximately the same proportion as its weighting in the index.",
+    "Category": "Financial",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.1,
+    "52WeekHigh": 127.1323,
+    "52WeekLow": 95.9547,
+    "50DayMA": 116.9676,
+    "200DayMA": 116.8346
+  },
+  "ETF_Data": {
+    "ISIN": "US92204A4058",
+    "Company_Name": "Vanguard",
+    "Company_URL": "http://www.vanguard.com",
+    "ETF_URL": "https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=0957",
+    "Domicile": "United States",
+    "Index_Name": null,
+    "Yield": "1.870000",
+    "Dividend_Paying_Frequency": "NA",
+    "Inception_Date": "2004-01-26",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": "0000-00-00",
+    "NetExpenseRatio": "0.00100",
+    "AnnualHoldingsTurnover": "0.20000",
+    "TotalAssets": "12134003311.00",
+    "Average_Mkt_Cap_Mil": "113804.17276",
+    "Market_Capitalisation": {
+      "Mega": "29.93225",
+      "Big": "36.32016",
+      "Medium": "20.50313",
+      "Small": "7.42128",
+      "Micro": "2.60194"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "3.22124",
+        "Short_%": "0",
+        "Net_Assets_%": "3.22124"
+      },
+      "NotClassified": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock non-US": {
+        "Long_%": "1.59346",
+        "Short_%": "0",
+        "Net_Assets_%": "1.59346"
+      },
+      "Other": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      },
+      "Stock US": {
+        "Long_%": "95.1853",
+        "Short_%": "0",
+        "Net_Assets_%": "95.1853"
+      },
+      "Bond": {
+        "Long_%": "0",
+        "Short_%": "0",
+        "Net_Assets_%": "0"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "98.354",
+        "Relative_to_Category": "85.478"
+      },
+      "United Kingdom": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.57518"
+      },
+      "Europe Developed": {
+        "Equity_%": "1.46",
+        "Relative_to_Category": "8.301"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.126"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.088"
+      },
+      "Japan": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.778"
+      },
+      "Australasia": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.065"
+      },
+      "Asia Developed": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.128"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.499"
+      },
+      "Latin America": {
+        "Equity_%": "0.186",
+        "Relative_to_Category": "0.961"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.41041"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0.01321",
+        "Relative_to_Category": "1.91768"
+      },
+      "Financial Services": {
+        "Equity_%": "95.35915",
+        "Relative_to_Category": "86.83558"
+      },
+      "Real Estate": {
+        "Equity_%": "0.69611",
+        "Relative_to_Category": "0.52091"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "1.21663"
+      },
+      "Energy": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.68603"
+      },
+      "Industrials": {
+        "Equity_%": "0.29618",
+        "Relative_to_Category": "1.97983"
+      },
+      "Technology": {
+        "Equity_%": "3.60106",
+        "Relative_to_Category": "4.55575"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.34359"
+      },
+      "Healthcare": {
+        "Equity_%": "0.02958",
+        "Relative_to_Category": "1.25882"
+      },
+      "Utilities": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.27476"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "0",
+        "Relative_to_Category": "10.52883"
+      },
+      "Price": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Holdings_Count": 399,
+    "Top_10_Holdings": {
+      "BRK-B.US": {
+        "Code": "BRK-B",
+        "Exchange": "US",
+        "Name": "Berkshire Hathaway Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.17
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.9
+      },
+      "MA.US": {
+        "Code": "MA",
+        "Exchange": "US",
+        "Name": "Mastercard Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.81
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.7
+      },
+      "BAC.US": {
+        "Code": "BAC",
+        "Exchange": "US",
+        "Name": "Bank of America Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.53
+      },
+      "WFC.US": {
+        "Code": "WFC",
+        "Exchange": "US",
+        "Name": "Wells Fargo & Company",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.02
+      },
+      "GS.US": {
+        "Code": "GS",
+        "Exchange": "US",
+        "Name": "Goldman Sachs Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.22
+      },
+      "PGR.US": {
+        "Code": "PGR",
+        "Exchange": "US",
+        "Name": "Progressive Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.13
+      },
+      "SPGI.US": {
+        "Code": "SPGI",
+        "Exchange": "US",
+        "Name": "S&P Global Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.05
+      },
+      "AXP.US": {
+        "Code": "AXP",
+        "Exchange": "US",
+        "Name": "American Express Company",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94
+      }
+    },
+    "Holdings": {
+      "BRK-B.US": {
+        "Code": "BRK-B",
+        "Exchange": "US",
+        "Name": "Berkshire Hathaway Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 9.17
+      },
+      "JPM.US": {
+        "Code": "JPM",
+        "Exchange": "US",
+        "Name": "JPMorgan Chase & Co",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 8.9
+      },
+      "MA.US": {
+        "Code": "MA",
+        "Exchange": "US",
+        "Name": "Mastercard Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 5.81
+      },
+      "V.US": {
+        "Code": "V",
+        "Exchange": "US",
+        "Name": "Visa Inc. Class A",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.7
+      },
+      "BAC.US": {
+        "Code": "BAC",
+        "Exchange": "US",
+        "Name": "Bank of America Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.53
+      },
+      "WFC.US": {
+        "Code": "WFC",
+        "Exchange": "US",
+        "Name": "Wells Fargo & Company",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.02
+      },
+      "GS.US": {
+        "Code": "GS",
+        "Exchange": "US",
+        "Name": "Goldman Sachs Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.22
+      },
+      "PGR.US": {
+        "Code": "PGR",
+        "Exchange": "US",
+        "Name": "Progressive Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.13
+      },
+      "SPGI.US": {
+        "Code": "SPGI",
+        "Exchange": "US",
+        "Name": "S&P Global Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.05
+      },
+      "AXP.US": {
+        "Code": "AXP",
+        "Exchange": "US",
+        "Name": "American Express Company",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94
+      },
+      "SCHW.US": {
+        "Code": "SCHW",
+        "Exchange": "US",
+        "Name": "Charles Schwab Corp",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.81
+      },
+      "MS.US": {
+        "Code": "MS",
+        "Exchange": "US",
+        "Name": "Morgan Stanley",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.8
+      },
+      "BLK.US": {
+        "Code": "BLK",
+        "Exchange": "US",
+        "Name": "BlackRock Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.74
+      },
+      "C.US": {
+        "Code": "C",
+        "Exchange": "US",
+        "Name": "Citigroup Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.67
+      },
+      "MMC.US": {
+        "Code": "MMC",
+        "Exchange": "US",
+        "Name": "Marsh & McLennan Companies Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.43
+      },
+      "CB.US": {
+        "Code": "CB",
+        "Exchange": "US",
+        "Name": "Chubb Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.42
+      },
+      "FI.US": {
+        "Code": "FI",
+        "Exchange": "US",
+        "Name": "Fiserv, Inc.",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.36
+      },
+      "CME.US": {
+        "Code": "CME",
+        "Exchange": "US",
+        "Name": "CME Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.29
+      },
+      "ICE.US": {
+        "Code": "ICE",
+        "Exchange": "US",
+        "Name": "Intercontinental Exchange Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.25
+      },
+      "BX.US": {
+        "Code": "BX",
+        "Exchange": "US",
+        "Name": "Blackstone Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.23
+      },
+      "AJG.US": {
+        "Code": "AJG",
+        "Exchange": "US",
+        "Name": "Arthur J Gallagher & Co",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.04
+      },
+      "MCO.US": {
+        "Code": "MCO",
+        "Exchange": "US",
+        "Name": "Moodys Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.96
+      },
+      "KKR.US": {
+        "Code": "KKR",
+        "Exchange": "US",
+        "Name": "KKR & Co LP",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.92
+      },
+      "AON.US": {
+        "Code": "AON",
+        "Exchange": "US",
+        "Name": "Aon PLC",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.89
+      },
+      "COF.US": {
+        "Code": "COF",
+        "Exchange": "US",
+        "Name": "Capital One Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.89
+      },
+      "PNC.US": {
+        "Code": "PNC",
+        "Exchange": "US",
+        "Name": "PNC Financial Services Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.82
+      },
+      "USB.US": {
+        "Code": "USB",
+        "Exchange": "US",
+        "Name": "U.S. Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81
+      },
+      "PYPL.US": {
+        "Code": "PYPL",
+        "Exchange": "US",
+        "Name": "PayPal Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.81
+      },
+      "TRV.US": {
+        "Code": "TRV",
+        "Exchange": "US",
+        "Name": "The Travelers Companies Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.77
+      },
+      "BK.US": {
+        "Code": "BK",
+        "Exchange": "US",
+        "Name": "The Bank of New York Mellon Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.75
+      },
+      "AFL.US": {
+        "Code": "AFL",
+        "Exchange": "US",
+        "Name": "Aflac Incorporated",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.74
+      },
+      "APO.US": {
+        "Code": "APO",
+        "Exchange": "US",
+        "Name": "Apollo Global Management LLC Class A",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.7
+      },
+      "ALL.US": {
+        "Code": "ALL",
+        "Exchange": "US",
+        "Name": "The Allstate Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.68
+      },
+      "TFC.US": {
+        "Code": "TFC",
+        "Exchange": "US",
+        "Name": "Truist Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.66
+      },
+      "AIG.US": {
+        "Code": "AIG",
+        "Exchange": "US",
+        "Name": "American International Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.66
+      },
+      "DFS.US": {
+        "Code": "DFS",
+        "Exchange": "US",
+        "Name": "Discover Financial Services",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.59
+      },
+      "AMP.US": {
+        "Code": "AMP",
+        "Exchange": "US",
+        "Name": "Ameriprise Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.59
+      },
+      "MET.US": {
+        "Code": "MET",
+        "Exchange": "US",
+        "Name": "MetLife Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.57
+      },
+      "MSCI.US": {
+        "Code": "MSCI",
+        "Exchange": "US",
+        "Name": "MSCI Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.55
+      },
+      "FIS.US": {
+        "Code": "FIS",
+        "Exchange": "US",
+        "Name": "Fidelity National Information Services Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.55
+      },
+      "COIN.US": {
+        "Code": "COIN",
+        "Exchange": "US",
+        "Name": "Coinbase Global Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.51
+      },
+      "PRU.US": {
+        "Code": "PRU",
+        "Exchange": "US",
+        "Name": "Prudential Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.47
+      },
+      "HIG.US": {
+        "Code": "HIG",
+        "Exchange": "US",
+        "Name": "Hartford Financial Services Group",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.46
+      },
+      "ACGL.US": {
+        "Code": "ACGL",
+        "Exchange": "US",
+        "Name": "Arch Capital Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.44
+      },
+      "NDAQ.US": {
+        "Code": "NDAQ",
+        "Exchange": "US",
+        "Name": "Nasdaq Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.42
+      },
+      "XYZ.US": {
+        "Code": "XYZ",
+        "Exchange": "US",
+        "Name": "Block, Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.42
+      },
+      "WTW.US": {
+        "Code": "WTW",
+        "Exchange": "US",
+        "Name": "Willis Towers Watson PLC",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.4
+      },
+      "HOOD.US": {
+        "Code": "HOOD",
+        "Exchange": "US",
+        "Name": "Robinhood Markets Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.39
+      },
+      "ARES.US": {
+        "Code": "ARES",
+        "Exchange": "US",
+        "Name": "Ares Management LP",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.37
+      },
+      "MTB.US": {
+        "Code": "MTB",
+        "Exchange": "US",
+        "Name": "M&T Bank Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.36
+      },
+      "BRO.US": {
+        "Code": "BRO",
+        "Exchange": "US",
+        "Name": "Brown & Brown Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.35
+      },
+      "RJF.US": {
+        "Code": "RJF",
+        "Exchange": "US",
+        "Name": "Raymond James Financial Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.34
+      },
+      "STT.US": {
+        "Code": "STT",
+        "Exchange": "US",
+        "Name": "State Street Corp",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.33
+      },
+      "LPLA.US": {
+        "Code": "LPLA",
+        "Exchange": "US",
+        "Name": "LPL Financial Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.33
+      },
+      "FITB.US": {
+        "Code": "FITB",
+        "Exchange": "US",
+        "Name": "Fifth Third Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.31
+      },
+      "MKL.US": {
+        "Code": "MKL",
+        "Exchange": "US",
+        "Name": "Markel Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3
+      },
+      "CBOE.US": {
+        "Code": "CBOE",
+        "Exchange": "US",
+        "Name": "Cboe Global Markets Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.3
+      },
+      "WRB.US": {
+        "Code": "WRB",
+        "Exchange": "US",
+        "Name": "W. R. Berkley Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.28
+      },
+      "CINF.US": {
+        "Code": "CINF",
+        "Exchange": "US",
+        "Name": "Cincinnati Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.28
+      },
+      "CPAY.US": {
+        "Code": "CPAY",
+        "Exchange": "US",
+        "Name": "Corpay Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.28
+      },
+      "HBAN.US": {
+        "Code": "HBAN",
+        "Exchange": "US",
+        "Name": "Huntington Bancshares Incorporated",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.27
+      },
+      "SYF.US": {
+        "Code": "SYF",
+        "Exchange": "US",
+        "Name": "Synchrony Financial",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.26
+      },
+      "TROW.US": {
+        "Code": "TROW",
+        "Exchange": "US",
+        "Name": "T. Rowe Price Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.25
+      },
+      "GPN.US": {
+        "Code": "GPN",
+        "Exchange": "US",
+        "Name": "Global Payments Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.25
+      },
+      "IBKR.US": {
+        "Code": "IBKR",
+        "Exchange": "US",
+        "Name": "Interactive Brokers Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24
+      },
+      "NTRS.US": {
+        "Code": "NTRS",
+        "Exchange": "US",
+        "Name": "Northern Trust Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24
+      },
+      "RF.US": {
+        "Code": "RF",
+        "Exchange": "US",
+        "Name": "Regions Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.24
+      },
+      "FCNCA.US": {
+        "Code": "FCNCA",
+        "Exchange": "US",
+        "Name": "First Citizens BancShares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.22
+      },
+      "PFG.US": {
+        "Code": "PFG",
+        "Exchange": "US",
+        "Name": "Principal Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.22
+      },
+      "FNF.US": {
+        "Code": "FNF",
+        "Exchange": "US",
+        "Name": "Fidelity National Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.22
+      },
+      "FDS.US": {
+        "Code": "FDS",
+        "Exchange": "US",
+        "Name": "FactSet Research Systems Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21
+      },
+      "CFG.US": {
+        "Code": "CFG",
+        "Exchange": "US",
+        "Name": "Citizens Financial Group, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21
+      },
+      "TW.US": {
+        "Code": "TW",
+        "Exchange": "US",
+        "Name": "Tradeweb Markets Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21
+      },
+      "L.US": {
+        "Code": "L",
+        "Exchange": "US",
+        "Name": "Loews Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.21
+      },
+      "EQH.US": {
+        "Code": "EQH",
+        "Exchange": "US",
+        "Name": "Axa Equitable Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.2
+      },
+      "EG.US": {
+        "Code": "EG",
+        "Exchange": "US",
+        "Name": "Everest Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.2
+      },
+      "TOST.US": {
+        "Code": "TOST",
+        "Exchange": "US",
+        "Name": "Toast Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.18
+      },
+      "KEY.US": {
+        "Code": "KEY",
+        "Exchange": "US",
+        "Name": "KeyCorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.18
+      },
+      "UNM.US": {
+        "Code": "UNM",
+        "Exchange": "US",
+        "Name": "Unum Group",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.17
+      },
+      "SOFI.US": {
+        "Code": "SOFI",
+        "Exchange": "US",
+        "Name": "SoFi Technologies Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.17
+      },
+      "JKHY.US": {
+        "Code": "JKHY",
+        "Exchange": "US",
+        "Name": "Jack Henry & Associates Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.16
+      },
+      "RNR.US": {
+        "Code": "RNR",
+        "Exchange": "US",
+        "Name": "Renaissancere Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.16
+      },
+      "RGA.US": {
+        "Code": "RGA",
+        "Exchange": "US",
+        "Name": "Reinsurance Group of America",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.16
+      },
+      "AFRM.US": {
+        "Code": "AFRM",
+        "Exchange": "US",
+        "Name": "Affirm Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.16
+      },
+      "EWBC.US": {
+        "Code": "EWBC",
+        "Exchange": "US",
+        "Name": "East West Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.15
+      },
+      "AAYA.F": {
+        "Code": "AAYA",
+        "Exchange": "F",
+        "Name": "ANNALY CAP.MGMT DL -01",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.14
+      },
+      "GL.US": {
+        "Code": "GL",
+        "Exchange": "US",
+        "Name": "Globe Life Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.13
+      },
+      "OWL.US": {
+        "Code": "OWL",
+        "Exchange": "US",
+        "Name": "Blue Owl Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.13
+      },
+      "AIZ.US": {
+        "Code": "AIZ",
+        "Exchange": "US",
+        "Name": "Assurant Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.13
+      },
+      "KNSL.US": {
+        "Code": "KNSL",
+        "Exchange": "US",
+        "Name": "Kinsale Capital Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "FHN.US": {
+        "Code": "FHN",
+        "Exchange": "US",
+        "Name": "First Horizon National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "ERIE.US": {
+        "Code": "ERIE",
+        "Exchange": "US",
+        "Name": "Erie Indemnity Company",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "ORI.US": {
+        "Code": "ORI",
+        "Exchange": "US",
+        "Name": "Old Republic International Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "CG.US": {
+        "Code": "CG",
+        "Exchange": "US",
+        "Name": "Carlyle Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "AFG.US": {
+        "Code": "AFG",
+        "Exchange": "US",
+        "Name": "American Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "ALLY.US": {
+        "Code": "ALLY",
+        "Exchange": "US",
+        "Name": "Ally Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.12
+      },
+      "SSB.US": {
+        "Code": "SSB",
+        "Exchange": "US",
+        "Name": "SouthState Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "PRI.US": {
+        "Code": "PRI",
+        "Exchange": "US",
+        "Name": "Primerica Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "SF.US": {
+        "Code": "SF",
+        "Exchange": "US",
+        "Name": "Stifel Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "HLI.US": {
+        "Code": "HLI",
+        "Exchange": "US",
+        "Name": "Houlihan Lokey Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "SEIC.US": {
+        "Code": "SEIC",
+        "Exchange": "US",
+        "Name": "SEI Investments Company",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "MKTX.US": {
+        "Code": "MKTX",
+        "Exchange": "US",
+        "Name": "MarketAxess Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.11
+      },
+      "WBS.US": {
+        "Code": "WBS",
+        "Exchange": "US",
+        "Name": "Webster Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "MORN.US": {
+        "Code": "MORN",
+        "Exchange": "US",
+        "Name": "Morningstar Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Data & Stock Exchanges",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "AGNC.US": {
+        "Code": "AGNC",
+        "Exchange": "US",
+        "Name": "AGNC Investment Corp",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "CBSH.US": {
+        "Code": "CBSH",
+        "Exchange": "US",
+        "Name": "Commerce Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "PNFP.US": {
+        "Code": "PNFP",
+        "Exchange": "US",
+        "Name": "Pinnacle Financial Partners Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "AXS.US": {
+        "Code": "AXS",
+        "Exchange": "US",
+        "Name": "AXIS Capital Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "COOP.US": {
+        "Code": "COOP",
+        "Exchange": "US",
+        "Name": "Mr. Cooper Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "CRBG.US": {
+        "Code": "CRBG",
+        "Exchange": "US",
+        "Name": "Corebridge Financial Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "EVR.US": {
+        "Code": "EVR",
+        "Exchange": "US",
+        "Name": "Evercore Partners Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "WTFC.US": {
+        "Code": "WTFC",
+        "Exchange": "US",
+        "Name": "Wintrust Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.1
+      },
+      "WAL.US": {
+        "Code": "WAL",
+        "Exchange": "US",
+        "Name": "Western Alliance Bancorporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "JEF.US": {
+        "Code": "JEF",
+        "Exchange": "US",
+        "Name": "Jefferies Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "CFR.US": {
+        "Code": "CFR",
+        "Exchange": "US",
+        "Name": "Cullen/Frost Bankers Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "CMA.US": {
+        "Code": "CMA",
+        "Exchange": "US",
+        "Name": "Comerica Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "RYAN.US": {
+        "Code": "RYAN",
+        "Exchange": "US",
+        "Name": "Ryan Specialty Group Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "UMBF.US": {
+        "Code": "UMBF",
+        "Exchange": "US",
+        "Name": "UMB Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "BPOP.US": {
+        "Code": "BPOP",
+        "Exchange": "US",
+        "Name": "Popular Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "ZION.US": {
+        "Code": "ZION",
+        "Exchange": "US",
+        "Name": "Zions Bancorporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.09
+      },
+      "ONB.US": {
+        "Code": "ONB",
+        "Exchange": "US",
+        "Name": "Old National Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "PB.US": {
+        "Code": "PB",
+        "Exchange": "US",
+        "Name": "Prosperity Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "MTG.US": {
+        "Code": "MTG",
+        "Exchange": "US",
+        "Name": "MGIC Investment Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "FAF.US": {
+        "Code": "FAF",
+        "Exchange": "US",
+        "Name": "First American Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "STWD.US": {
+        "Code": "STWD",
+        "Exchange": "US",
+        "Name": "Starwood Property Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "HLNE.US": {
+        "Code": "HLNE",
+        "Exchange": "US",
+        "Name": "Hamilton Lane Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "SNV.US": {
+        "Code": "SNV",
+        "Exchange": "US",
+        "Name": "Synovus Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "RLI.US": {
+        "Code": "RLI",
+        "Exchange": "US",
+        "Name": "RLI Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "ESNT.US": {
+        "Code": "ESNT",
+        "Exchange": "US",
+        "Name": "Essent Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "THG.US": {
+        "Code": "THG",
+        "Exchange": "US",
+        "Name": "The Hanover Insurance Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "SLM.US": {
+        "Code": "SLM",
+        "Exchange": "US",
+        "Name": "SLM Corp",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "NRZ.US": {
+        "Code": "NRZ",
+        "Exchange": "US",
+        "Name": "New Residential Investment Corp",
+        "Sector": "Financial",
+        "Industry": "Mortgage Real Estate Investment Trusts (REITs)",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.08
+      },
+      "JXN.US": {
+        "Code": "JXN",
+        "Exchange": "US",
+        "Name": "Jackson Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "VOYA.US": {
+        "Code": "VOYA",
+        "Exchange": "US",
+        "Name": "Voya Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "OMF.US": {
+        "Code": "OMF",
+        "Exchange": "US",
+        "Name": "OneMain Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "BEN.US": {
+        "Code": "BEN",
+        "Exchange": "US",
+        "Name": "Franklin Resources Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "LNC.US": {
+        "Code": "LNC",
+        "Exchange": "US",
+        "Name": "Lincoln National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "FF60.F": {
+        "Code": "FF60",
+        "Exchange": "F",
+        "Name": "FIRSTCASH HLDGS INC.DL-01",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.07
+      },
+      "SIGI.US": {
+        "Code": "SIGI",
+        "Exchange": "US",
+        "Name": "Selective Insurance Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "CADE.US": {
+        "Code": "CADE",
+        "Exchange": "US",
+        "Name": "Cadence Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "HOMB.US": {
+        "Code": "HOMB",
+        "Exchange": "US",
+        "Name": "Home BancShares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.07
+      },
+      "AMG.US": {
+        "Code": "AMG",
+        "Exchange": "US",
+        "Name": "Affiliated Managers Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "FOUR.US": {
+        "Code": "FOUR",
+        "Exchange": "US",
+        "Name": "Shift4 Payments Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "RDN.US": {
+        "Code": "RDN",
+        "Exchange": "US",
+        "Name": "Radian Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "FNB.US": {
+        "Code": "FNB",
+        "Exchange": "US",
+        "Name": "F.N.B. Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "COLB.US": {
+        "Code": "COLB",
+        "Exchange": "US",
+        "Name": "Columbia Banking System Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "WTM.US": {
+        "Code": "WTM",
+        "Exchange": "US",
+        "Name": "White Mountains Insurance Group Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "IVZ.US": {
+        "Code": "IVZ",
+        "Exchange": "US",
+        "Name": "Invesco Plc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "UBSI.US": {
+        "Code": "UBSI",
+        "Exchange": "US",
+        "Name": "United Bankshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "GBCI.US": {
+        "Code": "GBCI",
+        "Exchange": "US",
+        "Name": "Glacier Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "OZK.US": {
+        "Code": "OZK",
+        "Exchange": "US",
+        "Name": "Bank Ozk",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "HWC.US": {
+        "Code": "HWC",
+        "Exchange": "US",
+        "Name": "Hancock Whitney Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "VLY.US": {
+        "Code": "VLY",
+        "Exchange": "US",
+        "Name": "Valley National Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "PIPR.US": {
+        "Code": "PIPR",
+        "Exchange": "US",
+        "Name": "Piper Sandler Companies",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "AGO.US": {
+        "Code": "AGO",
+        "Exchange": "US",
+        "Name": "Assured Guaranty Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.06
+      },
+      "JHG.US": {
+        "Code": "JHG",
+        "Exchange": "US",
+        "Name": "Janus Henderson Group PLC",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "WEX.US": {
+        "Code": "WEX",
+        "Exchange": "US",
+        "Name": "Wex Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "EEFT.US": {
+        "Code": "EEFT",
+        "Exchange": "US",
+        "Name": "Euronet Worldwide Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "ESGR.US": {
+        "Code": "ESGR",
+        "Exchange": "US",
+        "Name": "Enstar Group Limited",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "FFIN.US": {
+        "Code": "FFIN",
+        "Exchange": "US",
+        "Name": "First Financial Bankshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "UPST.US": {
+        "Code": "UPST",
+        "Exchange": "US",
+        "Name": "Upstart Holdings\u00a0Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "CNO.US": {
+        "Code": "CNO",
+        "Exchange": "US",
+        "Name": "CNO Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "PLMR.US": {
+        "Code": "PLMR",
+        "Exchange": "US",
+        "Name": "Palomar Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "SNEX.US": {
+        "Code": "SNEX",
+        "Exchange": "US",
+        "Name": "Stonex Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "ABCB.US": {
+        "Code": "ABCB",
+        "Exchange": "US",
+        "Name": "Ameris Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "KMPR.US": {
+        "Code": "KMPR",
+        "Exchange": "US",
+        "Name": "Kemper Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "MC.US": {
+        "Code": "MC",
+        "Exchange": "US",
+        "Name": "Moelis & Co",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "ASB.US": {
+        "Code": "ASB",
+        "Exchange": "US",
+        "Name": "Associated Banc-Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "SFBS.US": {
+        "Code": "SFBS",
+        "Exchange": "US",
+        "Name": "ServisFirst Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "FLG.US": {
+        "Code": "FLG",
+        "Exchange": "US",
+        "Name": "Flagstar Financial, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "TPG.US": {
+        "Code": "TPG",
+        "Exchange": "US",
+        "Name": "TPG Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "AUB.US": {
+        "Code": "AUB",
+        "Exchange": "US",
+        "Name": "Atlantic Union Bankshares Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.05
+      },
+      "BHF.US": {
+        "Code": "BHF",
+        "Exchange": "US",
+        "Name": "Brighthouse Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "AX.US": {
+        "Code": "AX",
+        "Exchange": "US",
+        "Name": "Axos Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "IBOC.US": {
+        "Code": "IBOC",
+        "Exchange": "US",
+        "Name": "International Bancshares Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "WU.US": {
+        "Code": "WU",
+        "Exchange": "US",
+        "Name": "Western Union Co",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "UCB.US": {
+        "Code": "UCB",
+        "Exchange": "US",
+        "Name": "United Community Banks, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "STEP.US": {
+        "Code": "STEP",
+        "Exchange": "US",
+        "Name": "Stepstone Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "CACC.US": {
+        "Code": "CACC",
+        "Exchange": "US",
+        "Name": "Credit Acceptance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "VIRT.US": {
+        "Code": "VIRT",
+        "Exchange": "US",
+        "Name": "Virtu Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "FBP.US": {
+        "Code": "FBP",
+        "Exchange": "US",
+        "Name": "First Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "PJT.US": {
+        "Code": "PJT",
+        "Exchange": "US",
+        "Name": "PJT Partners Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "FHI.US": {
+        "Code": "FHI",
+        "Exchange": "US",
+        "Name": "Federated Investors Inc B",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "BGC.US": {
+        "Code": "BGC",
+        "Exchange": "US",
+        "Name": "BGC Group Inc. ",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "TCBI.US": {
+        "Code": "TCBI",
+        "Exchange": "US",
+        "Name": "Texas Capital Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "BXMT.US": {
+        "Code": "BXMT",
+        "Exchange": "US",
+        "Name": "Blackstone Mortgage Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "RNST.US": {
+        "Code": "RNST",
+        "Exchange": "US",
+        "Name": "Renasant Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "FULT.US": {
+        "Code": "FULT",
+        "Exchange": "US",
+        "Name": "Fulton Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "RELY_old.US": {
+        "Code": "RELY_old",
+        "Exchange": "US",
+        "Name": "RELY",
+        "Sector": "Technology",
+        "Industry": " Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "WSFS.US": {
+        "Code": "WSFS",
+        "Exchange": "US",
+        "Name": "WSFS Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "PFSI.US": {
+        "Code": "PFSI",
+        "Exchange": "US",
+        "Name": "PennyMac Finl Svcs Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "HASI.US": {
+        "Code": "HASI",
+        "Exchange": "US",
+        "Name": "Hannon Armstrong Sustainable Infrastructure Capital Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "GNW.US": {
+        "Code": "GNW",
+        "Exchange": "US",
+        "Name": "Genworth Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Life",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "FHB.US": {
+        "Code": "FHB",
+        "Exchange": "US",
+        "Name": "First Hawaiian Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "CBU.US": {
+        "Code": "CBU",
+        "Exchange": "US",
+        "Name": "Community Bank System Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "EBC.US": {
+        "Code": "EBC",
+        "Exchange": "US",
+        "Name": "Eastern Bankshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "WSBC.US": {
+        "Code": "WSBC",
+        "Exchange": "US",
+        "Name": "WesBanco Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "CATY.US": {
+        "Code": "CATY",
+        "Exchange": "US",
+        "Name": "Cathay General Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "BRP.US": {
+        "Code": "BRP",
+        "Exchange": "US",
+        "Name": "Brp Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "NMIH.US": {
+        "Code": "NMIH",
+        "Exchange": "US",
+        "Name": "NMI Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.04
+      },
+      "APAM.US": {
+        "Code": "APAM",
+        "Exchange": "US",
+        "Name": "Artisan Partners Asset Management Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BOH.US": {
+        "Code": "BOH",
+        "Exchange": "US",
+        "Name": "Bank of Hawaii Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "WD.US": {
+        "Code": "WD",
+        "Exchange": "US",
+        "Name": "Walker & Dunlop Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "CVBF.US": {
+        "Code": "CVBF",
+        "Exchange": "US",
+        "Name": "CVB Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BANF.US": {
+        "Code": "BANF",
+        "Exchange": "US",
+        "Name": "BancFirst Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "FIBK.US": {
+        "Code": "FIBK",
+        "Exchange": "US",
+        "Name": "First Interstate BancSystem Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "INDB.US": {
+        "Code": "INDB",
+        "Exchange": "US",
+        "Name": "Independent Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BKU.US": {
+        "Code": "BKU",
+        "Exchange": "US",
+        "Name": "BankUnited Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "ENVA.US": {
+        "Code": "ENVA",
+        "Exchange": "US",
+        "Name": "Enova International Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "VCTR.US": {
+        "Code": "VCTR",
+        "Exchange": "US",
+        "Name": "Victory Capital Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "PRK.US": {
+        "Code": "PRK",
+        "Exchange": "US",
+        "Name": "Park National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "SFNC.US": {
+        "Code": "SFNC",
+        "Exchange": "US",
+        "Name": "Simmons First National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "TOWN.US": {
+        "Code": "TOWN",
+        "Exchange": "US",
+        "Name": "Towne Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BFH.US": {
+        "Code": "BFH",
+        "Exchange": "US",
+        "Name": "Bread Financial Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "WAFD.US": {
+        "Code": "WAFD",
+        "Exchange": "US",
+        "Name": "Washington Federal Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "GSHD.US": {
+        "Code": "GSHD",
+        "Exchange": "US",
+        "Name": "Goosehead Insurance Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance Brokers",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "OSCR.US": {
+        "Code": "OSCR",
+        "Exchange": "US",
+        "Name": "Oscar Health Inc",
+        "Sector": "Healthcare",
+        "Industry": "Healthcare Plans",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "TBBK.US": {
+        "Code": "TBBK",
+        "Exchange": "US",
+        "Name": "The Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "FFBC.US": {
+        "Code": "FFBC",
+        "Exchange": "US",
+        "Name": "First Financial Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "ABR.US": {
+        "Code": "ABR",
+        "Exchange": "US",
+        "Name": "Arbor Realty Trust",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "SYBT.US": {
+        "Code": "SYBT",
+        "Exchange": "US",
+        "Name": "Stock Yards Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "EVTC.US": {
+        "Code": "EVTC",
+        "Exchange": "US",
+        "Name": "Evertec Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "CNS.US": {
+        "Code": "CNS",
+        "Exchange": "US",
+        "Name": "Cohen & Steers Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "FRME.US": {
+        "Code": "FRME",
+        "Exchange": "US",
+        "Name": "First Merchants Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BANR.US": {
+        "Code": "BANR",
+        "Exchange": "US",
+        "Name": "Banner Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "BOKF.US": {
+        "Code": "BOKF",
+        "Exchange": "US",
+        "Name": "BOK Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "SBCF.US": {
+        "Code": "SBCF",
+        "Exchange": "US",
+        "Name": "Seacoast Banking Corporation of Florida",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "PAYO.US": {
+        "Code": "PAYO",
+        "Exchange": "US",
+        "Name": "Payoneer Global Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "PFS.US": {
+        "Code": "PFS",
+        "Exchange": "US",
+        "Name": "Provident Financial Services Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "NBTB.US": {
+        "Code": "NBTB",
+        "Exchange": "US",
+        "Name": "NBT Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "PPBI.US": {
+        "Code": "PPBI",
+        "Exchange": "US",
+        "Name": "Pacific Premier Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "TRMK.US": {
+        "Code": "TRMK",
+        "Exchange": "US",
+        "Name": "Trustmark Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.03
+      },
+      "EFSC.US": {
+        "Code": "EFSC",
+        "Exchange": "US",
+        "Name": "Enterprise Financial Services",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "SKWD.US": {
+        "Code": "SKWD",
+        "Exchange": "US",
+        "Name": "Skyward Specialty Insurance Group, Inc. Common Stock",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "NATL.US": {
+        "Code": "NATL",
+        "Exchange": "US",
+        "Name": "NCR Atleos Corporation",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "CASH.US": {
+        "Code": "CASH",
+        "Exchange": "US",
+        "Name": "Meta Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "BANC.US": {
+        "Code": "BANC",
+        "Exchange": "US",
+        "Name": "Banc of California, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "OFG.US": {
+        "Code": "OFG",
+        "Exchange": "US",
+        "Name": "OFG Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "STC.US": {
+        "Code": "STC",
+        "Exchange": "US",
+        "Name": "Stewart Information Services Corp",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "RKT.US": {
+        "Code": "RKT",
+        "Exchange": "US",
+        "Name": "Rocket Companies\u00a0Inc",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "SPNT.US": {
+        "Code": "SPNT",
+        "Exchange": "US",
+        "Name": "Siriuspoint Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "BUSE.US": {
+        "Code": "BUSE",
+        "Exchange": "US",
+        "Name": "First Busey Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "MQ.US": {
+        "Code": "MQ",
+        "Exchange": "US",
+        "Name": "Marqeta Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "CHCO.US": {
+        "Code": "CHCO",
+        "Exchange": "US",
+        "Name": "City Holding Company",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "HMN.US": {
+        "Code": "HMN",
+        "Exchange": "US",
+        "Name": "Horace Mann Educators Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "FBNC.US": {
+        "Code": "FBNC",
+        "Exchange": "US",
+        "Name": "First Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "AGM.US": {
+        "Code": "AGM",
+        "Exchange": "US",
+        "Name": "Federal Agricultural Mortgage",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "NCBS.US": {
+        "Code": "NCBS",
+        "Exchange": "US",
+        "Name": "Nicolet Bankshares Inc",
+        "Sector": "Financial Services",
+        "Industry": " Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "FBK.US": {
+        "Code": "FBK",
+        "Exchange": "US",
+        "Name": "FB Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "FCF.US": {
+        "Code": "FCF",
+        "Exchange": "US",
+        "Name": "First Commonwealth Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "LMND.US": {
+        "Code": "LMND",
+        "Exchange": "US",
+        "Name": "Lemonade\u00a0Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "NWBI.US": {
+        "Code": "NWBI",
+        "Exchange": "US",
+        "Name": "Northwest Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "MCY.US": {
+        "Code": "MCY",
+        "Exchange": "US",
+        "Name": "Mercury General Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "NNI.US": {
+        "Code": "NNI",
+        "Exchange": "US",
+        "Name": "Nelnet Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "CUBI.US": {
+        "Code": "CUBI",
+        "Exchange": "US",
+        "Name": "Customers Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "DBRG.US": {
+        "Code": "DBRG",
+        "Exchange": "US",
+        "Name": "Digitalbridge Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "HTH.US": {
+        "Code": "HTH",
+        "Exchange": "US",
+        "Name": "Hilltop Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "LKFN.US": {
+        "Code": "LKFN",
+        "Exchange": "US",
+        "Name": "Lakeland Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "AVDX_old.US": {
+        "Code": "AVDX_old",
+        "Exchange": "US",
+        "Name": "AVDX",
+        "Sector": "Technology",
+        "Industry": " Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "STBA.US": {
+        "Code": "STBA",
+        "Exchange": "US",
+        "Name": "S&T Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "NBHC.US": {
+        "Code": "NBHC",
+        "Exchange": "US",
+        "Name": "National Bank Holdings Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "DFIN.US": {
+        "Code": "DFIN",
+        "Exchange": "US",
+        "Name": "Donnelley Financial Solutions Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Application",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "WABC.US": {
+        "Code": "WABC",
+        "Exchange": "US",
+        "Name": "Westamerica Bancorporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "GABC.US": {
+        "Code": "GABC",
+        "Exchange": "US",
+        "Name": "German American Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "C9N0.F": {
+        "Code": "C9N0",
+        "Exchange": "F",
+        "Name": "STELLAR BANCORP DL -01",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.02
+      },
+      "HCI.US": {
+        "Code": "HCI",
+        "Exchange": "US",
+        "Name": "HCI Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "VBTX.US": {
+        "Code": "VBTX",
+        "Exchange": "US",
+        "Name": "Veritex Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "ARI.US": {
+        "Code": "ARI",
+        "Exchange": "US",
+        "Name": "Apollo Commercial Real Estate Finance Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "TRUP.US": {
+        "Code": "TRUP",
+        "Exchange": "US",
+        "Name": "Trupanion Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "EIG.US": {
+        "Code": "EIG",
+        "Exchange": "US",
+        "Name": "Employers Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "2H2.F": {
+        "Code": "2H2",
+        "Exchange": "F",
+        "Name": "TWO HARBORS INV. DL-0001",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.02
+      },
+      "LADR.US": {
+        "Code": "LADR",
+        "Exchange": "US",
+        "Name": "Ladder Capital Corp Class A",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "TCBK.US": {
+        "Code": "TCBK",
+        "Exchange": "US",
+        "Name": "TriCo Bancshares",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "EFC.US": {
+        "Code": "EFC",
+        "Exchange": "US",
+        "Name": "Ellington Financial Inc.",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "HOPE.US": {
+        "Code": "HOPE",
+        "Exchange": "US",
+        "Name": "Hope Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "TFIN.US": {
+        "Code": "TFIN",
+        "Exchange": "US",
+        "Name": "Triumph Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "PRA.US": {
+        "Code": "PRA",
+        "Exchange": "US",
+        "Name": "ProAssurance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.02
+      },
+      "CODI.US": {
+        "Code": "CODI",
+        "Exchange": "US",
+        "Name": "Compass Diversified Holdings",
+        "Sector": "Industrials",
+        "Industry": "Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SAFT.US": {
+        "Code": "SAFT",
+        "Exchange": "US",
+        "Name": "Safety Insurance Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "US77664L2079.EUBOND": {
+        "Code": "US77664L2079",
+        "Exchange": "EUBOND",
+        "Name": "ROOT INC/OH -CLASS A",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 0.01
+      },
+      "PMT.US": {
+        "Code": "PMT",
+        "Exchange": "US",
+        "Name": "PennyMac Mortgage Investment Trust",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "LC.US": {
+        "Code": "LC",
+        "Exchange": "US",
+        "Name": "LendingClub Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PRG.US": {
+        "Code": "PRG",
+        "Exchange": "US",
+        "Name": "PROG Holdings Inc",
+        "Sector": "Industrials",
+        "Industry": "Rental & Leasing Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SRCE.US": {
+        "Code": "SRCE",
+        "Exchange": "US",
+        "Name": "1st Source Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CCB.US": {
+        "Code": "CCB",
+        "Exchange": "US",
+        "Name": "Coastal Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "QCRH.US": {
+        "Code": "QCRH",
+        "Exchange": "US",
+        "Name": "QCR Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BFC.US": {
+        "Code": "BFC",
+        "Exchange": "US",
+        "Name": "Bank First National Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BHLB.US": {
+        "Code": "BHLB",
+        "Exchange": "US",
+        "Name": "Berkshire Hills Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "DCOM.US": {
+        "Code": "DCOM",
+        "Exchange": "US",
+        "Name": "Dime Community Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FLYW.US": {
+        "Code": "FLYW",
+        "Exchange": "US",
+        "Name": "Flywire Corp",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PFBC.US": {
+        "Code": "PFBC",
+        "Exchange": "US",
+        "Name": "Preferred Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "NAVI.US": {
+        "Code": "NAVI",
+        "Exchange": "US",
+        "Name": "Navient Corp",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PEBO.US": {
+        "Code": "PEBO",
+        "Exchange": "US",
+        "Name": "Peoples Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "VRTS.US": {
+        "Code": "VRTS",
+        "Exchange": "US",
+        "Name": "Virtus Investment Partners, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "WT.US": {
+        "Code": "WT",
+        "Exchange": "US",
+        "Name": "WisdomTree Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "M4ZA.F": {
+        "Code": "M4ZA",
+        "Exchange": "F",
+        "Name": "MFA FINANCIAL NEW DL -01",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.01
+      },
+      "CNNE.US": {
+        "Code": "CNNE",
+        "Exchange": "US",
+        "Name": "Cannae Holdings Inc",
+        "Sector": "Consumer Cyclical",
+        "Industry": "Restaurants",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CIMN.US": {
+        "Code": "CIMN",
+        "Exchange": "US",
+        "Name": "Chimera Investment Corporation",
+        "Sector": null,
+        "Industry": null,
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "DX.US": {
+        "Code": "DX",
+        "Exchange": "US",
+        "Name": "Dynex Capital Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "OCFC.US": {
+        "Code": "OCFC",
+        "Exchange": "US",
+        "Name": "OceanFirst Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FBRT.US": {
+        "Code": "FBRT",
+        "Exchange": "US",
+        "Name": "Franklin BSP Realty Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "LOB.US": {
+        "Code": "LOB",
+        "Exchange": "US",
+        "Name": "Live Oak Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "OBNK.US": {
+        "Code": "OBNK",
+        "Exchange": "US",
+        "Name": "Origin Bancorp Inc",
+        "Sector": "Financials",
+        "Industry": "Banking Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FTIV.US": {
+        "Code": "FTIV",
+        "Exchange": "US",
+        "Name": "Fintech Acquisition Corp. IV",
+        "Sector": "Financial Services",
+        "Industry": "Shell Companies",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BRKL.US": {
+        "Code": "BRKL",
+        "Exchange": "US",
+        "Name": "Brookline Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "AMSF.US": {
+        "Code": "AMSF",
+        "Exchange": "US",
+        "Name": "AMERISAFE Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SEZL.US": {
+        "Code": "SEZL",
+        "Exchange": "US",
+        "Name": "Sezzle Inc. Common Stock",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "UVSP.US": {
+        "Code": "UVSP",
+        "Exchange": "US",
+        "Name": "Univest Corporation Pennsylvania",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "EZPW.US": {
+        "Code": "EZPW",
+        "Exchange": "US",
+        "Name": "EZCORP Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HG.US": {
+        "Code": "HG",
+        "Exchange": "US",
+        "Name": "Hamilton Insurance Group, Ltd.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CNOB.US": {
+        "Code": "CNOB",
+        "Exchange": "US",
+        "Name": "ConnectOne Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "RWT.US": {
+        "Code": "RWT",
+        "Exchange": "US",
+        "Name": "Redwood Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BSIG.US": {
+        "Code": "BSIG",
+        "Exchange": "US",
+        "Name": "Brightsphere Investment Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "ECPG.US": {
+        "Code": "ECPG",
+        "Exchange": "US",
+        "Name": "Encore Capital Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HFWA.US": {
+        "Code": "HFWA",
+        "Exchange": "US",
+        "Name": "Heritage Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SBSI.US": {
+        "Code": "SBSI",
+        "Exchange": "US",
+        "Name": "Southside Bancshares, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CTBI.US": {
+        "Code": "CTBI",
+        "Exchange": "US",
+        "Name": "Community Trust Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BHRB.US": {
+        "Code": "BHRB",
+        "Exchange": "US",
+        "Name": "Burke & Herbert Financial Services Corp. Common Stock",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "TMP.US": {
+        "Code": "TMP",
+        "Exchange": "US",
+        "Name": "Tompkins Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "RC.US": {
+        "Code": "RC",
+        "Exchange": "US",
+        "Name": "Ready Capital Corp",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CFFN.US": {
+        "Code": "CFFN",
+        "Exchange": "US",
+        "Name": "Capitol Federal Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "NBBK.US": {
+        "Code": "NBBK",
+        "Exchange": "US",
+        "Name": "NB Bancorp, Inc. Common Stock",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HAFC.US": {
+        "Code": "HAFC",
+        "Exchange": "US",
+        "Name": "Hanmi Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "OSBC.US": {
+        "Code": "OSBC",
+        "Exchange": "US",
+        "Name": "Old Second Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CPF.US": {
+        "Code": "CPF",
+        "Exchange": "US",
+        "Name": "Central Pacific Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PRAA.US": {
+        "Code": "PRAA",
+        "Exchange": "US",
+        "Name": "PRA Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BY.US": {
+        "Code": "BY",
+        "Exchange": "US",
+        "Name": "Byline Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FMBH.US": {
+        "Code": "FMBH",
+        "Exchange": "US",
+        "Name": "First Mid Illinois Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BFST.US": {
+        "Code": "BFST",
+        "Exchange": "US",
+        "Name": "Business First Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PAY.US": {
+        "Code": "PAY",
+        "Exchange": "US",
+        "Name": "Paymentus Holdings Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "UVE.US": {
+        "Code": "UVE",
+        "Exchange": "US",
+        "Name": "Universal Insurance Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CLNC.US": {
+        "Code": "CLNC",
+        "Exchange": "US",
+        "Name": "BrightSpire Capital Inc",
+        "Sector": "Real Estate",
+        "Industry": " REIT - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "MBWM.US": {
+        "Code": "MBWM",
+        "Exchange": "US",
+        "Name": "Mercantile Bank Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HBNC.US": {
+        "Code": "HBNC",
+        "Exchange": "US",
+        "Name": "Horizon Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "IBCP.US": {
+        "Code": "IBCP",
+        "Exchange": "US",
+        "Name": "Independent Bank Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FCBC.US": {
+        "Code": "FCBC",
+        "Exchange": "US",
+        "Name": "First Community Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "MBIN.US": {
+        "Code": "MBIN",
+        "Exchange": "US",
+        "Name": "Merchants Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "45U0.F": {
+        "Code": "45U0",
+        "Exchange": "F",
+        "Name": "ORCHID ISLAND CAPIT.DL-01",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.01
+      },
+      "CAC.US": {
+        "Code": "CAC",
+        "Exchange": "US",
+        "Name": "Camden National Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "UWMC.US": {
+        "Code": "UWMC",
+        "Exchange": "US",
+        "Name": "UWM Holdings Corp",
+        "Sector": "Financial Services",
+        "Industry": "Mortgage Finance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "MCB.US": {
+        "Code": "MCB",
+        "Exchange": "US",
+        "Name": "Metropolitan Bank Holding",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "EQBK.US": {
+        "Code": "EQBK",
+        "Exchange": "US",
+        "Name": "Equity Bancshares, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "TREE.US": {
+        "Code": "TREE",
+        "Exchange": "US",
+        "Name": "Lendingtree Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "UFCS.US": {
+        "Code": "UFCS",
+        "Exchange": "US",
+        "Name": "United Fire Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "TRST.US": {
+        "Code": "TRST",
+        "Exchange": "US",
+        "Name": "TrustCo Bank Corp NY",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "AMTB.US": {
+        "Code": "AMTB",
+        "Exchange": "US",
+        "Name": "Amerant Bancorp Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "MPB.US": {
+        "Code": "MPB",
+        "Exchange": "US",
+        "Name": "Mid Penn Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "THFF.US": {
+        "Code": "THFF",
+        "Exchange": "US",
+        "Name": "First Financial Corporation Indiana",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HTBK.US": {
+        "Code": "HTBK",
+        "Exchange": "US",
+        "Name": "Heritage Commerce Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "AMAL.US": {
+        "Code": "AMAL",
+        "Exchange": "US",
+        "Name": "Amalgamated Bank",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "KREF.US": {
+        "Code": "KREF",
+        "Exchange": "US",
+        "Name": "KKR Real Estate Finance Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "TRTX.US": {
+        "Code": "TRTX",
+        "Exchange": "US",
+        "Name": "TPG RE Finance Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "US6496048405.EUBOND": {
+        "Code": "US6496048405",
+        "Exchange": "EUBOND",
+        "Name": "NEW YORK MORTGAGE TRUST INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 0.01
+      },
+      "GSBC.US": {
+        "Code": "GSBC",
+        "Exchange": "US",
+        "Name": "Great Southern Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "TIPT.US": {
+        "Code": "TIPT",
+        "Exchange": "US",
+        "Name": "Tiptree Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "EGBN.US": {
+        "Code": "EGBN",
+        "Exchange": "US",
+        "Name": "Eagle Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CASS.US": {
+        "Code": "CASS",
+        "Exchange": "US",
+        "Name": "Cass Information Systems Inc",
+        "Sector": "Industrials",
+        "Industry": "Specialty Business Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CCBG.US": {
+        "Code": "CCBG",
+        "Exchange": "US",
+        "Name": "Capital City Bank Group",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "WASH.US": {
+        "Code": "WASH",
+        "Exchange": "US",
+        "Name": "Washington Trust Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SMBC.US": {
+        "Code": "SMBC",
+        "Exchange": "US",
+        "Name": "Southern Missouri Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BOW.US": {
+        "Code": "BOW",
+        "Exchange": "US",
+        "Name": "Bowhead Specialty Holdings Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HTBI.US": {
+        "Code": "HTBI",
+        "Exchange": "US",
+        "Name": "HomeTrust Bancshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FMNB.US": {
+        "Code": "FMNB",
+        "Exchange": "US",
+        "Name": "Farmers National Banc Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CTLP.US": {
+        "Code": "CTLP",
+        "Exchange": "US",
+        "Name": "Cantaloupe Inc",
+        "Sector": "Technology",
+        "Industry": "Information Technology Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "CCNE.US": {
+        "Code": "CCNE",
+        "Exchange": "US",
+        "Name": "CNB Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "BHB.US": {
+        "Code": "BHB",
+        "Exchange": "US",
+        "Name": "Bar Harbor Bankshares Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PX.US": {
+        "Code": "PX",
+        "Exchange": "US",
+        "Name": "P10 Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "NFBK.US": {
+        "Code": "NFBK",
+        "Exchange": "US",
+        "Name": "Northfield Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "PGC.US": {
+        "Code": "PGC",
+        "Exchange": "US",
+        "Name": "Peapack-Gladstone Financial",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "WRLD.US": {
+        "Code": "WRLD",
+        "Exchange": "US",
+        "Name": "World Acceptance Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HONE.US": {
+        "Code": "HONE",
+        "Exchange": "US",
+        "Name": "HarborOne Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SMBK.US": {
+        "Code": "SMBK",
+        "Exchange": "US",
+        "Name": "SmartFinancial, Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "7M20.F": {
+        "Code": "7M20",
+        "Exchange": "F",
+        "Name": "INVESCO MORTGA.CAP.DL-01",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Germany",
+        "Region": "Europe",
+        "Assets_%": 0.01
+      },
+      "AROW.US": {
+        "Code": "AROW",
+        "Exchange": "US",
+        "Name": "Arrow Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "SPFI.US": {
+        "Code": "SPFI",
+        "Exchange": "US",
+        "Name": "South Plains Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "GDOT.US": {
+        "Code": "GDOT",
+        "Exchange": "US",
+        "Name": "Green Dot Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "HIFS.US": {
+        "Code": "HIFS",
+        "Exchange": "US",
+        "Name": "Hingham Institution for Savings",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "FFIC.US": {
+        "Code": "FFIC",
+        "Exchange": "US",
+        "Name": "Flushing Financial Corporation",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.01
+      },
+      "AMBC.US": {
+        "Code": "AMBC",
+        "Exchange": "US",
+        "Name": "Ambac Financial Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "US4335392027.EUBOND": {
+        "Code": "US4335392027",
+        "Exchange": "EUBOND",
+        "Name": "HIPPO HOLDINGS INC",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Unknown",
+        "Region": "Unknown",
+        "Assets_%": 0
+      },
+      "GLRE.US": {
+        "Code": "GLRE",
+        "Exchange": "US",
+        "Name": "Greenlight Capital Re Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Reinsurance",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "CARE.US": {
+        "Code": "CARE",
+        "Exchange": "US",
+        "Name": "Carter Bank and Trust",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "KRNY.US": {
+        "Code": "KRNY",
+        "Exchange": "US",
+        "Name": "Kearny Financial Corp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "BRDG_old.US": {
+        "Code": "BRDG_old",
+        "Exchange": "US",
+        "Name": "BRDG",
+        "Sector": "Real Estate",
+        "Industry": " REIT - Diversified",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "OPY.US": {
+        "Code": "OPY",
+        "Exchange": "US",
+        "Name": "Oppenheimer Holdings Inc",
+        "Sector": "Financial Services",
+        "Industry": "Capital Markets",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "NRDS.US": {
+        "Code": "NRDS",
+        "Exchange": "US",
+        "Name": "Nerdwallet Inc",
+        "Sector": "Communication Services",
+        "Industry": "Internet Content & Information",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "FFWM.US": {
+        "Code": "FFWM",
+        "Exchange": "US",
+        "Name": "First Foundation Inc.",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "MSBI.US": {
+        "Code": "MSBI",
+        "Exchange": "US",
+        "Name": "Midland States Bancorp Inc",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "DHIL.US": {
+        "Code": "DHIL",
+        "Exchange": "US",
+        "Name": "Diamond Hill Investment Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "IMXI.US": {
+        "Code": "IMXI",
+        "Exchange": "US",
+        "Name": "International Money Express Inc",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "RPAY.US": {
+        "Code": "RPAY",
+        "Exchange": "US",
+        "Name": "Repay Holdings Corp",
+        "Sector": "Technology",
+        "Industry": "Software - Infrastructure",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "DGICA.US": {
+        "Code": "DGICA",
+        "Exchange": "US",
+        "Name": "Donegal Group A Inc",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Property & Casualty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "BMRC.US": {
+        "Code": "BMRC",
+        "Exchange": "US",
+        "Name": "Bank of Marin Bancorp",
+        "Sector": "Financial Services",
+        "Industry": "Banks - Regional",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "CMTG.US": {
+        "Code": "CMTG",
+        "Exchange": "US",
+        "Name": "Claros Mortgage Trust Inc",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "ACRE.US": {
+        "Code": "ACRE",
+        "Exchange": "US",
+        "Name": "Ares Commercial Real Estate",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "JRVR.US": {
+        "Code": "JRVR",
+        "Exchange": "US",
+        "Name": "James River Group Holdings Ltd",
+        "Sector": "Financial Services",
+        "Industry": "Insurance - Specialty",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "LPRO.US": {
+        "Code": "LPRO",
+        "Exchange": "US",
+        "Name": "Open Lending Corp",
+        "Sector": "Financial Services",
+        "Industry": "Credit Services",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "AC.US": {
+        "Code": "AC",
+        "Exchange": "US",
+        "Name": "Associated Capital Group Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      },
+      "RILY.US": {
+        "Code": "RILY",
+        "Exchange": "US",
+        "Name": "B. Riley Financial Inc",
+        "Sector": "Financial Services",
+        "Industry": "Financial Conglomerates",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "15.41538",
+        "Price/Book": "1.96935",
+        "Price/Sales": "2.57985",
+        "Price/Cash Flow": "9.16465",
+        "Dividend-Yield Factor": "1.80803"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "12.37683",
+        "Price/Book": "1.50988",
+        "Price/Sales": "2.4629",
+        "Price/Cash Flow": "8.20344",
+        "Dividend-Yield Factor": "2.99082"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "13.86849",
+        "Historical Earnings Growth": "9.86762",
+        "Sales Growth": "10.04805",
+        "Cash-Flow Growth": "1.53952",
+        "Book-Value Growth": "8.49498"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "11.6493",
+        "Historical Earnings Growth": "9.37233",
+        "Sales Growth": "7.225",
+        "Cash-Flow Growth": "4.12897",
+        "Book-Value Growth": "8.20248"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "MSCI ACWI NR USD",
+      "Sustainability_Ratio": "2"
+    },
+    "Performance": {
+      "1y_Volatility": "17.50",
+      "3y_Volatility": "20.94",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.52",
+      "Returns_YTD": "5.49",
+      "Returns_1Y": "24.03",
+      "Returns_3Y": "17.94",
+      "Returns_5Y": "20.62",
+      "Returns_10Y": "11.75"
+    }
+  }
+}

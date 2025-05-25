@@ -1,0 +1,640 @@
+{
+  "General": {
+    "Code": "TRTY",
+    "Type": "ETF",
+    "Name": "Cambria Trinity ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00LY8KC45",
+    "Description": "Under normal market conditions, the fund invests at least 80% of its total assets in affiliated and unaffiliated exchange-traded funds (ETFs) and other exchange-traded products (ETPs) (collectively, underlying vehicles) that provide exposure to various (i) investment asset classes, including equity and fixed income securities, real estate, commodities, and currencies, and (ii) factors such as value, momentum, and trend investing.",
+    "Category": "Tactical Allocation",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 0.66,
+    "52WeekHigh": 26.6501,
+    "52WeekLow": 23.59,
+    "50DayMA": 25.3254,
+    "200DayMA": 25.7112
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Cambria ETF",
+    "Company_URL": "",
+    "ETF_URL": "",
+    "Domicile": "",
+    "Index_Name": null,
+    "Yield": "3.120000",
+    "Dividend_Paying_Frequency": "",
+    "Inception_Date": "2018-09-10",
+    "Max_Annual_Mgmt_Charge": "0.00",
+    "Ongoing_Charge": "0.0000",
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.00490",
+    "AnnualHoldingsTurnover": "1.02000",
+    "TotalAssets": "110621500.00",
+    "Average_Mkt_Cap_Mil": "10004.44946",
+    "Market_Capitalisation": {
+      "Mega": "4.59992",
+      "Big": "10.13249",
+      "Medium": "14.78887",
+      "Small": "8.36437",
+      "Micro": "5.10661"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "38.4928",
+        "Short_%": "28.26169",
+        "Net_Assets_%": "10.23111"
+      },
+      "NotClassified": {
+        "Long_%": "0.8013",
+        "Short_%": "0",
+        "Net_Assets_%": "0.8013"
+      },
+      "Stock non-US": {
+        "Long_%": "25.89918",
+        "Short_%": "0.10161",
+        "Net_Assets_%": "25.79757"
+      },
+      "Other": {
+        "Long_%": "7.21619",
+        "Short_%": "1.34609",
+        "Net_Assets_%": "5.8701"
+      },
+      "Stock US": {
+        "Long_%": "23.06627",
+        "Short_%": "7.55783",
+        "Net_Assets_%": "15.50844"
+      },
+      "Bond": {
+        "Long_%": "47.98764",
+        "Short_%": "6.19617",
+        "Net_Assets_%": "41.79147"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "53.319",
+        "Relative_to_Category": "84.373"
+      },
+      "United Kingdom": {
+        "Equity_%": "4.4909",
+        "Relative_to_Category": "2.13441"
+      },
+      "Europe Developed": {
+        "Equity_%": "10.299",
+        "Relative_to_Category": "5.568"
+      },
+      "Europe Emerging": {
+        "Equity_%": "5.487",
+        "Relative_to_Category": "0.093"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "2.102",
+        "Relative_to_Category": "0.478"
+      },
+      "Japan": {
+        "Equity_%": "3.271",
+        "Relative_to_Category": "1.998"
+      },
+      "Australasia": {
+        "Equity_%": "2.124",
+        "Relative_to_Category": "0.386"
+      },
+      "Asia Developed": {
+        "Equity_%": "7.734",
+        "Relative_to_Category": "1.721"
+      },
+      "Asia Emerging": {
+        "Equity_%": "5.864",
+        "Relative_to_Category": "2.54"
+      },
+      "Latin America": {
+        "Equity_%": "5.309",
+        "Relative_to_Category": "0.637"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "10.01453",
+        "Relative_to_Category": "2.99009"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "6.67559",
+        "Relative_to_Category": "9.93505"
+      },
+      "Financial Services": {
+        "Equity_%": "19.3581",
+        "Relative_to_Category": "16.43561"
+      },
+      "Real Estate": {
+        "Equity_%": "15.06204",
+        "Relative_to_Category": "2.69991"
+      },
+      "Communication Services": {
+        "Equity_%": "3.55585",
+        "Relative_to_Category": "8.34529"
+      },
+      "Energy": {
+        "Equity_%": "8.08413",
+        "Relative_to_Category": "4.51578"
+      },
+      "Industrials": {
+        "Equity_%": "11.69288",
+        "Relative_to_Category": "10.16469"
+      },
+      "Technology": {
+        "Equity_%": "4.87249",
+        "Relative_to_Category": "24.81528"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "8.42651",
+        "Relative_to_Category": "6.38102"
+      },
+      "Healthcare": {
+        "Equity_%": "2.38714",
+        "Relative_to_Category": "10.8125"
+      },
+      "Utilities": {
+        "Equity_%": "9.87075",
+        "Relative_to_Category": "2.90477"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.27674"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.8682"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "6.58675"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "3.61305",
+        "Relative_to_Category": "3.86104"
+      },
+      "Price": {
+        "Fund_%": "96.26491",
+        "Relative_to_Category": "97.81484"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "0",
+        "Relative_to_Category": "4.83684"
+      }
+    },
+    "Holdings_Count": 29,
+    "Top_10_Holdings": {
+      "VAMO.US": {
+        "Code": "VAMO",
+        "Exchange": "US",
+        "Name": "Cambria Value and Momentum ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.97692
+      },
+      "TYLD.US": {
+        "Code": "TYLD",
+        "Exchange": "US",
+        "Name": "Cambria ETF Trust - Cambria Tactical Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.82352
+      },
+      "VGIT.US": {
+        "Code": "VGIT",
+        "Exchange": "US",
+        "Name": "Vanguard Intermediate-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.75528
+      },
+      "FYLD.US": {
+        "Code": "FYLD",
+        "Exchange": "US",
+        "Name": "Cambria Foreign Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.18044
+      },
+      "GVAL.US": {
+        "Code": "GVAL",
+        "Exchange": "US",
+        "Name": "Cambria Global Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.17795
+      },
+      "EYLD.US": {
+        "Code": "EYLD",
+        "Exchange": "US",
+        "Name": "Cambria Emerging Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.23811
+      },
+      "BLDG.US": {
+        "Code": "BLDG",
+        "Exchange": "US",
+        "Name": "Cambria ETF Trust - Cambria Global Real Estate ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.05448
+      },
+      "DBMF.US": {
+        "Code": "DBMF",
+        "Exchange": "US",
+        "Name": "iMGP DBi Managed Futures Strategy ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.89334
+      },
+      "BND.MX": {
+        "Code": "BND",
+        "Exchange": "MX",
+        "Name": "Vanguard Bond Index Funds - Vanguard Total Bond Market ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.88448
+      },
+      "EMLC.MX": {
+        "Code": "EMLC",
+        "Exchange": "MX",
+        "Name": "VanEck Vectors ETF Trust - VanEck Vectors J.P. Morgan EM Local Currency Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.95806
+      }
+    },
+    "Holdings": {
+      "VAMO.US": {
+        "Code": "VAMO",
+        "Exchange": "US",
+        "Name": "Cambria Value and Momentum ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.97692
+      },
+      "TYLD.US": {
+        "Code": "TYLD",
+        "Exchange": "US",
+        "Name": "Cambria ETF Trust - Cambria Tactical Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.82352
+      },
+      "VGIT.US": {
+        "Code": "VGIT",
+        "Exchange": "US",
+        "Name": "Vanguard Intermediate-Term Treasury Index Fund ETF Shares",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 7.75528
+      },
+      "FYLD.US": {
+        "Code": "FYLD",
+        "Exchange": "US",
+        "Name": "Cambria Foreign Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.18044
+      },
+      "GVAL.US": {
+        "Code": "GVAL",
+        "Exchange": "US",
+        "Name": "Cambria Global Value ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.17795
+      },
+      "EYLD.US": {
+        "Code": "EYLD",
+        "Exchange": "US",
+        "Name": "Cambria Emerging Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.23811
+      },
+      "BLDG.US": {
+        "Code": "BLDG",
+        "Exchange": "US",
+        "Name": "Cambria ETF Trust - Cambria Global Real Estate ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.05448
+      },
+      "DBMF.US": {
+        "Code": "DBMF",
+        "Exchange": "US",
+        "Name": "iMGP DBi Managed Futures Strategy ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.89334
+      },
+      "BND.MX": {
+        "Code": "BND",
+        "Exchange": "MX",
+        "Name": "Vanguard Bond Index Funds - Vanguard Total Bond Market ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 3.88448
+      },
+      "EMLC.MX": {
+        "Code": "EMLC",
+        "Exchange": "MX",
+        "Name": "VanEck Vectors ETF Trust - VanEck Vectors J.P. Morgan EM Local Currency Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.95806
+      },
+      "JPMB.US": {
+        "Code": "JPMB",
+        "Exchange": "US",
+        "Name": "JPMorgan USD Emerging Markets Sovereign Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.9382
+      },
+      "HODL.US": {
+        "Code": "HODL",
+        "Exchange": "US",
+        "Name": "VanEck Bitcoin Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.19419
+      },
+      "SYLD.US": {
+        "Code": "SYLD",
+        "Exchange": "US",
+        "Name": "Cambria Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.12467
+      },
+      "IGF.MX": {
+        "Code": "IGF",
+        "Exchange": "MX",
+        "Name": "iShares Trust - iShares Global Infrastructure ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 2.05465
+      },
+      "JXI.US": {
+        "Code": "JXI",
+        "Exchange": "US",
+        "Name": "iShares Global Utilities ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.03926
+      },
+      "USCI.US": {
+        "Code": "USCI",
+        "Exchange": "US",
+        "Name": "United States Commodity Index Fund LP",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.0001
+      },
+      "DBA.US": {
+        "Code": "DBA",
+        "Exchange": "US",
+        "Name": "Invesco DB Agriculture Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98697
+      },
+      "REZ.US": {
+        "Code": "REZ",
+        "Exchange": "US",
+        "Name": "iShares Residential and Multisector Real Estate ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.98611
+      },
+      "KXI.US": {
+        "Code": "KXI",
+        "Exchange": "US",
+        "Name": "iShares Global Consumer Staples ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.96544
+      },
+      "SCHP.US": {
+        "Code": "SCHP",
+        "Exchange": "US",
+        "Name": "Schwab U.S. TIPS ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.94295
+      },
+      "WIP.US": {
+        "Code": "WIP",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae FTSE International Government Inflation-Protected Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.93527
+      },
+      "IBND.US": {
+        "Code": "IBND",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg International Corporate Bond ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.92716
+      },
+      "BAR.US": {
+        "Code": "BAR",
+        "Exchange": "US",
+        "Name": "GraniteShares Gold Trust",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91824
+      },
+      "DBP.US": {
+        "Code": "DBP",
+        "Exchange": "US",
+        "Name": "Invesco DB Precious Metals Fund",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.91024
+      },
+      "GDX.US": {
+        "Code": "GDX",
+        "Exchange": "US",
+        "Name": "VanEck Gold Miners ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.88828
+      },
+      "TAIL.US": {
+        "Code": "TAIL",
+        "Exchange": "US",
+        "Name": "Cambria Tail Risk ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.82939
+      },
+      "MYLD.US": {
+        "Code": "MYLD",
+        "Exchange": "US",
+        "Name": "Cambria Micro And Smallcap Shareholder Yield ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.07961
+      },
+      "IXG.MX": {
+        "Code": "IXG",
+        "Exchange": "MX",
+        "Name": "iShares Global Financials ETF MXN",
+        "Sector": null,
+        "Industry": null,
+        "Country": "Mexico",
+        "Region": "Latin America",
+        "Assets_%": 1.04384
+      },
+      "BOXX.US": {
+        "Code": "BOXX",
+        "Exchange": "US",
+        "Name": "Alpha Architect 1-3 Month Box ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.97596
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "10.97352",
+        "Price/Book": "1.19579",
+        "Price/Sales": "0.86563",
+        "Price/Cash Flow": "5.22921",
+        "Dividend-Yield Factor": "4.47503"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "18.0827",
+        "Price/Book": "3.01025",
+        "Price/Sales": "2.06073",
+        "Price/Cash Flow": "11.208",
+        "Dividend-Yield Factor": "1.92603"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "10.83664",
+        "Historical Earnings Growth": "-0.17888",
+        "Sales Growth": "4.61835",
+        "Cash-Flow Growth": "0.64818",
+        "Book-Value Growth": "5.14254"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "9.60343",
+        "Historical Earnings Growth": "7.84075",
+        "Sales Growth": "6.23848",
+        "Cash-Flow Growth": "5.33928",
+        "Book-Value Growth": "6.6678"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "4",
+      "Category_Benchmark": "",
+      "Sustainability_Ratio": ""
+    },
+    "Performance": {
+      "1y_Volatility": "7.72",
+      "3y_Volatility": "9.05",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "-0.29",
+      "Returns_YTD": "2.36",
+      "Returns_1Y": "0.66",
+      "Returns_3Y": "2.34",
+      "Returns_5Y": "7.44",
+      "Returns_10Y": "0.00"
+    }
+  }
+}

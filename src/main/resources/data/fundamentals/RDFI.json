@@ -1,0 +1,670 @@
+{
+  "General": {
+    "Code": "RDFI",
+    "Type": "ETF",
+    "Name": "Rareview Dynamic Fixed Income ETF",
+    "Exchange": "BATS",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US",
+    "OpenFigi": "BBG00XY91ZM7",
+    "Description": "Under normal market conditions, the fund will invest at least 80% of its net assets (plus any borrowings for investment purposes) in fixed income closed-end funds trading at a discount or premium to their underlying net asset value and that pay regular periodic cash distributions. Through its investments in closed-end funds that hold non-U.S. fixed income securities, the fund may invest indirectly in foreign securities, including securities of issuers located in emerging markets.",
+    "Category": "Multisector Bond",
+    "UpdatedAt": "2025-05-22"
+  },
+  "Technicals": {
+    "Beta": 1.48,
+    "52WeekHigh": 26.7812,
+    "52WeekLow": 20.6932,
+    "50DayMA": 23.1587,
+    "200DayMA": 23.9255
+  },
+  "ETF_Data": {
+    "ISIN": null,
+    "Company_Name": "Rareview Capital",
+    "Company_URL": null,
+    "ETF_URL": null,
+    "Domicile": null,
+    "Index_Name": null,
+    "Yield": "8.470000",
+    "Dividend_Paying_Frequency": null,
+    "Inception_Date": "2020-10-20",
+    "Max_Annual_Mgmt_Charge": null,
+    "Ongoing_Charge": null,
+    "Date_Ongoing_Charge": null,
+    "NetExpenseRatio": "0.03690",
+    "AnnualHoldingsTurnover": "1.28000",
+    "TotalAssets": "48624257.00",
+    "Average_Mkt_Cap_Mil": "9322.87403",
+    "Market_Capitalisation": {
+      "Mega": "0.01139",
+      "Big": "0.08666",
+      "Medium": "0.18634",
+      "Small": "1.28009",
+      "Micro": "0.05977"
+    },
+    "Asset_Allocation": {
+      "Cash": {
+        "Long_%": "30.3655",
+        "Short_%": "20.77536",
+        "Net_Assets_%": "9.59014"
+      },
+      "NotClassified": {
+        "Long_%": "4.78821",
+        "Short_%": "0",
+        "Net_Assets_%": "4.78821"
+      },
+      "Stock non-US": {
+        "Long_%": "0.15109",
+        "Short_%": "0.00115",
+        "Net_Assets_%": "0.14994"
+      },
+      "Other": {
+        "Long_%": "6.51589",
+        "Short_%": "0.00106",
+        "Net_Assets_%": "6.51483"
+      },
+      "Stock US": {
+        "Long_%": "1.56251",
+        "Short_%": "0",
+        "Net_Assets_%": "1.56251"
+      },
+      "Bond": {
+        "Long_%": "84.17206",
+        "Short_%": "6.77774",
+        "Net_Assets_%": "77.39432"
+      }
+    },
+    "World_Regions": {
+      "North America": {
+        "Equity_%": "96.148",
+        "Relative_to_Category": "85.618"
+      },
+      "United Kingdom": {
+        "Equity_%": "0.67699",
+        "Relative_to_Category": "0.06396"
+      },
+      "Europe Developed": {
+        "Equity_%": "1.098",
+        "Relative_to_Category": "13.774"
+      },
+      "Europe Emerging": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0.212"
+      },
+      "Africa/Middle East": {
+        "Equity_%": "0.016",
+        "Relative_to_Category": "0"
+      },
+      "Japan": {
+        "Equity_%": "0.348",
+        "Relative_to_Category": "0.001"
+      },
+      "Australasia": {
+        "Equity_%": "0.761",
+        "Relative_to_Category": "0"
+      },
+      "Asia Developed": {
+        "Equity_%": "0.183",
+        "Relative_to_Category": "0"
+      },
+      "Asia Emerging": {
+        "Equity_%": "0.334",
+        "Relative_to_Category": "0.311"
+      },
+      "Latin America": {
+        "Equity_%": "0.436",
+        "Relative_to_Category": "0.019"
+      }
+    },
+    "Sector_Weights": {
+      "Basic Materials": {
+        "Equity_%": "3.53321",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Cyclicals": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Financial Services": {
+        "Equity_%": "1.16752",
+        "Relative_to_Category": "0"
+      },
+      "Real Estate": {
+        "Equity_%": "78.15354",
+        "Relative_to_Category": "0"
+      },
+      "Communication Services": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Energy": {
+        "Equity_%": "7.19697",
+        "Relative_to_Category": "0"
+      },
+      "Industrials": {
+        "Equity_%": "2.62616",
+        "Relative_to_Category": "0"
+      },
+      "Technology": {
+        "Equity_%": "0.48417",
+        "Relative_to_Category": "0"
+      },
+      "Consumer Defensive": {
+        "Equity_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Healthcare": {
+        "Equity_%": "0.10174",
+        "Relative_to_Category": "0"
+      },
+      "Utilities": {
+        "Equity_%": "6.7367",
+        "Relative_to_Category": "0"
+      }
+    },
+    "Fixed_Income": {
+      "EffectiveDuration": {
+        "Fund_%": "4.27",
+        "Relative_to_Category": "4.02068"
+      },
+      "ModifiedDuration": {
+        "Fund_%": "4.27",
+        "Relative_to_Category": "4.037"
+      },
+      "EffectiveMaturity": {
+        "Fund_%": "8.18",
+        "Relative_to_Category": "7.0587"
+      },
+      "CreditQuality": {
+        "Fund_%": "0",
+        "Relative_to_Category": "0"
+      },
+      "Coupon": {
+        "Fund_%": "6.27247",
+        "Relative_to_Category": "5.60245"
+      },
+      "Price": {
+        "Fund_%": "95.07476",
+        "Relative_to_Category": "98.1463"
+      },
+      "YieldToMaturity": {
+        "Fund_%": "9.02",
+        "Relative_to_Category": "6.59346"
+      }
+    },
+    "Holdings_Count": 32,
+    "Top_10_Holdings": {
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 13.74481
+      },
+      "EMD.US": {
+        "Code": "EMD",
+        "Exchange": "US",
+        "Name": "Western Asset Emerging Markets Debt",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.52571
+      },
+      "EDD.US": {
+        "Code": "EDD",
+        "Exchange": "US",
+        "Name": "Morgan Stanley Emerging Markets Domestic Debt Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.25759
+      },
+      "EAD.US": {
+        "Code": "EAD",
+        "Exchange": "US",
+        "Name": "Allspring Income Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.62205
+      },
+      "TEI.US": {
+        "Code": "TEI",
+        "Exchange": "US",
+        "Name": "Templeton Emerging Markets Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.35549
+      },
+      "KIO.US": {
+        "Code": "KIO",
+        "Exchange": "US",
+        "Name": "KKR Income Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.26405
+      },
+      "RA.US": {
+        "Code": "RA",
+        "Exchange": "US",
+        "Name": "Brookfield Real Assets Income",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.14487
+      },
+      "FPF.US": {
+        "Code": "FPF",
+        "Exchange": "US",
+        "Name": "First Trust Intermediate Duration Preferred and Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.67308
+      },
+      "BTZ.US": {
+        "Code": "BTZ",
+        "Exchange": "US",
+        "Name": "BlackRock Credit Allocation Income Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.45843
+      },
+      "LDP.US": {
+        "Code": "LDP",
+        "Exchange": "US",
+        "Name": "Cohen & Steers Limited Duration Preferred and Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.37982
+      }
+    },
+    "Holdings": {
+      "BIL.US": {
+        "Code": "BIL",
+        "Exchange": "US",
+        "Name": "SPDR\u00ae Bloomberg 1-3 Month T-Bill ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 13.74481
+      },
+      "EMD.US": {
+        "Code": "EMD",
+        "Exchange": "US",
+        "Name": "Western Asset Emerging Markets Debt",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.52571
+      },
+      "EDD.US": {
+        "Code": "EDD",
+        "Exchange": "US",
+        "Name": "Morgan Stanley Emerging Markets Domestic Debt Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 6.25759
+      },
+      "EAD.US": {
+        "Code": "EAD",
+        "Exchange": "US",
+        "Name": "Allspring Income Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.62205
+      },
+      "TEI.US": {
+        "Code": "TEI",
+        "Exchange": "US",
+        "Name": "Templeton Emerging Markets Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.35549
+      },
+      "KIO.US": {
+        "Code": "KIO",
+        "Exchange": "US",
+        "Name": "KKR Income Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.26405
+      },
+      "RA.US": {
+        "Code": "RA",
+        "Exchange": "US",
+        "Name": "Brookfield Real Assets Income",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 4.14487
+      },
+      "FPF.US": {
+        "Code": "FPF",
+        "Exchange": "US",
+        "Name": "First Trust Intermediate Duration Preferred and Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.67308
+      },
+      "BTZ.US": {
+        "Code": "BTZ",
+        "Exchange": "US",
+        "Name": "BlackRock Credit Allocation Income Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.45843
+      },
+      "LDP.US": {
+        "Code": "LDP",
+        "Exchange": "US",
+        "Name": "Cohen & Steers Limited Duration Preferred and Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.37982
+      },
+      "HIX.US": {
+        "Code": "HIX",
+        "Exchange": "US",
+        "Name": "Western Asset High Income II Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 3.26977
+      },
+      "MHD.US": {
+        "Code": "MHD",
+        "Exchange": "US",
+        "Name": "BlackRock MuniHoldings Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.95186
+      },
+      "BFK.US": {
+        "Code": "BFK",
+        "Exchange": "US",
+        "Name": "BlackRock Municipal Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.39037
+      },
+      "NAD.US": {
+        "Code": "NAD",
+        "Exchange": "US",
+        "Name": "Nuveen Dividend Advantage Municipal Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.37252
+      },
+      "BLE.US": {
+        "Code": "BLE",
+        "Exchange": "US",
+        "Name": "BlackRock MIT II",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.32082
+      },
+      "ERC.US": {
+        "Code": "ERC",
+        "Exchange": "US",
+        "Name": "Allspring Multi Sector Income Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.30255
+      },
+      "CARY.US": {
+        "Code": "CARY",
+        "Exchange": "US",
+        "Name": "Angel Oak Income ETF",
+        "Sector": "",
+        "Industry": "",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.24424
+      },
+      "FTF.US": {
+        "Code": "FTF",
+        "Exchange": "US",
+        "Name": "Franklin Templeton Limited Duration",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.21672
+      },
+      "VMO.US": {
+        "Code": "VMO",
+        "Exchange": "US",
+        "Name": "Invesco Municipal Opportunity Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.19814
+      },
+      "NEA.US": {
+        "Code": "NEA",
+        "Exchange": "US",
+        "Name": "Nuveen AMT-Free Municipal IF",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.14579
+      },
+      "MMU.US": {
+        "Code": "MMU",
+        "Exchange": "US",
+        "Name": "Western Asset Managed Municipals Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.09139
+      },
+      "NZF.US": {
+        "Code": "NZF",
+        "Exchange": "US",
+        "Name": "Nuveen Municipal Credit Income",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 2.03762
+      },
+      "IQI.US": {
+        "Code": "IQI",
+        "Exchange": "US",
+        "Name": "Invesco Quality Municipal Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.82651
+      },
+      "NPFD.US": {
+        "Code": "NPFD",
+        "Exchange": "US",
+        "Name": "Nuveen Variable Rate Preferred & Income Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.67746
+      },
+      "VKQ.US": {
+        "Code": "VKQ",
+        "Exchange": "US",
+        "Name": "Invesco Municipal Trust",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.45543
+      },
+      "AGNC.US": {
+        "Code": "AGNC",
+        "Exchange": "US",
+        "Name": "AGNC Investment Corp",
+        "Sector": "Real Estate",
+        "Industry": "REIT - Mortgage",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.26232
+      },
+      "NVG.US": {
+        "Code": "NVG",
+        "Exchange": "US",
+        "Name": "Nuveen AMT Free Municipal Credit Income",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.09607
+      },
+      "SDHY.US": {
+        "Code": "SDHY",
+        "Exchange": "US",
+        "Name": "PGIM Short Duration High Yield Opportunities Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 1.02008
+      },
+      "MYD.US": {
+        "Code": "MYD",
+        "Exchange": "US",
+        "Name": "BlackRock MuniYield Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.98704
+      },
+      "EHI.US": {
+        "Code": "EHI",
+        "Exchange": "US",
+        "Name": "Western Asset Global High Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.64203
+      },
+      "NBH.US": {
+        "Code": "NBH",
+        "Exchange": "US",
+        "Name": "Neuberger Berman IMF Inc",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.2661
+      },
+      "IIM.US": {
+        "Code": "IIM",
+        "Exchange": "US",
+        "Name": "Invesco Value Municipal Income Closed Fund",
+        "Sector": "Financial Services",
+        "Industry": "Asset Management",
+        "Country": "United States",
+        "Region": "North America",
+        "Assets_%": 0.18872
+      }
+    },
+    "Valuations_Growth": {
+      "Valuations_Rates_Portfolio": {
+        "Price/Prospective Earnings": "6.26573",
+        "Price/Book": "1.31179",
+        "Price/Sales": "3.18876",
+        "Price/Cash Flow": "39.70708",
+        "Dividend-Yield Factor": "13.00066"
+      },
+      "Valuations_Rates_To_Category": {
+        "Price/Prospective Earnings": "10.59078",
+        "Price/Book": "1.14378",
+        "Price/Sales": "1.27701",
+        "Price/Cash Flow": "2.24017",
+        "Dividend-Yield Factor": "5.31659"
+      },
+      "Growth_Rates_Portfolio": {
+        "Long-Term Projected Earnings Growth": "9.32672",
+        "Historical Earnings Growth": "120.17768",
+        "Sales Growth": "8.66807",
+        "Cash-Flow Growth": "1.41719",
+        "Book-Value Growth": "-7.45792"
+      },
+      "Growth_Rates_To_Category": {
+        "Long-Term Projected Earnings Growth": "2.08165",
+        "Historical Earnings Growth": "-12.05669",
+        "Sales Growth": "-22.55616",
+        "Cash-Flow Growth": "72.70054",
+        "Book-Value Growth": "-18.30408"
+      }
+    },
+    "MorningStar": {
+      "Ratio": "3",
+      "Category_Benchmark": null,
+      "Sustainability_Ratio": null
+    },
+    "Performance": {
+      "1y_Volatility": "8.87",
+      "3y_Volatility": "12.38",
+      "3y_ExpReturn": "0.00",
+      "3y_SharpRatio": "0.13",
+      "Returns_YTD": "1.05",
+      "Returns_1Y": "8.95",
+      "Returns_3Y": "6.99",
+      "Returns_5Y": "0.00",
+      "Returns_10Y": "0.00"
+    }
+  }
+}
