@@ -1,5 +1,5 @@
 
-package gbacktester;
+package gbacktester.util;
 
 import java.io.File;
 import java.io.Reader;
@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.TreeMap;
@@ -30,7 +31,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import gbacktester.domain.CsvStockRecord;
-import gbacktester.domain.StockPrice;
+import gbacktester.domain.CsvStockRecord;
 import gbacktester.domain.fundamental.StockFundamentalData;
 import gbacktester.service.CsvLoaderService;
 import lombok.extern.slf4j.Slf4j;
@@ -58,10 +59,15 @@ public final class MagicFormulaCalculator {
 	private static final MathContext MC = MathContext.DECIMAL64;
 	
 	private List<CsvStockRecord> records;
-
+	private TreeMap<LocalDate, CsvStockRecord> recordsMap;
 	
 	public MagicFormulaCalculator(List<CsvStockRecord> records) {
 		this.records = records;
+		this.recordsMap = records.stream()
+				.collect(Collectors.toMap(CsvStockRecord::getDate, r -> r, (a, b) -> a, TreeMap::new));
+		
+		
+		
 	}
 	
 	private List<MagicFormulaMetrics> calculate(StockFundamentalData d) {
@@ -97,7 +103,7 @@ public final class MagicFormulaCalculator {
 		 */
 		LocalDate ld = LocalDate.parse(date);
 		String code = root.getGeneral().getCode(); // e.g. "AAPL"
-		StockPrice px = mostRecentPrice(code, ld); 
+		CsvStockRecord px = mostRecentPrice(code, ld); 
 
 		/* ── 3️⃣ build a per-quarter EV: EV = market-cap + net-debt */
 		BigDecimal ev = getEv(bq, px); // ▼ replacement for root.getValuation()
@@ -123,20 +129,19 @@ public final class MagicFormulaCalculator {
 		return new MagicFormulaMetrics(ld, ey, roc);
 	}
 
-	private StockPrice mostRecentPrice(String code, LocalDate asOf) {
-
-		Map.Entry<LocalDate, Map<String, StockPrice>> e = timeline.floorEntry(asOf); // ≤ asOf
+	private CsvStockRecord mostRecentPrice(String code, LocalDate asOf) {
+		Entry<LocalDate, CsvStockRecord> e = recordsMap.floorEntry(asOf); // ≤ asOf
 		while (e != null) {
-			StockPrice px = e.getValue().get(code);
+			CsvStockRecord px = e.getValue();
 			if (px != null)
 				return px; // found a usable price
-			e = timeline.lowerEntry(e.getKey()); // strict predecessor (< current key)
+			e = recordsMap.lowerEntry(e.getKey()); // strict predecessor (< current key)
 		}
 		return null; // walked off the map
 	}
 
 	/** Enterprise Value at quarter-end: price × shares + net-debt */
-	private BigDecimal getEv(StockFundamentalData.BalanceQuarter bq, StockPrice px) {
+	private BigDecimal getEv(StockFundamentalData.BalanceQuarter bq, CsvStockRecord px) {
 
 		if (bq == null || px == null)
 			return null;

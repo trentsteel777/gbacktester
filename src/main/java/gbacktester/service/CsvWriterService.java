@@ -37,9 +37,9 @@ import org.ta4j.core.indicators.StochasticOscillatorDIndicator;
 import org.ta4j.core.indicators.StochasticOscillatorKIndicator;
 import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
 
-import gbacktester.MagicFormulaCalculator;
 import gbacktester.domain.CsvStockRecord;
 import gbacktester.ta.RollingWindowHigh;
+import gbacktester.util.MagicFormulaCalculator;
 import gbacktester.util.StopWatch;
 
 public class CsvWriterService {
@@ -98,7 +98,12 @@ public class CsvWriterService {
 
     private void writeStockPricesWithTA(String symbol, String outputFilePath, List<CsvStockRecord> records) {
     	MagicFormulaCalculator mfc = new MagicFormulaCalculator(records);
-    	mfc.loadAndCalculate(symbol);
+    	try {
+			mfc.loadAndCalculate(symbol);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
         try (PrintWriter writer = new PrintWriter(new FileWriter(outputFilePath))) {
             // Write header (note the added comma before is_52_week_high)
